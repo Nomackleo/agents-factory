@@ -1,0 +1,20 @@
+{
+  "supervisor": {
+    "version": "1.0",
+    "description": "Árbol de decisión semántico para enrutamiento de tareas",
+    "routes": [
+      {
+        "intent": "research|search|knowledge",
+        "plugin": "01-research-gatherer"
+      },
+      {
+        "intent": "design|architecture|workflow|plan",
+        "plugin": "02-workflow-architect"
+      },
+      {
+        "intent": "prompt|crispe|skill|generate",
+        "plugin": "03-crispe-generator"
+      }
+    ]
+  }
+}

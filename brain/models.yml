@@ -1,0 +1,20 @@
+# Definición de LLMs y pesos operativos (Actualización 2026)
+routing:
+  model: "gemini-3.5-flash-medium"
+  temperature: 0.1
+  description: "Baja latencia para toma de decisiones rápida en el Supervisor."
+
+execution:
+  model: "gemini-3.1-pro-high"
+  temperature: 0.3
+  description: "Alto razonamiento para los skills de Ingeniería y Construcción."
+
+architect:
+  model: "claude-sonnet-4.6-thinking"
+  temperature: 0.4
+  description: "Diseño de grafos complejos y planificación arquitectónica multi-LLM."
+
+fallback:
+  model: "gpt-oss-120b-medium"
+  temperature: 0.2
+  description: "Modelo open source para contingencia local."

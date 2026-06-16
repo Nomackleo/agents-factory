@@ -1,0 +1,14 @@
+{
+  "examples": [
+    {
+      "title": "Análisis de Datos Financieros de Clientes con Claude",
+      "user_prompt": "Actúas como un Analista de Riesgo de Crédito Senior. Tu tarea es evaluar el riesgo de un cliente basándote en su reporte crediticio.\n\nManten un tono formal e instructivo.\n\nAquí está el reporte del cliente:\n<reporte_crediticio>\n{reporte_texto}\n</reporte_crediticio>\n\nReglas obligatorias:\n- Si el cliente tiene deudas vencidas hace más de 90 días, su clasificación de riesgo debe ser ALTO.\n- Si su ingreso mensual es menor a 2 veces su deuda mensual, su clasificación de riesgo debe ser MEDIO o ALTO.\n\nEscribe tu análisis de razonamiento dentro de la etiqueta <thinking>. Pon tu veredicto final en la etiqueta <veredicto>. El veredicto debe ser únicamente una palabra: ALTO, MEDIO o BAJO.",
+      "assistant_prefill": "<thinking>"
+    },
+    {
+      "title": "Generador de Artículos de Blog con XML",
+      "user_prompt": "Actúas como un Redactor de Contenido y especialista en SEO.\n\nEscribe un artículo optimizado para el motor de búsqueda sobre el tema especificado.\n\nAquí tienes las pautas del cliente y palabras clave obligatorias:\n<pautas>\nPalabras clave: {keywords}\nTono: {tone}\nExtensión: 500 palabras\n</pautas>\n\nEstructura esperada:\n<response>\n<titulo>[Título Atractivo]</titulo>\n<introduccion>[Introducción Gancho]</introduccion>\n<cuerpo>[Cuerpo del artículo en párrafos]</cuerpo>\n<conclusion>[Llamado a la acción]</conclusion>\n</response>",
+      "assistant_prefill": "<response>\n<titulo>"
+    }
+  ]
+}

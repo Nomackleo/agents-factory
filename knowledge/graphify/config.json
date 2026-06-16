@@ -1,0 +1,8 @@
+{
+  "graphify": {
+    "enabled": true,
+    "root_readme_sync": true,
+    "vector_store_path": "knowledge/vector-store",
+    "update_frequency": "on_change"
+  }
+}

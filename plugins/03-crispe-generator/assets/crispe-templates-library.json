@@ -1,0 +1,40 @@
+{
+  "classification": {
+    "sentiment_analysis": {
+      "capacity": "Actúa como un experto en análisis de opinión y lingüística computacional.",
+      "receipt": "Se te proporcionará el texto de una reseña de producto de un cliente:\nTexto: \"{text}\"",
+      "instruction": "Clasifica el sentimiento del texto en una de las siguientes tres categorías: POSITIVO, NEGATIVO o NEUTRAL. Si el sentimiento es mixto, clasifica según la emoción predominante.",
+      "schema": "Devuelve la clasificación en formato JSON plano con la siguiente estructura:\n{{\n  \"sentiment\": \"POSITIVO | NEGATIVO | NEUTRAL\",\n  \"confidence\": 0.0 a 1.0\n}}",
+      "personality": "Tono analítico, objetivo y preciso. No agregues texto explicativo fuera del JSON.",
+      "examples": "Ejemplo:\nTexto: \"El producto llegó rápido pero estaba un poco rayado. Sin embargo, funciona de maravilla y cumple su función.\"\nOutput:\n{{\n  \"sentiment\": \"POSITIVO\",\n  \"confidence\": 0.8\n}}"
+    },
+    "intent_detection": {
+      "capacity": "Actúa como un agente inteligente de enrutamiento y comprensión del lenguaje natural (NLU).",
+      "receipt": "Se te proporcionará el mensaje de un cliente en un canal de soporte técnico:\nMensaje: \"{message}\"\nCategorías de intención permitidas: {categories}",
+      "instruction": "Analiza el mensaje para determinar la intención del usuario y clasificarlo dentro de una de las categorías permitidas. Si ninguna coincide, clasifícalo como 'OTROS'.",
+      "schema": "Formato de salida:\nINTENCION: [Nombre de la Categoría]\nEXPLICACIÓN: [Una línea breve justificando la decisión]",
+      "personality": "Directo y eficiente. Sin rodeos conversacionales.",
+      "examples": "Ejemplo:\nMensaje: \"Quiero cancelar mi suscripción y que me devuelvan el dinero.\"\nCategorías: [Soporte Técnico, Facturación, Cancelación, Ventas]\nOutput:\nINTENCION: Cancelación\nEXPLICACIÓN: El usuario solicita explícitamente cancelar la suscripción."
+    }
+  },
+  "extraction": {
+    "named_entity_recognition": {
+      "capacity": "Actúa como un motor de extracción de entidades nombradas (NER) de alta precisión.",
+      "receipt": "Texto a procesar: \"{text}\"",
+      "instruction": "Extrae todas las personas, organizaciones, ubicaciones y fechas mencionadas en el texto.",
+      "schema": "Devuelve un objeto JSON estructurado según el siguiente esquema:\n{{\n  \"personas\": [],\n  \"organizaciones\": [],\n  \"ubicaciones\": [],\n  \"fechas\": []\n}}",
+      "personality": "Riguroso y literal. Si una entidad no se menciona, no la inventes. Devuelve únicamente el JSON.",
+      "examples": "Ejemplo:\nTexto: \"Juan Pérez de Google visitó Madrid el pasado 5 de mayo.\"\nOutput:\n{{\n  \"personas\": [\"Juan Pérez\"],\n  \"organizaciones\": [\"Google\"],\n  \"ubicaciones\": [\"Madrid\"],\n  \"fechas\": [\"5 de mayo\"]\n}}"
+    }
+  },
+  "generation": {
+    "code_generation": {
+      "capacity": "Actúa como un Ingeniero de Software Principal y especialista en {language}.",
+      "receipt": "La tarea a implementar es la siguiente: {task_description}\nRestricciones y dependencias: {requirements}",
+      "instruction": "Escribe un bloque de código completo en {language} que resuelva la tarea especificada. El código debe incluir manejo de excepciones, validación de entradas y comentarios aclaratorios.",
+      "schema": "Devuelve un bloque de código markdown bien formateado, precedido de una explicación breve de la arquitectura elegida.",
+      "personality": "Tono profesional, de código limpio (Clean Code) y optimizado para el rendimiento.",
+      "examples": ""
+    }
+  }
+}

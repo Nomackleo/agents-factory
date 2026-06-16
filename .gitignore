@@ -1,0 +1,61 @@
+# ==============================================================================
+# PROFESSIONAL GITIGNORE FOR ANTIGRAVITY AGENTS FACTORY
+# ==============================================================================
+
+# OS & System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+*.swp
+*~
+*.log
+
+# Antigravity Scratch & Temporary Artifacts
+scratch/
+artifacts/
+.gemini/
+*.log
+
+# Environments & Dependencies
+node_modules/
+venv/
+.env
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security & Secrets (CRITICAL FOR ISO 27001)
+*.pem
+*.key
+*.cert
+*.crt
+.env.*
+secrets.json
+credentials.json
+auth.json
+*.token
+*.apikey
+routing-matrix-secrets.json
+
+# NotebookLM / RAG specific (ignoring large binaries if any)
+*.pdf
+*.docx
+*.pptx
+!knowledge/examples/*.md
+
+# ==============================================================================
