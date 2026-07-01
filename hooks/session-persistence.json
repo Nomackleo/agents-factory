@@ -1,0 +1,24 @@
+{
+  "Stop": [
+    {
+      "matcher": "true",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[Hook] Stop event detected. Agents must persist context summaries into brain/sessions/ before concluding.' >&2"
+        }
+      ]
+    }
+  ],
+  "PreCompact": [
+    {
+      "matcher": "true",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[Hook] Context compaction imminent. Compressing architectural blueprints and truncating raw research.' >&2"
+        }
+      ]
+    }
+  ]
+}

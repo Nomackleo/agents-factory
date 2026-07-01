@@ -1,7 +1,7 @@
 # Docs-as-Code Ecosystem: Topologic Architecture & RAG Index
 
 **WHO**: The Docs-as-Code Ecosystem is owned by the Technical Documentation and Engineering teams, operated autonomously by a specialized multi-agent factory.
-**WHAT**: This is the core architectural mapping (Graphify index) of the documentation generation and incident management system. It establishes data flow rules, skill bindings, and RAG vector pointers.
+**WHAT**: This is the architectural layout of the documentation generation and incident management system. The agentic context is indexed strictly via **Codebase-Memory-MCP** (SQLite) to prevent hallucinations, while the human-readable views are generated strictly by the **Graphify CLI tool** (`bin/graphify`).
 **WHEN**: This topology applies continuously during any documentation generation, system analysis, or incident resolution workflow processed by Antigravity.
 **WHERE**: It operates entirely within the `agents-factory/docs-as-code-ecosystem/` domain, interfacing seamlessly with global knowledge bases.
 **WHY**: To mitigate the "curse of knowledge," ensure ISO 25010/42001/27001 compliance, and guarantee that both human operators (Human-in-the-Loop) and RAG-enabled LLMs have explicit contextual grounding for system architecture.
@@ -10,7 +10,7 @@
 > [!IMPORTANT]
 > All automated agents and RAG indexers must traverse this topology to understand service boundaries. Data ingestion must prioritize the `rules/` directory for global constraints before executing any `workflows/`.
 
-## Architectural Topology (Graphify Map)
+## Architectural Topology (Rendered by Graphify CLI)
 
 ```mermaid
 graph TD
@@ -18,12 +18,14 @@ graph TD
     A[Docs-as-Code Ecosystem] --> B(rules/)
     A --> C(workflows/)
     A --> D(agents/)
+    A --> E(assets/)
 
     %% Rules
     B --> B1[global-taxonomy.md]
     
     %% Workflows
     C --> C1[incident-management.md]
+    C --> C2[branded-visual-docs.md]
     
     %% Agents & Skills
     D --> D1[api-documenter]
@@ -38,20 +40,27 @@ graph TD
     D --> D10[legal-advisor]
     D --> D11[postmortem-writing]
     D --> D12[sre-architect]
+    D --> D13[brand-requirements-gatherer]
+    D --> D14[multimedia-payload-structurer]
+    D --> D15[visual-data-renderer]
 
     %% Interactions
     C1 --> D12
     C1 --> D9
     C1 --> D10
     
+    C2 --> D13
+    C2 --> D14
+    C2 --> D15
+    
     %% Styling
     classDef domain fill:#1E293B,stroke:#3B82F6,stroke-width:2px,color:#F8FAFC
     classDef file fill:#334155,stroke:#94A3B8,stroke-width:1px,color:#F1F5F9
     classDef agent fill:#0F172A,stroke:#10B981,stroke-width:1px,color:#E2E8F0
     
-    class A,B,C,D domain
-    class B1,C1 file
-    class D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12 agent
+    class A,B,C,D,E domain
+    class B1,C1,C2 file
+    class D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15 agent
 ```
 
 ## ISO Standards Mapping

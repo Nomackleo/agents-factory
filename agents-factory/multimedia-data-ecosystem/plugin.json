@@ -1,0 +1,8 @@
+{
+  "name": "multimedia-data-ecosystem",
+  "description": "Antigravity factory plugin for multimedia generation, data processing, and visual workflows.",
+  "version": "1.0.0",
+  "author": "Antigravity Core Team",
+  "type": "ecosystem",
+  "dependencies": {}
+}

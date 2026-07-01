@@ -1,0 +1,40 @@
+{
+  "ecosystem": "blender-ecosystem",
+  "version": "1.0",
+  "routing_logic": [
+    {
+      "intent_keywords": ["mesh", "vertices", "faces", "retopology", "greybox", "blockout", "bmesh"],
+      "target_skill": "03-builders/topology-agent",
+      "required_research": ["bmesh_operations"]
+    },
+    {
+      "intent_keywords": ["procedural", "nodes", "l-system", "perlin", "math", "scatter"],
+      "target_skill": "03-builders/procedural-agent",
+      "required_research": ["geometry_nodes_5.1"]
+    },
+    {
+      "intent_keywords": ["light", "hdri", "camera", "render", "cinematic", "eevee", "cycles"],
+      "target_skill": "03-builders/lighting-agent",
+      "required_research": []
+    },
+    {
+      "intent_keywords": ["material", "shader", "parallax", "bake", "pbr", "stencil", "texture"],
+      "target_skill": "03-builders/shading-agent",
+      "required_research": ["shader_nodes"]
+    },
+    {
+      "intent_keywords": ["print", "stl", "manifold", "thickness", "hollow"],
+      "target_skill": "03-builders/printing-agent",
+      "required_research": ["print_toolbox_api"]
+    },
+    {
+      "intent_keywords": ["unreal", "unity", "export", "fbx", "gltf", "collider", "lod"],
+      "target_skill": "03-builders/integration-agent",
+      "required_research": ["engine_export_settings"]
+    }
+  ],
+  "evaluation_criteria": {
+    "max_iterations": 3,
+    "fallback_action": "human_intervention"
+  }
+}

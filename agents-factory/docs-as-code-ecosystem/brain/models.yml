@@ -1,0 +1,23 @@
+ecosystem: docs-as-code-ecosystem
+default_model: gemini-3.1-pro
+
+agents:
+  software-requirements-gatherer:
+    model: gemini-3.1-pro
+    temperature: 0.2
+    max_tokens: 8192
+    
+  api-documenter:
+    model: claude-4.6-sonnet
+    temperature: 0.1
+    max_tokens: 4096
+    
+  sre-architect:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 4096
+
+  brand-requirements-gatherer:
+    model: gemini-3.5-flash
+    temperature: 0.4
+    max_tokens: 4096

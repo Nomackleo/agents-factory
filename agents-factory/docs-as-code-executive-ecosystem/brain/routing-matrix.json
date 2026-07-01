@@ -1,0 +1,31 @@
+{
+  "ecosystem": "docs-as-code-executive-ecosystem",
+  "default_fallback": "executive-requirements-gatherer",
+  "routing_rules": [
+    {
+      "intent": "hr_and_governance",
+      "keywords": ["hr", "employee manual", "sop", "performance evaluation", "code of conduct", "rrhh", "evaluacion", "manual"],
+      "agent": "hr-governance-agent"
+    },
+    {
+      "intent": "strategic_alignment",
+      "keywords": ["okr", "nda", "strategy", "confidencialidad", "alineacion", "objetivos", "kpi"],
+      "agent": "strategy-alignment-agent"
+    },
+    {
+      "intent": "business_continuity",
+      "keywords": ["bcp", "drp", "bia", "rva", "rto", "rpo", "disaster", "continuidad", "resiliencia"],
+      "agent": "business-continuity-agent"
+    },
+    {
+      "intent": "process_diagnostics",
+      "keywords": ["rca", "service blueprint", "5 whys", "ishikawa", "fmea", "auditoria", "proceso"],
+      "agent": "process-diagnostics-agent"
+    },
+    {
+      "intent": "executive_requirements",
+      "keywords": ["brd", "business requirements", "roi", "swot", "foda", "estrategia a producto"],
+      "agent": "executive-requirements-gatherer"
+    }
+  ]
+}

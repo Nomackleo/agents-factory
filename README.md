@@ -2,7 +2,7 @@
 
 **Workspace para la Construcción de Stacks de IA Empresariales.**
 
-Este archivo mantiene el registro en detalle de la arquitectura y sus cambios. Sirve como fuente de verdad centralizada para la herramienta **graphify** (generación de grafos vectoriales del ecosistema), permitiendo a los agentes ingerir el mapa conceptual exacto de este entorno.
+Este archivo mantiene el registro de la arquitectura de alto nivel. La fuente de verdad estricta para la memoria y navegación de los agentes está indexada relacionalmente vía **Codebase-Memory-MCP** (SQLite), garantizando precisión absoluta y máxima economía de tokens al evitar alucinaciones. Por su parte, la herramienta **graphify** opera como un ejecutable portable en la matriz de la fábrica, encargado del renderizado bidireccional de diagramas (C4/Mermaid) para el ecosistema humano (Docs-as-Code).
 
 ## Arquitectura (Universal Antigravity Template)
 - `bin/`: Scripts ejecutables de validación e inicialización.

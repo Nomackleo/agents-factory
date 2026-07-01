@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+"""
+Graphify - Herramienta transversal de renderizado arquitectónico.
+Extrae la topología de la base de datos relacional (Codebase-Memory-MCP) o consume diccionarios C4
+para renderizar gráficos de arquitectura. Es portable y agnóstica al entorno.
+"""
+import sys
+import os
+
+# Determinar rutas relativas para portabilidad
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PLUGINS_DIR = os.path.join(SCRIPT_DIR, '..', 'agents-factory', 'docs-as-code-ecosystem', 'plugins')
+
+# Agregar plugins al path para importar el formateador de Structurizr
+try:
+    import importlib.util
+    formatter_path = os.path.join(PLUGINS_DIR, 'structurizr-formatter.py')
+    if os.path.exists(formatter_path):
+        spec = importlib.util.spec_from_file_location("formatter", formatter_path)
+        formatter = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(formatter)
+        format_to_c4_mermaid = formatter.format_to_c4_mermaid
+    else:
+        format_to_c4_mermaid = None
+except Exception as e:
+    print(f"Error cargando structurizr-formatter: {e}")
+    format_to_c4_mermaid = None
+
+import sqlite3
+
+def render_architecture(ecosystem_name=None):
+    print("=========================================================")
+    print(f" Graphify Builder - Renderizado C4/Mermaid")
+    if ecosystem_name:
+         print(f" Filtro Ecosistema: {ecosystem_name}")
+    print("=========================================================")
+    
+    db_path = os.path.join(SCRIPT_DIR, '..', 'mcp', 'codebase-memory-mcp', 'data', 'codebase_memory.sqlite')
+    if not os.path.exists(db_path):
+        print("[ERROR] Base de datos no encontrada.")
+        return
+        
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    
+    # Si hay filtro, buscar por ecosystem. Si no, traer todo.
+    if ecosystem_name:
+        cursor.execute("SELECT file_path, ecosystem, description FROM codebase_index WHERE ecosystem=?", (ecosystem_name,))
+    else:
+        cursor.execute("SELECT file_path, ecosystem, description FROM codebase_index")
+    
+    nodes = cursor.fetchall()
+    
+    if ecosystem_name:
+        cursor.execute("""
+            SELECT source_file, target_file, relation_type 
+            FROM file_relations 
+            WHERE source_file LIKE ? OR target_file LIKE ?
+        """, (f"%{ecosystem_name}%", f"%{ecosystem_name}%"))
+    else:
+        cursor.execute("SELECT source_file, target_file, relation_type FROM file_relations")
+        
+    relations = cursor.fetchall()
+    conn.close()
+    
+    # Construir grafo Mermaid genérico (ya que C4 es denso para 50+ nodos)
+    print("\n```mermaid")
+    print("graph TD")
+    
+    # Nodos
+    node_map = {}
+    for i, (fpath, eco, desc) in enumerate(nodes):
+        node_id = f"node_{i}"
+        node_map[fpath] = node_id
+        # Limpiar string para mermaid
+        safe_name = os.path.basename(fpath).replace('"', '').replace(' ', '_')
+        print(f'    {node_id}["{safe_name}"]:::ecosystemNode')
+        
+    # Relaciones
+    for src, tgt, rel in relations:
+        if src in node_map and tgt in node_map:
+            print(f'    {node_map[src]} -->|{rel}| {node_map[tgt]}')
+            
+    print('    classDef ecosystemNode fill:#1E293B,stroke:#3B82F6,stroke-width:1px,color:#F8FAFC')
+    print("```\n")
+    print("[EXITO] Renderizado arquitectónico completado para el consumo humano.")
+
+if __name__ == "__main__":
+    target = sys.argv[1] if len(sys.argv) > 1 else None
+    render_architecture(target)

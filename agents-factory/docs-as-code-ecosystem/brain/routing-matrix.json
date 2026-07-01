@@ -1,0 +1,26 @@
+{
+  "ecosystem": "docs-as-code-ecosystem",
+  "default_fallback": "software-requirements-gatherer",
+  "routing_rules": [
+    {
+      "intent": "software_documentation_elicitation",
+      "keywords": ["requirements", "prd", "srs", "gdd", "game design", "software design", "levantar", "requerimiento"],
+      "agent": "software-requirements-gatherer"
+    },
+    {
+      "intent": "api_documentation",
+      "keywords": ["api", "openapi", "swagger", "rest", "endpoints"],
+      "agent": "api-documenter"
+    },
+    {
+      "intent": "incident_response_sre",
+      "keywords": ["outage", "rca", "postmortem", "runbook", "incident"],
+      "agent": "sre-architect"
+    },
+    {
+      "intent": "visual_branding",
+      "keywords": ["brand", "logo", "ux", "ui", "colors", "style guide"],
+      "agent": "brand-requirements-gatherer"
+    }
+  ]
+}

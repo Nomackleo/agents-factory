@@ -1,0 +1,28 @@
+ecosystem: docs-as-code-executive-ecosystem
+default_model: gemini-3.1-pro
+
+agents:
+  hr-governance-agent:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+    
+  strategy-alignment-agent:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+    
+  business-continuity-agent:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  process-diagnostics-agent:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  executive-requirements-gatherer:
+    model: gemini-3.1-pro
+    temperature: 0.2
+    max_tokens: 8192
