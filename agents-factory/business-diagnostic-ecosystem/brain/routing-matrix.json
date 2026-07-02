@@ -1,0 +1,26 @@
+{
+  "ecosystem": "business-diagnostic-ecosystem",
+  "default_fallback": "corporate-master-compiler",
+  "routing_rules": [
+    {
+      "intent": "evaluate_organization",
+      "keywords": ["mckinsey", "7s", "cultura", "estrategia", "alineacion", "pump", "bsc", "balanced scorecard"],
+      "agent": "mckinsey-7s-evaluator"
+    },
+    {
+      "intent": "assess_processes",
+      "keywords": ["procesos", "iso 33000", "apqc", "capacidad", "cpk", "ppk", "madurez operativa"],
+      "agent": "process-capability-assessor"
+    },
+    {
+      "intent": "audit_it_architecture",
+      "keywords": ["tecnologia", "ti", "itil", "togaf", "cobit", "sfia", "arquitectura", "sistemas"],
+      "agent": "it-architecture-auditor"
+    },
+    {
+      "intent": "compile_master_document",
+      "keywords": ["consolidar", "documento corporativo maestro", "finalizar", "corporate_context"],
+      "agent": "corporate-master-compiler"
+    }
+  ]
+}

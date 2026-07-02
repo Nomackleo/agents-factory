@@ -1,0 +1,23 @@
+ecosystem: business-diagnostic-ecosystem
+default_model: gemini-3.1-pro
+
+agents:
+  mckinsey-7s-evaluator:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+    
+  process-capability-assessor:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+    
+  it-architecture-auditor:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  corporate-master-compiler:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192

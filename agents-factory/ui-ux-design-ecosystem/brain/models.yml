@@ -1,0 +1,33 @@
+ecosystem: ui-ux-design-ecosystem
+default_model: claude-4.6-sonnet
+
+agents:
+  design-system-guild/design-tokens-architect:
+    model: claude-4.6-sonnet
+    temperature: 0.3
+    max_tokens: 8192
+
+  design-system-guild/figma-stitch-integrator:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  ux-guild/ux-flow-designer:
+    model: claude-4.6-sonnet
+    temperature: 0.4
+    max_tokens: 8192
+
+  ux-guild/micro-interactions-animator:
+    model: claude-4.6-sonnet
+    temperature: 0.3
+    max_tokens: 8192
+
+  accessibility-guild/wcag-accessibility-auditor:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  accessibility-guild/screen-reader-testing-expert:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192

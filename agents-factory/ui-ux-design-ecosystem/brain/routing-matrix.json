@@ -1,0 +1,36 @@
+{
+  "ecosystem": "ui-ux-design-ecosystem",
+  "default_fallback": "accessibility-guild/wcag-accessibility-auditor",
+  "routing_rules": [
+    {
+      "intent": "design_tokens",
+      "keywords": ["tokens", "variables", "colores", "tipografía", "tailwind", "theme"],
+      "agent": "design-system-guild/design-tokens-architect"
+    },
+    {
+      "intent": "figma_stitch_integration",
+      "keywords": ["figma", "stitch", "mcp", "importar", "exportar", "prototipo"],
+      "agent": "design-system-guild/figma-stitch-integrator"
+    },
+    {
+      "intent": "ux_flow",
+      "keywords": ["ux", "flow", "wireframe", "user journey", "arquitectura", "informacion", "navegacion"],
+      "agent": "ux-guild/ux-flow-designer"
+    },
+    {
+      "intent": "micro_interactions",
+      "keywords": ["animaciones", "motion", "framer motion", "interacciones", "lottie", "estados", "hover"],
+      "agent": "ux-guild/micro-interactions-animator"
+    },
+    {
+      "intent": "accessibility_wcag",
+      "keywords": ["accesibilidad", "wcag", "contraste", "daltonismo", "iso 9241"],
+      "agent": "accessibility-guild/wcag-accessibility-auditor"
+    },
+    {
+      "intent": "accessibility_screen_reader",
+      "keywords": ["screen reader", "voiceover", "nvda", "aria", "tabindex", "lector de pantalla"],
+      "agent": "accessibility-guild/screen-reader-testing-expert"
+    }
+  ]
+}

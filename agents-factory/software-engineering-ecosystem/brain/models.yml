@@ -1,0 +1,93 @@
+ecosystem: software-engineering-ecosystem
+default_model: claude-4.6-sonnet
+
+agents:
+  frontend-guild/nextjs-app-router-expert:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+
+  frontend-guild/react-modernization-agent:
+    model: claude-4.6-sonnet
+    temperature: 0.3
+    max_tokens: 8192
+
+  frontend-guild/angular-migration-specialist:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+
+  frontend-guild/ui-visual-validator:
+    model: claude-4.6-sonnet
+    temperature: 0.1
+    max_tokens: 8192
+
+  backend-guild/backend-architect-core:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  backend-guild/python-fastapi-pro:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+
+  backend-guild/golang-concurrency-expert:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  backend-guild/rust-systems-programmer:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  backend-guild/database-architect-sql:
+    model: gemini-3.1-pro
+    temperature: 0.2
+    max_tokens: 8192
+
+  backend-guild/database-architect-nosql:
+    model: gemini-3.1-pro
+    temperature: 0.2
+    max_tokens: 8192
+
+  mobile-guild/flutter-architect:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+
+  mobile-guild/ios-swift-native:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+
+  mobile-guild/react-native-bridge-expert:
+    model: claude-4.6-sonnet
+    temperature: 0.3
+    max_tokens: 8192
+
+  qa-devops-guild/tdd-orchestrator:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  qa-devops-guild/e2e-testing-engineer:
+    model: claude-4.6-sonnet
+    temperature: 0.2
+    max_tokens: 8192
+
+  qa-devops-guild/security-sast-auditor:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  qa-devops-guild/dora-space-metrics-tracker:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192
+
+  qa-devops-guild/iso-25010-compliance-officer:
+    model: gemini-3.1-pro
+    temperature: 0.1
+    max_tokens: 8192

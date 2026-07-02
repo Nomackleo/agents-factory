@@ -1,0 +1,96 @@
+{
+  "ecosystem": "software-engineering-ecosystem",
+  "default_fallback": "qa-devops-guild/iso-25010-compliance-officer",
+  "routing_rules": [
+    {
+      "intent": "frontend_nextjs",
+      "keywords": ["nextjs", "react", "ssr", "ssg", "server components"],
+      "agent": "frontend-guild/nextjs-app-router-expert"
+    },
+    {
+      "intent": "frontend_react_modern",
+      "keywords": ["react", "refactor", "hooks", "zustand", "redux"],
+      "agent": "frontend-guild/react-modernization-agent"
+    },
+    {
+      "intent": "frontend_angular",
+      "keywords": ["angular", "rxjs", "mcp"],
+      "agent": "frontend-guild/angular-migration-specialist"
+    },
+    {
+      "intent": "frontend_visual",
+      "keywords": ["canvas", "webgl", "ui", "ux", "visual", "pixel", "wcag", "accesibilidad"],
+      "agent": "frontend-guild/ui-visual-validator"
+    },
+    {
+      "intent": "backend_architect",
+      "keywords": ["backend", "arquitectura", "c4", "diagrama", "mermaid", "core"],
+      "agent": "backend-guild/backend-architect-core"
+    },
+    {
+      "intent": "backend_python",
+      "keywords": ["python", "fastapi", "pydantic", "async"],
+      "agent": "backend-guild/python-fastapi-pro"
+    },
+    {
+      "intent": "backend_golang",
+      "keywords": ["go", "golang", "microservicios", "goroutines", "concurrencia"],
+      "agent": "backend-guild/golang-concurrency-expert"
+    },
+    {
+      "intent": "backend_rust",
+      "keywords": ["rust", "sistemas", "seguridad", "memoria", "mision critica"],
+      "agent": "backend-guild/rust-systems-programmer"
+    },
+    {
+      "intent": "database_sql",
+      "keywords": ["sql", "postgresql", "relacional", "migraciones", "queries"],
+      "agent": "backend-guild/database-architect-sql"
+    },
+    {
+      "intent": "database_nosql",
+      "keywords": ["nosql", "firebase", "mongodb", "documentos", "escalabilidad"],
+      "agent": "backend-guild/database-architect-nosql"
+    },
+    {
+      "intent": "mobile_flutter",
+      "keywords": ["flutter", "dart", "bloc", "riverpod"],
+      "agent": "mobile-guild/flutter-architect"
+    },
+    {
+      "intent": "mobile_ios",
+      "keywords": ["ios", "swift", "swiftui", "combine", "apple"],
+      "agent": "mobile-guild/ios-swift-native"
+    },
+    {
+      "intent": "mobile_react_native",
+      "keywords": ["react native", "bridge", "jsi", "multiplataforma"],
+      "agent": "mobile-guild/react-native-bridge-expert"
+    },
+    {
+      "intent": "qa_tdd",
+      "keywords": ["tdd", "unit", "red-green-refactor", "pruebas", "test"],
+      "agent": "qa-devops-guild/tdd-orchestrator"
+    },
+    {
+      "intent": "qa_e2e",
+      "keywords": ["e2e", "cypress", "playwright", "automatizacion"],
+      "agent": "qa-devops-guild/e2e-testing-engineer"
+    },
+    {
+      "intent": "security_sast",
+      "keywords": ["seguridad", "sast", "vulnerabilidades", "xss", "sqli", "auditor"],
+      "agent": "qa-devops-guild/security-sast-auditor"
+    },
+    {
+      "intent": "metrics_dora_space",
+      "keywords": ["dora", "space", "metricas", "lead time", "despliegue", "rendimiento", "mttr"],
+      "agent": "qa-devops-guild/dora-space-metrics-tracker"
+    },
+    {
+      "intent": "compliance_iso",
+      "keywords": ["iso 25010", "calidad", "cumplimiento", "mantenibilidad", "certificacion"],
+      "agent": "qa-devops-guild/iso-25010-compliance-officer"
+    }
+  ]
+}
