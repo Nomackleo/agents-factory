@@ -18,14 +18,16 @@ graph TD
     
     %% Folders
     A --> B(brain/)
-    A --> C(hooks/)
-    A --> D(implicit/)
     A --> E(knowledge/)
-    A --> F(plugins/)
-    A --> G(rules/)
     A --> H(scratch/)
     A --> I(tests/)
-    A --> J(workflows/)
+    
+    %% Encapsulated Logic
+    A --> AG(.agents/)
+    AG --> C(.agents/hooks/)
+    AG --> F(.agents/skills/)
+    AG --> G(.agents/rules/)
+    AG --> J(.agents/workflows/)
     
     %% Documents
     A -.-> K[DESIGN.md]
@@ -38,14 +40,14 @@ graph TD
     G -->|Constraints| B
     C -->|Triggers| J
     
-    %% Plugins breakdown
-    F --> F1[document-decoder-agent]
-    F --> F2[image-creator-agent]
-    F --> F3[video-creator-agent]
-    F --> F4[audio-creator-agent]
-    F --> F5[graphics-creator-agent]
-    F --> F6[presentations-creator-agent]
-    F --> F7[visual-decoder-agent]
+    %% Skills breakdown
+    F --> F1[.agents/skills/document-decoder-agent]
+    F --> F2[.agents/skills/image-creator-agent]
+    F --> F3[.agents/skills/video-creator-agent]
+    F --> F4[.agents/skills/audio-creator-agent]
+    F --> F5[.agents/skills/graphics-creator-agent]
+    F --> F6[.agents/skills/presentations-creator-agent]
+    F --> F7[.agents/skills/visual-decoder-agent]
 
     %% Styling
     classDef root fill:#0F172A,stroke:#6366F1,stroke-width:2px,color:#F8FAFC
@@ -59,6 +61,7 @@ graph TD
     class F1,F2,F3,F4,F5,F6,F7 plugin
 ```
 
-## Immutable Design & Spatial Reasoning (DwT)
-All subagents in this ecosystem are programmed with the **Drawing-with-Thought (DwT)** paradigm. They must compute spatial coordinates and maintain strict adherence to aesthetic variables without deviating. 
-Outputs are exclusively in `kebab-case` Markdown and strictly formatted JSON arrays/objects to prevent hallucinated visual features.
+## Immutable Design & Spatial Reasoning (DwT) vs Creatividad
+A diferencia de los ecosistemas de auditoría, aquí **se fomenta explícitamente la creatividad temática** (lluvias de ideas, diseño de marketing, campañas). El Top-P y la Temperatura operan en niveles fluidos para evitar cuellos de botella conceptuales.
+
+Sin embargo, para plasmar esa creatividad, todos los subagentes utilizan el paradigma **Drawing-with-Thought (DwT)**. Es decir, la *idea* es libre, pero su *ejecución técnica* computa coordenadas espaciales, proporciones estéticas y colores hexadecimales sin alucinar, devolviendo los resultados en `kebab-case` Markdown y objetos JSON estrictos.

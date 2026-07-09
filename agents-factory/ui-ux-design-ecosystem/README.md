@@ -7,14 +7,17 @@
 El ecosistema opera mediante tres sub-gremios hiper-especializados:
 
 1. **Design System Guild**: Crea la identidad visual y los tokens.
-   - `design-tokens-architect`
-   - `figma-stitch-integrator`
+   - `.agents/skills/design-tokens-architect`
+   - `.agents/skills/figma-stitch-integrator`
 2. **UX Guild**: Diseña flujos, arquitecturas de la información e interacciones visuales avanzadas.
-   - `ux-flow-designer`
-   - `micro-interactions-animator`
+   - `.agents/skills/ux-flow-designer`
+   - `.agents/skills/micro-interactions-animator`
 3. **Ergonomics & Accessibility Guild**: Audita el diseño asegurando accesibilidad estricta.
-   - `wcag-accessibility-auditor`
-   - `screen-reader-testing-expert`
+   - `.agents/skills/wcag-accessibility-auditor`
+   - `.agents/skills/screen-reader-testing-expert`
+
+> [!IMPORTANT]
+> **Flexibilidad Semántica Híbrida:** Los gremios de diseño (Tokens y UX) operan con **creatividad paramétrica** (Top-P relajado) para maximizar la innovación y calidad estética. Sin embargo, el Gremio de Accesibilidad opera con **rigor absoluto (Temperatura 0)**. Toda conexión de red a Figma u otras herramientas dispara la **Capa de Control (Triaje HITL)**.
 
 ## Architectural Topology (Graphify Map)
 

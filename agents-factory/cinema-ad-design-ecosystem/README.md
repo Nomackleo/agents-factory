@@ -8,7 +8,7 @@
 
 ## Vector Search Indexing Rules
 > [!IMPORTANT]
-> El motor RAG debe reconocer que todo prompt generado aquí sigue la arquitectura de la Tubería Virtual AAA. Los documentos en `notebooklm-templates/` limpian el guion literario, y los de `agents/` inyectan propiedades ópticas.
+> El motor RAG debe reconocer que todo prompt generado aquí sigue la arquitectura de la Tubería Virtual AAA. Los documentos en `notebooklm-templates/` limpian el guion literario, y los de `.agents/skills/` inyectan propiedades ópticas.
 
 ## Tubería Virtual de Cine AAA (Graphify)
 

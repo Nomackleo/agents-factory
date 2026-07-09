@@ -2,18 +2,23 @@
 
 El ecosistema opera bajo un ciclo determinista de auditoría inspirado en la arquitectura canónica de agentes de Claude (Agent SDK Loop). Este *loop* gestiona el ciclo de vida de los mensajes, la ejecución paralela y secuencial de herramientas, los niveles de esfuerzo computacional y el límite del *context window* para garantizar una iteración (Test - Eval - Monitor - Iterate) estricta y sin alucinaciones.
 
-## 1. Test (Context & Tool Execution)
-En esta fase, iniciamos el *Turn-Based Execution*.
+## Fase 1: Búsqueda (Search) e Ingesta
+En esta fase, iniciamos el *Turn-Based Execution* aplicando la **Capa de Entrada**.
 - **Message Lifecycle (Init):** El Supervisor inicializa el pipeline emitiendo un `SystemMessage` de enrutamiento.
-- **Delegación al Research Gatherer:** Se asigna un nivel de razonamiento `effort: low` o `effort: medium`. Su único propósito es extraer "Ground Truth" externa e interna.
-- **Parallel Tool Execution:** Las herramientas de solo-lectura (`Read`, `Glob`, `Grep`, `WebSearch`) se ejecutan de manera concurrente para minimizar la latencia.
-- **Feedback Loop:** Las herramientas retornan `UserMessage` con los resultados. El Supervisor evalúa la validez de los datos (e.g., URLs reales, APIs válidas).
+- **Ingesta y Sanitización (`04-security-sanitizer`):** Antes de cualquier lectura, el Sanitizador evalúa los archivos del repositorio o input del humano buscando código oculto (Base64, HTML) y previene inyecciones. Si encuentra anomalías (ej. redirección de correos), lanza un **ASK (Triaje)** al humano.
+- **Levantamiento de Requerimientos (Business Diagnostic):** Especialmente alineado con el `business-diagnostic-ecosystem`, se extrae el contexto necesario (Ground Truth) para garantizar alta calidad, granularidad y economía.
+- **Delegación al Research Gatherer:** Se asigna un nivel de razonamiento `effort: low` o `medium`.
+- **Parallel Tool Execution:** Herramientas de solo-lectura se ejecutan de manera concurrente.
 
-## 2. Evaluation (Architectural Reasoning)
-El sistema avanza al diseño del *Blueprint*, requiriendo máxima profundidad de análisis.
-- **Deep Reasoning (Effort: Max):** El `02-workflow-architect` se invoca con `effort: max` (Extended Thinking habilitado si aplica).
-- **Handoff (AssistantMessage):** El arquitecto estructura un `<architect_blueprint>`.
-- **Quality Gate Validation:** El Supervisor evalúa el blueprint contra los `QUALITY_GATES.md` y `rules/security-and-compliance.md`. Si se detecta una violación, se emite un `UserMessage` de fallo (Error Feedback) y el loop se reinicia (Turno +1).
+## Fase 2: Ejecución (Execution) y Razonamiento
+El sistema avanza al diseño del *Blueprint* y la construcción de la **Capa de Ejecución**.
+- **Deep Reasoning (Effort: Max):** El `02-workflow-architect` se invoca con `effort: max`. (Nota: en entornos como `software-engineering`, se permite creatividad paramétrica para evitar bucles de depuración ciegos).
+- **Sequential Tool Execution:** El `03-crispe-generator` y los *Builders* invocan herramientas que modifican el estado.
+- **Handoff & Pre-Tool Validation (Hooks):** El Supervisor evalúa el blueprint. Cualquier intento de ejecución web o de bash que exceda el Sandboxing dispara el Triaje (ASK/ALLOW/DENY). Si se detecta violación grave, se activa el **Dead-man switch**.
+
+## Fase 3: Auditoría (Audit) y Monitoreo
+Fase final del ciclo (Test - Eval - Monitor - Iterate).
+- **Quality Gate Validation:** Se audita el código generado contra los `QUALITY_GATES.md` (ISO/SOC2/DORA).
 
 ## 3. Monitoring (Sequential Execution & Budgeting)
 Inicia la escritura de la arquitectura generada, requiriendo operaciones de estado.

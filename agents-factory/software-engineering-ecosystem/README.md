@@ -9,17 +9,20 @@
 3. `mobile-guild`: Agentes enfocados en Flutter, iOS Nativo y React Native.
 4. `qa-tdd-guild`: Validadores estrictos que aplican el ciclo Red-Green-Refactor y pruebas E2E.
 
+> [!IMPORTANT]
+> A diferencia de otros ecosistemas de auditoría, aquí **se preserva el balance de creatividad semántica (Top-P)** para permitir propuestas algorítmicas eficientes y evitar bucles de depuración ciegos. Todo requerimiento de dependencias externas invoca la **Capa de Control (HITL)** para triaje de red.
+
 ## Architectural Topology (Graphify Map)
 
 ```mermaid
 graph TD
     Input[/Contrato: functional_requirements XML/] --> Router{Routing Matrix}
     
-    Router --> |UI/UX, Angular, React| F[frontend-guild]
-    Router --> |SQL, Firebase, Microservicios| B[backend-guild]
-    Router --> |iOS, Flutter| M[mobile-guild]
+    Router --> |UI/UX, Angular, React| F[.agents/skills/frontend-guild]
+    Router --> |SQL, Firebase, Microservicios| B[.agents/skills/backend-guild]
+    Router --> |iOS, Flutter| M[.agents/skills/mobile-guild]
     
-    F --> QA[qa-tdd-guild]
+    F --> QA[.agents/skills/qa-tdd-guild]
     B --> QA
     M --> QA
     

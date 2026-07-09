@@ -4,6 +4,7 @@ Este workspace es el núcleo de orquestación y construcción de ecosistemas de 
 
 ## 1. Naturaleza de la Salida (Outputs)
 - **Calidad de Producción:** Todo ecosistema, código, prompt o flujo generado aquí se considera "código de producción". No hay lugar para prototipos frágiles. Se exige eficiencia algorítmica y alta cohesión.
+- **Flexibilidad Semántica y Temperatura (Creatividad vs Lógica):** El rigor absoluto (Temperatura/Top-P en valores cercanos a 0) se reserva ESTRICTAMENTE para: auditorías, TDD/Testing, documentos legales, y cumplimiento de normas/frameworks (ISO, SOC2, DORA). Para la gran mayoría de ecosistemas (ej. creación de campañas de marketing, diseño de personajes, lluvia de ideas, y *coding* exploratorio) se **debe mantener una creatividad paramétrica y temperatura fluida**. Restringir el vocabulario de manera dogmática vuelve a los agentes rígidos e incapaces de innovar o resolver problemas laterales.
 - **Tono y Argumentación:** Las comunicaciones de los agentes y la documentación generada deben mantener un tono exegético (explicativo, profundo) y la máxima calidad argumentativa. El rigor es innegociable.
 - **Empaquetamiento:** Los ecosistemas generados deben ser agnósticos a la plataforma final y empaquetables de manera aislada (ej. Docker), preservando la seguridad y portabilidad.
 

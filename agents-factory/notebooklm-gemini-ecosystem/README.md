@@ -16,7 +16,7 @@
 graph TD
     %% Core Nodes
     A[NotebookLM & Gemini Ecosystem] --> B(notebooklm-templates/)
-    A --> C(gemini-gems/)
+    A --> C(.agents/skills/)
 
     %% NotebookLM
     B --> B1[notebook-instructions.md]
@@ -24,10 +24,10 @@ graph TD
     B --> B3[studio-instructions.md]
     
     %% Gemini Agents (Gems)
-    C --> C1[visual-decoder]
-    C --> C2[image-creator]
-    C --> C3[video-creator]
-    C --> C4[audio-creator]
+    C --> C1[.agents/skills/visual-decoder]
+    C --> C2[.agents/skills/image-creator]
+    C --> C3[.agents/skills/video-creator]
+    C --> C4[.agents/skills/audio-creator]
 
     %% Interactions (Data Flow)
     B1 -->|Raw Data| B2

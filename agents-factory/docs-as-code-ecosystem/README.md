@@ -8,16 +8,16 @@
 
 ## Vector Search Indexing Rules
 > [!IMPORTANT]
-> All automated agents and RAG indexers must traverse this topology to understand service boundaries. Data ingestion must prioritize the `rules/` directory for global constraints before executing any `workflows/`.
+> All automated agents and RAG indexers must traverse this topology to understand service boundaries. Data ingestion must prioritize the `.agents/rules/` directory for global constraints before executing any `.agents/workflows/`.
 
 ## Architectural Topology (Rendered by Graphify CLI)
 
 ```mermaid
 graph TD
     %% Core Nodes
-    A[Docs-as-Code Ecosystem] --> B(rules/)
-    A --> C(workflows/)
-    A --> D(agents/)
+    A[Docs-as-Code Ecosystem] --> B(.agents/rules/)
+    A --> C(.agents/workflows/)
+    A --> D(.agents/skills/)
     A --> E(assets/)
 
     %% Rules
