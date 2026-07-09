@@ -1,0 +1,50 @@
+ecosystem: "cybersecurity-ecosystem"
+version: "1.0.0"
+
+models:
+  # ==========================================
+  # SOC GUILD (Defensive Operations)
+  # ==========================================
+  - name: "soc-analyst-l1"
+    description: "Analista de nivel 1 encargado de triaje de alertas, enriquecimiento de IOCs y validación inicial de incidentes."
+    capabilities: ["triaje", "enriquecimiento-iocs", "D3FEND", "analisis-logs"]
+    guild: "soc-guild"
+
+  - name: "threat-hunter-l2"
+    description: "Investigador proactivo de amenazas que rastrea comportamientos anómalos y desarrolla reglas de detección (Sigma/Splunk)."
+    capabilities: ["threat-hunting", "YARA", "Sigma", "ATT&CK-defensivo"]
+    guild: "soc-guild"
+
+  # ==========================================
+  # RED TEAM GUILD (Offensive Operations)
+  # ==========================================
+  - name: "red-team-operator"
+    description: "Operador avanzado para emulación de adversarios, acceso inicial, movimiento lateral y persistencia."
+    capabilities: ["reconocimiento", "explotacion", "movimiento-lateral", "ATT&CK-ofensivo"]
+    guild: "red-team-guild"
+
+  - name: "infrastructure-architect-red"
+    description: "Especialista en levantar y camuflar infraestructura C2, redirectores y dominios maliciosos (OPSEC)."
+    capabilities: ["C2", "infraestructura-ofensiva", "OPSEC"]
+    guild: "red-team-guild"
+
+  # ==========================================
+  # APPSEC GUILD (Application Security)
+  # ==========================================
+  - name: "appsec-engineer"
+    description: "Ingeniero de seguridad de aplicaciones. Experto en SAST/DAST, auditoría de código, smart contracts y cloud."
+    capabilities: ["SAST", "DAST", "auditoria-codigo", "OWASP"]
+    guild: "appsec-guild"
+
+  - name: "ai-red-teamer"
+    description: "Especialista en seguridad de sistemas de IA, prompt injection y LLM jailbreaking (ATLAS, OWASP LLM)."
+    capabilities: ["AI-security", "prompt-injection", "ATLAS"]
+    guild: "appsec-guild"
+
+  # ==========================================
+  # COMPLIANCE & RISK GUILD
+  # ==========================================
+  - name: "compliance-auditor"
+    description: "Auditor de cumplimiento para NIST CSF, AI RMF, CIS Benchmarks e ISO."
+    capabilities: ["auditoria", "cumplimiento", "NIST-CSF", "AI-RMF"]
+    guild: "compliance-risk-guild"

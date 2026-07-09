@@ -1,0 +1,41 @@
+{
+  "ecosystem": "cybersecurity-ecosystem",
+  "default_fallback": "soc-guild/soc-analyst-l1",
+  "routing_rules": [
+    {
+      "intent": "soc_incident_triage",
+      "keywords": ["triage", "alert", "siem", "phishing", "malware", "containment", "d3fend", "D3-", "incident response"],
+      "agent": "soc-guild/soc-analyst-l1"
+    },
+    {
+      "intent": "soc_threat_hunting",
+      "keywords": ["hunt", "sigma", "yara", "ioc", "apt", "anomaly", "beaconing", "T1059", "T1105", "splunk", "elastic"],
+      "agent": "soc-guild/threat-hunter-l2"
+    },
+    {
+      "intent": "redteam_initial_access_execution",
+      "keywords": ["phishing simulation", "exploit", "cve", "T1190", "T1566", "T1059", "initial access", "execution", "lateral movement", "privilege escalation", "bloodhound", "mimikatz", "cobalt strike"],
+      "agent": "red-team-guild/red-team-operator"
+    },
+    {
+      "intent": "redteam_infrastructure",
+      "keywords": ["c2", "redirector", "havoc", "sliver", "opsec", "payload", "infrastructure", "domain fronting"],
+      "agent": "red-team-guild/infrastructure-architect-red"
+    },
+    {
+      "intent": "appsec_vulnerability_assessment",
+      "keywords": ["sast", "dast", "owasp", "sql injection", "xss", "csrf", "smart contract", "solidity", "audit", "cwe"],
+      "agent": "appsec-guild/appsec-engineer"
+    },
+    {
+      "intent": "appsec_ai_security",
+      "keywords": ["atlas", "llm", "prompt injection", "jailbreak", "model poisoning", "AML.T", "nemo", "guardrails"],
+      "agent": "appsec-guild/ai-red-teamer"
+    },
+    {
+      "intent": "compliance_risk_assessment",
+      "keywords": ["nist", "csf", "ai rmf", "iso", "27001", "cis", "benchmark", "audit", "policy", "governance", "cmmc"],
+      "agent": "compliance-risk-guild/compliance-auditor"
+    }
+  ]
+}

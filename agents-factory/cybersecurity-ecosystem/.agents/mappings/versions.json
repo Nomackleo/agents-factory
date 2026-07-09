@@ -1,0 +1,28 @@
+{
+  "frameworks": {
+    "mitre_attack": {
+      "version": "14.1",
+      "url": "https://attack.mitre.org/versions/v14/"
+    },
+    "mitre_atlas": {
+      "version": "3.0.0",
+      "url": "https://atlas.mitre.org/"
+    },
+    "d3fend": {
+      "version": "0.14.0-BETA",
+      "url": "https://d3fend.mitre.org/"
+    },
+    "nist_csf": {
+      "version": "2.0",
+      "url": "https://www.nist.gov/cyberframework"
+    },
+    "nist_ai_rmf": {
+      "version": "1.0",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    "f3": {
+      "version": "1.1",
+      "url": "https://github.com/mitre/f3"
+    }
+  }
+}

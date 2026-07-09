@@ -17,6 +17,7 @@ Este archivo mantiene el registro de la arquitectura de alto nivel. La fuente de
 - **Fase 1 MVP:** Establecimiento de la arquitectura Universal Antigravity Template (sin Docker). Inicialización del enrutador y componentes implícitos.
 - **Fase 2 MVP:** Integración del Motor de Prompts de Alto Rendimiento (Neo-CRISPE) en `03-crispe-generator`. Incorporación de heurísticas de *Token Economy* (Google 2025) y envoltura semántica XML (Claude).
 - **Fase 3 Ecosystems:** Despliegue de arquitecturas RAG estandarizadas (`docs-as-code-ecosystem`, `cinema-ad-design-ecosystem`, `multimedia-data-ecosystem`) integrando NotebookLM. Implementación de guardián de calidad QA (`workflow-auditor-agent`) y motor estricto de JSON paramétrico para Gemini Flash Image y Nano Banana Pro.
+- **Fase 4 Cyber:** Integración estricta de `cybersecurity-ecosystem` alineado al estándar Antigravity 2.0 B2B, encapsulando 817 skills en formato Neo-CRISPE dentro de `.agents/skills/` y estructurado en Guilds Defensivos y Ofensivos.
 
 ## Topología y Flujo de Datos Global (Graphify ASCII Map)
 
@@ -50,6 +51,10 @@ Este archivo mantiene el registro de la arquitectura de alto nivel. La fuente de
                                            |  [3] multimedia-data-ecosystem/    |
                                            |      - audio-creator               |
                                            |      - video-creator (Omni)        |
+                                           |                                    |
+                                           |  [4] cybersecurity-ecosystem/      |
+                                           |      - soc-analyst-l1              |
+                                           |      - red-team-operator           |
                                            +------------------------------------+
                                                            |
                                                            v

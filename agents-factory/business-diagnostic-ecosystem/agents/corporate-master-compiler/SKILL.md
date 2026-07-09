@@ -33,7 +33,9 @@ Sintetizar hallazgos, aplicar los algoritmos matemáticos de consolidación y em
   <scale>ENTERPRISE</scale>
   <maturity_score>...</maturity_score>
   <bdi_executive_summary>...</bdi_executive_summary>
+  <strategic_analysis_frameworks>...</strategic_analysis_frameworks>
   <mckinsey_7s_alignment>...</mckinsey_7s_alignment>
+  <operational_and_production_capabilities>...</operational_and_production_capabilities>
   <process_capability_indices>...</process_capability_indices>
   <it_architecture_status>...</it_architecture_status>
   <prescriptive_recommendations>...</prescriptive_recommendations>
