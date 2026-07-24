@@ -6,33 +6,19 @@ para renderizar gráficos de arquitectura. Es portable y agnóstica al entorno.
 """
 import sys
 import os
+import argparse
+import sqlite3
 
 # Determinar rutas relativas para portabilidad
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PLUGINS_DIR = os.path.join(SCRIPT_DIR, '..', 'agents-factory', 'docs-as-code-ecosystem', 'plugins')
 
-# Agregar plugins al path para importar el formateador de Structurizr
-try:
-    import importlib.util
-    formatter_path = os.path.join(PLUGINS_DIR, 'structurizr-formatter.py')
-    if os.path.exists(formatter_path):
-        spec = importlib.util.spec_from_file_location("formatter", formatter_path)
-        formatter = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(formatter)
-        format_to_c4_mermaid = formatter.format_to_c4_mermaid
-    else:
-        format_to_c4_mermaid = None
-except Exception as e:
-    print(f"Error cargando structurizr-formatter: {e}")
-    format_to_c4_mermaid = None
-
-import sqlite3
-
-def render_architecture(ecosystem_name=None):
+def render_architecture(ecosystem_name=None, max_depth=3):
     print("=========================================================")
     print(f" Graphify Builder - Renderizado C4/Mermaid")
     if ecosystem_name:
          print(f" Filtro Ecosistema: {ecosystem_name}")
+    print(f" Filtro Profundidad Máxima: {max_depth}")
     print("=========================================================")
     
     db_path = os.path.join(SCRIPT_DIR, '..', 'mcp', 'codebase-memory-mcp', 'data', 'codebase_memory.sqlite')
@@ -63,18 +49,29 @@ def render_architecture(ecosystem_name=None):
     relations = cursor.fetchall()
     conn.close()
     
-    # Construir grafo Mermaid genérico (ya que C4 es denso para 50+ nodos)
+    # Construir grafo Mermaid genérico filtrado por profundidad
     print("\n```mermaid")
     print("graph TD")
     
-    # Nodos
+    # Filtrar Nodos por profundidad
     node_map = {}
+    valid_nodes_count = 0
     for i, (fpath, eco, desc) in enumerate(nodes):
-        node_id = f"node_{i}"
-        node_map[fpath] = node_id
-        # Limpiar string para mermaid
-        safe_name = os.path.basename(fpath).replace('"', '').replace(' ', '_')
-        print(f'    {node_id}["{safe_name}"]:::ecosystemNode')
+        depth = fpath.count('/')
+        if depth <= max_depth:
+            node_id = f"node_{i}"
+            node_map[fpath] = node_id
+            safe_name = os.path.basename(fpath)
+            if safe_name == "README.md":
+                safe_name = os.path.basename(os.path.dirname(fpath))
+                if not safe_name or safe_name == ".":
+                    safe_name = "Global_README"
+            safe_name = safe_name.replace('"', '').replace(' ', '_')
+            print(f'    {node_id}["{safe_name}"]:::ecosystemNode')
+            valid_nodes_count += 1
+            
+    if valid_nodes_count == 0:
+        print("    empty[\"No nodes found within the specified depth\"]")
         
     # Relaciones
     for src, tgt, rel in relations:
@@ -83,8 +80,12 @@ def render_architecture(ecosystem_name=None):
             
     print('    classDef ecosystemNode fill:#1E293B,stroke:#3B82F6,stroke-width:1px,color:#F8FAFC')
     print("```\n")
-    print("[EXITO] Renderizado arquitectónico completado para el consumo humano.")
+    print(f"[EXITO] Renderizado arquitectónico completado ({valid_nodes_count} nodos mostrados).")
 
 if __name__ == "__main__":
-    target = sys.argv[1] if len(sys.argv) > 1 else None
-    render_architecture(target)
+    parser = argparse.ArgumentParser(description='Graphify - Render architecture diagrams from SQLite memory.')
+    parser.add_argument('--ecosystem', type=str, help='Filter by a specific ecosystem name', default=None)
+    parser.add_argument('--max-depth', type=int, help='Maximum folder depth to render (prevents massive graphs)', default=3)
+    
+    args = parser.parse_args()
+    render_architecture(args.ecosystem, args.max_depth)

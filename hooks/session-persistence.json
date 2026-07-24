@@ -1,11 +1,26 @@
 {
+  "SessionStart": [
+    {
+      "matcher": "true",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[SessionStart Hook] Cargando memoria semántica SQLite (Codebase-Memory-MCP) y perfiles del workspace.' >&2"
+        }
+      ]
+    }
+  ],
   "Stop": [
     {
       "matcher": "true",
       "hooks": [
         {
           "type": "command",
-          "command": "echo '[Hook] Stop event detected. Agents must persist context summaries into brain/sessions/ before concluding.' >&2"
+          "command": "echo '[Stop Hook / Continuous Learning] Activando filtrado de secretos y consolidación LLM. Skills resultantes se escribirán EXCLUSIVAMENTE en .agents/skills/staging/' >&2"
+        },
+        {
+          "type": "command",
+          "command": "echo '[DORA-RPO-01 Checkpoint] Persistiendo contexto episódico de la sesión en brain/sessions/.' >&2"
         }
       ]
     }
@@ -16,9 +31,10 @@
       "hooks": [
         {
           "type": "command",
-          "command": "echo '[Hook] Context compaction imminent. Compressing architectural blueprints and truncating raw research.' >&2"
+          "command": "echo '[Token Economics Hook] Compresión de contexto inminente. Destilando planos arquitectónicos a SQLite y liberando buffers planos.' >&2"
         }
       ]
     }
   ]
 }
+

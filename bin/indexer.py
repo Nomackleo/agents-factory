@@ -54,48 +54,69 @@ def crawl_and_index():
     conn = get_db_connection()
     cursor = conn.cursor()
     
-    # Limpiar tabla de relaciones para arrancar limpios en cada corrida completa (útil en dev)
+    # Limpiar tabla de relaciones para arrancar limpios en cada corrida completa
     cursor.execute("DELETE FROM file_relations")
     
     ecosystems_found = 0
+    projects_found = 0
     files_indexed = 0
     
-    for item in os.listdir(AGENTS_FACTORY_DIR):
-        ecosystem_dir = os.path.join(AGENTS_FACTORY_DIR, item)
-        readme_path = os.path.join(ecosystem_dir, 'README.md')
-        
-        # Un ecosistema es un directorio que contiene un README.md
-        if os.path.isdir(ecosystem_dir) and os.path.exists(readme_path):
-            ecosystem_name = item
-            desc = extract_what_from_readme(readme_path)
+    # 1. Indexar Ecosistemas Agénticos Reutilizables (agents-factory/)
+    if os.path.exists(AGENTS_FACTORY_DIR):
+        for item in os.listdir(AGENTS_FACTORY_DIR):
+            ecosystem_dir = os.path.join(AGENTS_FACTORY_DIR, item)
+            readme_path = os.path.join(ecosystem_dir, 'README.md')
             
-            ecosystem_rel_path = index_file(cursor, readme_path, ecosystem_name, f"Ecosistema Padre: {desc}")
-            ecosystems_found += 1
-            
-            # Recorrer recursivamente archivos internos
-            for root, dirs, files in os.walk(ecosystem_dir):
-                for f in files:
-                    if f == "README.md" and root == ecosystem_dir:
-                        continue # El README padre ya fue indexado
-                    
-                    file_path = os.path.join(root, f)
-                    rel_dir = os.path.relpath(root, ecosystem_dir).replace('\\', '/')
-                    
-                    file_desc = f"Componente agéntico ({rel_dir}) del ecosistema {ecosystem_name}"
-                    file_rel_path = index_file(cursor, file_path, ecosystem_name, file_desc)
-                    files_indexed += 1
-                    
-                    # Agregar relación jerárquica (Padre -> Hijo)
-                    add_relation(cursor, ecosystem_rel_path, file_rel_path, "CONTAINS")
-                    
+            if os.path.isdir(ecosystem_dir) and os.path.exists(readme_path):
+                ecosystem_name = item
+                desc = extract_what_from_readme(readme_path)
+                
+                ecosystem_rel_path = index_file(cursor, readme_path, ecosystem_name, f"Ecosistema Padre: {desc}")
+                ecosystems_found += 1
+                
+                for root, dirs, files in os.walk(ecosystem_dir):
+                    for f in files:
+                        if f == "README.md" and root == ecosystem_dir:
+                            continue
+                        
+                        file_path = os.path.join(root, f)
+                        rel_dir = os.path.relpath(root, ecosystem_dir).replace('\\', '/')
+                        
+                        file_desc = f"Componente agéntico ({rel_dir}) del ecosistema {ecosystem_name}"
+                        file_rel_path = index_file(cursor, file_path, ecosystem_name, file_desc)
+                        files_indexed += 1
+                        
+                        add_relation(cursor, ecosystem_rel_path, file_rel_path, "CONTAINS")
+
+    # 2. Indexar Proyectos Corporativos Independientes (projects/)
+    projects_dir = os.path.join(PROJECT_ROOT, 'projects')
+    if os.path.exists(projects_dir):
+        for item in os.listdir(projects_dir):
+            proj_path = os.path.join(projects_dir, item)
+            if os.path.isdir(proj_path):
+                proj_name = f"project:{item}"
+                projects_found += 1
+                
+                for root, dirs, files in os.walk(proj_path):
+                    for f in files:
+                        if f.startswith('.'):
+                            continue
+                        file_path = os.path.join(root, f)
+                        rel_dir = os.path.relpath(root, proj_path).replace('\\', '/')
+                        file_desc = f"Artefacto de entrega ({rel_dir}) del proyecto {item}"
+                        file_rel_path = index_file(cursor, file_path, proj_name, file_desc)
+                        files_indexed += 1
+
     conn.commit()
     conn.close()
     
     print("=====================================================")
-    print("[EXITO] Indexación completada en Codebase-Memory-MCP.")
+    print("[EXITO] Indexación completada en Codebase-Memory-MCP (SQLite).")
     print(f"        Ecosistemas procesados: {ecosystems_found}")
-    print(f"        Componentes internos indexados: {files_indexed}")
+    print(f"        Proyectos independientes indexados: {projects_found}")
+    print(f"        Componentes y entregables indexados: {files_indexed}")
     print("=====================================================")
+
 
 if __name__ == "__main__":
     crawl_and_index()

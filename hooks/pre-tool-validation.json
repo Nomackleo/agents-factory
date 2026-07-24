@@ -1,24 +1,29 @@
 {
   "PreToolUse": [
     {
-      "matcher": "tool == \"Bash\" || tool == \"write_to_file\"",
+      "matcher": "tool == \"run_command\" || tool == \"write_to_file\"",
       "hooks": [
         {
           "type": "command",
-          "command": "echo '[Security Gate] Validating non-destructive execution. Path must be inside agents-factory/ or scratch/' >&2"
+          "command": "echo '[NIST CSF PR.PS-01 Gate] Validando ejecución aislada y sandboxing. Ruta permitida: agents-factory/ o scratch/' >&2"
+        },
+        {
+          "type": "command",
+          "command": "echo '[ISO 27001 ISMS-DP-02 Secret Filter] Escaneando argumentos para prevenir fuga de API keys, tokens o credenciales.' >&2"
         }
       ]
     }
   ],
   "PostToolUse": [
     {
-      "matcher": "tool == \"read_url_content\"",
+      "matcher": "tool == \"read_url_content\" || tool == \"search_web\"",
       "hooks": [
         {
           "type": "command",
-          "command": "echo '[Validation] External content retrieved. Apply prompt-injection sanitization before parsing.' >&2"
+          "command": "echo '[NIST CSF DE.AE-01 Validation] Contenido externo recuperado. Aplicando desinfectado contra Prompt Injection indirecto.' >&2"
         }
       ]
     }
   ]
 }
+

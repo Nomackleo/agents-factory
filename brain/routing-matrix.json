@@ -1,24 +1,41 @@
 {
   "supervisor": {
-    "version": "1.0",
-    "description": "Árbol de decisión semántico para enrutamiento de tareas",
+    "version": "2.0",
+    "description": "Árbol de decisión semántico para enrutamiento de tareas en Antigravity Agent Factory",
+    "model_default": "gemini-3.6-flash",
+    "thinking_level": "low",
     "routes": [
       {
-        "intent": "research|search|knowledge",
-        "plugin": "01-research-gatherer"
+        "intent": "research|search|knowledge|rag|notebooklm",
+        "plugin": "01-research-gatherer",
+        "thinking_level": "medium"
       },
       {
-        "intent": "design|architecture|workflow|plan",
-        "plugin": "02-workflow-architect"
+        "intent": "design|architecture|workflow|plan|mermaid|c4",
+        "plugin": "02-workflow-architect",
+        "thinking_level": "high"
       },
       {
-        "intent": "prompt|crispe|skill|generate",
-        "plugin": "03-crispe-generator"
+        "intent": "prompt|crispe|skill|generate|agent_factory",
+        "plugin": "03-crispe-generator",
+        "thinking_level": "medium"
       },
       {
-        "intent": "sanitize|security|validate_input|scan",
-        "plugin": "04-security-sanitizer"
+        "intent": "sanitize|security|validate_input|scan|nist|iso42001|iso27001|dora",
+        "plugin": "04-security-sanitizer",
+        "thinking_level": "medium"
+      },
+      {
+        "intent": "diagnostic|bdi|mckinsey|cobit|business|corporate_master",
+        "plugin": "05-business-diagnostic-compiler",
+        "thinking_level": "high"
+      },
+      {
+        "intent": "docs_as_code|executive|summary|sla|legal|contract",
+        "plugin": "06-docs-as-code-executive",
+        "thinking_level": "medium"
       }
     ]
   }
 }
+

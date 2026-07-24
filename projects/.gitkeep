@@ -1,0 +1,2 @@
+# Standard output directory for individual corporate projects and client instances.
+# Each project inside this directory operates as an independent Git repository and graph memory context.

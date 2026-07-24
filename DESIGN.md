@@ -3,12 +3,15 @@
 Este documento define la arquitectura interna de la Fábrica de Agentes (Agent Factory) y los estándares de los ecosistemas que produce.
 
 ## Topología de la Fábrica
+
 La fábrica se divide funcionalmente en tres motores:
+
 1. **Orquestador (Global/System):** Mantiene la visión corporativa y coordina la ejecución.
 2. **Planificador (Global/System):** Transforma requerimientos ambiguos en diseños de sistemas estructurados, seleccionando qué agentes atómicos se necesitan.
 3. **Constructor (Skill):** El skill local `prompt-engineering-crispe` actúa como el trabajador de línea de ensamblaje. Recibe especificaciones precisas y escribe el código Markdown/YAML para configurar a los agentes hijos.
 
 ## Pipeline de Generación de Ecosistemas
+
 1. **Ideación y Setup:** El Orquestador recibe el caso de uso (Ej. "Ecosistema de VFX para Blender"). Se crea un track en Conductor.
 2. **Blueprint:** El Planificador diseña la topología de directorios dentro de `agents-factory/blender-ecosystem/`.
 3. **Construcción CRISPE:** El Agente Constructor inyecta el framework CRISPE para crear cada uno de los `SKILL.md` necesarios, garantizando determinismo. También crea los `workflows/` y `rules/` necesarios.
@@ -16,8 +19,19 @@ La fábrica se divide funcionalmente en tres motores:
 5. **Empaquetado:** Se inyectan las plantillas de infraestructura desde `agents-factory/templates/` para aislar el ecosistema en Docker.
 
 ## Estándares de los Ecosistemas Generados (Antigravity 2.0)
+
 Todos los sistemas producidos por esta fábrica deben acatar el estándar Antigravity 2.0 B2B:
+
 - Uso **exclusivo** del directorio `.agents/` para lógica (skills, rules, workflows, plugins).
 - Cada skill debe tener un archivo `SKILL.md` obligatorio con frontmatter (`name`, `description`).
 - Los workflows deben guardarse como archivos Markdown y ser ligeros (< 12,000 caracteres).
-- Cumplimiento de reglas SOC 2 inyectadas en `.agents/rules/` por defecto.
+- Cumplimiento de reglas NIST CSF 2.0, ISO 42001, ISO 27001 y SOC 2 inyectadas en `.agents/rules/` por defecto.
+- **Memoria de Contexto**: Los agentes **NUNCA** deben leer la salida masiva de `bin/graphify` para orientarse. Toda consulta arquitectónica o búsqueda de skills debe realizarse iterando sobre `Codebase-Memory-MCP` (SQLite) directamente para preservar la *Token Economy*.
+
+## Arquitectura de Salida de Proyectos (`projects/`)
+
+Para garantizar la reutilización prístina de los ecosistemas y evitar la contaminación del Core:
+
+1. **Aislamiento de Entregables:** Todo proyecto de cliente o entregable final (documentos maestros, BRDs, scripts de producción, playbooks) debe generarse en `projects/<nombre-del-proyecto>/`.
+2. **Control de Versiones Independiente:** El directorio `projects/` está excluido del Git principal de la Fábrica. Cada proyecto inicializa su propio repositorio Git local/remoto.
+3. **Memoria de Grafos por Proyecto:** Al trabajar en un proyecto, el índice `Codebase-Memory-MCP` se ejecuta con la carpeta del proyecto como raíz, aislando el contexto del cliente del meta-contexto de la Fábrica.

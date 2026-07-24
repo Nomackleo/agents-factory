@@ -7,6 +7,7 @@
 **WHY**: To mitigate the "curse of knowledge," ensure ISO 25010/42001/27001 compliance, and guarantee that both human operators (Human-in-the-Loop) and RAG-enabled LLMs have explicit contextual grounding for system architecture.
 
 ## Vector Search Indexing Rules
+>
 > [!IMPORTANT]
 > All automated agents and RAG indexers must traverse this topology to understand service boundaries. Data ingestion must prioritize the `.agents/rules/` directory for global constraints before executing any `.agents/workflows/`.
 
@@ -63,10 +64,13 @@ graph TD
     class D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15 agent
 ```
 
-## ISO Standards Mapping
+## ISO & NIST Standards Mapping
+
+- **NIST CSF 2.0 (Cybersecurity)**: Alignment with Govern (GV), Identify (ID), Protect (PR), Detect (DE), Respond (RS), Recover (RC) mapped directly to [implicit/NIST_ISO_CHECKLISTS.md](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/implicit/NIST_ISO_CHECKLISTS.md).
 - **ISO 25010 (Software Quality)**: Validated via structural consistency across all generated `kebab-case` Markdown files.
-- **ISO 42001 (AI Management)**: Grounded through explicit `<constraints>` and `<heuristics>` in each agent's Neo-CRISPE profile.
-- **ISO 27001 (Security)**: Data classification and legal disclaimers enforced dynamically by the `legal-advisor`.
+- **ISO 42001 (AI Management System)**: Grounded through explicit `<constraints>` and `<heuristics>` in each agent's Neo-CRISPE profile and RAG queries against Gemini Notebook (`NIST CSF 2.0 and ISO 42001, 27001: Cybersecurity and AI Management`).
+- **ISO 27001 (Security)**: Data classification, secret filtering, and legal disclaimers enforced dynamically by the `legal-advisor` and `PreToolUse` hooks.
 
 ## DORA & SPACE Metrics Alignment
-The system’s output quality acts as an accelerator for DORA metrics (specifically decreasing Lead Time for Changes by automating documentation bottlenecks) while boosting SPACE efficiency by reducing developer toil associated with incident write-ups.
+
+The system’s output quality acts as an accelerator for DORA metrics (specifically decreasing Lead Time for Changes by automating documentation bottlenecks and MTTR under incident management workflows) while boosting SPACE efficiency by reducing developer toil associated with incident write-ups.

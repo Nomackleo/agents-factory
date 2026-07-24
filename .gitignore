@@ -58,4 +58,9 @@ routing-matrix-secrets.json
 *.pptx
 !knowledge/examples/*.md
 
+# Output Projects (Each project folder is an independent Git repository)
+projects/*
+!projects/.gitkeep
+
 # ==============================================================================
+

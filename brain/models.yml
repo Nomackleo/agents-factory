@@ -1,20 +1,30 @@
-# Definición de LLMs y pesos operativos (Actualización 2026)
+# Definición de LLMs y pesos operativos - Antigravity Core (Actualización Julio 2026)
+
 routing:
-  model: "gemini-3.5-flash-medium"
+  model: "gemini-3.6-flash"
+  thinking_level: "low"
   temperature: 0.1
-  description: "Baja latencia para toma de decisiones rápida en el Supervisor."
+  description: "Baja latencia y bajo consumo de tokens para enrutamiento, clasificación de intenciones y triaje en el Supervisor."
 
 execution:
-  model: "gemini-3.1-pro-high"
-  temperature: 0.3
-  description: "Alto razonamiento para los skills de Ingeniería y Construcción."
+  model: "gemini-3.6-flash"
+  thinking_level: "medium"
+  temperature: 0.2
+  description: "Modo estándar de razonamiento balanceado para compilación de skills Neo-CRISPE y ejecución de tareas de ingeniería."
 
 architect:
-  model: "claude-sonnet-4.6-thinking"
-  temperature: 0.4
-  description: "Diseño de grafos complejos y planificación arquitectónica multi-LLM."
+  model: "gemini-3.6-flash"
+  thinking_level: "high"
+  temperature: 0.3
+  description: "Máxima profundidad deliberativa para diseño de grafos C4/Mermaid, análisis de dependencias complejas y síntesis multi-agente."
+
+deep_reasoning:
+  model: "gemini-3.1-pro"
+  temperature: 0.2
+  description: "Modelo Pro de ultra-alto razonamiento para auditorías avanzadas de ciberseguridad y análisis matemático formal."
 
 fallback:
-  model: "gpt-oss-120b-medium"
-  temperature: 0.2
-  description: "Modelo open source para contingencia local."
+  model: "gemini-3.5-flash"
+  temperature: 0.1
+  description: "Modelo de contingencia de alta velocidad para continuidad de servicio bajo rate limits."
+
