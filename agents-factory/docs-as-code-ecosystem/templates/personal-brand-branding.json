@@ -1,0 +1,43 @@
+{
+  "brandName": "Leonel Salcedo — Enterprise Architecture & AI Advisory",
+  "version": "1.0.0",
+  "typography": {
+    "primaryFont": "Inter, system-ui, sans-serif",
+    "secondaryFont": "Playfair Display, serif",
+    "monospaceFont": "Fira Code, monospace",
+    "headings": {
+      "h1": "2.5rem",
+      "h2": "1.85rem",
+      "h3": "1.4rem"
+    }
+  },
+  "colorPalette": {
+    "primary": "#0F172A",
+    "secondary": "#1E293B",
+    "accent": "#38BDF8",
+    "background": "#0F172A",
+    "surface": "#1E293B",
+    "textPrimary": "#F8FAFC",
+    "textMuted": "#94A3B8"
+  },
+  "layout": {
+    "maxWidth": "1280px",
+    "padding": "3rem",
+    "borderRadius": "12px",
+    "boxShadow": "0 20px 25px -5px rgba(0, 0, 0, 0.5)"
+  },
+  "headerFooter": {
+    "showHeaderLogo": false,
+    "logoUrl": "",
+    "headerText": "Leonel Salcedo — Consultoría Especializada en Arquitectura Cloud e Inteligencia Artificial",
+    "footerText": "Documento Técnico © 2026 Leonel Salcedo. Desarrollado con Antigravity 2.0 Agent Factory.",
+    "showPageNumbers": true
+  },
+  "calloutsAlerts": {
+    "noteColor": "#38BDF8",
+    "tipColor": "#34D399",
+    "importantColor": "#A78BFA",
+    "warningColor": "#FBBF24",
+    "cautionColor": "#F87171"
+  }
+}

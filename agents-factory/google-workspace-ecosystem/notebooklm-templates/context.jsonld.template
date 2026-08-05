@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "DataCatalog",
+  "@id": "urn:workspace:google-drive:{{WORKSPACE_ID}}",
+  "name": "Google Drive Enterprise Workspace - {{WORKSPACE_NAME}}",
+  "description": "{{WORKSPACE_DESCRIPTION}}",
+  "dateCreated": "{{DATE_CREATED}}",
+  "dateModified": "{{DATE_MODIFIED}}",
+  "license": "ISO-27001-Restricted",
+  "provider": {
+    "@type": "Person",
+    "name": "{{OWNER_NAME}}",
+    "role": "Lead Enterprise Solutions Architect & AI Knowledge Engineer",
+    "email": "{{OWNER_EMAIL}}"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Scope",
+      "description": "Enterprise Cloud Architecture, Multi-Agent System Governance, Docs-as-Code, RAG Context Grounding"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "@id": "urn:workspace:scope:00_GOVERNANCE_MY_BUSINESS",
+      "name": "00_GOVERNANCE_MY_BUSINESS",
+      "description": "Corporate statutes, legal registration, tax filings, and business compliance",
+      "accessMode": "Restricted-Executive",
+      "governance": {
+        "aiIndexingAllowed": false,
+        "piiContains": true,
+        "securityLevel": "Confidential"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:workspace:scope:01_FINANCIAL_OPS",
+      "name": "01_FINANCIAL_OPS",
+      "description": "Invoices issued, vendor expenses, accounting ledger, and financial records",
+      "accessMode": "Restricted-Finance",
+      "governance": {
+        "aiIndexingAllowed": false,
+        "piiContains": true,
+        "securityLevel": "Confidential"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:workspace:scope:02_CLIENT_SERVICE_DELIVERY",
+      "name": "02_CLIENT_SERVICE_DELIVERY",
+      "description": "Client project engagements, architecture runbooks, IaC repositories, and delivery artifacts",
+      "accessMode": "Role-Based-Operations",
+      "governance": {
+        "aiIndexingAllowed": true,
+        "piiContains": false,
+        "securityLevel": "Restricted-Dev"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:workspace:scope:03_KNOWLEDGE_BASE_RND",
+      "name": "03_KNOWLEDGE_BASE_RND",
+      "description": "Enterprise RAG knowledge repository, AI prompt library, and standard IaC reference modules",
+      "accessMode": "Organization-Wide",
+      "governance": {
+        "aiIndexingAllowed": true,
+        "piiContains": false,
+        "securityLevel": "Internal-Public"
+      }
+    }
+  ],
+  "governance": {
+    "isoCompliance": [
+      "ISO25010",
+      "ISO42001",
+      "ISO27001",
+      "SOC2"
+    ],
+    "namingStandard": "POSIX_ISO8601_YYYYMMDD_[SCOPE]_[ENTITY]_[TYPE]_[DESCRIPTION]_[VERSION]",
+    "zeroDataLossEnforced": true,
+    "globalAiIndexingAllowed": false,
+    "piiContains": false
+  }
+}

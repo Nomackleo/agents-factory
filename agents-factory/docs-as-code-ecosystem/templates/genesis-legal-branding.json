@@ -1,0 +1,43 @@
+{
+  "brandName": "Génesis Legal",
+  "version": "1.0.0",
+  "typography": {
+    "primaryFont": "Outfit, 'Helvetica Neue', sans-serif",
+    "secondaryFont": "Cinzel, Georgia, serif",
+    "monospaceFont": "JetBrains Mono, monospace",
+    "headings": {
+      "h1": "2.25rem",
+      "h2": "1.75rem",
+      "h3": "1.35rem"
+    }
+  },
+  "colorPalette": {
+    "primary": "#0B192C",
+    "secondary": "#1E3E62",
+    "accent": "#008DDA",
+    "background": "#FFFFFF",
+    "surface": "#F0F4F8",
+    "textPrimary": "#0B192C",
+    "textMuted": "#475569"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "padding": "2.5rem",
+    "borderRadius": "8px",
+    "boxShadow": "0 10px 15px -3px rgba(11, 25, 44, 0.1)"
+  },
+  "headerFooter": {
+    "showHeaderLogo": true,
+    "logoUrl": "https://genesislegal.co/bimi/logo.svg",
+    "headerText": "Génesis Legal — Transformación Digital & Consultoría Jurídico-Forense",
+    "footerText": "Confidencial © 2026 Génesis Legal. Todos los derechos reservados. Documentación bajo norma ISO 27001 / ISO 9001.",
+    "showPageNumbers": true
+  },
+  "calloutsAlerts": {
+    "noteColor": "#008DDA",
+    "tipColor": "#10B981",
+    "importantColor": "#8B5CF6",
+    "warningColor": "#F59E0B",
+    "cautionColor": "#EF4444"
+  }
+}

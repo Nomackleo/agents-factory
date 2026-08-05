@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UIDocumentStyleGuide",
+  "description": "Schema definition for Docs-as-Code ecosystem UI Document Style Guides and Branding Templates.",
+  "type": "object",
+  "properties": {
+    "brandName": {
+      "type": "string",
+      "description": "Name of the entity or client for which this design system applies."
+    },
+    "version": {
+      "type": "string",
+      "example": "1.0.0"
+    },
+    "typography": {
+      "type": "object",
+      "properties": {
+        "primaryFont": {
+          "type": "string",
+          "example": "Inter, sans-serif"
+        },
+        "secondaryFont": {
+          "type": "string",
+          "example": "Merriweather, serif"
+        },
+        "monospaceFont": {
+          "type": "string",
+          "example": "Fira Code, monospace"
+        },
+        "headings": {
+          "type": "object",
+          "properties": {
+            "h1": { "type": "string", "example": "2.25rem" },
+            "h2": { "type": "string", "example": "1.75rem" },
+            "h3": { "type": "string", "example": "1.35rem" }
+          }
+        }
+      },
+      "required": ["primaryFont", "monospaceFont"]
+    },
+    "colorPalette": {
+      "type": "object",
+      "properties": {
+        "primary": { "type": "string", "example": "#0F172A" },
+        "secondary": { "type": "string", "example": "#1E293B" },
+        "accent": { "type": "string", "example": "#3B82F6" },
+        "background": { "type": "string", "example": "#FFFFFF" },
+        "surface": { "type": "string", "example": "#F8FAFC" },
+        "textPrimary": { "type": "string", "example": "#0F172A" },
+        "textMuted": { "type": "string", "example": "#64748B" }
+      },
+      "required": ["primary", "accent", "background", "textPrimary"]
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "maxWidth": { "type": "string", "example": "1200px" },
+        "padding": { "type": "string", "example": "2rem" },
+        "borderRadius": { "type": "string", "example": "8px" },
+        "boxShadow": { "type": "string", "example": "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }
+      }
+    },
+    "headerFooter": {
+      "type": "object",
+      "properties": {
+        "showHeaderLogo": { "type": "boolean" },
+        "logoUrl": { "type": "string" },
+        "headerText": { "type": "string" },
+        "footerText": { "type": "string" },
+        "showPageNumbers": { "type": "boolean" }
+      }
+    },
+    "calloutsAlerts": {
+      "type": "object",
+      "properties": {
+        "noteColor": { "type": "string", "example": "#3B82F6" },
+        "tipColor": { "type": "string", "example": "#10B981" },
+        "importantColor": { "type": "string", "example": "#8B5CF6" },
+        "warningColor": { "type": "string", "example": "#F59E0B" },
+        "cautionColor": { "type": "string", "example": "#EF4444" }
+      }
+    }
+  },
+  "required": ["brandName", "version", "typography", "colorPalette"]
+}

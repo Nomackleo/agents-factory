@@ -1,0 +1,43 @@
+{
+  "brandName": "Leonel Salcedo & Daniel Moncada — Strategic AI & Cloud Partnership",
+  "version": "1.0.0",
+  "typography": {
+    "primaryFont": "Plus Jakarta Sans, sans-serif",
+    "secondaryFont": "Space Grotesk, sans-serif",
+    "monospaceFont": "JetBrains Mono, monospace",
+    "headings": {
+      "h1": "2.4rem",
+      "h2": "1.8rem",
+      "h3": "1.35rem"
+    }
+  },
+  "colorPalette": {
+    "primary": "#111827",
+    "secondary": "#1F2937",
+    "accent": "#6366F1",
+    "background": "#FFFFFF",
+    "surface": "#F9FAFB",
+    "textPrimary": "#111827",
+    "textMuted": "#6B7280"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "padding": "2.5rem",
+    "borderRadius": "10px",
+    "boxShadow": "0 10px 25px -5px rgba(99, 102, 241, 0.1)"
+  },
+  "headerFooter": {
+    "showHeaderLogo": true,
+    "logoUrl": "",
+    "headerText": "Leonel Salcedo & Daniel Moncada — Alliance for Enterprise AI & Digital Transformation",
+    "footerText": "Documentación Co-creada © 2026 Leonel Salcedo & Daniel Moncada. Todos los derechos reservados.",
+    "showPageNumbers": true
+  },
+  "calloutsAlerts": {
+    "noteColor": "#6366F1",
+    "tipColor": "#10B981",
+    "importantColor": "#8B5CF6",
+    "warningColor": "#F59E0B",
+    "cautionColor": "#EF4444"
+  }
+}
