@@ -80,12 +80,15 @@ El sistema integra un mecanismo de memoria persistente avanzado y altamente efic
 La fábrica (`agents-factory/`) ha generado múltiples ecosistemas especializados, acatando el estándar Antigravity 2.0 B2B (uso exclusivo de `.agents/` y taxonomía *kebab-case*):
 
 * `agents-factory/` (Catálogo exclusivo de Ecosistemas Agénticos reutilizables)
+  * `minimal-coding-ecosystem/`
+    * Estructurado en **Minimal Coding Guild** (`minimal-code-refactorer`, `minimal-architect-checker`, `minimal-qa-gatekeeper`).
+    * Aplica la **Escalera de Deducción de 7 peldaños** (Ponytail paradigm: -54% LOC, -20% tokens, -27% latencia, 100% seguro).
+  * `software-engineering-ecosystem/`
   * `cinema-ad-design-ecosystem/`
   * `docs-as-code-ecosystem/`
   * `multimedia-data-ecosystem/`
   * `notebooklm-gemini-ecosystem/`
   * `business-diagnostic-ecosystem/`
-  * `software-engineering-ecosystem/`
   * `ui-ux-design-ecosystem/`
   * `cybersecurity-ecosystem/`
     * Estructurado en **Guilds Defensivos y Ofensivos**.
@@ -128,11 +131,13 @@ flowchart TD
         Validator -->|Validado| Gatherer
         Router -.-> BrainMatrix
 
-        %% Memoria Persistente
-        subgraph Memoria [Memoria Persistente & Knowledge]
+        %% Memoria Persistente & RAG
+        subgraph Memoria [Memoria Persistente & RAG Engine]
             DB[(Codebase-Memory-MCP<br/>SQLite)]:::memory
+            NotebookRAG[(NotebookLM RAG<br/>@Govern And Secure Agents)]:::memory
             VectorStore[(knowledge/<br/>Vector Store)]:::memory
             DB -.-> |Token Economy / Cero Alucinaciones| Constructor
+            NotebookRAG -.-> |Consultas Gobernanza / RAG| Architect
         end
 
         %% Capa de Ejecución
@@ -154,12 +159,14 @@ flowchart TD
 
         %% Árbol de Ecosistemas
         subgraph Ecosistemas [Árbol de Ecosistemas - agents-factory/]
+            QA_TDD --> |Despliega| Minimal[minimal-coding-ecosystem]:::ecosystem
             QA_TDD --> |Despliega| Cyber[cybersecurity-ecosystem]:::ecosystem
             QA_TDD --> |Despliega| Docs[docs-as-code-ecosystem]:::ecosystem
             QA_TDD --> |Despliega| Cinema[cinema-ad-design-ecosystem]:::ecosystem
             QA_TDD --> |Despliega| NBLM[notebooklm-gemini-ecosystem]:::ecosystem
             QA_TDD --> |Despliega| SWE[software-engineering-ecosystem]:::ecosystem
             
+            Minimal --> |Contiene| MinimalSkills(Minimal Coding Guild<br/>Ladder of Deduction 7 Peldaños)
             Cyber --> |Contiene| CyberSkills(817 Skills Neo-CRISPE<br/>Guilds Defensivos/Ofensivos)
         end
 

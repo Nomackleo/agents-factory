@@ -1,0 +1,24 @@
+{
+  "ecosystem": "minimal-coding-ecosystem",
+  "version": "1.0.0",
+  "routing_rules": [
+    {
+      "task_type": "architectural_audit",
+      "assigned_agent": "minimal-architect-checker",
+      "fallback_agent": "00-supervisor-router",
+      "effort_level": "High"
+    },
+    {
+      "task_type": "code_refactoring",
+      "assigned_agent": "minimal-code-refactorer",
+      "fallback_agent": "minimal-architect-checker",
+      "effort_level": "Medium"
+    },
+    {
+      "task_type": "qa_validation",
+      "assigned_agent": "minimal-qa-gatekeeper",
+      "fallback_agent": "00-supervisor-router",
+      "effort_level": "High"
+    }
+  ]
+}

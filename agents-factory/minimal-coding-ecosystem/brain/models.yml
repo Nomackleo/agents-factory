@@ -1,0 +1,28 @@
+# Models Configuration for Minimal Coding Ecosystem — Antigravity Core
+default_provider: google
+
+agents:
+  minimal-architect-checker:
+    model: gemini-3.6-flash
+    thinking_level: high
+    temperature: 0.1
+    max_tokens: 4096
+    description: "Inspección estática profunda y rastreo de flujo en el codebase para prevenir código redundante."
+
+  minimal-code-refactorer:
+    model: gemini-3.6-flash
+    thinking_level: medium
+    temperature: 0.0
+    max_tokens: 2048
+    description: "Ejecución de la Escalera de Deducción (Ponytail paradigm) para escrituras minimalistas de código."
+
+  minimal-qa-gatekeeper:
+    model: gemini-3.1-pro
+    temperature: 0.0
+    max_tokens: 4096
+    description: "Auditoría de seguridad (ISO 27001 / SOC 2) y ejecución de suites TDD sin regresiones."
+
+fallback:
+  model: gemini-3.5-flash
+  temperature: 0.1
+  description: "Modelo de contingencia de alta velocidad para continuidad de servicio."
