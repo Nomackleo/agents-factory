@@ -1,7 +1,13 @@
 {
   "ecosystem": "minimal-coding-ecosystem",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "routing_rules": [
+    {
+      "task_type": "spec_driven_development",
+      "assigned_agent": "spec-driven-developer",
+      "fallback_agent": "minimal-architect-checker",
+      "effort_level": "High"
+    },
     {
       "task_type": "architectural_audit",
       "assigned_agent": "minimal-architect-checker",
