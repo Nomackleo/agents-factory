@@ -298,6 +298,13 @@ def run_unit_tests():
     res = tester.run_ab_test(informal, crispe.render(), inputs, exp)
     assert "winner" in res, "Deberia retornar un ganador del test"
     print(f"{GREEN}[OK] Test A/B Testing & Conversor exitoso.{RESET}")
+
+    # 4. Test Semantic Memory Lookup (Codebase-Memory-MCP SQLite)
+    from semantic_memory_lookup import lookup_memory
+    mem_res = lookup_memory("auditoría de seguridad web")
+    assert "decision" in mem_res, "Fallo consulta a memoria SQLite"
+    assert mem_res["decision"] in ("ATTACH_SKILL", "CREATE_ECOSYSTEM"), "Decisión de memoria invalida"
+    print(f"{GREEN}[OK] Test Búsqueda en Memoria Persistente SQLite exitoso.{RESET}")
     print(f"\n{GREEN}{BOLD}Todas las comprobaciones pasaron correctamente.{RESET}")
 
 
