@@ -1,0 +1,31 @@
+{
+  "catalog_title": "Génesis Legal Slide Components Catalog",
+  "version": "2.0",
+  "components": [
+    {
+      "name": "Cover Hero",
+      "class": "hero",
+      "html_snippet": "<div class=\"hero\">\n  <div class=\"eyebrow\">CATEGORÍA DE PROPUESTA</div>\n  <h1><span class=\"thin\">TÍTULO PRIMARIO &amp;</span> <span class=\"gold\">TÍTULO DE ACENTO</span></h1>\n  <p class=\"lead\">Descripción ejecutiva de la propuesta o informe.</p>\n</div>"
+    },
+    {
+      "name": "KPI Metric Grid",
+      "class": "kpis",
+      "html_snippet": "<div class=\"kpis\">\n  <div class=\"kpi\">\n    <span class=\"num\">60</span>\n    <small>Días Calendario</small>\n  </div>\n  <div class=\"kpi\">\n    <span class=\"num\">25</span>\n    <small>Especialistas en Campo</small>\n  </div>\n</div>"
+    },
+    {
+      "name": "Two Column Pillars",
+      "class": "two",
+      "html_snippet": "<div class=\"two\">\n  <div class=\"sticky-col\">\n    <h2>Alcance de la Auditoría</h2>\n  </div>\n  <div class=\"stack\">\n    <div class=\"pillar\">\n      <span class=\"ix\">PILLAR 01</span>\n      <h3>Peritaje Informático</h3>\n      <p>Análisis de evidencias digitales e infraestructura.</p>\n    </div>\n  </div>\n</div>"
+    },
+    {
+      "name": "Normative Table Row",
+      "class": "norm__row",
+      "html_snippet": "<div class=\"norm__row\">\n  <div class=\"norm__k\">ISO 27001:2022 A.8.1 <small>Gobernanza de Datos</small></div>\n  <div class=\"norm__v\">Evaluación de políticas de control de acceso y cifrado.</div>\n  <span class=\"chip chip--ok\">CUMPLIDO</span>\n</div>"
+    },
+    {
+      "name": "Financial Price Box",
+      "class": "price",
+      "html_snippet": "<div class=\"price\">\n  <div class=\"price__hd\">INVERSIÓN TOTAL ESTIMADA</div>\n  <div class=\"price__v\">$145.000.000 <sub>COP + IVA</sub></div>\n  <p class=\"price__sub\">Incluye honorarios profesionales y soporte de peritaje en juicio.</p>\n</div>"
+    }
+  ]
+}

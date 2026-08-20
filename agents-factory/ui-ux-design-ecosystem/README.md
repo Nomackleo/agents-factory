@@ -6,9 +6,11 @@
 
 El ecosistema opera mediante tres sub-gremios hiper-especializados:
 
-1. **Design System Guild**: Crea la identidad visual y los tokens.
-   - `.agents/skills/design-tokens-architect`
+1. **Design System Guild**: Crea la identidad visual, especificaciones `DESIGN.md`, tokens y plantillas de presentación de marca.
+   - `.agents/skills/design-tokens-architect` (Tokens YAML, contrastes WCAG y transpilación CSS/Tailwind)
+   - `.agents/skills/design-system-architect` (Arquitectura integral de Sistemas de Diseño y Guías de Estilos DESIGN.md)
    - `.agents/skills/figma-stitch-integrator`
+   - `.agents/skills/genesis-brand-presentation-specialist`
 2. **UX Guild**: Diseña flujos, arquitecturas de la información e interacciones visuales avanzadas.
    - `.agents/skills/ux-flow-designer`
    - `.agents/skills/micro-interactions-animator`

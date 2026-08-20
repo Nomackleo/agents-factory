@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MultimodalGenerativePromptSchema",
+  "description": "Esquema estructurado de desestructuración y generación multimedia de alta precisión para modelos Nano Banana, Omni, Imagen, Midjourney, Stable Diffusion y Flux.",
+  "type": "object",
+  "required": ["subject", "composition", "lighting", "optics", "style", "color_palette"],
+  "properties": {
+    "subject": {
+      "type": "object",
+      "required": ["main_entity", "action_or_state", "details"],
+      "properties": {
+        "main_entity": { "type": "string", "description": "Sujeto principal, personaje, producto, entorno o activo 3D." },
+        "action_or_state": { "type": "string", "description": "Acción, pose cinemática o estado dinámico." },
+        "details": { "type": "string", "description": "Materiales, vestimenta, micro-texturas, expresiones faciales." }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "required": ["shot_type", "camera_angle", "framing_rule"],
+      "properties": {
+        "shot_type": { 
+          "type": "string", 
+          "enum": ["extreme-close-up", "close-up", "medium-shot", "full-shot", "wide-establishing-shot", "macro-detail", "top-down-flatlay"] 
+        },
+        "camera_angle": { 
+          "type": "string", 
+          "enum": ["eye-level", "low-angle-heroic", "high-angle", "dutch-angle", "birds-eye-view", "worm-eye-view"] 
+        },
+        "framing_rule": { 
+          "type": "string", 
+          "enum": ["rule-of-thirds", "golden-ratio", "central-symmetry", "leading-lines", "negative-space-for-copy", "frame-within-frame"] 
+        },
+        "aspect_ratio": { 
+          "type": "string", 
+          "enum": ["16:9", "9:16", "1:1", "4:5", "21:9-cinemascope", "3:2"] 
+        }
+      }
+    },
+    "optics": {
+      "type": "object",
+      "required": ["focal_length", "aperture", "depth_of_field"],
+      "properties": {
+        "focal_length": { "type": "string", "description": "Ej: 24mm wide, 35mm street, 50mm natural, 85mm portrait, 100mm macro, anamorphic lens" },
+        "aperture": { "type": "string", "description": "Ej: f/1.2 ultra-shallow, f/2.8 commercial, f/8 deep focus" },
+        "depth_of_field": { "type": "string", "description": "Ej: creamy circular bokeh, sharp foreground to background, tilt-shift" },
+        "lens_effects": { "type": "string", "description": "Ej: subtle anamorphic horizontal flare, chromatic aberration, film bloom, clean glass" }
+      }
+    },
+    "lighting": {
+      "type": "object",
+      "required": ["setup_type", "key_light_direction", "color_temperature", "atmosphere"],
+      "properties": {
+        "setup_type": { "type": "string", "description": "Ej: 3-point studio lighting, cinematic chiaroscuro, natural golden hour, cyberpunk dual-tone rim light, moody overcast, softbox beauty" },
+        "key_light_direction": { "type": "string", "description": "Ej: 45-degree top-left, side split, back-lit silhouette, direct overhead sun" },
+        "color_temperature": { "type": "string", "description": "Ej: 3200K warm tungsten, 5600K clean daylight, 6500K cool neon" },
+        "atmosphere": { "type": "string", "description": "Ej: volumetric God rays, subtle haze, crisp studio air, smoky noir fog" }
+      }
+    },
+    "color_palette": {
+      "type": "object",
+      "required": ["primary_tones", "accent_tones", "grading_lut"],
+      "properties": {
+        "primary_tones": { "type": "array", "items": { "type": "string" }, "description": "Códigos HEX o nombres de color dominantes (ej: ['#0A192F', '#1E293B'])" },
+        "accent_tones": { "type": "array", "items": { "type": "string" }, "description": "Colores de realce de marca o iluminación (ej: ['#C5A880', '#00F0FF'])" },
+        "grading_lut": { "type": "string", "description": "Ej: Kodak Vision3 500T, Teal & Orange blockbuster, Fuji Provia, Clean Corporate Neutral" }
+      }
+    },
+    "vfx_and_dynamics": {
+      "type": "object",
+      "properties": {
+        "particles": { "type": "string", "description": "Ej: floating embers, water droplets, dust motes in light beams, electric arcs" },
+        "motion_dynamics": { "type": "string", "description": "Ej: dynamic fabric flow, splash freeze-frame 1/8000s, subtle motion blur" },
+        "camera_motion_for_video": { "type": "string", "description": "Ej: slow dolly-in, orbit 360, crash zoom, smooth gimbal tracking" }
+      }
+    },
+    "style": {
+      "type": "object",
+      "required": ["genre", "render_engine_or_medium", "aesthetic_benchmark"],
+      "properties": {
+        "genre": { "type": "string", "description": "Ej: Ultra-luxury editorial, Commercial Tech Ad, Serious Sci-Fi, Minimalist Editorial, PBR 3D Texture Map" },
+        "render_engine_or_medium": { "type": "string", "description": "Ej: 35mm analog film photograph, Octane/Redshift 3D render, WebGL PBR material, Digital Matte Painting" },
+        "aesthetic_benchmark": { "type": "string", "description": "Referencias visuales de alto nivel (ej: Roger Deakins cinematography, Apple Keynote Minimal, Genesis Legal Brand)" }
+      }
+    },
+    "prompt_to_prompt_cross_attention": {
+      "type": "object",
+      "properties": {
+        "word_swap_targets": { "type": "object", "description": "Mapeo de palabras a reemplazar (ej: {'marble': 'gold', 'clear': 'mossy'})" },
+        "attention_weights": { "type": "object", "description": "Multiplicadores escalares de atención por palabra (ej: {'roughness': 1.4, 'iridescent': 0.8})" },
+        "attention_injection_tau": { "type": "number", "description": "Paso de tiempo de difusión hasta el cual se fijan los mapas de atención (0.2 a 0.8)" }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "cloudrun": {
+      "command": "npx",
+      "args": ["-y", "@google-cloud/mcp-server"],
+      "env": {
+        "GCP_PROJECT_ID": "antigravity-workspace-control-plane",
+        "GOOGLE_APPLICATION_CREDENTIALS": "C:/Users/Nomack/.config/gcloud/antigravity-sa-key.json"
+      }
+    },
+    "google-workspace": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-workspace"],
+      "env": {
+        "GOOGLE_WORKSPACE_CLIENT_ID": "${GOOGLE_WORKSPACE_CLIENT_ID}",
+        "GOOGLE_WORKSPACE_CLIENT_SECRET": "${GOOGLE_WORKSPACE_CLIENT_SECRET}",
+        "GOOGLE_WORKSPACE_REFRESH_TOKEN": "${GOOGLE_WORKSPACE_REFRESH_TOKEN}",
+        "TENANTS_CONFIG_FILE": "c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/mcp/google-workspace/workspace_tenants.json"
+      }
+    }
+  }
+}

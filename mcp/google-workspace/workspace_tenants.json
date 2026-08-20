@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Antigravity Workspace Multi-Tenant Configuration",
+  "default_tenant": "personal",
+  "tenants": {
+    "personal": {
+      "auth_type": "oauth2_user",
+      "account_email": "usuario@gmail.com",
+      "credentials": {
+        "client_id_env": "GOOGLE_WORKSPACE_CLIENT_ID",
+        "client_secret_env": "GOOGLE_WORKSPACE_CLIENT_SECRET",
+        "refresh_token_env": "GOOGLE_WORKSPACE_REFRESH_TOKEN"
+      },
+      "scopes": [
+        "https://www.googleapis.com/auth/gmail.modify",
+        "https://www.googleapis.com/auth/drive",
+        "https://www.googleapis.com/auth/documents",
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/presentations",
+        "https://www.googleapis.com/auth/calendar",
+        "https://www.googleapis.com/auth/chat.spaces",
+        "https://www.googleapis.com/auth/contacts"
+      ]
+    },
+    "client_enterprise_acme": {
+      "auth_type": "domain_wide_delegation",
+      "service_account_key_file": "C:/Users/Nomack/.config/gcloud/antigravity-sa-key.json",
+      "service_account_email": "mcp-workspace-agent@antigravity-workspace-control-plane.iam.gserviceaccount.com",
+      "delegated_admin_email": "admin@acmecorp.com",
+      "target_domain": "acmecorp.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/gmail.modify",
+        "https://www.googleapis.com/auth/drive",
+        "https://www.googleapis.com/auth/documents",
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/presentations",
+        "https://www.googleapis.com/auth/calendar",
+        "https://www.googleapis.com/auth/chat.spaces",
+        "https://www.googleapis.com/auth/contacts",
+        "https://www.googleapis.com/auth/admin.directory.user.readonly"
+      ]
+    }
+  }
+}

@@ -48,6 +48,7 @@ graph TD
     F --> F5[.agents/skills/graphics-creator-agent]
     F --> F6[.agents/skills/presentations-creator-agent]
     F --> F7[.agents/skills/visual-decoder-agent]
+    F --> F8[.agents/skills/generative-prompt-cross-attention-specialist]
 
     %% Styling
     classDef root fill:#0F172A,stroke:#6366F1,stroke-width:2px,color:#F8FAFC
@@ -62,6 +63,7 @@ graph TD
 ```
 
 ## Immutable Design & Spatial Reasoning (DwT) vs Creatividad
+
 A diferencia de los ecosistemas de auditoría, aquí **se fomenta explícitamente la creatividad temática** (lluvias de ideas, diseño de marketing, campañas). El Top-P y la Temperatura operan en niveles fluidos para evitar cuellos de botella conceptuales.
 
 Sin embargo, para plasmar esa creatividad, todos los subagentes utilizan el paradigma **Drawing-with-Thought (DwT)**. Es decir, la *idea* es libre, pero su *ejecución técnica* computa coordenadas espaciales, proporciones estéticas y colores hexadecimales sin alucinar, devolviendo los resultados en `kebab-case` Markdown y objetos JSON estrictos.

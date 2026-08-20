@@ -23,12 +23,17 @@ agents-factory/cgi-web-ecosystem/
 │   ├── rules/
 │   │   └── cgi-web-rules.md
 │   └── skills/
+│       ├── angular-three-mean-specialist/
 │       ├── curl-noise-vfx-specialist/
 │       ├── glsl-shader-architect/
+│       ├── gpgpu-fluid-simulation-specialist/
 │       ├── inside-engine-atmosphere-specialist/
 │       ├── sumie-procedural-ink-specialist/
+│       ├── threejs-instancing-bvh-optimizer/
+│       ├── threejs-webgpu-tsl-architect/
 │       ├── webgl-high-perf-engine/
-│       └── web-cgi-rendering-lighting-pipeline-specialist/
+│       ├── web-cgi-rendering-lighting-pipeline-specialist/
+│       └── webxr-immersive-experience-specialist/
 ├── brain/
 └── knowledge/
 ```
@@ -39,6 +44,11 @@ agents-factory/cgi-web-ecosystem/
 
 | Tarea Requerida | Ecosistema Receptor | Subagente / Skill Especializado |
 | :--- | :--- | :--- |
+| Angular Three (NGT), MEAN Stack 3D, Portales Render Texture & Parallax | `cgi-web-ecosystem` | `angular-three-mean-specialist` |
+| Realidad Virtual (VR), Aumentada (AR), Meta IWSDK & Computación Espacial | `cgi-web-ecosystem` | `webxr-immersive-experience-specialist` |
+| Arquitectura WebGPU, TSL Node Materials & Compute Shaders | `cgi-web-ecosystem` | `threejs-webgpu-tsl-architect` |
+| Compresión Draw Calls con BatchedMesh & Aceleración Espacial BVH | `cgi-web-ecosystem` | `threejs-instancing-bvh-optimizer` |
+| Simulación de fluidos GPGPU, heightfields Evan Wallace & cáusticas | `cgi-web-ecosystem` | `gpgpu-fluid-simulation-specialist` |
 | Pipeline de renderizado multipaso (Deferred/Forward+), IBL & PCSS | `cgi-web-ecosystem` | `web-cgi-rendering-lighting-pipeline-specialist` |
 | Niebla volumétrica raymarched, God Rays, TAA & ópticas INSIDE | `cgi-web-ecosystem` | `inside-engine-atmosphere-specialist` |
 | Simulación de partículas incompresibles en GPU | `cgi-web-ecosystem` | `curl-noise-vfx-specialist` |

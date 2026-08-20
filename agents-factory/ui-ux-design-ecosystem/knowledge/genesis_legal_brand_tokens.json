@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "brand": {
+    "name": "Génesis Risk Forensic & Legal S.A.S.",
+    "short_name": "Génesis",
+    "tagline": "Auditoría integral, peritaje y análisis forense multidisciplinario",
+    "version": "2.0",
+    "scope": "Corporate Identity & Presentation System for Génesis Legal S.A.S."
+  },
+  "color_palette": {
+    "primary": {
+      "navy_950": { "hex": "#031621", "usage": "Topbars, deep dark backgrounds, presentation deck overlays" },
+      "navy_900": { "hex": "#04202f", "usage": "Card backgrounds, dark mode containers, interactive hovers" },
+      "navy_800": { "hex": "#07283d", "usage": "MARCA PRINCIPAL · Deep Navy base background & headers" },
+      "navy_700": { "hex": "#0b3752", "usage": "Sub-header bars, active card backgrounds" },
+      "navy_600": { "hex": "#12496b", "usage": "Radial veil highlights, decorative accents" },
+      "navy_500": { "hex": "#1c5e85", "usage": "Mid-tone highlights" }
+    },
+    "accents": {
+      "gold": { "hex": "#ffd231", "usage": "MARCA ACENTO · Primary CTA, KPI numbers, highlights, selection background" },
+      "green": { "hex": "#056c5c", "usage": "MARCA · Positive status, compliance chips, success indicators" },
+      "green_light": { "hex": "#3fbfa8", "usage": "Light green highlight, borders for included features" },
+      "crimson": { "hex": "#ba1650", "usage": "MARCA · High risk warnings, critical status, out-of-scope chips" },
+      "crimson_light": { "hex": "#f2789e", "usage": "Light crimson alert text" }
+    },
+    "surfaces": {
+      "paper": { "hex": "#eef1f3", "usage": "Light mode slide background" },
+      "paper_2": { "hex": "#dee4e8", "usage": "Light mode container background" },
+      "rule": { "hex": "#cccccc", "usage": "MARCA · Light gray border rule, dividers, subtle grid lines" }
+    },
+    "typography_colors": {
+      "ink": { "hex": "#f2f6f8", "usage": "Primary text on dark backgrounds" },
+      "ink_2": { "hex": "#a8bcc9", "usage": "Secondary lead text on dark (Contrast ratio 7.76:1 over navy-800)" },
+      "ink_3": { "hex": "#8aa2b2", "usage": "Muted text, metadata labels (Contrast ratio 5.72:1 over navy-800)" }
+    }
+  },
+  "typography": {
+    "font_families": {
+      "display": {
+        "name": "Archivo",
+        "fallback": "\"Helvetica Neue\", Arial, sans-serif",
+        "usage": "Headings (H1, H2, H3, H4), numbers, brand title"
+      },
+      "body": {
+        "name": "Spectral",
+        "fallback": "Georgia, \"Times New Roman\", serif",
+        "usage": "Body paragraphs, lead texts, descriptions, editorial content"
+      },
+      "mono": {
+        "name": "Chivo Mono",
+        "fallback": "ui-monospace, \"SFMono-Regular\", Menlo, monospace",
+        "usage": "Eyebrows, metadata keys, code snippets, buttons, index tags"
+      }
+    },
+    "font_sizes": {
+      "h1": "clamp(2.6rem, 7.4vw, 6rem)",
+      "h2": "clamp(1.95rem, 4.3vw, 3.5rem)",
+      "h3": "clamp(1.15rem, 1.9vw, 1.55rem)",
+      "h4": "0.95rem",
+      "lead": "clamp(1.1rem, 1.55vw, 1.32rem)",
+      "body": "1.0625rem",
+      "eyebrow": "0.7rem",
+      "small": "0.62rem"
+    },
+    "line_heights": {
+      "heading": "1.02",
+      "body": "1.62",
+      "lead": "1.55",
+      "tight": "0.92"
+    }
+  },
+  "spacing_scale": {
+    "sp_2": "4px",
+    "sp_3": "8px",
+    "sp_4": "12px",
+    "sp_5": "16px",
+    "sp_6": "24px",
+    "sp_7": "32px",
+    "sp_8": "48px",
+    "sp_9": "64px",
+    "sp_10": "96px",
+    "sp_11": "128px"
+  },
+  "layout_and_grid": {
+    "shell_max_width": "min(1220px, 92vw)",
+    "grid_background": {
+      "size": "64px 64px",
+      "line_color": "color-mix(in oklab, var(--rule) 7%, transparent)",
+      "mask": "radial-gradient(90% 70% at 50% 40%, #000 20%, transparent 78%)"
+    },
+    "columns": {
+      "two_col": "grid-template-columns: minmax(0, 1fr) minmax(0, 1.32fr); gap: clamp(28px, 5vw, 84px)",
+      "three_col": "grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--sp-7)",
+      "roles_grid": "grid-template-columns: 56px minmax(0, 1.05fr) minmax(0, 1.9fr); gap: var(--sp-5)",
+      "normative_row": "grid-template-columns: minmax(0, 1fr) minmax(0, 1.55fr); gap: var(--sp-6)"
+    }
+  },
+  "animation_easings": {
+    "e_quart": "cubic-bezier(.25, 1, .5, 1)",
+    "e_quint": "cubic-bezier(.22, 1, .36, 1)",
+    "e_expo": "cubic-bezier(.16, 1, .3, 1)"
+  },
+  "presentation_slide_types": [
+    {
+      "id": "s0_cover_hero",
+      "type": "Hero Cover",
+      "theme": "dark_navy",
+      "elements": ["Top Bar", "Eyebrow with rule", "H1 with gold accent", "Lead paragraph", "Editable Metadata (fill)", "KPI Grid"]
+    },
+    {
+      "id": "s1_pillars_two_col",
+      "type": "Two Column Pillars",
+      "theme": "dark_navy",
+      "elements": ["Left Column Sticky Header", "Right Column Stacked Pillars with Index Numbers"]
+    },
+    {
+      "id": "s2_normative_table",
+      "type": "Interactive Normative Table",
+      "theme": "paper_light",
+      "elements": ["Tab Filters (ISO 27001, SOC 2, DORA)", "Normative Rows with Status Chips (OK, ADJ, OUT)", "Executive Callout Note"]
+    },
+    {
+      "id": "s3_risk_matrix",
+      "type": "Risk & Mitigation Grid",
+      "theme": "dark_navy",
+      "elements": ["Risk Cards with Level Chips (ALTO/crimson, MEDIO/gold, BAJO/green)", "Mitigation Details", "ISO Clause References"]
+    },
+    {
+      "id": "s4_timeline_pin_track",
+      "type": "Horizontal Phase Pin Track (Signature Motion)",
+      "theme": "dark_navy",
+      "elements": ["Sticky Header", "Horizontal Scroll Track (cards for Phase 01 to 06)", "Tools Row", "Progress Bar Navigation"]
+    },
+    {
+      "id": "s5_financial_breakdown",
+      "type": "Financial & Pricing Summary",
+      "theme": "deep_navy",
+      "elements": ["Big Metric Price Box", "Itemized Breakdown List with Dots", "Included Value Add-ons Box", "Payment Milestone Grid"]
+    },
+    {
+      "id": "s6_closing_steps",
+      "type": "Next Steps & Sign-off",
+      "theme": "dark_navy",
+      "elements": ["Numbered Action Steps (01 to 04)", "Legal Disclaimer Footer", "Interactive Signature Block"]
+    }
+  ]
+}

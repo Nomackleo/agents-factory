@@ -6,9 +6,11 @@ description: "Gobernanza multi-tenant de Google Drive, administración de Unidad
 # Workspace Drive & DLP Governance Skill
 
 ## Descripción General
+
 Esta habilidad permite estructurar la arquitectura documental en Google Drive, administrar Unidades Compartidas (*Shared Drives*), aplicar políticas de Prevención de Fuga de Datos (DLP) y auditar permisos de descarga, copia e impresión conforme a los estándares ISO 27001 e ISO 25010.
 
 ## Capacidades Principales
+
 1. **Aprovisionamiento de Unidades Compartidas (*Shared Drives*)**:
    - Creación de Shared Drives con estructuras RBAC por área o proyecto.
    - Aplicación de restricciones de seguridad (desactivación de descargas/copias para lectores en áreas sensibles como Forense, Poligrafía y Psicología).
@@ -18,6 +20,7 @@ Esta habilidad permite estructurar la arquitectura documental en Google Drive, a
    - Generación de manifiestos `.context.jsonld` y archivos `.gdriveignore` para optimizar las consultas RAG en Gemini NotebookLM sin exponer PII ni secretos.
 
 ## Requisitos de Integración MCP
+
 - **Servidor MCP**: `google-workspace-mcp`
 - **APIs de GCP Requeridas**: `drive.googleapis.com` (Google Drive API), `admin.googleapis.com`
 - **OAuth Scopes**:

@@ -14,6 +14,7 @@ desktop.ini
 
 # Antigravity Scratch & Temporary Artifacts
 scratch/
+scratch_repos/
 artifacts/
 .gemini/
 *.log
