@@ -9,6 +9,7 @@
 ## 1. El Nuevo Paradigma: WebGPURenderer & TSL (Three.js Shading Language)
 
 ### A. WebGPURenderer vs WebGLRenderer Clásico
+
 A partir de las versiones recientes de Three.js, el motor introduce un pipeline unificado basado en **Nodos (Node Material System)** capaz de compilar automáticamente tanto a **WGSL** (WebGPU) como a **GLSL ES 3.0** (WebGL2):
 
 ```typescript
@@ -22,6 +23,7 @@ document.body.appendChild(renderer.domElement);
 ```
 
 ### B. TSL (Three.js Shading Language)
+
 TSL reemplaza las cadenas de texto GLSL concatenadas manualmente por un grafo de funciones y nodos tipados en TypeScript/JavaScript, eliminando errores de sintaxis en tiempo de ejecución:
 
 ```typescript
@@ -77,6 +79,7 @@ renderer.render(scene, camera);
 ## 3. Compresión Extrema de Draw Calls: `BatchedMesh` & `InstancedMesh`
 
 ### A. BatchedMesh (La Revolución de Dibujo Masivo)
+
 `BatchedMesh` permite combinar múltiples mallas con **geometrías diferentes** y compartir un único material en **un solo Draw Call**, permitiendo modificar independientemente matrices de transformación, cajas de límites (Bounding Boxes) y visibilidad por instancia:
 
 ```typescript
@@ -104,7 +107,8 @@ matrix.setPosition(10, 0, 5);
 batchedMesh.setMatrixAt(instanceId1, matrix);
 ```
 
-### B. Matriz de Decisión de Rendimiento:
+### B. Matriz de Decisión de Rendimiento
+
 | Técnica | Geometrías | Materiales | Draw Calls | Caso de Uso |
 | :--- | :--- | :--- | :--- | :--- |
 | **Mallas Clásicas (`THREE.Mesh`)** | Diferentes | Diferentes | 1 por malla ($N$ calls) | Elementos hero / únicos |
@@ -200,4 +204,3 @@ export function createMeshDeformComputeNode(brushCenter: THREE.Vector3, brushNor
   })().compute(geometry.attributes.position.count);
 }
 ```
-

@@ -41,6 +41,7 @@ Angular Three (NGT) proporciona un puente declarativo y fuertemente tipado entre
 La técnica de **Render Texture Portals** crea la ilusión de una ventana o portal tridimensional con profundidad infinita (Parallax Occlusion) proyectada sobre un plano 2D:
 
 ### A. Escena Principal (Outer World)
+
 En la escena exterior, se posicionan quads (`<ngt-plane-geometry>`) que actúan como "pantallas" o "ventanas":
 
 ```html
@@ -58,6 +59,7 @@ En la escena exterior, se posicionan quads (`<ngt-plane-geometry>`) que actúan 
 ```
 
 ### B. Escena Interior Aislada (Inner World)
+
 Cada portal contiene su propia cámara (`<ngts-perspective-camera>`), controles orbitales con autorotación, modelo 3D GLB, iluminación IBL y sombras acumulativas:
 
 ```html

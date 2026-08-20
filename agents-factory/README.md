@@ -35,6 +35,7 @@ graph TD
 ```
 
 ## Active Ecosystems Registry
+- `agent-factory-core-ecosystem`: Meta-orquestación, arquitectura de agentes, gestión de workflows (Google ADK) y evaluación continua.
 - `blender-ecosystem`: Modelado 3D, rigging, L-Systems y automatización MCP en Blender.
 - `cgi-web-ecosystem`: Gráficos 3D Web inmersivos, WebGPU, TSL, Three.js, GPGPU fluidos y WebXR.
 - `webgl-sculpt-geometry-ecosystem`: Escultura digital 3D, Dyntopo, Voxel Remeshing (Dual Contouring), Octrees y Compute Shaders en WebGL/WebGPU.
