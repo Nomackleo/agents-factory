@@ -19,7 +19,7 @@ def check_gcloud():
         return False
     return True
 
-def check_gcp_apis(project_id="antigravity-workspace-control-plane"):
+def check_gcp_apis(project_id="alert-tine-501115-p4"):
     print(f"==> [2/4] Verificando APIs habilitadas en proyecto GCP: {project_id}...")
     required_apis = [
         "gmail.googleapis.com",

@@ -1,15 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Antigravity Workspace Multi-Tenant Configuration",
-  "default_tenant": "personal",
+  "title": "Antigravity Workspace Multi-Tenant & Multi-Account Configuration",
+  "default_tenant": "nomackleo-personal",
   "tenants": {
-    "personal": {
+    "nomackleo-personal": {
       "auth_type": "oauth2_user",
-      "account_email": "usuario@gmail.com",
+      "account_email": "nomackleo@gmail.com",
       "credentials": {
         "client_id_env": "GOOGLE_WORKSPACE_CLIENT_ID",
         "client_secret_env": "GOOGLE_WORKSPACE_CLIENT_SECRET",
-        "refresh_token_env": "GOOGLE_WORKSPACE_REFRESH_TOKEN"
+        "token_file": "C:/Users/Nomack/.config/antigravity/tokens_nomackleo.json"
       },
       "scopes": [
         "https://www.googleapis.com/auth/gmail.modify",
@@ -22,12 +22,14 @@
         "https://www.googleapis.com/auth/contacts"
       ]
     },
-    "client_enterprise_acme": {
-      "auth_type": "domain_wide_delegation",
-      "service_account_key_file": "C:/Users/Nomack/.config/gcloud/antigravity-sa-key.json",
-      "service_account_email": "mcp-workspace-agent@antigravity-workspace-control-plane.iam.gserviceaccount.com",
-      "delegated_admin_email": "admin@acmecorp.com",
-      "target_domain": "acmecorp.com",
+    "nomack3d-personal": {
+      "auth_type": "oauth2_user",
+      "account_email": "nomack3d@gmail.com",
+      "credentials": {
+        "client_id_env": "GOOGLE_WORKSPACE_CLIENT_ID",
+        "client_secret_env": "GOOGLE_WORKSPACE_CLIENT_SECRET",
+        "token_file": "C:/Users/Nomack/.config/antigravity/tokens_nomack3d.json"
+      },
       "scopes": [
         "https://www.googleapis.com/auth/gmail.modify",
         "https://www.googleapis.com/auth/drive",
@@ -36,8 +38,24 @@
         "https://www.googleapis.com/auth/presentations",
         "https://www.googleapis.com/auth/calendar",
         "https://www.googleapis.com/auth/chat.spaces",
-        "https://www.googleapis.com/auth/contacts",
-        "https://www.googleapis.com/auth/admin.directory.user.readonly"
+        "https://www.googleapis.com/auth/contacts"
+      ]
+    },
+    "genesis-legal": {
+      "auth_type": "domain_wide_delegation",
+      "service_account_key_file": "C:/Users/Nomack/.config/gcloud/antigravity-sa-key.json",
+      "service_account_email": "mcp-workspace-agent@alert-tine-501115-p4.iam.gserviceaccount.com",
+      "delegated_admin_email": "admin@genesislegal.co",
+      "target_domain": "genesislegal.co",
+      "scopes": [
+        "https://www.googleapis.com/auth/admin.directory.user",
+        "https://www.googleapis.com/auth/admin.directory.orgunit",
+        "https://www.googleapis.com/auth/admin.directory.group",
+        "https://www.googleapis.com/auth/gmail.settings.basic",
+        "https://www.googleapis.com/auth/gmail.send",
+        "https://www.googleapis.com/auth/drive",
+        "https://www.googleapis.com/auth/calendar",
+        "https://www.googleapis.com/auth/admin.reports.audit.readonly"
       ]
     }
   }

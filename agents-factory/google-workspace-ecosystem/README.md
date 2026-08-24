@@ -1,52 +1,77 @@
-# Google Workspace Ecosystem: Topologic Architecture & RAG Index
+# Google Workspace Ecosystem: Topologic Architecture & Multi-Agent Matrix
 
-**WHO**: Maintained by the Enterprise Architecture & AI Knowledge Engineering teams.
-**WHAT**: Architectural layout for high-performance Google Workspace / Google Drive governance, deterministic file naming, `.context.jsonld` RAG graph manifests, and `.gdriveignore` security exclusion policies.
-**WHEN**: Triggered during client workspace onboarding, drive folder reorganizations, and Gemini DeepMind RAG indexing workflows.
-**WHERE**: Operates entirely within the `agents-factory/google-workspace-ecosystem/` domain.
-**WHY**: To guarantee Gemini DeepMind RAG readability, maintain zero data loss, eliminate file ambiguity, and enforce strict ISO 25010, ISO 42001, ISO 27001, and SOC 2 compliance.
+**WHO**: Maintained by the Enterprise Architecture, Google Workspace Lead Architects & AI Knowledge Engineering teams.  
+**WHAT**: Ecosistema agéntico integral para la parametrización de nivel empresarial de Google Workspace (`admin.google.com`), resolución DNS autoritativa, ciberseguridad criptográfica de correo (SPF/DKIM/DMARC), gobierno de identidades (IAM), Unidades Compartidas (RBAC) e integración determinista con Google Cloud MCP.  
+**METODOLOGÍA**: Top-Down (**Supervisor ➔ Research ➔ Ejecución ➔ Auditoría**) bajo estándares **Neo-CRISPE v2.0**.  
+**CUMPLIMIENTO NORMATIVO**: ISO 9001:2015 (SGC), ISO/IEC 27001:2022 (ISMS), ISO/IEC 42001:2023 (AIMS), ISO 25010 (Calidad de Software), SOC 2 & NIST CSF 2.0.  
 
-## Vector Search Indexing Rules
+---
 
-> [!IMPORTANT]
-> All automated agents and RAG indexers must traverse this topology to understand workspace boundaries. Data ingestion must prioritize `.agents/rules/` before executing any `.agents/workflows/`.
-
-## Architectural Topology (Rendered by Graphify CLI)
+## 1. Topología del Ecosistema Agéntico
 
 ```mermaid
 graph TD
-    %% Core Nodes
-    A[Google Workspace Ecosystem] --> B(.agents/rules/)
-    A --> C(.agents/workflows/)
-    A --> D(.agents/skills/)
-    A --> E(notebooklm-templates/)
+    %% Core Ecosystem
+    A["Google Workspace Ecosystem"] --> B[".agents/rules/"]
+    A --> C[".agents/workflows/"]
+    A --> D[".agents/skills/ (Subagentes Especialistas)"]
+    A --> E["knowledge/ (Compendios Maestros)"]
+    A --> F["notebooklm-templates/"]
 
     %% Rules
-    B --> B1[gdrive-posix-naming-rules.md]
+    B --> B1["workspace-enterprise-security-rules.md"]
+    B --> B2["multi-tenant-iam-security-rules.md"]
+    B --> B3["gdrive-posix-naming-rules.md"]
 
     %% Workflows
-    C --> C1[gdrive-workspace-indexing-workflow.md]
+    C --> C1["workspace-deployment-and-audit-workflow.md"]
+    C --> C2["gdrive-workspace-indexing-workflow.md"]
 
-    %% Skills
-    D --> D1[gdrive-workspace-architect]
+    %% Specialized Subagents (Skills)
+    D --> D1["workspace-governance-iam-specialist"]
+    D --> D2["workspace-security-dlp-architect"]
+    D --> D3["workspace-gmail-routing-specialist"]
+    D --> D4["workspace-calendar-assistant-agent"]
+    D --> D5["workspace-drive-storage-specialist"]
+    D --> D6["workspace-audit-compliance-analyst"]
+    D --> D7["workspace-mcp-bridge-integrator"]
 
-    %% Templates
-    E --> E1[context.jsonld.template]
-    E --> E2[gdriveignore.template]
+    %% Knowledge Bases
+    E --> E1["google_workspace_enterprise_admin_mastery.md"]
+    E --> E2["google_workspace_mcp_integration_matrix.md"]
 
-    %% Styling
-    classDef domain fill:#1E293B,stroke:#3B82F6,stroke-width:2px,color:#F8FAFC
-    classDef file fill:#334155,stroke:#94A3B8,stroke-width:1px,color:#F1F5F9
-    classDef agent fill:#0F172A,stroke:#10B981,stroke-width:1px,color:#E2E8F0
+    %% Styling Branding
+    classDef domain fill:#07283d,stroke:#ffd231,stroke-width:2px,color:#ffffff
+    classDef subagent fill:#056c5c,stroke:#ffd231,stroke-width:1px,color:#ffffff
+    classDef file fill:#1a3a5c,stroke:#cccccc,stroke-width:1px,color:#ffffff
+    classDef knowledge fill:#ba1650,stroke:#ffd231,stroke-width:1px,color:#ffffff
 
-    class A,B,C,D,E domain
-    class B1,C1,E1,E2 file
-    class D1 agent
+    class A domain
+    class D1,D2,D3,D4,D5,D6,D7 subagent
+    class B1,B2,B3,C1,C2,F file
+    class E1,E2 knowledge
 ```
 
-## ISO & NIST Standards Mapping
+---
 
-- **ISO 25010 (Software & Data Quality)**: Enforced via POSIX & ISO 8601 deterministic file naming (`YYYYMMDD_[SCOPE]_[ENTITY]_[TYPE]_[DESCRIPTION]_[VERSION]`).
-- **ISO 42001 (AI Management System)**: Governed via `.context.jsonld` manifests specifying `aiIndexingAllowed: true/false` and node dependency trees for Gemini DeepMind.
-- **ISO 27001 (Information Security)**: RBAC access control policies and `.gdriveignore` rules to exclude secrets, raw PII, and financial ledgers.
-- **SOC 2 & Zero Data Loss Policy**: Prohibits file deletion or content mutation during workspace reorganization.
+## 2. Catálogo de Subagentes Especialistas (Roles & Ámbitos)
+
+| Subagente | Responsabilidad Principal | Herramientas & Ámbitos |
+| :--- | :--- | :--- |
+| **`workspace-governance-iam-specialist`** | Gestión de identidades, jerarquías de Unidades Organizacionales (UOs), asignación de licencias y roles de administración delegados. | `admin.directory.user`<br>`admin.directory.orgunit` |
+| **`workspace-security-dlp-architect`** | Políticas de autenticación 2FA/MFA obligatorio por UO, listas de acceso contextual (CAA), reglas DLP y control de aplicaciones OAuth/API. | `admin.directory.user.security`<br>Security Center & DLP Engine |
+| **`workspace-gmail-routing-specialist`** | Parametrización DNS (MX unificado, SPF, DKIM RSA 2048, DMARC), reglas Catch-All (*Default Routing*), Email Allowlist y SMTP Relay. | `gmail.settings.basic`<br>DNS & Enrutamiento SMTP |
+| **`workspace-calendar-assistant-agent`** | Gestión de calendarios compartidos, recursos de salas/equipos, políticas de visibilidad por UO e interoperabilidad con Exchange/Outlook. | `calendar`<br>`calendar.events` |
+| **`workspace-drive-storage-specialist`** | Arquitectura de Unidades Compartidas (*Shared Drives*), matriz RBAC, políticas de bloqueo de descarga/copia e indexación RAG. | `drive`<br>`drive.file`<br>`drive.metadata` |
+| **`workspace-audit-compliance-analyst`** | Búsqueda forense en *Email Log Search*, auditoría de eventos de administración y reportes de conformidad ISO 27001 / ISO 9001. | `admin.reports.audit.readonly`<br>Email Log Search |
+| **`workspace-mcp-bridge-integrator`** | Interfaz determinista y tipada con el servidor MCP oficial de Google Cloud Workspace bajo política *Zero-Overlap*. | Google Cloud Workspace MCP Server |
+
+---
+
+## 3. Principio de Cero Sobrelapamiento (*Zero-Overlap Policy*)
+
+Para garantizar la pureza operativa de los procesos y evitar colisiones entre el MCP oficial de Google Cloud y los subagentes:
+
+1. **Ámbitos Estrictamente Delimitados**: Cada subagente invoca únicamente las herramientas y scopes autorizados en `knowledge/google_workspace_mcp_integration_matrix.md`.
+2. **Idempotencia de Operaciones**: Toda mutación en la API de Workspace se ejecuta de forma declarativa e idempotente.
+3. **Control de Modificaciones Críticas**: Toda operación destructiva (eliminación de cuentas o Shared Drives) requiere validación *Human-in-the-Loop* (HITL).
