@@ -11,10 +11,17 @@ El ecosistema opera mediante tres sub-gremios hiper-especializados:
    - `.agents/skills/design-system-architect` (Arquitectura integral de Sistemas de Diseño y Guías de Estilos DESIGN.md)
    - `.agents/skills/figma-stitch-integrator`
    - `.agents/skills/genesis-brand-presentation-specialist`
-2. **UX Guild**: Diseña flujos, arquitecturas de la información e interacciones visuales avanzadas.
+2. **Anti-Slop Frontend & Taste Guild (Taste Skill v2)**: Erradicación de patrones genéricos de IA, inferencia de brief (*Design Read*), calibración de 3 diales (`VARIANCE/MOTION/DENSITY`) y familias estéticas especializadas.
+   - `.agents/skills/design-taste-frontend-specialist` (Dirección de arte frontend anti-slop v2)
+   - `.agents/skills/minimalist-editorial-designer` (Minimalismo suizo, Linear/Notion aesthetics)
+   - `.agents/skills/industrial-brutalist-designer` (Modernismo industrial, cuadrículas expuestas, alto contraste)
+   - `.agents/skills/luxury-soft-ui-designer` (Elegancia táctil prémium, espaciado generoso, spring physics)
+   - `.agents/skills/ui-redesign-audit-specialist` (Auditoría previa y refactorización visual quirúrgica)
+   - `.agents/skills/image-to-code-pipeline-specialist` (Pipeline: comp visual ➔ deconstrucción JSON ➔ código frontend)
+3. **UX Guild**: Diseña flujos, arquitecturas de la información e interacciones visuales avanzadas.
    - `.agents/skills/ux-flow-designer`
    - `.agents/skills/micro-interactions-animator`
-3. **Ergonomics & Accessibility Guild**: Audita el diseño asegurando accesibilidad estricta.
+4. **Ergonomics & Accessibility Guild**: Audita el diseño asegurando accesibilidad estricta.
    - `.agents/skills/wcag-accessibility-auditor`
    - `.agents/skills/screen-reader-testing-expert`
 
