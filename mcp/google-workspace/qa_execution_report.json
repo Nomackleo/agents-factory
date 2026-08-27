@@ -1,0 +1,704 @@
+{
+  "4.1_document_creation": {
+    "nomackleo": {
+      "kind": "drive#file",
+      "id": "1Xt57LelIDM7Y3ma-1_fW71XMIUd6tsHUtiFAKgsbhmg",
+      "name": "[Antigravity QA] Test Document - NOMACKLEO - 2026-08-27 10:01",
+      "mimeType": "application/vnd.google-apps.document"
+    },
+    "nomack3d": {
+      "kind": "drive#file",
+      "id": "1hPezwRscNyQ-30vzl1m-dawkHL511_eo3-TPg_YQhxo",
+      "name": "[Antigravity QA] Test Document - NOMACK3D - 2026-08-27 10:01",
+      "mimeType": "application/vnd.google-apps.document"
+    }
+  },
+  "4.2_recent_files": {
+    "nomackleo": [
+      {
+        "mimeType": "application/vnd.google-apps.document",
+        "webViewLink": "https://docs.google.com/document/d/1Xt57LelIDM7Y3ma-1_fW71XMIUd6tsHUtiFAKgsbhmg/edit?usp=drivesdk",
+        "size": "1024",
+        "id": "1Xt57LelIDM7Y3ma-1_fW71XMIUd6tsHUtiFAKgsbhmg",
+        "name": "[Antigravity QA] Test Document - NOMACKLEO - 2026-08-27 10:01",
+        "createdTime": "2026-08-27T15:01:47.846Z",
+        "modifiedTime": "2026-08-27T15:01:48.815Z"
+      },
+      {
+        "mimeType": "application/vnd.google-apps.document",
+        "webViewLink": "https://docs.google.com/document/d/12QjJVivUF7BPFMsCvs3X5Hc5Ro1ryN_fQYdquIRVnhE/edit?usp=drivesdk",
+        "size": "102770",
+        "id": "12QjJVivUF7BPFMsCvs3X5Hc5Ro1ryN_fQYdquIRVnhE",
+        "name": "CULMINACIÓN EXITOSA DE TRANSFORMACIÓN DIGITAL, INFRAESTRUCTURA CLOUD Y APLICACIÓN DE CONTROL DE PROCESOS",
+        "createdTime": "2026-08-20T19:46:34.542Z",
+        "modifiedTime": "2026-08-24T19:22:02.487Z"
+      }
+    ],
+    "nomack3d": [
+      {
+        "mimeType": "application/vnd.google-apps.document",
+        "webViewLink": "https://docs.google.com/document/d/1hPezwRscNyQ-30vzl1m-dawkHL511_eo3-TPg_YQhxo/edit?usp=drivesdk",
+        "size": "1024",
+        "id": "1hPezwRscNyQ-30vzl1m-dawkHL511_eo3-TPg_YQhxo",
+        "name": "[Antigravity QA] Test Document - NOMACK3D - 2026-08-27 10:01",
+        "createdTime": "2026-08-27T15:01:49.254Z",
+        "modifiedTime": "2026-08-27T15:01:50.041Z"
+      },
+      {
+        "mimeType": "application/vnd.google-apps.document",
+        "webViewLink": "https://docs.google.com/document/d/12QjJVivUF7BPFMsCvs3X5Hc5Ro1ryN_fQYdquIRVnhE/edit?usp=drivesdk",
+        "size": "102770",
+        "id": "12QjJVivUF7BPFMsCvs3X5Hc5Ro1ryN_fQYdquIRVnhE",
+        "name": "CULMINACIÓN EXITOSA DE TRANSFORMACIÓN DIGITAL, INFRAESTRUCTURA CLOUD Y APLICACIÓN DE CONTROL DE PROCESOS",
+        "createdTime": "2026-08-20T19:46:34.542Z",
+        "modifiedTime": "2026-08-24T19:22:02.487Z"
+      }
+    ]
+  },
+  "4.3_calendar_5pm_meeting": {
+    "matched_events": [
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-17T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MTdUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-18T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MThUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-19T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MTlUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-20T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjBUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-21T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-22T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjJUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-23T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjNUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-24T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjRUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-25T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjVUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-26T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjZUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-27T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjdUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-28T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjhUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-29T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MjlUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-30T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MzBUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-07-31T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA3MzFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-01T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-02T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDJUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-03T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDNUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-04T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDRUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-05T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDVUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-06T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDZUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-07T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDdUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-08T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDhUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-09T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MDlUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-10T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTBUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-11T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-12T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTJUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-13T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTNUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-14T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTRUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-15T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTVUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-16T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTZUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-17T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTdUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-18T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MThUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-19T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MTlUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-20T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjBUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-21T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-22T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjJUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-23T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjNUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-24T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjRUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-25T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjVUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-26T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjZUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-27T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjdUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-28T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjhUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-29T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MjlUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-30T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MzBUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-08-31T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA4MzFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-09-01T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA5MDFUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-09-02T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA5MDJUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-09-03T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA5MDNUMjMwMDAwWiBub21hY2szZEBt"
+      },
+      {
+        "account": "nomack3d",
+        "calendar": "nomack3d@gmail.com",
+        "summary": "Inicio de CURSO EN CLOUD COMPUTING CON AWS Y AZURE",
+        "start": "2026-09-04T18:00:00-05:00",
+        "recurrence": null,
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDNxYTJma3NqNTRiaWJwY3BvdDhudHBnNHBfMjAyNjA5MDRUMjMwMDAwWiBub21hY2szZEBt"
+      }
+    ]
+  },
+  "4.4_udemy_emails": {
+    "query": "from:udemy after:2026/08/20",
+    "count": 28,
+    "messages": [
+      {
+        "id": "1a0434429f05a96d",
+        "threadId": "1a0434429f05a96d",
+        "subject": "🚀⭐Udemy August End Exclusive Offer on 70+ Courses 🚀⭐",
+        "from": "\"Udemy Instructor: Prince Patni\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 27 Aug 2026 12:48:54 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Prince, instructor de Developer Relations Fundamentals "
+      },
+      {
+        "id": "1a042c506ab32850",
+        "threadId": "1a042c506ab32850",
+        "subject": "The article I wish I could add as a bonus lecture",
+        "from": "\"Udemy Instructor: Dr. Yasas Sri Wickramasinghe\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 27 Aug 2026 10:30:03 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Dr. Yasas Sri, instructor de Make Augmented Reality M"
+      },
+      {
+        "id": "1a042bab74b8f153",
+        "threadId": "1a042bab74b8f153",
+        "subject": "Special Offer - Essential Drawing Course with MS Office",
+        "from": "\"Udemy Instructor: Zechariah Tech\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 27 Aug 2026 10:18:47 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Zechariah, instructor de Adobe Illustrator Course for"
+      },
+      {
+        "id": "1a0422d531b87181",
+        "threadId": "1a0422d531b87181",
+        "subject": "Qwen4-Preview Architecture Teardown",
+        "from": "\"Udemy Instructor: KGP Talkie | Laxmi Kant\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 27 Aug 2026 07:44:21 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: KGP Talkie, instructor de Deploy ML Model in Production"
+      },
+      {
+        "id": "1a040b39749d0f10",
+        "threadId": "1a040b39749d0f10",
+        "subject": "💥 20 Best Udemy AI Courses at [9.99$] - 15 Hrs Left !⏳",
+        "from": "\"Udemy Instructor: Passive Income Gen Z\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 27 Aug 2026 00:51:45 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Passive, instructor de Secrets to Write a Copywriting"
+      },
+      {
+        "id": "1a03f2ff86a7214f",
+        "threadId": "1a03f2ff86a7214f",
+        "subject": "How Arbitrage Bots Make Money",
+        "from": "\"Udemy Instructor: Roope Kiuttu\" <no-reply@e.udemymail.com>",
+        "date": "Wed, 26 Aug 2026 17:48:22 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Roope, instructor de Learn 47 Different Ways to Make Mo"
+      },
+      {
+        "id": "1a03e20a3c300075",
+        "threadId": "1a03e20a3c300075",
+        "subject": "How much can one email address expose?",
+        "from": "\"Udemy Instructor: Hassan Shafiq\" <no-reply@e.udemymail.com>",
+        "date": "Wed, 26 Aug 2026 12:52:00 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Hassan, instructor de Practical hacking and pentesting "
+      },
+      {
+        "id": "1a03e088082279d1",
+        "threadId": "1a03e088082279d1",
+        "subject": "Could you spot an AI attack before it works?",
+        "from": "\"Udemy Instructor: Hassan Shafiq\" <no-reply@e.udemymail.com>",
+        "date": "Wed, 26 Aug 2026 12:25:39 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Hassan, instructor de Practical hacking and pentestin"
+      },
+      {
+        "id": "1a03dff44a8ecd80",
+        "threadId": "1a03dff44a8ecd80",
+        "subject": "Stage 3: the one that kills enterprise AI | Agentic AI",
+        "from": "\"Udemy Instructor: www.edyoda.com EdYoda\" <no-reply@e.udemymail.com>",
+        "date": "Wed, 26 Aug 2026 12:15:32 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: www.edyoda.com, instructor de The Complete ReactJs Cour"
+      },
+      {
+        "id": "1a03dea3da7cb530",
+        "threadId": "1a03dea3da7cb530",
+        "subject": "📢98% FREE UDEMY COURSES COUPON | VALID 15th SEPTeMBER",
+        "from": "\"Udemy Instructor: www.edyoda.com EdYoda\" <no-reply@e.udemymail.com>",
+        "date": "Wed, 26 Aug 2026 11:52:34 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: www.edyoda.com, instructor de The Complete ReactJs Co"
+      },
+      {
+        "id": "1a03a8bac32fbcbd",
+        "threadId": "1a03a8bac32fbcbd",
+        "subject": "💥 20 Best Udemy AI Courses at [9.99$] - DEAL EXPIRES!⏳",
+        "from": "\"Udemy Instructor: Passive Income Gen Z\" <no-reply@e.udemymail.com>",
+        "date": "Tue, 25 Aug 2026 20:10:26 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Passive, instructor de Secrets to Write a Copywriting"
+      },
+      {
+        "id": "1a038e5de790fbfb",
+        "threadId": "1a038e5de790fbfb",
+        "subject": "MTF NEWS: New Courses",
+        "from": "\"Udemy Instructor: MTF Institute of Management, Technology and Finance\" <no-reply@e.udemymail.com>",
+        "date": "Tue, 25 Aug 2026 12:29:43 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: MTF, instructor de Web Development Professional Certi"
+      },
+      {
+        "id": "1a03886e8d7bac38",
+        "threadId": "1a03886e8d7bac38",
+        "subject": "🔥 New August Best Skills:Choose from the Catalogue!💥⭐",
+        "from": "\"Udemy Instructor: OCSALY Academy | 570.000+ Students\" <no-reply@e.udemymail.com>",
+        "date": "Tue, 25 Aug 2026 10:45:59 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: OCSALY, instructor de Data Structures and OOP with C+"
+      },
+      {
+        "id": "1a036b048f72882e",
+        "threadId": "1a036b048f72882e",
+        "subject": "Big Savings Inside — Top Courses on Sale!",
+        "from": "\"Udemy Instructor: TechLynk Selenium | DevOps | GenAI | Cloud\" <no-reply@e.udemymail.com>",
+        "date": "Tue, 25 Aug 2026 02:11:56 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: TechLynk, instructor de NGINX MasterClass: NGINX Serv"
+      },
+      {
+        "id": "1a035e8dcf5bef6c",
+        "threadId": "1a035e8dcf5bef6c",
+        "subject": "IMPORTANT INFO - SORRY Scrum Certification",
+        "from": "\"Udemy Instructor: Paul Ashun\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 22:34:08 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Paul, instructor de User Stories+User Story Writing: Ag"
+      },
+      {
+        "id": "1a0354eca64583b7",
+        "threadId": "1a0354eca64583b7",
+        "subject": "🔥 Nuevo Curso Agentes IA y Nuevos cupones de Agosto 🙌",
+        "from": "\"Udemy Instructor: Ing. Marcela Gamiño\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 19:45:50 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Ing. Marcela, instructor de Universidad Angular - De "
+      },
+      {
+        "id": "1a0354aa68ad93fd",
+        "threadId": "1a0354aa68ad93fd",
+        "subject": "20 minutes a day for 3 weeks",
+        "from": "\"Udemy Instructor: Chetan Pujari\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 19:41:18 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Chetan, instructor de UI/UX Design With Figma : 5+ Re"
+      },
+      {
+        "id": "1a0353e395f1be2d",
+        "threadId": "1a0353e395f1be2d",
+        "subject": "Crea una Web en Menos de 15 Minutos",
+        "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 19:27:44 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Renato Jesús, instructor de Migra un Sitio Web de WordP"
+      },
+      {
+        "id": "1a034a99ce696a5c",
+        "threadId": "1a034a99ce696a5c",
+        "subject": "10 skills our Udemy Business learners are learning now",
+        "from": "\"Udemy Instructor: Video School\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 16:45:24 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Video, instructor de Total Python: You Can Master Pyt"
+      },
+      {
+        "id": "1a0346f294d3dd5e",
+        "threadId": "1a0346f294d3dd5e",
+        "subject": "Long Courses",
+        "from": "\"Udemy Instructor: Chris Sivewright\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 15:41:34 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Chris, instructor de Everyday English - develop fluen"
+      },
+      {
+        "id": "1a0344a2ac2bb8b4",
+        "threadId": "1a0344a2ac2bb8b4",
+        "subject": "Last Chance for 95% Off Top Certification Courses",
+        "from": "\"Udemy Instructor: YouAccel Training\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 15:01:09 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: YouAccel, instructor de Build a Custom E-Commerce Sit"
+      },
+      {
+        "id": "1a033f80c905ed71",
+        "threadId": "1a033f80c905ed71",
+        "subject": "Build 2D Platformers with AI",
+        "from": "\"Udemy Instructor: Morgan Page\" <no-reply@e.udemymail.com>",
+        "date": "Mon, 24 Aug 2026 13:31:28 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Morgan, instructor de Practise Javascript: Code a Card "
+      },
+      {
+        "id": "1a023e7aa58e41ae",
+        "threadId": "1a023e7aa58e41ae",
+        "subject": "One to One training program",
+        "from": "\"Udemy Instructor: Ganesh Kadam\" <no-reply@e.udemymail.com>",
+        "date": "Fri, 21 Aug 2026 10:39:37 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Ganesh, instructor de Solidworks : Basic to Industria"
+      },
+      {
+        "id": "1a0234f9c378d2dc",
+        "threadId": "1a0234f9c378d2dc",
+        "subject": "Build skills. Burn less cash | courses from ₹399.00.",
+        "from": "\"Udemy Instructor: Metla Sudha Sekhar\" <no-reply@e.udemymail.com>",
+        "date": "Fri, 21 Aug 2026 07:53:34 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Metla Sudha, instructor de Learn Python + JavaScript "
+      },
+      {
+        "id": "1a021371e87e8277",
+        "threadId": "1a021371e87e8277",
+        "subject": "August 2026 Super Sale - Lifetime Access.",
+        "from": "\"Udemy Instructor: Temotec Learning Academy\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 20 Aug 2026 22:06:09 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Temotec, instructor de Complete Python &amp; Python O"
+      },
+      {
+        "id": "1a020dabab072f19",
+        "threadId": "1a020dabab072f19",
+        "subject": "Crea una Web en Menos de 15 Minutos",
+        "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 20 Aug 2026 20:26:40 +0000 (UTC)",
+        "snippet": "Nuevo anuncio educativo Hola Leonel Antonio: Renato Jesús, instructor de Máster en Diseño Web con In"
+      },
+      {
+        "id": "1a0209941707fda7",
+        "threadId": "1a0209941707fda7",
+        "subject": "🎉Lowest Price 399INR/ $9.99 for All Gen AI Courses",
+        "from": "\"Udemy Instructor: KGP Talkie | Laxmi Kant\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 20 Aug 2026 19:15:08 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: KGP Talkie, instructor de Advanced Machine Learning a"
+      },
+      {
+        "id": "1a01e85eff4c1617",
+        "threadId": "1a01e85eff4c1617",
+        "subject": "New tools for studying advanced physics independently",
+        "from": "\"Udemy Instructor: Emanuele Pesaresi\" <no-reply@e.udemymail.com>",
+        "date": "Thu, 20 Aug 2026 09:34:47 +0000 (UTC)",
+        "snippet": "Nuevo anuncio promocional Hola Leonel Antonio: Emanuele, instructor de The Math of Random Signals, F"
+      }
+    ],
+    "hitl_status": "PENDIENTE_CONFIRMACION_USUARIO (No eliminados preventivamente)"
+  },
+  "4.5_google_cloud_billing": {
+    "apis_used": [
+      "Gmail API (users.messages, users.profile)",
+      "Google Drive API v3 (files.create, files.list, about.get)",
+      "Google Calendar API (calendarList.list, events.list)"
+    ],
+    "pricing_model": "GRATUITO / FREE TIER DE GOOGLE WORKSPACE APIS",
+    "quota_limits": "1,000,000,000 unidades de cuota por día (Gmail: 250 req/seg; Drive: 20,000 req/100seg; Calendar: 1,000,000 req/día).",
+    "cost_incurred_usd": 0.0,
+    "explanation": "Las consultas y operaciones sobre Gmail, Drive y Calendar usando tokens OAuth 2.0 personales no generan cobros de infraestructura en Google Cloud. El consumo se encuentra dentro del Free Tier estándar ilimitado para usuarios finales."
+  }
+}
