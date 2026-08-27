@@ -1,0 +1,22 @@
+style_name: "synthwave-outrun"
+version: "2.0.0"
+visual_density: 5
+motion_intensity: 7
+description: "Rejillas vectoriales de neón, atardeceres magenta sobre fondo negro y estética analógica ochentera."
+typography:
+  headline_font: "'Orbitron', 'Chivo Mono', monospace"
+  body_font: "'Inter', sans-serif"
+  weight_scale: [500, 700, 900]
+palette:
+  background: "#0d0221"
+  surface: "#1f0840"
+  text_primary: "#fbee0f"
+  text_secondary: "#05d9e8"
+  accent_brand: "#ff2a6d"
+  chart_palette: ["#ff2a6d", "#05d9e8", "#fbee0f", "#d1f7ff", "#650d89"]
+motion:
+  easing_curve: "cubic-bezier(0.16, 1, 0.3, 1)"
+  transition_ms: 300
+audio:
+  ducking_db: -16
+  voice_lufs: -16

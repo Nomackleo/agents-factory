@@ -1,0 +1,22 @@
+style_name: "cyberpunk"
+version: "2.0.0"
+visual_density: 7
+motion_intensity: 8
+description: "Distopía urbana de alta tecnología, neón saturado, kanjis y acentos amarillo industrial y cian."
+typography:
+  headline_font: "'Rajdhani', 'Syne', sans-serif"
+  body_font: "'Share Tech Mono', monospace"
+  weight_scale: [600, 700, 900]
+palette:
+  background: "#08080c"
+  surface: "#12121c"
+  text_primary: "#fcee0a"
+  text_secondary: "#00f0ff"
+  accent_brand: "#ff003c"
+  chart_palette: ["#fcee0a", "#00f0ff", "#ff003c", "#39ff14", "#7b00ff"]
+motion:
+  easing_curve: "cubic-bezier(0.34, 1.56, 0.64, 1)"
+  transition_ms: 200
+audio:
+  ducking_db: -18
+  voice_lufs: -16

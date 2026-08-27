@@ -1,0 +1,22 @@
+style_name: "neo-brutalism"
+version: "2.0.0"
+visual_density: 6
+motion_intensity: 4
+description: "Bordes negros sólidos de 3px, sombras paralelas duras sin desenfoque, colores primarios audaces y tipografía grotesk pesada."
+typography:
+  headline_font: "'Space Grotesk', 'Chivo', sans-serif"
+  body_font: "'Space Mono', monospace"
+  weight_scale: [700, 900]
+palette:
+  background: "#fffdf9"
+  surface: "#ffffff"
+  text_primary: "#000000"
+  text_secondary: "#1a1a1a"
+  accent_brand: "#ff5e00"
+  chart_palette: ["#ff5e00", "#ffe600", "#00f0ff", "#00ff66", "#ff007f"]
+motion:
+  easing_curve: "steps(1, end)"
+  transition_ms: 150
+audio:
+  ducking_db: -16
+  voice_lufs: -16

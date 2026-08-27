@@ -32,9 +32,11 @@ graph TD
         G1[Stage Director Orchestrator]
         G2[Remotion Motion Architect]
         G3[HyperFrames Workspace Specialist]
-        G4[Ink Theater Animator]
-        G5[Video Stitch & Sound Engineer]
-        G6[Style Playbook Curator]
+        G4[Angular Motion Video Specialist]
+        G5[Ink Theater Animator]
+        G6[Video Stitch & Sound Engineer]
+        G7[Style Playbook Curator]
+        G8[Creative Tools MCP Controller]
     end
 
     Pipeline -.-> Guilds
@@ -65,11 +67,11 @@ graph TD
 | **`podcast-repurpose`** | `pipeline_defs/podcast-repurpose.yaml` | Repurposing | Transcripción, corte de mejores momentos y generación de audiogramas. |
 | **`cinematic`** | `pipeline_defs/cinematic.yaml` | High-End Video | Composición cinematográfica con etalonaje de color, LUTs y ritmo dramático. |
 | **`animation`** | `pipeline_defs/animation.yaml` | 2D/3D Animation | Flujo de animación completa con fondos procedurales y motion graphics. |
-| **`character-animation`**| `pipeline_defs/character-animation.yaml` | Vector Rigged | Animación de personajes vectoriales 2D mediante Ink Theater y SVG rigs. |
+| **`character-animation`** | `pipeline_defs/character-animation.yaml` | Vector Rigged | Animación de personajes vectoriales 2D mediante Ink Theater y SVG rigs. |
 | **`hybrid`** | `pipeline_defs/hybrid.yaml` | Multi-Source | Mezcla de metraje real, activos 3D interactivos y gráficos Remotion. |
-| **`avatar-spokesperson`**| `pipeline_defs/avatar-spokesperson.yaml` | Avatar Presenter | Vocero sintético con sincronización labial y fondos personalizados. |
-| **`localization-dub`** | `pipeline_defs/localization-dub.yaml` | Dubbing/Translation| Doblaje multiidioma, traducción de subtítulos y adaptación cultural. |
-| **`documentary-montage`**| `pipeline_defs/documentary-montage.yaml` | Long-form | Montaje documental de archivo, metraje histórico y diseño sonoro envolvente. |
+| **`avatar-spokesperson`** | `pipeline_defs/avatar-spokesperson.yaml` | Avatar Presenter | Vocero sintético con sincronización labial y fondos personalizados. |
+| **`localization-dub`** | `pipeline_defs/localization-dub.yaml` | Dubbing/Translation | Doblaje multiidioma, traducción de subtítulos y adaptación cultural. |
+| **`documentary-montage`** | `pipeline_defs/documentary-montage.yaml` | Long-form | Montaje documental de archivo, metraje histórico y diseño sonoro envolvente. |
 
 ---
 
@@ -86,6 +88,7 @@ graph TD
 ## 4. Cadena Canónica de Artefactos (Canonical Artifacts)
 
 Todo proyecto audiovisual genera y valida artefactos estrictos contra JSON Schemas en `schemas/artifacts/`:
+
 - `brief.json` ➔ Requerimiento inicial, audiencia, tono y restricciones presupuestarias.
 - `script.json` ➔ Guion literario y técnico con marcas de tiempo y voces.
 - `scene_plan.json` ➔ Desglose plano por plano con especificaciones de cámara y B-Roll.
@@ -93,3 +96,25 @@ Todo proyecto audiovisual genera y valida artefactos estrictos contra JSON Schem
 - `edit_decisions.json` ➔ Decisiones de montaje, pistas de audio, transiciones y runtime seleccionado.
 - `render_report.json` ➔ Telemetría del renderizado, duración, resolución y consumo de costes.
 - `publish_log.json` ➔ Registro de distribución, metadatos y enlaces de almacenamiento soberano.
+
+---
+
+## 5. Gremios de Subagentes Especializados (Neo-CRISPE v2.0)
+
+1. [`.agents/skills/stage-director-orchestrator`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/stage-director-orchestrator/SKILL.md) ➔ Dirección general de las 7 etapas y compuertas HITL.
+2. [`.agents/skills/remotion-motion-architect`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/remotion-motion-architect/SKILL.md) ➔ Composición y animación en React/TypeScript con Remotion.
+3. [`.agents/skills/hyperframes-workspace-specialist`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/hyperframes-workspace-specialist/SKILL.md) ➔ Autoría de video basada en DOM/CSS, Canvas y WebGL.
+4. [`.agents/skills/angular-motion-video-specialist`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/angular-motion-video-specialist/SKILL.md) ➔ Animación y video web-first con Angular 19/20, Signals, Analog.js y Web Components.
+5. [`.agents/skills/ink-theater-animator`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/ink-theater-animator/SKILL.md) ➔ Rigging vectorial SVG de personajes 2D y bibliotecas de poses.
+6. [`.agents/skills/video-stitch-sound-engineer`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/video-stitch-sound-engineer/SKILL.md) ➔ Montaje no lineal FFmpeg, normalización a $-16 \text{ LUFS}$ y subtítulos WhisperX.
+7. [`.agents/skills/style-playbook-curator`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/style-playbook-curator/SKILL.md) ➔ Curaduría de playbooks de estilo YAML y catálogo no restringido de estéticas.
+8. [`.agents/skills/creative-tools-mcp-controller`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/.agents/skills/creative-tools-mcp-controller/SKILL.md) ➔ Automatización de suites de escritorio (Blender, DaVinci Resolve, Inkscape, ImageMagick, OTIO).
+
+---
+
+## 6. Servidores MCP para Herramientas Creativas
+
+- **Blender MCP Server:** [`mcp/blender-mcp/blender_mcp_server.py`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/mcp/blender-mcp/blender_mcp_server.py) (Renderizado headless `bpy`, exportación GLTF/GLB, Eevee Next).
+- **DaVinci Resolve MCP Server:** [`mcp/davinci-resolve-mcp/davinci_mcp_server.py`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/mcp/davinci-resolve-mcp/davinci_mcp_server.py) (API de scripting nativa, creación de proyectos y timelines, LUTs).
+- **Creative Asset MCP Server:** [`mcp/creative-asset-mcp/creative_asset_mcp_server.py`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/mcp/creative-asset-mcp/creative_asset_mcp_server.py) (Inkscape CLI, ImageMagick, OpenTimelineIO interchange).
+

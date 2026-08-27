@@ -1,0 +1,22 @@
+style_name: "dark-academia"
+version: "2.0.0"
+visual_density: 3
+motion_intensity: 3
+description: "Romanticismo del estudio clásico, bibliotecas góticas, cuero encuadernado, luz cálida de velas y tonos tierra profundos."
+typography:
+  headline_font: "'Cinzel', 'Playfair Display', 'Cormorant Garamond', serif"
+  body_font: "'EB Garamond', 'Spectral', serif"
+  weight_scale: [400, 500, 600]
+palette:
+  background: "#1c1815"
+  surface: "#2b2420"
+  text_primary: "#e8dfd8"
+  text_secondary: "#a89b91"
+  accent_brand: "#c5a059"
+  chart_palette: ["#c5a059", "#8b5a2b", "#4a5d4e", "#6d2e38", "#d2b48c"]
+motion:
+  easing_curve: "cubic-bezier(0.25, 0.1, 0.25, 1.0)"
+  transition_ms: 500
+audio:
+  ducking_db: -18
+  voice_lufs: -16

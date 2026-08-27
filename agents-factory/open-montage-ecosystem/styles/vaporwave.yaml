@@ -1,0 +1,22 @@
+style_name: "vaporwave"
+version: "2.0.0"
+visual_density: 4
+motion_intensity: 5
+description: "Estética retro-digital noventera, mármol pastel, bustos clásicos y degradados cian/magenta."
+typography:
+  headline_font: "MS Gothic, 'Times New Roman', serif"
+  body_font: "Arial, sans-serif"
+  weight_scale: [400, 700]
+palette:
+  background: "#1a102f"
+  surface: "#2d1b4e"
+  text_primary: "#ff71ce"
+  text_secondary: "#01cdfe"
+  accent_brand: "#05ffa1"
+  chart_palette: ["#ff71ce", "#01cdfe", "#05ffa1", "#b967ff", "#fffb96"]
+motion:
+  easing_curve: "cubic-bezier(0.25, 0.1, 0.25, 1.0)"
+  transition_ms: 400
+audio:
+  ducking_db: -14
+  voice_lufs: -16

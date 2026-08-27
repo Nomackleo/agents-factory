@@ -30,12 +30,27 @@
 
 ---
 
-## 3. Playbooks de Estilo Audiovisual (*Style Playbooks*)
+## 3. Playbooks y Familias de Estilo Audiovisual (*Style Playbooks*)
 
-1. **`premium-minimalist`:** Fondos oscuros profundos (`#0A0A0C`), tipografía Geist / Inter, transiciones nítidas y gráficos de líneas ultrafinas.
-2. **`anime-ghibli`:** Paleta pictórica suave, texturas orgánicas, iluminación dorada crepuscular y ritmos visuales pausados.
-3. **`flat-motion-graphics`:** Colores saturados de alto contraste, formas geométricas audaces y cinética elástica para explicaciones técnicas.
-4. **`clean-professional`:** Colores corporativos confiables (azul pizarra, blanco níveo), tarjetas estructuradas y ritmo constante.
+Los agentes de OpenMontage disponen de un catálogo no restringido de estéticas visuales parametrizadas en `styles/*.yaml` y documentadas en [`knowledge/artistic_styles_and_aesthetics_encyclopedia.md`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/open-montage-ecosystem/knowledge/artistic_styles_and_aesthetics_encyclopedia.md):
+
+### A. Internet Aesthetics, Nostalgia Digital & Core-Cultures
+- **Vaporwave / Dark Vaporwave:** Nostalgia retro-digital noventera, mármol pastel, bustos clásicos y degradados cian/magenta.
+- **Synthwave / Outrun:** Neón, rejillas vectoriales en perspectiva, atardeceres magenta y síntesis ochentera.
+- **Cyberpunk / Solarpunk / Steampunk / Dieselpunk / Atompunk / Raypunk / Cassette Futurism:** Corrientes especulativas y retrofuturistas.
+- **Glitchcore / Hyperpop / Weirdcore / Dreamcore / Liminal Spaces / Nostalgiacore:** Deconstrucción digital y sobrecarga sensorial.
+- **Dark Academia / Light Academia / Cottagecore / Goblincore:** Romanticismo humanista, botánico y rural.
+
+### B. Interfaces, Sistemas de Diseño & Movimientos UI
+- **Frutiger Aero (2004–2013) / Frutiger Eco / Frutiger Aurora:** Texturas de agua, cielos luminosos, burbujas y eskeuomorfismo amable.
+- **Neo-Brutalism / Swiss Style / Bauhaus:** Bordes sólidos negros de 3px, sombras paralelas duras y tipografía de alto impacto.
+- **Glassmorphism / Claymorphism / Neumorphism:** Superficies translúcidas, objetos 3D inflados y relieves extruidos suaves.
+- **Y2K Aesthetic / Cyber Y2K / McBling / Acid Graphics:** Metales líquidos, cromo, tipografías clubbing y maximalismo 2000s.
+
+### C. Texturas Cinematográficas, Render & Postproducción
+- **Found Footage & VHS Degraded:** Aberración cromática analógica, ruido de cabezal y cámara en mano.
+- **Low-Poly Retro 3D & 90s Raytraced CGI:** Geometrías poligonales crudas con texturas pixeladas (era PS1/Saturn).
+- **Thermal Imaging (Ironbow) & Etherealcore:** Mapas de calor espectrales o sobreexposición lumínica con destellos anamórficos.
 
 ---
 

@@ -32,7 +32,7 @@ graph TD
     Decision -->|Metraje Raw, Stitching, Normalización Audio, Subtítulos| R5[FFmpeg Engine]
 ```
 
-### Matriz de Selección de Runtime:
+### Matriz de Selección de Runtime
 
 | Requerimiento Visual | Runtime Recomendado | Herramienta Clave |
 | :--- | :--- | :--- |
@@ -71,6 +71,7 @@ audio:
 ## 4. Control Presupuestario y Gobernanza de Costes
 
 El módulo `tools/cost_tracker.py` gobierna el consumo de APIs externas (Runway, Kling, ElevenLabs, Wan, Fal.ai) siguiendo el ciclo de tres fases:
+
 1. **Estimate:** Calcular el coste proyectado en USD antes de generar activos.
 2. **Reserve:** Bloquear el presupuesto contra el límite autorizado del proyecto.
 3. **Reconcile:** Confirmar el coste real post-generación y actualizar la bitácora de telemetría.
