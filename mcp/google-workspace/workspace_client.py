@@ -208,19 +208,115 @@ class WorkspaceClient:
         url = "https://www.googleapis.com/drive/v3/files"
         return self._make_request(url, method="POST", payload=metadata)
 
-    # ==================== GOOGLE CALENDAR API ====================
-    def list_calendars(self) -> Dict[str, Any]:
-        return self._make_request("https://www.googleapis.com/calendar/v3/users/me/calendarList")
+    # ==================== GOOGLE SHEETS API (v4) ====================
+    def get_spreadsheet(self, spreadsheet_id: str, ranges: Optional[List[str]] = None, include_grid_data: bool = False) -> Dict[str, Any]:
+        """Obtiene la metadata y estructura de una hoja de cálculo."""
+        params = {"includeGridData": "true" if include_grid_data else "false"}
+        if ranges:
+            params["ranges"] = ranges
+        url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}?{urllib.parse.urlencode(params)}"
+        return self._make_request(url)
 
-    def list_calendar_events(self, calendar_id: str = "primary", max_results: int = 20, time_min: Optional[str] = None, time_max: Optional[str] = None, q: Optional[str] = None) -> Dict[str, Any]:
-        params = {"maxResults": str(max_results), "singleEvents": "true", "orderBy": "startTime"}
-        if time_min:
-            params["timeMin"] = time_min
-        if time_max:
-            params["timeMax"] = time_max
-        if q:
-            params["q"] = q
-        url = f"https://www.googleapis.com/calendar/v3/calendars/{urllib.parse.quote(calendar_id)}/events?{urllib.parse.urlencode(params)}"
+    def get_sheet_values(self, spreadsheet_id: str, range_name: str) -> Dict[str, Any]:
+        """Lee los valores de un rango de celdas (ej. 'Hoja 1!A1:D10')."""
+        url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/{urllib.parse.quote(range_name)}"
+        return self._make_request(url)
+
+    def update_sheet_values(self, spreadsheet_id: str, range_name: str, values: List[List[Any]], value_input_option: str = "USER_ENTERED") -> Dict[str, Any]:
+        """Escribe valores en un rango específico de celdas."""
+        params = {"valueInputOption": value_input_option}
+        url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/{urllib.parse.quote(range_name)}?{urllib.parse.urlencode(params)}"
+        payload = {
+            "range": range_name,
+            "majorDimension": "ROWS",
+            "values": values
+        }
+        return self._make_request(url, method="PUT", payload=payload)
+
+    def append_sheet_values(self, spreadsheet_id: str, range_name: str, values: List[List[Any]], value_input_option: str = "USER_ENTERED") -> Dict[str, Any]:
+        """Inserta nuevas filas al final de una tabla de datos."""
+        params = {"valueInputOption": value_input_option, "insertDataOption": "INSERT_ROWS"}
+        url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/{urllib.parse.quote(range_name)}:append?{urllib.parse.urlencode(params)}"
+        payload = {
+            "range": range_name,
+            "majorDimension": "ROWS",
+            "values": values
+        }
+        return self._make_request(url, method="POST", payload=payload)
+
+    def create_spreadsheet(self, title: str, sheet_names: Optional[List[str]] = None) -> Dict[str, Any]:
+        """Crea una nueva hoja de cálculo en Google Sheets."""
+        payload: Dict[str, Any] = {
+            "properties": {"title": title}
+        }
+        if sheet_names:
+            payload["sheets"] = [{"properties": {"title": name}} for name in sheet_names]
+        url = "https://sheets.googleapis.com/v4/spreadsheets"
+        return self._make_request(url, method="POST", payload=payload)
+
+    def batch_update_spreadsheet(self, spreadsheet_id: str, requests: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Aplica múltiples operaciones de formato, validación o creación de hojas."""
+        url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}:batchUpdate"
+        return self._make_request(url, method="POST", payload={"requests": requests})
+
+    # ==================== GOOGLE SLIDES API (v1) ====================
+    def get_presentation(self, presentation_id: str) -> Dict[str, Any]:
+        """Obtiene la estructura y contenido de una presentación de Google Slides."""
+        url = f"https://slides.googleapis.com/v1/presentations/{presentation_id}"
+        return self._make_request(url)
+
+    def create_presentation(self, title: str) -> Dict[str, Any]:
+        """Crea una nueva presentación en Google Slides."""
+        url = "https://slides.googleapis.com/v1/presentations"
+        return self._make_request(url, method="POST", payload={"title": title})
+
+    def batch_update_presentation(self, presentation_id: str, requests: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Aplica actualizaciones en lote sobre diapositivas (crear slides, insertar texto, temas)."""
+        url = f"https://slides.googleapis.com/v1/presentations/{presentation_id}:batchUpdate"
+        return self._make_request(url, method="POST", payload={"requests": requests})
+
+    # ==================== GOOGLE VIDS & VIDEO ASSETS ====================
+    def list_vids_projects(self, page_size: int = 10, query: str = "") -> Dict[str, Any]:
+        """Lista proyectos de Google Vids y videos corporativos en Google Drive."""
+        vids_q = "mimeType = 'application/vnd.google-apps.vid' or mimeType contains 'video/'"
+        if query:
+            vids_q = f"({vids_q}) and ({query})"
+        return self.list_drive_files(page_size=page_size, query=vids_q)
+
+    def create_vids_project(self, title: str, description: str = "") -> Dict[str, Any]:
+        """Crea un nuevo proyecto o placeholder de video en Google Drive."""
+        return self.create_drive_file(
+            name=title,
+            mime_type="application/vnd.google-apps.vid",
+            description=description
+        )
+
+    # ==================== GOOGLE ANALYTICS 4 DATA API (v1beta) ====================
+    def run_analytics_report(self, property_id: str, dimensions: List[str], metrics: List[str], date_ranges: Optional[List[Dict[str, str]]] = None, limit: int = 100) -> Dict[str, Any]:
+        """Ejecuta un reporte personalizado de Google Analytics 4 (GA4)."""
+        if not date_ranges:
+            date_ranges = [{"startDate": "30daysAgo", "endDate": "today"}]
+        payload = {
+            "dimensions": [{"name": d} for d in dimensions],
+            "metrics": [{"name": m} for m in metrics],
+            "dateRanges": date_ranges,
+            "limit": limit
+        }
+        url = f"https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runReport"
+        return self._make_request(url, method="POST", payload=payload)
+
+    def run_realtime_analytics_report(self, property_id: str, dimensions: List[str], metrics: List[str]) -> Dict[str, Any]:
+        """Ejecuta un reporte en tiempo real de usuarios activos en GA4."""
+        payload = {
+            "dimensions": [{"name": d} for d in dimensions],
+            "metrics": [{"name": m} for m in metrics]
+        }
+        url = f"https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runRealtimeReport"
+        return self._make_request(url, method="POST", payload=payload)
+
+    def list_analytics_account_summaries(self) -> Dict[str, Any]:
+        """Lista las cuentas y propiedades GA4 disponibles para el usuario."""
+        url = "https://analyticsadmin.googleapis.com/v1alpha/accountSummaries"
         return self._make_request(url)
 
 

@@ -38,13 +38,83 @@ def dispatch_tool(tool_name: str, arguments: Dict[str, Any]) -> Dict[str, Any]:
         return client.list_calendar_events(max_results=max_results)
     elif tool_name in ("workspace_list_calendars", "list_calendars"):
         return client.list_calendars()
+    
+    # ===== GOOGLE SHEETS =====
+    elif tool_name in ("sheets_get_values", "workspace_sheets_get_values"):
+        return client.get_sheet_values(
+            spreadsheet_id=arguments["spreadsheet_id"],
+            range_name=arguments.get("range", "A1:Z100")
+        )
+    elif tool_name in ("sheets_update_values", "workspace_sheets_update_values"):
+        return client.update_sheet_values(
+            spreadsheet_id=arguments["spreadsheet_id"],
+            range_name=arguments.get("range", "A1"),
+            values=arguments.get("values", [])
+        )
+    elif tool_name in ("sheets_append_values", "workspace_sheets_append_values"):
+        return client.append_sheet_values(
+            spreadsheet_id=arguments["spreadsheet_id"],
+            range_name=arguments.get("range", "A1"),
+            values=arguments.get("values", [])
+        )
+    elif tool_name in ("sheets_create", "workspace_sheets_create"):
+        return client.create_spreadsheet(
+            title=arguments.get("title", "Nueva Hoja de Cálculo"),
+            sheet_names=arguments.get("sheet_names")
+        )
+    
+    # ===== GOOGLE SLIDES =====
+    elif tool_name in ("slides_create", "workspace_slides_create"):
+        return client.create_presentation(title=arguments.get("title", "Nueva Presentación"))
+    elif tool_name in ("slides_get", "workspace_slides_get"):
+        return client.get_presentation(presentation_id=arguments["presentation_id"])
+    elif tool_name in ("slides_batch_update", "workspace_slides_batch_update"):
+        return client.batch_update_presentation(
+            presentation_id=arguments["presentation_id"],
+            requests=arguments.get("requests", [])
+        )
+
+    # ===== GOOGLE VIDS =====
+    elif tool_name in ("vids_list_projects", "workspace_vids_list_projects"):
+        return client.list_vids_projects(
+            page_size=int(arguments.get("page_size", 10)),
+            query=arguments.get("query", "")
+        )
+    elif tool_name in ("vids_create_project", "workspace_vids_create_project"):
+        return client.create_vids_project(
+            title=arguments.get("title", "Nuevo Video Vids"),
+            description=arguments.get("description", "")
+        )
+
+    # ===== GOOGLE ANALYTICS 4 =====
+    elif tool_name in ("analytics_run_report", "workspace_analytics_run_report"):
+        return client.run_analytics_report(
+            property_id=arguments["property_id"],
+            dimensions=arguments.get("dimensions", ["city", "browser"]),
+            metrics=arguments.get("metrics", ["activeUsers", "screenPageViews"]),
+            date_ranges=arguments.get("date_ranges"),
+            limit=int(arguments.get("limit", 100))
+        )
+    elif tool_name in ("analytics_realtime_report", "workspace_analytics_realtime_report"):
+        return client.run_realtime_analytics_report(
+            property_id=arguments["property_id"],
+            dimensions=arguments.get("dimensions", ["country"]),
+            metrics=arguments.get("metrics", ["activeUsers"])
+        )
+    elif tool_name in ("analytics_account_summaries", "workspace_analytics_account_summaries"):
+        return client.list_analytics_account_summaries()
+
     else:
         raise ValueError(f"Herramienta no reconocida: {tool_name}")
 
 def main():
     if len(sys.argv) < 2:
-        print("Uso: python mcp_workspace_server.py <tool_name> [--account <alias>] [--max_results <N>] [--query <q>]")
-        print("Herramientas: get_profile, list_messages, list_drive_files, about_storage, list_calendar_events, list_calendars")
+        print("Uso: python mcp_workspace_server.py <tool_name> [--account <alias>] [--json <json_args>]")
+        print("Herramientas: get_profile, list_messages, list_drive_files, about_storage, list_calendar_events,")
+        print("              sheets_get_values, sheets_update_values, sheets_append_values, sheets_create,")
+        print("              slides_create, slides_get, slides_batch_update,")
+        print("              vids_list_projects, vids_create_project,")
+        print("              analytics_run_report, analytics_realtime_report, analytics_account_summaries")
         sys.exit(1)
 
     tool_name = sys.argv[1]

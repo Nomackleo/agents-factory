@@ -35,10 +35,18 @@ graph TD
     D --> D5["workspace-drive-storage-specialist"]
     D --> D6["workspace-audit-compliance-analyst"]
     D --> D7["workspace-mcp-bridge-integrator"]
+    D --> D8["workspace-sheets-data-architect"]
+    D --> D9["workspace-slides-presentation-designer"]
+    D --> D10["workspace-vids-media-specialist"]
+    D --> D11["workspace-analytics-intelligence-analyst"]
 
     %% Knowledge Bases
     E --> E1["google_workspace_enterprise_admin_mastery.md"]
     E --> E2["google_workspace_mcp_integration_matrix.md"]
+    E --> E3["sheets_api_v4_data_architecture_mastery.md"]
+    E --> E4["slides_api_v1_presentation_automation_mastery.md"]
+    E --> E5["vids_workspace_video_production_mastery.md"]
+    E --> E6["google_analytics_4_data_api_mastery.md"]
 
     %% Styling Branding
     classDef domain fill:#07283d,stroke:#ffd231,stroke-width:2px,color:#ffffff
@@ -47,9 +55,9 @@ graph TD
     classDef knowledge fill:#ba1650,stroke:#ffd231,stroke-width:1px,color:#ffffff
 
     class A domain
-    class D1,D2,D3,D4,D5,D6,D7 subagent
+    class D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11 subagent
     class B1,B2,B3,C1,C2,F file
-    class E1,E2 knowledge
+    class E1,E2,E3,E4,E5,E6 knowledge
 ```
 
 ---
@@ -63,8 +71,12 @@ graph TD
 | **`workspace-gmail-routing-specialist`** | Parametrización DNS (MX unificado, SPF, DKIM RSA 2048, DMARC), reglas Catch-All (*Default Routing*), Email Allowlist y SMTP Relay. | `gmail.settings.basic`<br>DNS & Enrutamiento SMTP |
 | **`workspace-calendar-assistant-agent`** | Gestión de calendarios compartidos, recursos de salas/equipos, políticas de visibilidad por UO e interoperabilidad con Exchange/Outlook. | `calendar`<br>`calendar.events` |
 | **`workspace-drive-storage-specialist`** | Arquitectura de Unidades Compartidas (*Shared Drives*), matriz RBAC, políticas de bloqueo de descarga/copia e indexación RAG. | `drive`<br>`drive.file`<br>`drive.metadata` |
+| **`workspace-sheets-data-architect`** | Modelado de datos, tablas, fórmulas matriciales (`ARRAYFORMULA`, `XLOOKUP`, `QUERY`) y sincronización bidireccional de datos con Sheets API v4. | `sheets.spreadsheets`<br>`sheets.values` |
+| **`workspace-slides-presentation-designer`** | Creación programática de pitch decks y presentaciones ejecutivas, inserción de diagramas, formas y temas visuales con Slides API v1. | `slides.presentations`<br>`slides.batchUpdate` |
+| **`workspace-vids-media-specialist`** | Orquestación de proyectos de video corporativo en Google Vids, gestión de plantillas y activos multimedia en Google Drive. | `vids.projects`<br>`drive.file` |
+| **`workspace-analytics-intelligence-analyst`** | Extracción de métricas, reportes de tráfico, eventos, embudos de conversión y análisis en tiempo real con Google Analytics 4 (GA4) Data API. | `analytics.data.readonly`<br>`analytics.readonly` |
 | **`workspace-audit-compliance-analyst`** | Búsqueda forense en *Email Log Search*, auditoría de eventos de administración y reportes de conformidad ISO 27001 / ISO 9001. | `admin.reports.audit.readonly`<br>Email Log Search |
-| **`workspace-mcp-bridge-integrator`** | Interfaz determinista y tipada con el servidor MCP oficial de Google Cloud Workspace bajo política *Zero-Overlap*. | Google Cloud Workspace MCP Server |
+| **`workspace-mcp-bridge-integrator`** | Interfaz determinista y tipada con el servidor MCP unificado de Google Workspace y Google Cloud. | Google Workspace MCP Server |
 
 ---
 
@@ -72,6 +84,6 @@ graph TD
 
 Para garantizar la pureza operativa de los procesos y evitar colisiones entre el MCP oficial de Google Cloud y los subagentes:
 
-1. **Ámbitos Estrictamente Delimitados**: Cada subagente invoca únicamente las herramientas y scopes autorizados en `knowledge/google_workspace_mcp_integration_matrix.md`.
+1. **Ámbitos Estrictamente Delimitados**: Cada subagente invoca únicamente las herramientas y scopes autorizados en las matrices de conocimiento.
 2. **Idempotencia de Operaciones**: Toda mutación en la API de Workspace se ejecuta de forma declarativa e idempotente.
-3. **Control de Modificaciones Críticas**: Toda operación destructiva (eliminación de cuentas o Shared Drives) requiere validación *Human-in-the-Loop* (HITL).
+3. **Control de Modificaciones Críticas**: Toda operación destructiva (eliminación de cuentas, archivos o Shared Drives) requiere validación *Human-in-the-Loop* (HITL).
