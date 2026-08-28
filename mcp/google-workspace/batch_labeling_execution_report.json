@@ -1,0 +1,896 @@
+{
+  "timestamp": "2026-08-28T22:59:44Z",
+  "account": "nomackleo",
+  "total_requested": 100,
+  "successfully_labeled": 100,
+  "errors": 0,
+  "labeled_items": [
+    {
+      "msg_id": "1a04a846ff64cded",
+      "from": "Banco Falabella <contacto@co.bancofalabella.com>",
+      "subject": "¿Dudas sobre tus productos? Resuélvelas tú mismo 😉",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella"
+      ]
+    },
+    {
+      "msg_id": "1a04a81026f6b8f4",
+      "from": "noreply@skills.google",
+      "subject": "¡Obtuviste la máxima puntuación en Google Meet: Getting Started!",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES"
+      ]
+    },
+    {
+      "msg_id": "1a04a4b306620d56",
+      "from": "Club Tostao <clubtostao@bbi.com.co>",
+      "subject": "🥤 ¡Última oportunidad! Red Bull Pop a solo $10.900",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/BBI_Corporativo"
+      ]
+    },
+    {
+      "msg_id": "1a04a26f75757f7d",
+      "from": "noreply@skills.google",
+      "subject": "Repasa Google Calendar: Getting Started",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES"
+      ]
+    },
+    {
+      "msg_id": "1a04a1cc9312c045",
+      "from": "ChatGPT <noreply@email.openai.com>",
+      "subject": "Edita tus fotos favoritas",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/OpenAI"
+      ]
+    },
+    {
+      "msg_id": "1a049e8ec1658115",
+      "from": "Baloto <comunicaciones@baloto.com>",
+      "subject": "😏🤑 ¡Ayer cayó MiLoto ¿tú lo jugaste? Hoy tiene 120 millones — por $4.000 puedes ser el próximo",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias"
+      ]
+    },
+    {
+      "msg_id": "1a049d0e4176c9f9",
+      "from": "Un Mejor Empleo <candidatos@unmejorempleo.co>",
+      "subject": "Ofertas de Empleo Disponibles - 28 de Agosto",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo"
+      ]
+    },
+    {
+      "msg_id": "1a049bca7fe7734c",
+      "from": "noreply@skills.google",
+      "subject": "Repasa Gmail: Getting Started",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES"
+      ]
+    },
+    {
+      "msg_id": "1a04997ed7231686",
+      "from": "Sony Colombia <newsletter@co.emailmkt.sony-latin.com>",
+      "subject": "✨ Algo nuevo está por llegar a tu cuenta My Sony",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Sony"
+      ]
+    },
+    {
+      "msg_id": "1a04976d3886dfd9",
+      "from": "Facturas Movistar <facturasmovistar@mailc.movistar.co>",
+      "subject": "830122566;COLOMBIA TELECOMUNICACIONES S.A. E.S.P. BIC;BEC544515206;01;MOVISTAR COLOMBIA",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios"
+      ]
+    },
+    {
+      "msg_id": "1a0496c52aa91ef2",
+      "from": "Samsung <samsunglatam@co.email.samsung.com>",
+      "subject": "Estrena tu Galaxy hoy y participa por muchos premios 🚀",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Samsung"
+      ]
+    },
+    {
+      "msg_id": "1a0495762cd6aaa7",
+      "from": "Ian Bremmer via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "Stay Informed with Ian Bremmer: What Actually Mattered This Week: Canada, Canada, Canada",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a0494c9fc43277c",
+      "from": "Business Insider via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "Business Insider Today: PR pros weigh in on Meta's post-settlement ads",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a0493e255a89cbb",
+      "from": "Dafiti <no-reply@news.email.dafiti.com.co>",
+      "subject": "¡Quedan menos! 😥",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Dafiti"
+      ]
+    },
+    {
+      "msg_id": "1a0492e6d1a06067",
+      "from": "Comunicaciones EPS Famisanar <comunicacionesfamisanar@famisanar.com.co>",
+      "subject": "Descubre cómo proteger a los menores de las redes sociales",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Famisanar_EPS"
+      ]
+    },
+    {
+      "msg_id": "1a0492614e59717c",
+      "from": "Equipo de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "Nuevas posiciones ejecutivas que se adaptan a tu perfil",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a0491e744943376",
+      "from": "adidas <adidas@co-news.adidas.com>",
+      "subject": "¡Empezaron las ligas europeas! ⭐⚽",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Adidas"
+      ]
+    },
+    {
+      "msg_id": "1a0491901e3138ed",
+      "from": "noreply@skills.google",
+      "subject": "Empezaste Workspace End User Learning Path",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES"
+      ]
+    },
+    {
+      "msg_id": "1a048f89d23340f9",
+      "from": "\"Secretaría de Cultura, Recreación y Deporte\" <comunicaciones@scrd.gov.co>",
+      "subject": "Este sábado: apertura de la Semana del Bienestar Bogotá",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota"
+      ]
+    },
+    {
+      "msg_id": "1a048f08d5b75505",
+      "from": "Comunicaciones EPS Famisanar <comunicacionesfamisanar@famisanar.com.co>",
+      "subject": "Conoce todos nuestros canales de atención👩🏻‍💻",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Famisanar_EPS"
+      ]
+    },
+    {
+      "msg_id": "1a048bd53a4e4935",
+      "from": "\"Cámara de Comercio de Bogotá\" <noresponder@ccb.org.co>",
+      "subject": "Las voces que están transformando la manera de emprender, innovar y hacer crecer los negocios están en ¡GOFEST 2026!",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota"
+      ]
+    },
+    {
+      "msg_id": "1a048b7f59b2165f",
+      "from": "\"Udemy Instructor: lubutech dev\" <no-reply@e.udemymail.com>",
+      "subject": "🔥 tutorial Moderno Sistema POS Multipro 🔥",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a048976d47189aa",
+      "from": "SHEIN <shein@news.shein.com>",
+      "subject": "¡Solo quedan tres días para usar tu cupón de 20.00% de DTO.!",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Shein"
+      ]
+    },
+    {
+      "msg_id": "1a048817b87eec1b",
+      "from": "Intch <newcomers@email.intch.org>",
+      "subject": "Tus trabajos remotos personalizados para ingresos adicionales  🚀 (Aug. 28)",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/Intch_Networking"
+      ]
+    },
+    {
+      "msg_id": "1a04842fb6e5dec7",
+      "from": "\"Udemy Instructor: Jackson Kailath\" <no-reply@e.udemymail.com>",
+      "subject": "🚀 The best time to learn to code in history",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a04828147eb56ce",
+      "from": "Stanford Online <no-reply@m.learn.coursera.org>",
+      "subject": "Secure your infrastructure. Power your future.",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES"
+      ]
+    },
+    {
+      "msg_id": "1a0473b4ab359cd2",
+      "from": "TECH Global University <envios@mails.techtitute.com>",
+      "subject": "NUEVO Grand Máster Oficial en MBA en Dirección de Empresas Audiovisuales",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a046830dee7a62e",
+      "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+      "subject": "Crea una Landing Page y Capta Clientes",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a046825b58dbaf2",
+      "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+      "subject": "¿Vale la pena Elementor Pro en el 2026?",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a0468025f28382b",
+      "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+      "subject": "Crea una Web en Menos de 15 Minutos",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a0467fca0f32a78",
+      "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+      "subject": "Crea una Web de WordPress en 15 Minutos",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a0467a2cebc8f41",
+      "from": "\"Udemy Instructor: Renato Jesús Yacolca Neyra\" <no-reply@e.udemymail.com>",
+      "subject": "Máster en Inteligencia Artificial 2026",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a045b08e6c81a57",
+      "from": "Baloto <comunicaciones@baloto.com>",
+      "subject": "😎🤑 Hoy el Jueves Millonario llegó con todo — ColorLoto tiene 2.080 millones y hoy es el día de volver",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias"
+      ]
+    },
+    {
+      "msg_id": "1a0452211d0d0720",
+      "from": "Samsung <samsunglatam@co.email.samsung.com>",
+      "subject": "Date tu gustico de agosto ✨",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Samsung"
+      ]
+    },
+    {
+      "msg_id": "1a04520bf78e0268",
+      "from": "Tu lista de empleos de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "✅Tu perfil encaja perfectamente en Saitemp S.A",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a0450eb8898a0f4",
+      "from": "Meshy <no-reply@news.meshy.ai>",
+      "subject": "Try the Meshy API — no key required",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a044e7ff57d5664",
+      "from": "Devpost <support@devpost.com>",
+      "subject": "ICYMI: the Google Cloud Q&A recording is live :movie_camera: - All Things Agentic Hackathon",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a044d132ba48b9d",
+      "from": "\"Leonel Salcedo (mediante Documentos de Google)\" <drive-shares-dm-noreply@google.com>",
+      "subject": "Se compartió un documento contigo: \"Informe_Ejecutivo_Migracion_Dropbox_a_Workspace\"",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem"
+      ]
+    },
+    {
+      "msg_id": "1a044bdac5065601",
+      "from": "LottieFiles <hello@lottiefiles.com>",
+      "subject": "Plugin marketplace, live in Lottie Creator 🧩",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a044b647799af3b",
+      "from": "Addi <Marketing@ofertas.addi.com>",
+      "subject": "Ahora puedes recargar tu celular con 0% interés.",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a044a9acea277f5",
+      "from": "Un Mejor Empleo <candidatos@unmejorempleo.co>",
+      "subject": "Ofertas de Empleo Disponibles - 27 de Agosto",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo"
+      ]
+    },
+    {
+      "msg_id": "1a044a2972b706c9",
+      "from": "LinkedIn <messages-noreply@linkedin.com>",
+      "subject": "En Paulina Ruiz Romo ya han resuelto la partida de hoy. ¿Y tú? 🏆",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a0447db484804e3",
+      "from": "Mermaid <no-reply@mermaid.ai>",
+      "subject": "The diagram was accurate on Tuesday 💔",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a0446fa9657e092",
+      "from": "Tinkercad <no-reply@autodesk.com>",
+      "subject": "Your back-to-school Tinkercad starter kit",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Autodesk_Tinkercad"
+      ]
+    },
+    {
+      "msg_id": "1a0444c31a2f47dd",
+      "from": "Business Insider via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "Business Insider Today: Should you hire a financial advisor in your 20s?",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a044441eff1bf8e",
+      "from": "NVIDIA GeForce <gaming@nvgaming.nvidia.com>",
+      "subject": "¡Actualiza tu equipo con una RTX Serie 50 en el Día del Gamer!",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA"
+      ]
+    },
+    {
+      "msg_id": "1a0442b76ca9fe6b",
+      "from": "Filestack Bytes <communications@filestack.com>",
+      "subject": "Dev News: Browser markup, upload rate shaping, and more updates",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Filestack_API"
+      ]
+    },
+    {
+      "msg_id": "1a04428e05eee011",
+      "from": "\"Udemy Instructor: KGP Talkie | Laxmi Kant\" <no-reply@e.udemymail.com>",
+      "subject": "🎉Lowest Price 399INR/ $9.99 for All Gen AI Courses",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a0442306101caca",
+      "from": "\"Udemy Instructor: Hassan Shafiq\" <no-reply@e.udemymail.com>",
+      "subject": "What can you find from just one email address?",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Udemy"
+      ]
+    },
+    {
+      "msg_id": "1a044180b01f8dd5",
+      "from": "Dafiti <no-reply@news.email.dafiti.com.co>",
+      "subject": "¡Quedan menos! 😥",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Dafiti"
+      ]
+    },
+    {
+      "msg_id": "1a0440cf839c615a",
+      "from": "ArtStation <notifications@artstation.com>",
+      "subject": "New jobs on ArtStation",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D"
+      ]
+    },
+    {
+      "msg_id": "1a043f80c059e934",
+      "from": "adidas <adidas@co-news.adidas.com>",
+      "subject": "Hyperboost Edge: rendimiento sin límites",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Adidas"
+      ]
+    },
+    {
+      "msg_id": "1a043f6f1fb6b372",
+      "from": "Medium Events <noreply@medium.com>",
+      "subject": "Introducing the State of Writing Report at Medium Day",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"
+      ]
+    },
+    {
+      "msg_id": "1a043eeda6c1ac71",
+      "from": "\"OpenCV.org\" <newsletter@opencv.org>",
+      "subject": "Live Now: CVPR 2026 Highlighted paper, 3D-Object Perception Transformer",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/OpenCV_Computer_Vision"
+      ]
+    },
+    {
+      "msg_id": "1a043d88d12c672d",
+      "from": "\"Cámara de Comercio de Bogotá\" <noresponder@ccb.org.co>",
+      "subject": "Después de una primera jornada llena de ideas y conexiones, ¡GOFEST 2026 continúa, te esperamos en Agora!",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota"
+      ]
+    },
+    {
+      "msg_id": "1a0439833b15fe6d",
+      "from": "Rokoko <hi@rokoko.com>",
+      "subject": "3 years of game dev with Rokoko + Our most affordable mocap bundle ever 🏷️",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV"
+      ]
+    },
+    {
+      "msg_id": "1a0438cd63ea4bcd",
+      "from": "Woo <hello@woocommerce.com>",
+      "subject": "Prepare sus productos para nuevos mercados globales",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/WooCommerce"
+      ]
+    },
+    {
+      "msg_id": "1a0438aa6f20c454",
+      "from": "Adobe Oferta Especial <mail@mail.adobe.com>",
+      "subject": "Todo lo que necesitas para crear",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Adobe_Creative_Cloud"
+      ]
+    },
+    {
+      "msg_id": "1a0437e0602863a4",
+      "from": "\"UdeCataluña\" <convocatoria@diplomadosuc.co>",
+      "subject": "Diplomado Ciberseguridad Basado en la Norma ISO 27001:2022",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES"
+      ]
+    },
+    {
+      "msg_id": "1a0435fea2a84479",
+      "from": "Equipo de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "Grandes empresas en Bogotá, D.C. buscan talento como el tuyo",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a0435eaf65cb573",
+      "from": "Google Developer Program <googledev-noreply@google.com>",
+      "subject": "Streamline deployment with the Google Cloud Starter Tier",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem"
+      ]
+    },
+    {
+      "msg_id": "1a043524737acce6",
+      "from": "NVIDIA <news@nvidia.com>",
+      "subject": "Push the frontier of physical AI with NVIDIA Cosmos",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA"
+      ]
+    },
+    {
+      "msg_id": "1a042dd5d50cfa96",
+      "from": "BIG school <informacion@thebigschool.com>",
+      "subject": "El Nuevo ChatGPT",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/BIG_School"
+      ]
+    },
+    {
+      "msg_id": "1a0410f5a6f91b99",
+      "from": "Mis Propias Finanzas <info@mispropiasfinanzas.com>",
+      "subject": "⏰ ESTAMOS EN VIVO — Los 5 tipos de riqueza",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera"
+      ]
+    },
+    {
+      "msg_id": "1a040f6d1d265d90",
+      "from": "Tu lista de empleos de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "7 retos profesionales que coinciden contigo",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a040e9f17654085",
+      "from": "LinkedIn <updates-noreply@linkedin.com>",
+      "subject": "Maryory Avila - Cofundador ha reaccionado a esta publicación: El mundo está enfrentando un…",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a0401a07f8c558b",
+      "from": "Comunicaciones EPS Famisanar <comunicacionesfamisanar@famisanar.com.co>",
+      "subject": "¡Recomendaciones para prevenir el dengue!",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Famisanar_EPS"
+      ]
+    },
+    {
+      "msg_id": "1a03ff21f894e2d2",
+      "from": "Grow Up Data Analytics <info@growupcr.com>",
+      "subject": "¿Cuándo fue la última vez que aprendiste algo sin ayuda?",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/GrowUp_Analytics"
+      ]
+    },
+    {
+      "msg_id": "1a03fc855fc50db3",
+      "from": "\"Secretaría de Cultura, Recreación y Deporte\" <comunicaciones@scrd.gov.co>",
+      "subject": "Convocatoria EMEB 2026: conecta con la industria musical desde Bogotá",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota"
+      ]
+    },
+    {
+      "msg_id": "1a03f931f814f9de",
+      "from": "Google Developer Program <googledev-noreply@google.com>",
+      "subject": "Registration is now open",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem"
+      ]
+    },
+    {
+      "msg_id": "1a03f92f3412d621",
+      "from": "Google Developer Program <googledev-noreply@google.com>",
+      "subject": "Registration is now open",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem"
+      ]
+    },
+    {
+      "msg_id": "1a03f8435eaf6547",
+      "from": "Un Mejor Empleo <candidatos@unmejorempleo.co>",
+      "subject": "Ofertas de Empleo Disponibles - 26 de Agosto",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo"
+      ]
+    },
+    {
+      "msg_id": "1a03f7dbf3aa101c",
+      "from": "Equipo de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "Últimos avisos de empleo en Bogotá, D.C., consulta las opciones",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a03f7a9eb188ff3",
+      "from": "Google AI Studio <googleaistudio-noreply@google.com>",
+      "subject": "🚀 Introducing intelligent transcription with Gemini 3.5 Transcribe",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem"
+      ]
+    },
+    {
+      "msg_id": "1a03f458a84311cc",
+      "from": "Nu <nu@nu.com.co>",
+      "subject": "¡Ya entró tu pago!",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank"
+      ]
+    },
+    {
+      "msg_id": "1a03f4244e9fa0d1",
+      "from": "BANCO_DAVIVIENDA@davivienda.com",
+      "subject": "DAVIVIENDA",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Davivienda"
+      ]
+    },
+    {
+      "msg_id": "1a03f3baaf1c9b18",
+      "from": "serviciopse@achcolombia.com.co",
+      "subject": "PSE - Transacción Rechazada ❌ CUS 597218742",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas"
+      ]
+    },
+    {
+      "msg_id": "1a03f262bb934d3b",
+      "from": "Equipo de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "¡7 nuevas oportunidades laborales en Bogotá, D.C.!",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a03ef177ab45158",
+      "from": "Dafiti <no-reply@news.email.dafiti.com.co>",
+      "subject": "¡Quedan menos! 😥",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Dafiti"
+      ]
+    },
+    {
+      "msg_id": "1a03ef17039c2e53",
+      "from": "Dafiti <no-reply@news.email.dafiti.com.co>",
+      "subject": "Tu favorito está más barato 🙌",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Dafiti"
+      ]
+    },
+    {
+      "msg_id": "1a03eee0ca243fa3",
+      "from": "Business Insider via LinkedIn <newsletters-noreply@linkedin.com>",
+      "subject": "Business Insider Today: A 'Shark Tank' star's tips for making your ideas become reality",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a03ee7c6004cfa7",
+      "from": "ArtStation <notifications@artstation.com>",
+      "subject": "New jobs on ArtStation",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D"
+      ]
+    },
+    {
+      "msg_id": "1a03ed34a81ab601",
+      "from": "Malwarebytes <noreply@e.malwarebytes.com>",
+      "subject": "45% off protection? Yes, please",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software"
+      ]
+    },
+    {
+      "msg_id": "1a03ecfa57bab9dd",
+      "from": "NVIDIA <news@nvidia.com>",
+      "subject": "Newsletter NVIDIA LATAM: Novedades y Mucho Más",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA"
+      ]
+    },
+    {
+      "msg_id": "1a03e8b2f4209941",
+      "from": "\"Cámara de Comercio de Bogotá\" <noresponder@ccb.org.co>",
+      "subject": "Hoy inicia el festival de emprendimiento más grande de Bogotá.  ¡Encontrémonos en GOFEST 2026!",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota"
+      ]
+    },
+    {
+      "msg_id": "1a03e829494c4b7b",
+      "from": "Founderz <events@founderz.com>",
+      "subject": "Se cierra esta noche Leonel Antonio.",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/Founderz"
+      ]
+    },
+    {
+      "msg_id": "1a03e7956a0b68a9",
+      "from": "Medium <noreply@medium.com>",
+      "subject": "30% off. This week only.",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"
+      ]
+    },
+    {
+      "msg_id": "1a03e62fa94b7fae",
+      "from": "\"Secretaría de Cultura, Recreación y Deporte\" <comunicaciones@scrd.gov.co>",
+      "subject": "Este sábado: apertura de la Semana del Bienestar Bogotá",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota"
+      ]
+    },
+    {
+      "msg_id": "1a03e4d6873778ab",
+      "from": "Sony Colombia <newsletter@co.emailmkt.sony-latin.com>",
+      "subject": "¡Últimas Ofertas especiales para el Día del Fotógrafo! 🎉📷",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Sony"
+      ]
+    },
+    {
+      "msg_id": "1a03e2e632297320",
+      "from": "adidas <adidas@co-news.adidas.com>",
+      "subject": "Confort que sigue tu ritmo.",
+      "labels_assigned": [
+        "06_ECOMMERCE_Y_RETAIL",
+        "06_ECOMMERCE_Y_RETAIL/Adidas"
+      ]
+    },
+    {
+      "msg_id": "1a03e0394da161ee",
+      "from": "Niilo Gofest <gofest@niilo.co>",
+      "subject": "Nos vemos hoy en el Gomatch del Gofest",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Niilo_Consulting"
+      ]
+    },
+    {
+      "msg_id": "1a03cad261ed8b58",
+      "from": "NVIDIA <news@nvidia.com>",
+      "subject": "Les dernières innovations de l'IA, personnalisées pour vous",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA"
+      ]
+    },
+    {
+      "msg_id": "1a03c04102e95f4c",
+      "from": "Banco Davivienda <novedades@davivienda.com>",
+      "subject": "Información del Seguro Vida Deudor del Nanocrédito, solicitado a través de DaviPlata.",
+      "labels_assigned": [
+        "05_FINANZAS_BANCA_Y_FACTURAS",
+        "05_FINANZAS_BANCA_Y_FACTURAS/Davivienda"
+      ]
+    },
+    {
+      "msg_id": "1a03bd9ac91ded30",
+      "from": "Samsung Developer <noreply@email.developer.samsung.com>",
+      "subject": "Style Your Emulator: Skins for Galaxy Z Series Now Available, Google ADV Rollout, and Other Latest News",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/DEV_Community"
+      ]
+    },
+    {
+      "msg_id": "1a03bc398239d179",
+      "from": "LinkedIn <messages-noreply@linkedin.com>",
+      "subject": "4 personas han visto tu perfil",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a03b7bbf6020477",
+      "from": "Niilo Gofest <gofest@niilo.co>",
+      "subject": "Leonel Salcedo Nomackleo@gmail.com, tu agenda en GoMatch en el GoFest está lista",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Niilo_Consulting"
+      ]
+    },
+    {
+      "msg_id": "1a03b660885d8b5e",
+      "from": "Equipo de Computrabajo <empleos_co@computrabajo.com>",
+      "subject": "⚡ Nuevos desafíos para profesionales senior",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"
+      ]
+    },
+    {
+      "msg_id": "1a03b65481bbc717",
+      "from": "LinkedIn <notifications-noreply@linkedin.com>",
+      "subject": "Tienes 6 invitaciones nuevas",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"
+      ]
+    },
+    {
+      "msg_id": "1a03b48c8e7a4576",
+      "from": "Colombia Tech <hello@colombiatechweek.co>",
+      "subject": "Los founders que más admiro primero perdieron",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Colombia_Tech_Week"
+      ]
+    },
+    {
+      "msg_id": "1a03b138e94b7d73",
+      "from": "DEV Community Newsletter <yo@dev.to>",
+      "subject": "Hacktoberfest 2026, murky AI watermarks, an MCP memory server for one, and more!",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/DEV_Community"
+      ]
+    }
+  ]
+}
