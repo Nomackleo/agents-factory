@@ -1,0 +1,484 @@
+{
+  "account": "nomackleo",
+  "timestamp": "2026-08-28T22:54:50Z",
+  "total_labels": 53,
+  "labels": [
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES",
+      "id": "Label_10",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota",
+      "id": "Label_11",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota",
+      "id": "Label_12",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Famisanar_EPS",
+      "id": "Label_13",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Niilo_Consulting",
+      "id": "Label_14",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/BBI_Corporativo",
+      "id": "Label_15",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Colombia_Tech_Week",
+      "id": "Label_16",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO",
+      "id": "Label_17",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo",
+      "id": "Label_18",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs",
+      "id": "Label_19",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo",
+      "id": "Label_20",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO/Intch_Networking",
+      "id": "Label_21",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES",
+      "id": "Label_22",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Udemy",
+      "id": "Label_23",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Google_Skills_Boost",
+      "id": "Label_24",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Tech_Global_University",
+      "id": "Label_25",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/UdeCataluna",
+      "id": "Label_26",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/BIG_School",
+      "id": "Label_27",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Founderz",
+      "id": "Label_28",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/GrowUp_Analytics",
+      "id": "Label_29",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Autodesk_Tinkercad",
+      "id": "Label_30",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV",
+      "id": "Label_31",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem",
+      "id": "Label_32",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/OpenAI",
+      "id": "Label_33",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/NVIDIA",
+      "id": "Label_34",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D",
+      "id": "Label_35",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Meshy_3D_AI",
+      "id": "Label_36",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Devpost_Hackathons",
+      "id": "Label_37",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest",
+      "id": "Label_38",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/DEV_Community",
+      "id": "Label_39",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/OpenCV_Computer_Vision",
+      "id": "Label_40",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Filestack_API",
+      "id": "Label_41",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Rokoko_Mocap",
+      "id": "Label_42",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/LottieFiles_Design",
+      "id": "Label_43",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Mermaid_AI",
+      "id": "Label_44",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/WooCommerce",
+      "id": "Label_45",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Adobe_Creative_Cloud",
+      "id": "Label_46",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS",
+      "id": "Label_47",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Davivienda",
+      "id": "Label_48",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella",
+      "id": "Label_49",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank",
+      "id": "Label_50",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Addi_Fintech",
+      "id": "Label_51",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas",
+      "id": "Label_52",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias",
+      "id": "Label_53",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios",
+      "id": "Label_54",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera",
+      "id": "Label_55",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL",
+      "id": "Label_56",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Dafiti",
+      "id": "Label_57",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Adidas",
+      "id": "Label_58",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Samsung",
+      "id": "Label_59",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Sony",
+      "id": "Label_60",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Shein",
+      "id": "Label_61",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software",
+      "id": "Label_62",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    }
+  ]
+}

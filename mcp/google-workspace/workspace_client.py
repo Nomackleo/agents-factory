@@ -127,16 +127,25 @@ class WorkspaceClient:
         try:
             with urllib.request.urlopen(req) as resp:
                 content_type = resp.headers.get("Content-Type", "")
+                body_bytes = resp.read()
+                if not body_bytes:
+                    return {"status": "success", "code": getattr(resp, "status", 200)}
                 if "application/json" in content_type:
-                    return json.loads(resp.read().decode("utf-8"))
-                return {"status": "success", "data": resp.read().decode("utf-8", errors="ignore")}
+                    return json.loads(body_bytes.decode("utf-8"))
+                return {"status": "success", "data": body_bytes.decode("utf-8", errors="ignore")}
         except urllib.error.HTTPError as e:
             if e.code == 401:
                 token = self.refresh_token()
                 req_headers["Authorization"] = f"Bearer {token}"
                 req_retry = urllib.request.Request(url, data=data, headers=req_headers, method=method)
                 with urllib.request.urlopen(req_retry) as resp_retry:
-                    return json.loads(resp_retry.read().decode("utf-8"))
+                    content_type_retry = resp_retry.headers.get("Content-Type", "")
+                    body_retry = resp_retry.read()
+                    if not body_retry:
+                        return {"status": "success", "code": getattr(resp_retry, "status", 200)}
+                    if "application/json" in content_type_retry:
+                        return json.loads(body_retry.decode("utf-8"))
+                    return {"status": "success", "data": body_retry.decode("utf-8", errors="ignore")}
             else:
                 body = e.read().decode("utf-8", errors="ignore")
                 raise RuntimeError(f"HTTP {e.code} en {url}: {body}")
@@ -155,6 +164,57 @@ class WorkspaceClient:
     def get_message_detail(self, message_id: str) -> Dict[str, Any]:
         url = f"https://gmail.googleapis.com/gmail/v1/users/me/messages/{message_id}?format=full"
         return self._make_request(url)
+
+    def list_labels(self) -> Dict[str, Any]:
+        """Lista todas las etiquetas (labels) de la cuenta de Gmail."""
+        return self._make_request("https://gmail.googleapis.com/gmail/v1/users/me/labels")
+
+    def get_label(self, label_id: str) -> Dict[str, Any]:
+        """Obtiene la configuración y metadatos de una etiqueta específica."""
+        url = f"https://gmail.googleapis.com/gmail/v1/users/me/labels/{label_id}"
+        return self._make_request(url)
+
+    def create_label(self, name: str, background_color: Optional[str] = None, text_color: Optional[str] = None,
+                     label_list_visibility: str = "labelShow", message_list_visibility: str = "show") -> Dict[str, Any]:
+        """Crea una nueva etiqueta jerárquica con color y visibilidad en Gmail."""
+        payload: Dict[str, Any] = {
+            "name": name,
+            "labelListVisibility": label_list_visibility,
+            "messageListVisibility": message_list_visibility
+        }
+        if background_color and text_color:
+            payload["color"] = {
+                "backgroundColor": background_color,
+                "textColor": text_color
+            }
+        url = "https://gmail.googleapis.com/gmail/v1/users/me/labels"
+        return self._make_request(url, method="POST", payload=payload)
+
+    def update_label(self, label_id: str, name: Optional[str] = None, background_color: Optional[str] = None,
+                     text_color: Optional[str] = None, label_list_visibility: Optional[str] = None,
+                     message_list_visibility: Optional[str] = None) -> Dict[str, Any]:
+        """Actualiza el nombre, color o visibilidad de una etiqueta existente."""
+        current = self.get_label(label_id)
+        payload = {
+            "id": label_id,
+            "name": name if name is not None else current.get("name"),
+            "labelListVisibility": label_list_visibility if label_list_visibility is not None else current.get("labelListVisibility", "labelShow"),
+            "messageListVisibility": message_list_visibility if message_list_visibility is not None else current.get("messageListVisibility", "show")
+        }
+        if background_color and text_color:
+            payload["color"] = {
+                "backgroundColor": background_color,
+                "textColor": text_color
+            }
+        url = f"https://gmail.googleapis.com/gmail/v1/users/me/labels/{label_id}"
+        return self._make_request(url, method="PUT", payload=payload)
+
+    def delete_label(self, label_id: str, hitl_confirmed: bool = False) -> Dict[str, Any]:
+        """Elimina una etiqueta de Gmail de forma segura con verificación HITL."""
+        if not hitl_confirmed:
+            raise PermissionError("ACCION BLOQUEADA: Eliminar etiquetas requiere confirmación HITL.")
+        url = f"https://gmail.googleapis.com/gmail/v1/users/me/labels/{label_id}"
+        return self._make_request(url, method="DELETE")
 
     def trash_message(self, message_id: str, hitl_confirmed: bool = False) -> Dict[str, Any]:
         """Mueve un mensaje a la papelera (Trash) de forma segura con confirmación HITL."""
