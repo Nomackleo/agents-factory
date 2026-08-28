@@ -8,11 +8,13 @@
 ## 1. Internet Aesthetics, Nostalgia Digital & Core-Cultures
 
 ### 1.1. Vaporwave & Synthwave
+
 * **Vaporwave:** Nostalgia retro-digital noventera, bustos grecorromanos, fuentes de centros comerciales, mármol pastel, glitches de VHS, paletas rosa/cian (`#FF71CE`, `#01CDFE`, `#05FFA1`) y tipografía en japonés o serifas noventeras.
 * **Synthwave / Outrun:** Neón ochentero, rejillas vectoriales en perspectiva (*wireframe grids*), soles geométricos al atardecer sobre degradados púrpura/magenta, deportivos retro y síntesis analógica.
 * **Vapor-Goth / Dark Vaporwave:** Deconstrucción oscura y funeraria de vaporwave, reverb infinito, paletas desaturadas con acentos violeta oscuro y estéticas de cintas dañadas.
 
 ### 1.2. Punk Sub-Genres (Retrofuturismo & Ficción Especulativa)
+
 * **Cyberpunk:** Distopía urbana de alta tecnología y baja calidad de vida (*high tech, low life*), lluvia ácida, neón saturado, aumentos cibernéticos, interfaces holográficas caóticas y kanjis.
 * **Solarpunk:** Fusión de biomimetismo, tecnología de energía limpia, optimismo arquitectónico Art Nouveau, plantas vivas integradas en estructuras de cristal y paletas verde esmeralda, dorado y blanco níveo.
 * **Steampunk:** Retrofuturismo victoriano dominado por maquinaria de vapor, engranajes de latón pulido, relojería expuesta, cobre remachado, tonos sepia y cuero.
@@ -23,6 +25,7 @@
 * **Dreampunk:** Paisajes oníricos hipnagógicos, cinematografía brumosa, luces difusas, lluvia nocturna, reflejos en aceras mojadas y texturas etéreas.
 
 ### 1.3. Digital Cores & Fenómenos de Red
+
 * **Glitchcore:** Deconstrucción digital agresiva, artefactos de compresión JPEG/MPEG, *pixel sorting*, aberración cromática violenta y sobrecarga sensorial.
 * **Hyperpop Aesthetic:** Maximalismo cromático digital, renders 3D metálicos gomosos e inflables, tipografías líquidas deformadas, brillos estridentes y saturación al 100%.
 * **Weirdcore / Dreamcore:** Manipulación amateur de imágenes de baja resolución (1998–2004), espacios desolados familiares pero inquietantes (*liminal spaces*), textos crípticos flotantes y descontextualización surrealista.

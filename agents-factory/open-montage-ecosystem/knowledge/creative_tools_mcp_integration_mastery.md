@@ -8,7 +8,8 @@
 
 Blender incorpora un intérprete Python completo con el módulo nativo `bpy`.
 
-### A. Capacidades Agénticas Vía MCP:
+### A. Capacidades Agénticas Vía MCP
+
 1. **Renderizado Headless:** Invocación de `blender --background scene.blend --python script.py` para renderizar fotogramas y secuencias con **Eevee Next** o **Cycles** sin cargar la interfaz gráfica.
 2. **Generación Procedural de Geometría:** Creación algorítmica de terrenos, modificadores de deformación y distribución de instancias (*Geometry Nodes*).
 3. **Exportación de Activos Web 3D:** Transpilación y compresión automática de modelos hacia `GLTF/GLB` con compresión Draco y materiales PBR listos para Three.js y HyperFrames.
@@ -19,7 +20,8 @@ Blender incorpora un intérprete Python completo con el módulo nativo `bpy`.
 
 DaVinci Resolve Studio expone una API de scripting nativa en Python/Lua a través del módulo `DaVinciResolveScript` (`fusionscript`).
 
-### A. Capacidades Agénticas Vía MCP:
+### A. Capacidades Agénticas Vía MCP
+
 1. **Creación Automatizada de Proyectos y Timelines:** Carga de material en Media Pool, creación de pistas de video/audio y ensamble automático de secuencias.
 2. **Intercambio OpenTimelineIO (OTIO) y EDL/XML:** Ingesta de listas de decisiones de edición (`edit_decisions.json`) y conversión a líneas de tiempo nativas.
 3. **Etalonaje y Aplicación de LUTs:** Aplicación automática de tablas de color (LUTs `.cube`), corrección de balance de blancos y curvas de tono.
@@ -46,7 +48,8 @@ DaVinci Resolve Studio expone una API de scripting nativa en Python/Lua a travé
 ## 5. Estándar de Intercambio Universal: OpenTimelineIO (OTIO)
 
 OpenMontage genera líneas de tiempo en formato canónico **OpenTimelineIO (`.otio`)**, permitiendo que cualquier proyecto iniciado por un agente de IA pueda abrirse, editarse o finalizarse indistintamente en:
-- DaVinci Resolve Studio
-- Blender Video Sequence Editor (VSE)
-- Adobe Premiere Pro / Final Cut Pro (vía convertidor FCPXML)
-- HyperFrames / Remotion web runners
+
+* DaVinci Resolve Studio
+* Blender Video Sequence Editor (VSE)
+* Adobe Premiere Pro / Final Cut Pro (vía convertidor FCPXML)
+* HyperFrames / Remotion web runners
