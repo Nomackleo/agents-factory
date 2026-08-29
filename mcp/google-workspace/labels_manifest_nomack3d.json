@@ -1,0 +1,304 @@
+{
+  "account": "nomack3d",
+  "timestamp": "2026-08-29T18:19:00Z",
+  "total_labels": 33,
+  "labels": [
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES",
+      "id": "Label_1",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Genesis_Legal",
+      "id": "Label_2",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Proyectos_Leonel",
+      "id": "Label_3",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Mauricio_Gamboa",
+      "id": "Label_4",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "01_CLIENTES_Y_ENTIDADES/Consultoria_Forense",
+      "id": "Label_5",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#16a766",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO",
+      "id": "Label_6",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board",
+      "id": "Label_7",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "02_OFERTAS_EMPLEO_Y_TALENTO/Portales_Tech",
+      "id": "Label_8",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES",
+      "id": "Label_9",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/British_Council_Ingles",
+      "id": "Label_10",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Google_Skills_Boost",
+      "id": "Label_11",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "03_EDUCACION_Y_CERTIFICACIONES/Academias_Online",
+      "id": "Label_12",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#ffad47",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV",
+      "id": "Label_13",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini",
+      "id": "Label_14",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource",
+      "id": "Label_15",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/OpenAI_ChatGPT",
+      "id": "Label_16",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI",
+      "id": "Label_17",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Warp_Terminal_Agent",
+      "id": "Label_18",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/ComfyUI_Generative",
+      "id": "Label_19",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Sketchfab_3D_KitBash",
+      "id": "Label_20",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Napkin_AI",
+      "id": "Label_21",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf",
+      "id": "Label_22",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest",
+      "id": "Label_23",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#a479e2",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS",
+      "id": "Label_24",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Banca_Facturas",
+      "id": "Label_25",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "05_FINANZAS_BANCA_Y_FACTURAS/Google_Workspace_Billing",
+      "id": "Label_26",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#43d692",
+        "textColor": "#000000"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL",
+      "id": "Label_27",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "06_ECOMMERCE_Y_RETAIL/Promociones_Compras",
+      "id": "Label_28",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#fb4c2f",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "07_REDES_Y_COMUNIDAD",
+      "id": "Label_29",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "07_REDES_Y_COMUNIDAD/Facebook",
+      "id": "Label_30",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#4a86e8",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "08_SISTEMA_Y_NOTIFICACIONES",
+      "id": "Label_31",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#666666",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces",
+      "id": "Label_32",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#666666",
+        "textColor": "#ffffff"
+      }
+    },
+    {
+      "name": "08_SISTEMA_Y_NOTIFICACIONES/Alertas_Seguridad_Google",
+      "id": "Label_33",
+      "status": "created",
+      "color": {
+        "backgroundColor": "#666666",
+        "textColor": "#ffffff"
+      }
+    }
+  ]
+}

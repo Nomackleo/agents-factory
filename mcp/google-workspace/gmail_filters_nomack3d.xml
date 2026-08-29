@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:apps="http://schemas.google.com/apps/2006">
+  <title>Mail Filters for nomack3d@gmail.com</title>
+  <id>tag:mail.google.com,2008:filters:nomack3d@gmail.com</id>
+  <updated>2026-08-29T18:20:06Z</updated>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 1: 01_CLIENTES_Y_ENTIDADES/Genesis_Legal</title>
+    <id>tag:mail.google.com,2008:filter:1</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="genesislegal.co OR comercial@genesislegal.co OR riesgos@genesislegal.co"/>
+    <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Genesis_Legal"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 2: 01_CLIENTES_Y_ENTIDADES/Consultoria_Forense</title>
+    <id>tag:mail.google.com,2008:filter:2</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="coordinacion@genesislegal.co OR forense"/>
+    <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Consultoria_Forense"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 3: 01_CLIENTES_Y_ENTIDADES/Mauricio_Gamboa</title>
+    <id>tag:mail.google.com,2008:filter:3</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="mauriciogamboag@gmail.com"/>
+    <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Mauricio_Gamboa"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 4: 01_CLIENTES_Y_ENTIDADES/Proyectos_Leonel</title>
+    <id>tag:mail.google.com,2008:filter:4</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="nomack3d@gmail.com"/>
+    <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Proyectos_Leonel"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 5: 02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board</title>
+    <id>tag:mail.google.com,2008:filter:5</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="getonbrd.com OR no-reply@getonbrd.com"/>
+    <apps:property name="label" value="02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 6: 03_EDUCACION_Y_CERTIFICACIONES/British_Council_Ingles</title>
+    <id>tag:mail.google.com,2008:filter:6</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="britishcouncil.org OR learnenglish@britishcouncil.org"/>
+    <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/British_Council_Ingles"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 7: 04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini</title>
+    <id>tag:mail.google.com,2008:filter:7</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="google.com OR gemini-notes@google.com OR notifications@discuss.ai.google.dev OR workspace-noreply@google.com OR googleone-noreply@google.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 8: 04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource</title>
+    <id>tag:mail.google.com,2008:filter:8</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="github.com OR notifications@github.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 9: 04_TECNOLOGIA_IA_Y_DEV/OpenAI_ChatGPT</title>
+    <id>tag:mail.google.com,2008:filter:9</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="openai.com OR email.openai.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/OpenAI_ChatGPT"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 10: 04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI</title>
+    <id>tag:mail.google.com,2008:filter:10</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="nvidia.com OR news@nvidia.com OR inceptionprogram@nvidia.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 11: 04_TECNOLOGIA_IA_Y_DEV/Warp_Terminal_Agent</title>
+    <id>tag:mail.google.com,2008:filter:11</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="warp.dev OR feedback+customerio@warp.dev"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Warp_Terminal_Agent"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 12: 04_TECNOLOGIA_IA_Y_DEV/ComfyUI_Generative</title>
+    <id>tag:mail.google.com,2008:filter:12</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="comfy.org OR news.comfy.org"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/ComfyUI_Generative"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 13: 04_TECNOLOGIA_IA_Y_DEV/Sketchfab_3D_KitBash</title>
+    <id>tag:mail.google.com,2008:filter:13</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="sketchfab.com OR community@sketchfab.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Sketchfab_3D_KitBash"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 14: 04_TECNOLOGIA_IA_Y_DEV/Napkin_AI</title>
+    <id>tag:mail.google.com,2008:filter:14</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="napkin.ai OR contact@napkin.ai"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Napkin_AI"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 15: 04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf</title>
+    <id>tag:mail.google.com,2008:filter:15</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="voidzero.dev"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 16: 04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest</title>
+    <id>tag:mail.google.com,2008:filter:16</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="medium.com OR noreply@medium.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 17: 07_REDES_Y_COMUNIDAD/Facebook</title>
+    <id>tag:mail.google.com,2008:filter:17</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="facebookmail.com OR reminders@facebookmail.com OR friendsuggestions@facebookmail.com"/>
+    <apps:property name="label" value="07_REDES_Y_COMUNIDAD/Facebook"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 18: 08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces</title>
+    <id>tag:mail.google.com,2008:filter:18</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="mailer-daemon@googlemail.com"/>
+    <apps:property name="label" value="08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 19: 08_SISTEMA_Y_NOTIFICACIONES/Alertas_Seguridad_Google</title>
+    <id>tag:mail.google.com,2008:filter:19</id>
+    <updated>2026-08-29T18:20:06Z</updated>
+    <content/>
+    <apps:property name="from" value="no-reply@accounts.google.com"/>
+    <apps:property name="label" value="08_SISTEMA_Y_NOTIFICACIONES/Alertas_Seguridad_Google"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+</feed>

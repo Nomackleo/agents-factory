@@ -1,0 +1,909 @@
+{
+  "timestamp": "2026-08-29T18:19:59Z",
+  "account": "nomack3d",
+  "total_requested": 100,
+  "successfully_labeled": 100,
+  "errors": 0,
+  "labeled_items": [
+    {
+      "msg_id": "1a04a7c82d605143",
+      "from": "\"Coordinación Jurídica y Comercial\" <comercial@genesislegal.co>",
+      "subject": "Invitación: CAPACITACIÓN IA mar 1 de sept de 2026 3pm - 6pm (COT) (nomack3d@gmail.com)",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "1a04a13ed4c1c74a",
+      "from": "Medium <noreply@medium.com>",
+      "subject": "50% off. Last call.",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"
+      ]
+    },
+    {
+      "msg_id": "1a049e2438176072",
+      "from": "\"Área Coordinación Forense\" <coordinacion@genesislegal.co>",
+      "subject": "Re: Recordatorio: Estado actual y preparación para la migración masiva a Google Drive",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Consultoria_Forense"
+      ]
+    },
+    {
+      "msg_id": "1a049b36bf351c97",
+      "from": "Google One <googleone-noreply@google.com>",
+      "subject": "Cambios en los límites de uso de Gemini Notebook",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a048daf9e5dfed2",
+      "from": "\"Coordinación Jurídica ... (vía Documentos de Google)\" <drive-shares-dm-noreply@google.com>",
+      "subject": "Documento compartido contigo: \"DPTO DE CONFIABILIDAD - IA.: 2026/08/27 16:29 GMT-05:00 - Notas de Gemini\"",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "1a048c33a070a662",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Recordatorio: Estado actual y preparación para la migración masiva a Google Drive",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Proyectos_Leonel"
+      ]
+    },
+    {
+      "msg_id": "1a048ac804cc693d",
+      "from": "GitHub <no-reply@github.com>",
+      "subject": "Upcoming changes to GitHub Copilot",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "1a045dcd91d396f5",
+      "from": "ChatGPT <noreply@email.openai.com>",
+      "subject": "Edita tus fotos favoritas",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/OpenAI_ChatGPT"
+      ]
+    },
+    {
+      "msg_id": "1a045d274d4d2611",
+      "from": "Google Meet <meetings-noreply@google.com>",
+      "subject": "Registros de la reunión: DPTO DE CONFIABILIDAD - IA. 27 ago 2026",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "1a04431a596644e5",
+      "from": "NVIDIA <news@nvidia.com>",
+      "subject": "Post-train NVIDIA Cosmos for your physical AI use case",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI"
+      ]
+    },
+    {
+      "msg_id": "1a043d5648caebd7",
+      "from": "Facebook <notification@priority.facebookmail.com>",
+      "subject": "Tienes 5 notificaciones sobre Tamar y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "1a04364d964ce694",
+      "from": "Medium Events <noreply@medium.com>",
+      "subject": "Introducing the State of Writing Report at Medium Day",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"
+      ]
+    },
+    {
+      "msg_id": "1a038670ae0d8729",
+      "from": "Voidzero <no-reply@voidzero.dev>",
+      "subject": "⚡ ViteConf is back!",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf"
+      ]
+    },
+    {
+      "msg_id": "1a036050e047eecf",
+      "from": "Medium <noreply@medium.com>",
+      "subject": "30% off. This week only.",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"
+      ]
+    },
+    {
+      "msg_id": "1a035c5750ffd79b",
+      "from": "Google AI Developers Forum <notifications@discuss.ai.google.dev>",
+      "subject": "[Google AI Developers Forum] Summary",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a034760b4580997",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Prueba 2: Rescate Catch-All",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a034719927f643f",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Prueba 1: Entrega en Vivo gscg.com.co",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a03430626b98010",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "1a0343030ac5b433",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Fwd: Delivery Status Notification (Failure)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "1a03423a88760292",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "1a034237c3c12b11",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Prueba de trazabilidad y contingencia.",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a03419973347922",
+      "from": "The British Council <learnenglish@britishcouncil.org>",
+      "subject": "Last chance to personalise your English learning experience",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/British_Council_Ingles"
+      ]
+    },
+    {
+      "msg_id": "1a030a2c7380ca29",
+      "from": "Facebook <notification@priority.facebookmail.com>",
+      "subject": "Tienes 5 notificaciones sobre Rous y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "1a02c5a22388d863",
+      "from": "Get on Board <no-reply@getonbrd.com>",
+      "subject": "En mirar no hay engaño... mira estos empleos destacados 😎",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board"
+      ]
+    },
+    {
+      "msg_id": "1a02a89025be994c",
+      "from": "spinzo-cyber <notifications@github.com>",
+      "subject": "Re: [animate-css/animate.css] How can I make animate.css animations respect prefers-reduced-motion without disabling them completely? (Discussion #1923)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "1a02a38309c474f1",
+      "from": "Barry <notifications@github.com>",
+      "subject": "Re: [animate-css/animate.css] How can I make animate.css animations respect prefers-reduced-motion without disabling them completely? (Discussion #1923)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "1a02a1de5e4245b0",
+      "from": "spinzo-cyber <notifications@github.com>",
+      "subject": "[animate-css/animate.css] How can I make animate.css animations respect prefers-reduced-motion without disabling them completely? (Discussion #1923)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "1a02221bdbe1d77e",
+      "from": "Sugerencias de amistad en Facebook <friendsuggestion@facebookmail.com>",
+      "subject": "👤 Tienes una nueva sugerencia de amistad: Dinora Sanchez",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "1a020a4a9fa45521",
+      "from": "NVIDIA Developer Relations <news@nvidia.com>",
+      "subject": "Your Personalized Developer News from NVIDIA",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI"
+      ]
+    },
+    {
+      "msg_id": "1a01f5f7b045da59",
+      "from": "Warp Team <feedback+customerio@warp.dev>",
+      "subject": "Introducing Warp Factories: Build your own cloud software factory",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Warp_Terminal_Agent"
+      ]
+    },
+    {
+      "msg_id": "1a01d315abf0d8fd",
+      "from": "Facebook <notification@priority.facebookmail.com>",
+      "subject": "Tienes 4 notificaciones sobre Arianna y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "1a01666775f940e9",
+      "from": "Arkendu Kundu <notifications@github.com>",
+      "subject": "Re: [animate-css/animate.css] Add Hover Effect to Footer Links for Improved UX (Issue #1861)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "1a015dba996d3d13",
+      "from": "Mauricio Gamboa <mauriciogamboag@gmail.com>",
+      "subject": "Re: Respaldo de Bases de Datos y Web site de Génesis Legal",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "1a0155a234ddf4fd",
+      "from": "Gemini <gemini-notes@google.com>",
+      "subject": "Notas: Reunión del 18 ago 2026 a las 9:16 AM GMT-05:00",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a0153594cee03e7",
+      "from": "Gemini Notebook <GeminiNotebook-noreply@google.com>",
+      "subject": "Share Request for Infraestructura de Agentes",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a01535721bc0aef",
+      "from": "Gemini Notebook <GeminiNotebook-noreply@google.com>",
+      "subject": "Share Request for Infraestructura de Agentes",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a011ab3493eed7b",
+      "from": "Google AI Developers Forum <notifications@discuss.ai.google.dev>",
+      "subject": "[Google AI Developers Forum] Summary",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "1a007d105db5f251",
+      "from": "Get on Board <no-reply@getonbrd.com>",
+      "subject": "🔓 Desbloquea tu carrera postulando a estos empleos.",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board"
+      ]
+    },
+    {
+      "msg_id": "1a0022dd6b2e0603",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Respaldo de Bases de Datos y Web site de Génesis Legal",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "1a000ee0d2b7ecbe",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 4 notificaciones sobre Arianna y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "1a000a6053cc859a",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Alerta de seguridad para nomackleo@gmail.com",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Alertas_Seguridad_Google"
+      ]
+    },
+    {
+      "msg_id": "19fff760e88e4b37",
+      "from": "TushitMishra <notifications@github.com>",
+      "subject": "Re: [animate-css/animate.css] fix one (PR #1848)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "19fff7543d4ea2b8",
+      "from": "TushitMishra <notifications@github.com>",
+      "subject": "Re: [animate-css/animate.css] fix one (PR #1848)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "19ffbae145841d08",
+      "from": "NVIDIA <news@nvidia.com>",
+      "subject": "Watch the NVIDIA keynote and sessions from SIGGRAPH 2026",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI"
+      ]
+    },
+    {
+      "msg_id": "19ffb72ced0689a2",
+      "from": "The British Council <learnenglish@britishcouncil.org>",
+      "subject": "Personalise your English learning experience",
+      "labels_assigned": [
+        "03_EDUCACION_Y_CERTIFICACIONES",
+        "03_EDUCACION_Y_CERTIFICACIONES/British_Council_Ingles"
+      ]
+    },
+    {
+      "msg_id": "19ffb0d1015fbbe7",
+      "from": "ChatGPT <noreply@email.openai.com>",
+      "subject": "Revisa tu ruta antes de salir",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/OpenAI_ChatGPT"
+      ]
+    },
+    {
+      "msg_id": "19ffaf9391ca6eae",
+      "from": "Warp <noreply@warp.dev>",
+      "subject": "Claude Fable 5 and Opus 5 are 50% off in Warp",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Warp_Terminal_Agent"
+      ]
+    },
+    {
+      "msg_id": "19ff927bfdd934fe",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 4 notificaciones sobre Yineth y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19ff2a106eb12067",
+      "from": "Sketchfab <community@sketchfab.com>",
+      "subject": "Sketchfab is joining KitBash",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Sketchfab_3D_KitBash"
+      ]
+    },
+    {
+      "msg_id": "19ff184737642bcd",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Recuperaste correctamente tu Cuenta de Google",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Alertas_Seguridad_Google"
+      ]
+    },
+    {
+      "msg_id": "19ff18467a5ff6db",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Alerta de seguridad para nomackleo@gmail.com",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Alertas_Seguridad_Google"
+      ]
+    },
+    {
+      "msg_id": "19ff17de3033607d",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 4 notificaciones sobre Tamar y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19ff0086d58da486",
+      "from": "Napkin AI <contact@napkin.ai>",
+      "subject": "Introducing Napkin Slides 🚀",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Napkin_AI"
+      ]
+    },
+    {
+      "msg_id": "19fee239dac4582e",
+      "from": "Sugerencias de amistad en Facebook <friendsuggestion@facebookmail.com>",
+      "subject": "👤 Tienes una nueva sugerencia de amistad: Rous Cstilmz",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fed946145df838",
+      "from": "Google AI Developers Forum <notifications@discuss.ai.google.dev>",
+      "subject": "[Google AI Developers Forum] Summary",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fed48d865d6fed",
+      "from": "arkendukundu-dev <notifications@github.com>",
+      "subject": "Re: [animate-css/animate.css] Add Hover Effect to Footer Links for Improved UX (Issue #1861)",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/GitHub_OpenSource"
+      ]
+    },
+    {
+      "msg_id": "19fec3591ee00d0f",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 3 notificaciones sobre Arianna y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fe765978ce188f",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 3 notificaciones sobre Arianna y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fe4bdb3a5bbc7a",
+      "from": "Get on Board <no-reply@getonbrd.com>",
+      "subject": "Revisa nuestra selección de empleos increíbles para ti 💌",
+      "labels_assigned": [
+        "02_OFERTAS_EMPLEO_Y_TALENTO",
+        "02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board"
+      ]
+    },
+    {
+      "msg_id": "19fe2a7d919e2297",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 3 notificaciones sobre Arianna y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fe22ce06a524d7",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fe02591c5df0a0",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fdeffb9b017426",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Failure)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fdeabd85726055",
+      "from": "Comfy Team <comfy-cloud@news.comfy.org>",
+      "subject": "Your agent can run Comfy for you, free",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/ComfyUI_Generative"
+      ]
+    },
+    {
+      "msg_id": "19fdd106ba64dd8e",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Delay)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fdceb973294458",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 3 notificaciones sobre Yineth y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fda2e3e1030199",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 3 notificaciones sobre Arianna y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fda19cfab3f57c",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Delay)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fd96e36ceb565e",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Delay)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fd8a70189b1ec1",
+      "from": "NVIDIA Developer Relations <news@nvidia.com>",
+      "subject": "Your Personalized Developer News from NVIDIA",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI"
+      ]
+    },
+    {
+      "msg_id": "19fd7f0eb38edcf4",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Delay)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fd5225ca609d16",
+      "from": "Olivia from Warp <feedback+customerio@warp.dev>",
+      "subject": "Introducing the Warp Agent CLI: a coding agent that does what others can't",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Warp_Terminal_Agent"
+      ]
+    },
+    {
+      "msg_id": "19fd4c176b7a0da9",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Delay)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fd440890a6ec8c",
+      "from": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+      "subject": "Delivery Status Notification (Delay)",
+      "labels_assigned": [
+        "08_SISTEMA_Y_NOTIFICACIONES",
+        "08_SISTEMA_Y_NOTIFICACIONES/Mailer_Daemon_Bounces"
+      ]
+    },
+    {
+      "msg_id": "19fd3cdad09793cb",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd3cd566cf3758",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd378c68633e58",
+      "from": "Medium <noreply@medium.com>",
+      "subject": "Become a Friend of Medium today to access our exclusive track at Medium Day",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"
+      ]
+    },
+    {
+      "msg_id": "19fd354bb6b6f497",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Re: Test de verificación MX/DNS - Leonel Salcedo",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd34e9cadadd9f",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd33184ab0c66a",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Test de verificación MX/DNS - Leonel Salcedo",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd32d4270c751e",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Estado de la migración DNS e implementación de Google Workspace en Génesis Legal",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fd32395651a88d",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Test de verificación MX/DNS - Leonel Salcedo",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd289f0ffd0c38",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 3 notificaciones sobre Yineth y otras personas",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fd26e546f65b9b",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Fwd: demo",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fd015f0110cab4",
+      "from": "Sugerencias de amistad en Facebook <friendsuggestion@facebookmail.com>",
+      "subject": "👤 Tienes una nueva sugerencia de amistad: Arianna Barrios",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fcf35771559395",
+      "from": "\"Coordinación Confiabilidad y Poligrafía\" <riesgos@genesislegal.co>",
+      "subject": "demo",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fcf34abc5410d6",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Fwd: Prueba de correo",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fcefc7b8a39a01",
+      "from": "\"Coordinación Confiabilidad y Poligrafía\" <riesgos@genesislegal.co>",
+      "subject": "prueba",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fcef53408ddb88",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Prueba de correo",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fcdf1ac333f04c",
+      "from": "Facebook <reminders@facebookmail.com>",
+      "subject": "Tienes 2 notificaciones sobre Tamar y Yineth",
+      "labels_assigned": [
+        "07_REDES_Y_COMUNIDAD",
+        "07_REDES_Y_COMUNIDAD/Facebook"
+      ]
+    },
+    {
+      "msg_id": "19fcde43d23ea43a",
+      "from": "NVIDIA Inception <inceptionprogram@nvidia.com>",
+      "subject": "Explore news, tools, and events for startups",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/NVIDIA_Cosmos_AI"
+      ]
+    },
+    {
+      "msg_id": "19fcd4e63adcf7f9",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Acta de Aprovisionamiento correos electrónico Génesis Legal.",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fcd34d0dd391f1",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Solicitud de Permisos SiteGround] Asignación de Roles de Administración para el Módulo de Correo y Herramientas de Sitio (`genesislegal.co`)",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fcd1c85f3b24cc",
+      "from": "Leonel Salcedo <nomack3d@gmail.com>",
+      "subject": "Informe de configuración del dominio apuntando a los servidores de Google.",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fc9747a68c7998",
+      "from": "Google AI Developers Forum <notifications@discuss.ai.google.dev>",
+      "subject": "[Google AI Developers Forum] Summary",
+      "labels_assigned": [
+        "04_TECNOLOGIA_IA_Y_DEV",
+        "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Gemini"
+      ]
+    },
+    {
+      "msg_id": "19fc968e81cfb2f2",
+      "from": "The Google Workspace Team <workspace-noreply@google.com>",
+      "subject": "Tiene una nueva cuenta de Google para genesislegal.co",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fc968d47122c04",
+      "from": "The Google Workspace Team <workspace-noreply@google.com>",
+      "subject": "Tiene una nueva cuenta de Google para genesislegal.co",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fc968cfdcabaf6",
+      "from": "The Google Workspace Team <workspace-noreply@google.com>",
+      "subject": "Tiene una nueva cuenta de Google para genesislegal.co",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fc968c62c8f24d",
+      "from": "The Google Workspace Team <workspace-noreply@google.com>",
+      "subject": "Tiene una nueva cuenta de Google para genesislegal.co",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    },
+    {
+      "msg_id": "19fc968c0999debe",
+      "from": "The Google Workspace Team <workspace-noreply@google.com>",
+      "subject": "Tiene una nueva cuenta de Google para genesislegal.co",
+      "labels_assigned": [
+        "01_CLIENTES_Y_ENTIDADES",
+        "01_CLIENTES_Y_ENTIDADES/Genesis_Legal"
+      ]
+    }
+  ]
+}
