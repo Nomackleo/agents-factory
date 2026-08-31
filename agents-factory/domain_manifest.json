@@ -50,7 +50,8 @@
         "blender-ecosystem",
         "open-montage-ecosystem",
         "cinema-ad-design-ecosystem",
-        "multimedia-data-ecosystem"
+        "multimedia-data-ecosystem",
+        "neural-motion-webgpu-ecosystem"
       ]
     },
     {

@@ -40,6 +40,7 @@ graph TD
     D3 --> C7["open-montage-ecosystem (Video Programático & Motion)"]
     D3 --> C8["cinema-ad-design-ecosystem (Storytelling Comercial)"]
     D3 --> C9["multimedia-data-ecosystem (Gestión de Activos)"]
+    D3 --> C10["neural-motion-webgpu-ecosystem (AI4Animation WebGPU)"]
 
     %% 4. Operations
     D4 --> O1["google-workspace-ecosystem (Suite de Productividad & GA4)"]
@@ -52,7 +53,7 @@ graph TD
     classDef domain fill:#07283d,stroke:#ffd231,stroke-width:2px,color:#ffffff
     classDef eco fill:#1a3a5c,stroke:#cccccc,stroke-width:1px,color:#ffffff
     class D1,D2,D3,D4,D5 domain
-    class S1,S2,S3,E1,E2,E3,E4,E5,E6,C1,C2,C3,C4,C5,C6,C7,C8,C9,O1,O2,G1 eco
+    class S1,S2,S3,E1,E2,E3,E4,E5,E6,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,O1,O2,G1 eco
 ```
 
 ---
@@ -63,7 +64,7 @@ graph TD
 | :--- | :--- | :--- | :--- |
 | **`01_executive_governance`** | CEO / Chief AI Strategy Officer | 3 Ecosistemas | Supervisión global, gobernanza de fábrica agéntica, diagnóstico de negocio y decisiones ejecutivas. |
 | **`02_engineering_and_ai_research`** | CTO / Head of AI & Security | 6 Ecosistemas | Arquitectura de software, aplicaciones Angular 19/20, seguridad Model Armor, visión por computador e investigación RAG. |
-| **`03_creative_production_and_3d`** | CCO / Creative & 3D Director | 9 Ecosistemas | Diseño UI/UX, gráficos WebGPU, escultura 3D, CAD paramétrico para impresión 3D, gemelos digitales OSM, render en Blender y video. |
+| **`03_creative_production_and_3d`** | CCO / Creative & 3D Director | 10 Ecosistemas | Diseño UI/UX, gráficos WebGPU, escultura 3D, CAD paramétrico, gemelos digitales OSM, animación neuronal AI4Animation, render en Blender y video. |
 | **`04_operations_and_quality`** | COO / Quality & Operations Director | 2 Ecosistemas | Automatización integral de Google Workspace (Gmail, Calendar, Drive, Sheets, Slides, Vids, GA4) y Sistema de Gestión de Calidad (ISO 9001). |
 | **`05_commercial_and_growth`** | CMO / CRO / Head of Growth | 1 Ecosistema | Posicionamiento de marca ejecutiva, liderazgo intelectual, optimización de embudos comerciales y telemetría de conversión. |
 
