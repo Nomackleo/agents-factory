@@ -48,8 +48,9 @@ graph TD
     D4 --> O1["google-workspace-ecosystem"]
     D4 --> O2["docs-as-code-ecosystem"]
 
-    %% 5. Commercial
+    %% 5. Commercial & Career Growth
     D5 --> G1["personal-brand-ecosystem"]
+    D5 --> G2["remote-jobs-career-ecosystem"]
 ```
 
 ---
@@ -87,6 +88,7 @@ graph TD
 
 ### 📈 División 5: Commercial, Growth & Executive Brand (CMO/CRO / Crecimiento)
 - **[`personal-brand-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/personal-brand-ecosystem):** Posicionamiento de marca ejecutiva, liderazgo de opinión y estrategias de crecimiento orgánico.
+- **[`remote-jobs-career-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/remote-jobs-career-ecosystem):** Inteligencia de vacantes remotas, generación reactiva de currículums ATS a medida, cartas de presentación y gestión de candidaturas con HITL obligatorio.
 
 ---
 
