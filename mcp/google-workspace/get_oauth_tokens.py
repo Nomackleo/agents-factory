@@ -123,12 +123,21 @@ def generate_account_token(account_alias, client_id, client_secret):
     return tokens
 
 if __name__ == "__main__":
-    if len(sys.argv) < 4:
-        print("Uso: python get_oauth_tokens.py <ACCOUNT_ALIAS> <CLIENT_ID> <CLIENT_SECRET>")
-        print("Ejemplo: python get_oauth_tokens.py nomackleo 12345.apps.googleusercontent.com GOCSPX-abcde")
+    account_alias = sys.argv[1] if len(sys.argv) > 1 else "nomackleo"
+    client_id = sys.argv[2] if len(sys.argv) > 2 else ""
+    client_secret = sys.argv[3] if len(sys.argv) > 3 else ""
+
+    if not client_id or not client_secret:
+        cred_path = os.path.expanduser(r"~\.config\antigravity\oauth_credentials.json")
+        if os.path.exists(cred_path):
+            with open(cred_path, "r", encoding="utf-8") as f:
+                creds = json.load(f)
+                client_id = client_id or creds.get("client_id")
+                client_secret = client_secret or creds.get("client_secret")
+
+    if not client_id or not client_secret:
+        print("Uso: python get_oauth_tokens.py <ACCOUNT_ALIAS> [CLIENT_ID] [CLIENT_SECRET]")
+        print("Ejemplo: python get_oauth_tokens.py nomackleo")
         sys.exit(1)
-        
-    account_alias = sys.argv[1]
-    client_id = sys.argv[2]
-    client_secret = sys.argv[3]
+
     generate_account_token(account_alias, client_id, client_secret)

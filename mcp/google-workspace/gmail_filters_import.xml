@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:apps="http://schemas.google.com/apps/2006">
   <title>Mail Filters for nomackleo@gmail.com</title>
   <id>tag:mail.google.com,2008:filters:nomackleo@gmail.com</id>
-  <updated>2026-08-28T22:59:57Z</updated>
+  <updated>2026-08-31T23:38:35Z</updated>
   <entry>
     <category term="filter"/>
     <title>Mail Filter 1: 01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota</title>
     <id>tag:mail.google.com,2008:filter:1</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="ccb.org.co OR notificaciones@ccb.org.co OR camara de comercio"/>
     <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota"/>
@@ -17,7 +17,7 @@
     <category term="filter"/>
     <title>Mail Filter 2: 01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota</title>
     <id>tag:mail.google.com,2008:filter:2</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="scrd.gov.co OR cultura bogota OR convocatorias scrd"/>
     <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota"/>
@@ -27,7 +27,7 @@
     <category term="filter"/>
     <title>Mail Filter 3: 01_CLIENTES_Y_ENTIDADES/Famisanar_EPS</title>
     <id>tag:mail.google.com,2008:filter:3</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="famisanar.com.co OR eps famisanar"/>
     <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Famisanar_EPS"/>
@@ -37,7 +37,7 @@
     <category term="filter"/>
     <title>Mail Filter 4: 01_CLIENTES_Y_ENTIDADES/Niilo_Consulting</title>
     <id>tag:mail.google.com,2008:filter:4</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="niilo.co OR gofest@niilo.co"/>
     <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Niilo_Consulting"/>
@@ -47,9 +47,9 @@
     <category term="filter"/>
     <title>Mail Filter 5: 01_CLIENTES_Y_ENTIDADES/BBI_Corporativo</title>
     <id>tag:mail.google.com,2008:filter:5</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
-    <apps:property name="from" value="bbi.com.co OR bbi corporativo"/>
+    <apps:property name="from" value="bbi.com.co OR bbi corporativo OR clubtostao@bbi.com.co"/>
     <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/BBI_Corporativo"/>
     <apps:property name="shouldNeverSpam" value="true"/>
   </entry>
@@ -57,7 +57,7 @@
     <category term="filter"/>
     <title>Mail Filter 6: 01_CLIENTES_Y_ENTIDADES/Colombia_Tech_Week</title>
     <id>tag:mail.google.com,2008:filter:6</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="colombiatech OR colombia tech"/>
     <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Colombia_Tech_Week"/>
@@ -65,9 +65,19 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 7: 02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo</title>
+    <title>Mail Filter 7: 01_CLIENTES_Y_ENTIDADES/Proimagenes_Colombia</title>
     <id>tag:mail.google.com,2008:filter:7</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="proimagenescolombia.com OR pc@proimagenescolombia.com"/>
+    <apps:property name="label" value="01_CLIENTES_Y_ENTIDADES/Proimagenes_Colombia"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 8: 02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo</title>
+    <id>tag:mail.google.com,2008:filter:8</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="computrabajo.com OR empleo@computrabajo.com"/>
     <apps:property name="label" value="02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo"/>
@@ -75,9 +85,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 8: 02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs</title>
-    <id>tag:mail.google.com,2008:filter:8</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 9: 02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs</title>
+    <id>tag:mail.google.com,2008:filter:9</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="linkedin.com OR jobalerts-noreply@linkedin.com OR messages-noreply@linkedin.com"/>
     <apps:property name="label" value="02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs"/>
@@ -85,9 +95,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 9: 02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo</title>
-    <id>tag:mail.google.com,2008:filter:9</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 10: 02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo</title>
+    <id>tag:mail.google.com,2008:filter:10</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="unmejorempleo.co OR candidatos@unmejorempleo.co"/>
     <apps:property name="label" value="02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo"/>
@@ -95,9 +105,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 10: 02_OFERTAS_EMPLEO_Y_TALENTO/Intch_Networking</title>
-    <id>tag:mail.google.com,2008:filter:10</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 11: 02_OFERTAS_EMPLEO_Y_TALENTO/Intch_Networking</title>
+    <id>tag:mail.google.com,2008:filter:11</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="intch.org OR email.intch.org"/>
     <apps:property name="label" value="02_OFERTAS_EMPLEO_Y_TALENTO/Intch_Networking"/>
@@ -105,9 +115,19 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 11: 03_EDUCACION_Y_CERTIFICACIONES/Udemy</title>
-    <id>tag:mail.google.com,2008:filter:11</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 12: 02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board</title>
+    <id>tag:mail.google.com,2008:filter:12</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="getonbrd.com OR no-reply@getonbrd.com"/>
+    <apps:property name="label" value="02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 13: 03_EDUCACION_Y_CERTIFICACIONES/Udemy</title>
+    <id>tag:mail.google.com,2008:filter:13</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="udemy.com OR e.udemymail.com OR Udemy Instructor"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Udemy"/>
@@ -115,9 +135,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 12: 03_EDUCACION_Y_CERTIFICACIONES/Google_Skills_Boost</title>
-    <id>tag:mail.google.com,2008:filter:12</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 14: 03_EDUCACION_Y_CERTIFICACIONES/Google_Skills_Boost</title>
+    <id>tag:mail.google.com,2008:filter:14</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="skills.google OR cloudskillsboost.google"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Google_Skills_Boost"/>
@@ -125,9 +145,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 13: 03_EDUCACION_Y_CERTIFICACIONES/Tech_Global_University</title>
-    <id>tag:mail.google.com,2008:filter:13</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 15: 03_EDUCACION_Y_CERTIFICACIONES/Tech_Global_University</title>
+    <id>tag:mail.google.com,2008:filter:15</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="mails.techtitute.com OR techtitute.com"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Tech_Global_University"/>
@@ -135,9 +155,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 14: 03_EDUCACION_Y_CERTIFICACIONES/UdeCataluna</title>
-    <id>tag:mail.google.com,2008:filter:14</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 16: 03_EDUCACION_Y_CERTIFICACIONES/UdeCataluna</title>
+    <id>tag:mail.google.com,2008:filter:16</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="udecataluna.edu.co OR udecataluña"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/UdeCataluna"/>
@@ -145,9 +165,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 15: 03_EDUCACION_Y_CERTIFICACIONES/BIG_School</title>
-    <id>tag:mail.google.com,2008:filter:15</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 17: 03_EDUCACION_Y_CERTIFICACIONES/BIG_School</title>
+    <id>tag:mail.google.com,2008:filter:17</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="thebigschool.com OR thebig.com OR big school"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/BIG_School"/>
@@ -155,9 +175,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 16: 03_EDUCACION_Y_CERTIFICACIONES/Founderz</title>
-    <id>tag:mail.google.com,2008:filter:16</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 18: 03_EDUCACION_Y_CERTIFICACIONES/Founderz</title>
+    <id>tag:mail.google.com,2008:filter:18</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="founderz.com OR events@founderz.com"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Founderz"/>
@@ -165,9 +185,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 17: 03_EDUCACION_Y_CERTIFICACIONES/GrowUp_Analytics</title>
-    <id>tag:mail.google.com,2008:filter:17</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 19: 03_EDUCACION_Y_CERTIFICACIONES/GrowUp_Analytics</title>
+    <id>tag:mail.google.com,2008:filter:19</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="growupdataanalytics.com OR grow up data"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/GrowUp_Analytics"/>
@@ -175,9 +195,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 18: 03_EDUCACION_Y_CERTIFICACIONES/Autodesk_Tinkercad</title>
-    <id>tag:mail.google.com,2008:filter:18</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 20: 03_EDUCACION_Y_CERTIFICACIONES/Autodesk_Tinkercad</title>
+    <id>tag:mail.google.com,2008:filter:20</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="autodesk.com OR tinkercad"/>
     <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Autodesk_Tinkercad"/>
@@ -185,19 +205,59 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 19: 04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem</title>
-    <id>tag:mail.google.com,2008:filter:19</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 21: 03_EDUCACION_Y_CERTIFICACIONES/Platzi</title>
+    <id>tag:mail.google.com,2008:filter:21</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
-    <apps:property name="from" value="google.com OR googleaistudio OR google developer program"/>
+    <apps:property name="from" value="platzi.com OR hello.platzi.com"/>
+    <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Platzi"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 22: 03_EDUCACION_Y_CERTIFICACIONES/Duolingo</title>
+    <id>tag:mail.google.com,2008:filter:22</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="duolingo.com OR hello@duolingo.com"/>
+    <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Duolingo"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 23: 03_EDUCACION_Y_CERTIFICACIONES/Coursera</title>
+    <id>tag:mail.google.com,2008:filter:23</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="coursera.org OR m.learn.coursera.org"/>
+    <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/Coursera"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 24: 03_EDUCACION_Y_CERTIFICACIONES/QuantInsti_Trading</title>
+    <id>tag:mail.google.com,2008:filter:24</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="quantinsti.com"/>
+    <apps:property name="label" value="03_EDUCACION_Y_CERTIFICACIONES/QuantInsti_Trading"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 25: 04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem</title>
+    <id>tag:mail.google.com,2008:filter:25</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="google.com OR googleaistudio OR google developer program OR noreply-accounts@google.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem"/>
     <apps:property name="shouldNeverSpam" value="true"/>
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 20: 04_TECNOLOGIA_IA_Y_DEV/OpenAI</title>
-    <id>tag:mail.google.com,2008:filter:20</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 26: 04_TECNOLOGIA_IA_Y_DEV/OpenAI</title>
+    <id>tag:mail.google.com,2008:filter:26</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="openai.com OR email.openai.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/OpenAI"/>
@@ -205,9 +265,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 21: 04_TECNOLOGIA_IA_Y_DEV/NVIDIA</title>
-    <id>tag:mail.google.com,2008:filter:21</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 27: 04_TECNOLOGIA_IA_Y_DEV/NVIDIA</title>
+    <id>tag:mail.google.com,2008:filter:27</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="nvidia.com OR nvgaming.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/NVIDIA"/>
@@ -215,9 +275,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 22: 04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D</title>
-    <id>tag:mail.google.com,2008:filter:22</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 28: 04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D</title>
+    <id>tag:mail.google.com,2008:filter:28</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="artstation.com OR notifications@artstation.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D"/>
@@ -225,9 +285,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 23: 04_TECNOLOGIA_IA_Y_DEV/Meshy_3D_AI</title>
-    <id>tag:mail.google.com,2008:filter:23</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 29: 04_TECNOLOGIA_IA_Y_DEV/Meshy_3D_AI</title>
+    <id>tag:mail.google.com,2008:filter:29</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="meshy.ai OR news.meshy.ai"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Meshy_3D_AI"/>
@@ -235,9 +295,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 24: 04_TECNOLOGIA_IA_Y_DEV/Devpost_Hackathons</title>
-    <id>tag:mail.google.com,2008:filter:24</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 30: 04_TECNOLOGIA_IA_Y_DEV/Devpost_Hackathons</title>
+    <id>tag:mail.google.com,2008:filter:30</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="devpost.com OR support@devpost.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Devpost_Hackathons"/>
@@ -245,9 +305,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 25: 04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest</title>
-    <id>tag:mail.google.com,2008:filter:25</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 31: 04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest</title>
+    <id>tag:mail.google.com,2008:filter:31</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="medium.com OR noreply@medium.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Medium_Tech_Digest"/>
@@ -255,9 +315,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 26: 04_TECNOLOGIA_IA_Y_DEV/DEV_Community</title>
-    <id>tag:mail.google.com,2008:filter:26</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 32: 04_TECNOLOGIA_IA_Y_DEV/DEV_Community</title>
+    <id>tag:mail.google.com,2008:filter:32</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="dev.to OR devcommunity.org"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/DEV_Community"/>
@@ -265,9 +325,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 27: 04_TECNOLOGIA_IA_Y_DEV/OpenCV_Computer_Vision</title>
-    <id>tag:mail.google.com,2008:filter:27</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 33: 04_TECNOLOGIA_IA_Y_DEV/OpenCV_Computer_Vision</title>
+    <id>tag:mail.google.com,2008:filter:33</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="opencv.org OR newsletter@opencv.org"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/OpenCV_Computer_Vision"/>
@@ -275,9 +335,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 28: 04_TECNOLOGIA_IA_Y_DEV/Filestack_API</title>
-    <id>tag:mail.google.com,2008:filter:28</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 34: 04_TECNOLOGIA_IA_Y_DEV/Filestack_API</title>
+    <id>tag:mail.google.com,2008:filter:34</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="filestack.com OR communication@filestack.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Filestack_API"/>
@@ -285,9 +345,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 29: 04_TECNOLOGIA_IA_Y_DEV/Rokoko_Mocap</title>
-    <id>tag:mail.google.com,2008:filter:29</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 35: 04_TECNOLOGIA_IA_Y_DEV/Rokoko_Mocap</title>
+    <id>tag:mail.google.com,2008:filter:35</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="rokoko.com OR hi@rokoko.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Rokoko_Mocap"/>
@@ -295,9 +355,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 30: 04_TECNOLOGIA_IA_Y_DEV/LottieFiles_Design</title>
-    <id>tag:mail.google.com,2008:filter:30</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 36: 04_TECNOLOGIA_IA_Y_DEV/LottieFiles_Design</title>
+    <id>tag:mail.google.com,2008:filter:36</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="lottiefiles.com OR hello@lottiefiles.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/LottieFiles_Design"/>
@@ -305,9 +365,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 31: 04_TECNOLOGIA_IA_Y_DEV/Mermaid_AI</title>
-    <id>tag:mail.google.com,2008:filter:31</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 37: 04_TECNOLOGIA_IA_Y_DEV/Mermaid_AI</title>
+    <id>tag:mail.google.com,2008:filter:37</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="mermaid.ai OR no-reply@mermaid.ai"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Mermaid_AI"/>
@@ -315,9 +375,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 32: 04_TECNOLOGIA_IA_Y_DEV/WooCommerce</title>
-    <id>tag:mail.google.com,2008:filter:32</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 38: 04_TECNOLOGIA_IA_Y_DEV/WooCommerce</title>
+    <id>tag:mail.google.com,2008:filter:38</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="woocommerce.com OR hello@woocommerce.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/WooCommerce"/>
@@ -325,9 +385,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 33: 04_TECNOLOGIA_IA_Y_DEV/Adobe_Creative_Cloud</title>
-    <id>tag:mail.google.com,2008:filter:33</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 39: 04_TECNOLOGIA_IA_Y_DEV/Adobe_Creative_Cloud</title>
+    <id>tag:mail.google.com,2008:filter:39</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="adobe.com OR mail@mail.adobe.com"/>
     <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Adobe_Creative_Cloud"/>
@@ -335,9 +395,39 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 34: 05_FINANZAS_BANCA_Y_FACTURAS/Davivienda</title>
-    <id>tag:mail.google.com,2008:filter:34</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 40: 04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf</title>
+    <id>tag:mail.google.com,2008:filter:40</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="voidzero.dev OR no-reply@voidzero.dev"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 41: 04_TECNOLOGIA_IA_Y_DEV/AnyDesk_Software</title>
+    <id>tag:mail.google.com,2008:filter:41</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="anydesk.com OR noreply@anydesk.com"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/AnyDesk_Software"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 42: 04_TECNOLOGIA_IA_Y_DEV/Raiola_Networks</title>
+    <id>tag:mail.google.com,2008:filter:42</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="raiolanetworks.es OR marketing@raiolanetworks.es"/>
+    <apps:property name="label" value="04_TECNOLOGIA_IA_Y_DEV/Raiola_Networks"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 43: 05_FINANZAS_BANCA_Y_FACTURAS/Davivienda</title>
+    <id>tag:mail.google.com,2008:filter:43</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="davivienda.com OR BANCO_DAVIVIENDA@davivienda.com"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Davivienda"/>
@@ -345,9 +435,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 35: 05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella</title>
-    <id>tag:mail.google.com,2008:filter:35</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 44: 05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella</title>
+    <id>tag:mail.google.com,2008:filter:44</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="bancofalabella.com OR co.bancofalabella.com"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella"/>
@@ -355,19 +445,19 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 36: 05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank</title>
-    <id>tag:mail.google.com,2008:filter:36</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 45: 05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank</title>
+    <id>tag:mail.google.com,2008:filter:45</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
-    <apps:property name="from" value="nu.com.co OR nu@nu.com.co"/>
+    <apps:property name="from" value="nu.com.co OR nu@nu.com.co OR soynu.com.co"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank"/>
     <apps:property name="shouldNeverSpam" value="true"/>
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 37: 05_FINANZAS_BANCA_Y_FACTURAS/Addi_Fintech</title>
-    <id>tag:mail.google.com,2008:filter:37</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 46: 05_FINANZAS_BANCA_Y_FACTURAS/Addi_Fintech</title>
+    <id>tag:mail.google.com,2008:filter:46</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="addi.com OR ofertas.addi.com"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Addi_Fintech"/>
@@ -375,19 +465,29 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 38: 05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas</title>
-    <id>tag:mail.google.com,2008:filter:38</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 47: 05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas</title>
+    <id>tag:mail.google.com,2008:filter:47</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
-    <apps:property name="from" value="achcolombia.com.co OR serviciopse@achcolombia.com.co"/>
+    <apps:property name="from" value="achcolombia.com.co OR serviciopse@achcolombia.com.co OR epayco.com"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas"/>
     <apps:property name="shouldNeverSpam" value="true"/>
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 39: 05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias</title>
-    <id>tag:mail.google.com,2008:filter:39</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 48: 05_FINANZAS_BANCA_Y_FACTURAS/Facturacion_Electronica</title>
+    <id>tag:mail.google.com,2008:filter:48</id>
+    <updated>2026-08-31T23:38:35Z</updated>
+    <content/>
+    <apps:property name="from" value="dataico.com OR noreply@dataico.com"/>
+    <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Facturacion_Electronica"/>
+    <apps:property name="shouldNeverSpam" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter 49: 05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias</title>
+    <id>tag:mail.google.com,2008:filter:49</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="baloto.com OR servicioalcliente@baloto.com"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias"/>
@@ -395,9 +495,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 40: 05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios</title>
-    <id>tag:mail.google.com,2008:filter:40</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 50: 05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios</title>
+    <id>tag:mail.google.com,2008:filter:50</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="movistar.co OR mailc.movistar.co"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios"/>
@@ -405,9 +505,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 41: 05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera</title>
-    <id>tag:mail.google.com,2008:filter:41</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 51: 05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera</title>
+    <id>tag:mail.google.com,2008:filter:51</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="mispropiasfinanzas.com OR info@mispropiasfinanzas.com"/>
     <apps:property name="label" value="05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera"/>
@@ -415,9 +515,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 42: 06_ECOMMERCE_Y_RETAIL/Dafiti</title>
-    <id>tag:mail.google.com,2008:filter:42</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 52: 06_ECOMMERCE_Y_RETAIL/Dafiti</title>
+    <id>tag:mail.google.com,2008:filter:52</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="dafiti.com.co OR news.email.dafiti.com.co"/>
     <apps:property name="label" value="06_ECOMMERCE_Y_RETAIL/Dafiti"/>
@@ -425,9 +525,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 43: 06_ECOMMERCE_Y_RETAIL/Adidas</title>
-    <id>tag:mail.google.com,2008:filter:43</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 53: 06_ECOMMERCE_Y_RETAIL/Adidas</title>
+    <id>tag:mail.google.com,2008:filter:53</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="adidas.com OR co-news.adidas.com"/>
     <apps:property name="label" value="06_ECOMMERCE_Y_RETAIL/Adidas"/>
@@ -435,9 +535,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 44: 06_ECOMMERCE_Y_RETAIL/Samsung</title>
-    <id>tag:mail.google.com,2008:filter:44</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 54: 06_ECOMMERCE_Y_RETAIL/Samsung</title>
+    <id>tag:mail.google.com,2008:filter:54</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="samsung.com OR co.email.samsung.com"/>
     <apps:property name="label" value="06_ECOMMERCE_Y_RETAIL/Samsung"/>
@@ -445,9 +545,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 45: 06_ECOMMERCE_Y_RETAIL/Sony</title>
-    <id>tag:mail.google.com,2008:filter:45</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 55: 06_ECOMMERCE_Y_RETAIL/Sony</title>
+    <id>tag:mail.google.com,2008:filter:55</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="sony-latin.com OR co.emailmkt.sony-latin.com"/>
     <apps:property name="label" value="06_ECOMMERCE_Y_RETAIL/Sony"/>
@@ -455,9 +555,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 46: 06_ECOMMERCE_Y_RETAIL/Shein</title>
-    <id>tag:mail.google.com,2008:filter:46</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 56: 06_ECOMMERCE_Y_RETAIL/Shein</title>
+    <id>tag:mail.google.com,2008:filter:56</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="shein.com OR news.shein.com"/>
     <apps:property name="label" value="06_ECOMMERCE_Y_RETAIL/Shein"/>
@@ -465,9 +565,9 @@
   </entry>
   <entry>
     <category term="filter"/>
-    <title>Mail Filter 47: 06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software</title>
-    <id>tag:mail.google.com,2008:filter:47</id>
-    <updated>2026-08-28T22:59:57Z</updated>
+    <title>Mail Filter 57: 06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software</title>
+    <id>tag:mail.google.com,2008:filter:57</id>
+    <updated>2026-08-31T23:38:35Z</updated>
     <content/>
     <apps:property name="from" value="malwarebytes.com OR e.malwarebytes.com"/>
     <apps:property name="label" value="06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software"/>

@@ -19,12 +19,16 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota", "from": "scrd.gov.co OR cultura bogota OR convocatorias scrd", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Famisanar_EPS", "from": "famisanar.com.co OR eps famisanar", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Niilo_Consulting", "from": "niilo.co OR gofest@niilo.co", "shouldNeverSpam": "true"},
-        {"label": "01_CLIENTES_Y_ENTIDADES/BBI_Corporativo", "from": "bbi.com.co OR bbi corporativo", "shouldNeverSpam": "true"},
+        {"label": "01_CLIENTES_Y_ENTIDADES/BBI_Corporativo", "from": "bbi.com.co OR bbi corporativo OR clubtostao@bbi.com.co", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Colombia_Tech_Week", "from": "colombiatech OR colombia tech", "shouldNeverSpam": "true"},
+        {"label": "01_CLIENTES_Y_ENTIDADES/Proimagenes_Colombia", "from": "proimagenescolombia.com OR pc@proimagenescolombia.com", "shouldNeverSpam": "true"},
+        
         {"label": "02_OFERTAS_EMPLEO_Y_TALENTO/CompuTrabajo", "from": "computrabajo.com OR empleo@computrabajo.com", "shouldNeverSpam": "true"},
         {"label": "02_OFERTAS_EMPLEO_Y_TALENTO/LinkedIn_Jobs", "from": "linkedin.com OR jobalerts-noreply@linkedin.com OR messages-noreply@linkedin.com", "shouldNeverSpam": "true"},
         {"label": "02_OFERTAS_EMPLEO_Y_TALENTO/UnMejorEmpleo", "from": "unmejorempleo.co OR candidatos@unmejorempleo.co", "shouldNeverSpam": "true"},
         {"label": "02_OFERTAS_EMPLEO_Y_TALENTO/Intch_Networking", "from": "intch.org OR email.intch.org", "shouldNeverSpam": "true"},
+        {"label": "02_OFERTAS_EMPLEO_Y_TALENTO/Get_On_Board", "from": "getonbrd.com OR no-reply@getonbrd.com", "shouldNeverSpam": "true"},
+        
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Udemy", "from": "udemy.com OR e.udemymail.com OR Udemy Instructor", "shouldNeverSpam": "true"},
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Google_Skills_Boost", "from": "skills.google OR cloudskillsboost.google", "shouldNeverSpam": "true"},
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Tech_Global_University", "from": "mails.techtitute.com OR techtitute.com", "shouldNeverSpam": "true"},
@@ -33,7 +37,12 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Founderz", "from": "founderz.com OR events@founderz.com", "shouldNeverSpam": "true"},
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/GrowUp_Analytics", "from": "growupdataanalytics.com OR grow up data", "shouldNeverSpam": "true"},
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Autodesk_Tinkercad", "from": "autodesk.com OR tinkercad", "shouldNeverSpam": "true"},
-        {"label": "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem", "from": "google.com OR googleaistudio OR google developer program", "shouldNeverSpam": "true"},
+        {"label": "03_EDUCACION_Y_CERTIFICACIONES/Platzi", "from": "platzi.com OR hello.platzi.com", "shouldNeverSpam": "true"},
+        {"label": "03_EDUCACION_Y_CERTIFICACIONES/Duolingo", "from": "duolingo.com OR hello@duolingo.com", "shouldNeverSpam": "true"},
+        {"label": "03_EDUCACION_Y_CERTIFICACIONES/Coursera", "from": "coursera.org OR m.learn.coursera.org", "shouldNeverSpam": "true"},
+        {"label": "03_EDUCACION_Y_CERTIFICACIONES/QuantInsti_Trading", "from": "quantinsti.com", "shouldNeverSpam": "true"},
+        
+        {"label": "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem", "from": "google.com OR googleaistudio OR google developer program OR noreply-accounts@google.com", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/OpenAI", "from": "openai.com OR email.openai.com", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/NVIDIA", "from": "nvidia.com OR nvgaming.com", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/ArtStation_3D", "from": "artstation.com OR notifications@artstation.com", "shouldNeverSpam": "true"},
@@ -48,14 +57,20 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "04_TECNOLOGIA_IA_Y_DEV/Mermaid_AI", "from": "mermaid.ai OR no-reply@mermaid.ai", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/WooCommerce", "from": "woocommerce.com OR hello@woocommerce.com", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/Adobe_Creative_Cloud", "from": "adobe.com OR mail@mail.adobe.com", "shouldNeverSpam": "true"},
+        {"label": "04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf", "from": "voidzero.dev OR no-reply@voidzero.dev", "shouldNeverSpam": "true"},
+        {"label": "04_TECNOLOGIA_IA_Y_DEV/AnyDesk_Software", "from": "anydesk.com OR noreply@anydesk.com", "shouldNeverSpam": "true"},
+        {"label": "04_TECNOLOGIA_IA_Y_DEV/Raiola_Networks", "from": "raiolanetworks.es OR marketing@raiolanetworks.es", "shouldNeverSpam": "true"},
+        
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Davivienda", "from": "davivienda.com OR BANCO_DAVIVIENDA@davivienda.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella", "from": "bancofalabella.com OR co.bancofalabella.com", "shouldNeverSpam": "true"},
-        {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank", "from": "nu.com.co OR nu@nu.com.co", "shouldNeverSpam": "true"},
+        {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Nu_Bank", "from": "nu.com.co OR nu@nu.com.co OR soynu.com.co", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Addi_Fintech", "from": "addi.com OR ofertas.addi.com", "shouldNeverSpam": "true"},
-        {"label": "05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas", "from": "achcolombia.com.co OR serviciopse@achcolombia.com.co", "shouldNeverSpam": "true"},
+        {"label": "05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas", "from": "achcolombia.com.co OR serviciopse@achcolombia.com.co OR epayco.com", "shouldNeverSpam": "true"},
+        {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Facturacion_Electronica", "from": "dataico.com OR noreply@dataico.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias", "from": "baloto.com OR servicioalcliente@baloto.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios", "from": "movistar.co OR mailc.movistar.co", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera", "from": "mispropiasfinanzas.com OR info@mispropiasfinanzas.com", "shouldNeverSpam": "true"},
+        
         {"label": "06_ECOMMERCE_Y_RETAIL/Dafiti", "from": "dafiti.com.co OR news.email.dafiti.com.co", "shouldNeverSpam": "true"},
         {"label": "06_ECOMMERCE_Y_RETAIL/Adidas", "from": "adidas.com OR co-news.adidas.com", "shouldNeverSpam": "true"},
         {"label": "06_ECOMMERCE_Y_RETAIL/Samsung", "from": "samsung.com OR co.email.samsung.com", "shouldNeverSpam": "true"},
@@ -64,7 +79,7 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software", "from": "malwarebytes.com OR e.malwarebytes.com", "shouldNeverSpam": "true"}
     ],
     "nomack3d@gmail.com": [
-        {"label": "01_CLIENTES_Y_ENTIDADES/Genesis_Legal", "from": "genesislegal.co OR comercial@genesislegal.co OR riesgos@genesislegal.co", "shouldNeverSpam": "true"},
+        {"label": "01_CLIENTES_Y_ENTIDADES/Genesis_Legal", "from": "genesislegal.co OR comercial@genesislegal.co OR riesgos@genesislegal.co OR coordinacion@genesislegal.co OR admin@genesislegal.co", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Consultoria_Forense", "from": "coordinacion@genesislegal.co OR forense", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Mauricio_Gamboa", "from": "mauriciogamboag@gmail.com", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Proyectos_Leonel", "from": "nomack3d@gmail.com", "shouldNeverSpam": "true"},
@@ -86,10 +101,10 @@ FILTER_RULES_BY_ACCOUNT = {
     ]
 }
 
-def generate_filters_xml(account_email: str = "nomack3d@gmail.com") -> str:
+def generate_filters_xml(account_email: str = "nomackleo@gmail.com") -> str:
     print(f"\n==> Generando paquete de filtros XML para: {account_email}...")
     alias = "nomack3d" if "nomack3d" in account_email else "nomackleo"
-    rules = FILTER_RULES_BY_ACCOUNT.get(account_email, FILTER_RULES_BY_ACCOUNT.get("nomack3d@gmail.com", []))
+    rules = FILTER_RULES_BY_ACCOUNT.get(account_email, FILTER_RULES_BY_ACCOUNT.get("nomackleo@gmail.com", []))
 
     timestamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
@@ -132,7 +147,8 @@ def generate_filters_xml(account_email: str = "nomack3d@gmail.com") -> str:
     parsed = minidom.parseString(xml_str)
     pretty_xml = parsed.toprettyxml(indent="  ", encoding="utf-8").decode("utf-8")
 
-    output_xml = os.path.join(os.path.dirname(__file__), f"gmail_filters_{alias}.xml")
+    out_name = "gmail_filters_import.xml" if alias == "nomackleo" else f"gmail_filters_{alias}.xml"
+    output_xml = os.path.join(os.path.dirname(__file__), out_name)
     with open(output_xml, "w", encoding="utf-8") as f:
         f.write(pretty_xml)
 
@@ -144,5 +160,5 @@ def generate_filters_xml(account_email: str = "nomack3d@gmail.com") -> str:
     return output_xml
 
 if __name__ == "__main__":
-    email = sys.argv[1] if len(sys.argv) > 1 else "nomack3d@gmail.com"
+    email = sys.argv[1] if len(sys.argv) > 1 else "nomackleo@gmail.com"
     generate_filters_xml(email)
