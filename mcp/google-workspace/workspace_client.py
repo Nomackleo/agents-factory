@@ -216,6 +216,27 @@ class WorkspaceClient:
         url = f"https://gmail.googleapis.com/gmail/v1/users/me/labels/{label_id}"
         return self._make_request(url, method="DELETE")
 
+    def modify_message_labels(self, message_id: str, add_label_ids: Optional[List[str]] = None,
+                              remove_label_ids: Optional[List[str]] = None) -> Dict[str, Any]:
+        """Modifica etiquetas de un mensaje individual en Gmail."""
+        payload = {
+            "addLabelIds": add_label_ids or [],
+            "removeLabelIds": remove_label_ids or []
+        }
+        url = f"https://gmail.googleapis.com/gmail/v1/users/me/messages/{message_id}/modify"
+        return self._make_request(url, method="POST", payload=payload)
+
+    def batch_modify_message_labels(self, message_ids: List[str], add_label_ids: Optional[List[str]] = None,
+                                    remove_label_ids: Optional[List[str]] = None) -> Dict[str, Any]:
+        """Aplica o remueve etiquetas en lote (batchModify) sobre una lista de IDs de mensajes."""
+        payload = {
+            "ids": message_ids,
+            "addLabelIds": add_label_ids or [],
+            "removeLabelIds": remove_label_ids or []
+        }
+        url = "https://gmail.googleapis.com/gmail/v1/users/me/messages/batchModify"
+        return self._make_request(url, method="POST", payload=payload)
+
     def trash_message(self, message_id: str, hitl_confirmed: bool = False) -> Dict[str, Any]:
         """Mueve un mensaje a la papelera (Trash) de forma segura con confirmación HITL."""
         if not hitl_confirmed:
