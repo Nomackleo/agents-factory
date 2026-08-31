@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Antigravity Multi-Agent Enterprise Domain Manifest",
+  "version": "1.0.0",
+  "organization": "Nomack Studio / Antigravity AI",
+  "governance_standards": [
+    "ISO 9001:2015",
+    "ISO/IEC 27001:2022",
+    "ISO/IEC 42001:2023",
+    "ISO 25010",
+    "TOGAF 10"
+  ],
+  "domains": [
+    {
+      "id": "01_executive_governance",
+      "name": "Strategy & Executive Governance",
+      "leader_role": "CEO / Chief AI Strategy Officer",
+      "description": "Supervisión estratégica, toma de decisiones ejecutivas, gobernanza de fábrica agéntica y diagnóstico corporativo.",
+      "ecosystems": [
+        "agent-factory-core-ecosystem",
+        "business-diagnostic-ecosystem",
+        "docs-as-code-executive-ecosystem"
+      ]
+    },
+    {
+      "id": "02_engineering_and_ai_research",
+      "name": "Engineering, AI Research & Cybersecurity",
+      "leader_role": "CTO / Head of AI & Security",
+      "description": "Desarrollo de software de alta calidad, investigación en IA, computer vision, frontend empresarial y seguridad Model Armor.",
+      "ecosystems": [
+        "software-engineering-ecosystem",
+        "frontend-angular-ecosystem",
+        "cybersecurity-ecosystem",
+        "sapiens-human-vision-ecosystem",
+        "notebooklm-gemini-ecosystem",
+        "minimal-coding-ecosystem"
+      ]
+    },
+    {
+      "id": "03_creative_production_and_3d",
+      "name": "Creative Suite, 3D Engineering & Digital Media",
+      "leader_role": "CCO / Creative & 3D Engineering Director",
+      "description": "Producción gráfica de alta gama, escultura 3D, CAD paramétrico para impresión 3D, gemelos digitales OSM, render en Blender y video programático.",
+      "ecosystems": [
+        "ui-ux-design-ecosystem",
+        "cgi-web-ecosystem",
+        "webgl-sculpt-geometry-ecosystem",
+        "cadam-parametric-cad-ecosystem",
+        "arnis-geospatial-voxel-ecosystem",
+        "blender-ecosystem",
+        "open-montage-ecosystem",
+        "cinema-ad-design-ecosystem",
+        "multimedia-data-ecosystem"
+      ]
+    },
+    {
+      "id": "04_operations_and_quality",
+      "name": "Operations, Workspace & Quality Management",
+      "leader_role": "COO / Quality & Operations Director",
+      "description": "Gestión operativa, automatización de suite Google Workspace, Sistema de Gestión de Calidad (SGC) y documentación técnica.",
+      "ecosystems": [
+        "google-workspace-ecosystem",
+        "docs-as-code-ecosystem"
+      ]
+    },
+    {
+      "id": "05_commercial_and_growth",
+      "name": "Commercial, Growth & Executive Brand",
+      "leader_role": "CMO / CRO / Head of Growth",
+      "description": "Autoridad de marca ejecutiva, liderazgo intelectual, telemetría comercial, embudos de conversión y crecimiento de mercado.",
+      "ecosystems": [
+        "personal-brand-ecosystem"
+      ]
+    }
+  ]
+}
