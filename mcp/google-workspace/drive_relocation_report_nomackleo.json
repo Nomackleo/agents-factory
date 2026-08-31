@@ -1,0 +1,2773 @@
+{
+  "account": "nomackleo",
+  "timestamp": "2026-08-31T20:52:25Z",
+  "summary": {
+    "total_folders_processed": 51,
+    "folder_errors": 0,
+    "total_files_processed": 294,
+    "file_errors": 0,
+    "total_operations": 345
+  },
+  "moves": [
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "12aAglI3mN7k2Ju2oekI6IVoMgXENYP_V",
+      "name": "Formatos de propuestas comerciales.",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_y_Contratos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1aX8EBrpnmbLLU2Px_hdxSlLNGwqXkFVe",
+      "name": "Clase 2",
+      "target_path": "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1GMIXrRC7aj1AkorhkCiubpDaR_j0oswD",
+      "name": "Te_Con_Cucas_2025 ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/02_Herramientas_y_Software",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1n4789T5hixhOUAeli5z2_Ob9i_iFCVhS",
+      "name": "Gemini Gems",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "13QsijTJP7-7S01G6p1wFSg3p2O6X5Ynn",
+      "name": "Asado UFC 17 enero 26",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1y9QRje2blllFpZcX6rhJPGEGYxQTyIPY",
+      "name": "AI Boost Bite Challenge 13",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1Vg7vLwEvd4qigQYwQpxFFqTwnoA3_i7n",
+      "name": "AI",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1v0iK3jRAin9_FmNQmmLlUEfvCz0gl02h",
+      "name": "ART-TOY BECA",
+      "target_path": "03_KNOWLEDGE_BASE_RND/03_Becas_y_Convocatorias",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1RGn6u_LN9GEwmYIU9UlLMiza_uJ047co",
+      "name": "Google AI Studio",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1r-7A0QmqX5q1JJhDtFpeEucbUYiCl9o4",
+      "name": "new🧰OpenToolBox2",
+      "target_path": "04_PROJECTS_AI_AND_DEV/02_Herramientas_y_Software",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1BFYqkvZRh96__FOlwkZ_VJXZZPRm-9LC",
+      "name": "Random",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1CdqdKGZ7gZ0UmfZGNqxNq8KF5RZsLhm9",
+      "name": "Kodland",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy/Clases",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1jJvpw6MI8fgwDl3XdZRjcGzYM0h6aQay",
+      "name": "CV",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1WGFGehTytd7MCg53IW1h_pVRN-yOcUyE",
+      "name": "Music",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1iiTniZDz-n9uaQCqLu7cOJZ_N5pytuGP",
+      "name": "Files from platform",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1BA2dftpkEmxDpTvQt9YcrUfcscwRP3Eo",
+      "name": "Background",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1Js_d-W7EUIrx7vK3OhrfF5RuunWtqg1n",
+      "name": "Radio tanguita",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1cnuZvsbsrF1gvFE97X7dX_oXEviXPIcL",
+      "name": "Kodland Virtual Background",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy/Virtual_Backgrounds",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1GTXLDoWawQ7nH-DNz4sxC3UQw4Oh6Ni3",
+      "name": "Animacion Huevoman",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/02_Animacion_y_Crowds",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1MGxJ1pV7wAOAx4ErkK2R8fDgEXhWEYAK",
+      "name": "Public Music",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1kmMgxpOzM62bnEuyH3XsiJWGwMrPPW6A",
+      "name": "Cine",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "12tUWXUIJ1ZbAv71RbHeB_o60_iWIASPe",
+      "name": "Clase23",
+      "target_path": "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1KT49kytgOM3I-9iLYA6MgCeuAWdqDfw3",
+      "name": "Trading",
+      "target_path": "01_FINANCIAL_OPS/04_Inversiones_y_Trading",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1CHks1QTYB-JgCvHxAa-HBPE_uN-Iegnw",
+      "name": "Lineamientos Convocatoria ART-TOY - Galería Doble Sentido",
+      "target_path": "03_KNOWLEDGE_BASE_RND/03_Becas_y_Convocatorias",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1ubLo4IcgUgCKY1p-O1DJ9K-JzZfLA8s1",
+      "name": "Clase30_ModelosHigh",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/04_Escenas_y_Modelos_High",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1Hwqj1-1SkzDvfMQkmVpQvaTAbHDYNJQ8",
+      "name": "VFXLearning FX Masters Program",
+      "target_path": "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1wsCOH3OUhImBBQ5WZc9tZQ0v-LyHmnL9",
+      "name": "Golden Wolf Trading 2019",
+      "target_path": "01_FINANCIAL_OPS/04_Inversiones_y_Trading",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1wKxY9_SPj_MbJFEbPNcHuUNvQgLOdTGr",
+      "name": "Instrumental Music",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1nENFbB-M98fJwcj4_U3o1OIzuMEy4Lgb",
+      "name": "Línea de Producción y Financiera",
+      "target_path": "01_FINANCIAL_OPS/05_Produccion_y_Finanzas",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B-ZY52Puww2wbEt3WDZfNlpvd1U",
+      "name": "Piano Sheet Music Collection - KobeThuy",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1KrLkPbsYWflXJOMmdufBOUYeBuvCXkpT",
+      "name": "One Note",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1xuOdkSWMg6tUN4UWu82BR-JhZRPshq2v",
+      "name": "Formlabs",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/03_Impresion_3D_y_Assets",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1FKxyti7vKHblDiEZ5pzIkvySFVpOXgf_",
+      "name": "Polytopia Sprites",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/03_Impresion_3D_y_Assets",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1-M3BIdbxEsj8n9CE4lIR2cMW7LJfpnHw",
+      "name": "Sexting",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1Sk1i7PwIc1frz_7uPizAhuolK6PKCfFp",
+      "name": "Compartido",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1G8R5OSi6iJ_RCBbHZ5pWHLaBhwvp8gLb",
+      "name": "VFXLearning Movie of the week Archives",
+      "target_path": "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1lBE8y28FHk7qkZt6SbBFJaO_Q-Z6IqhO",
+      "name": "VFXLearning FX Power User Archives",
+      "target_path": "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1YrZu0sFLAzpB6IQ1A86uY9bALWIWuMzF",
+      "name": "VFXLearning FX Masters Program Archives",
+      "target_path": "08_ARCHIVE_HISTORICAL/02_Archivos_Historicos_VFXLearning",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jbUswZVNsLWZ3Z28",
+      "name": "Angélica",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jbW00cTZUSU9Bcmc",
+      "name": "Imagenes",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B2k9HIXzBEfMVlgxTlhNWThzZkk",
+      "name": "Sheet music and midi files",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jVHpueEEzc1BjVkk",
+      "name": "Academic",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jSFZlcktvWmxNSW8",
+      "name": "Personal",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0BxLyoq4cOv6gQUZHbGVhWXZVRms",
+      "name": "Music",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B5rg_17SdsqQMkNtZmEzN01FS0k",
+      "name": "Supply and Delivery of Public Address Background Music (PABGM)",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jTTZhTk1xX2JHUEk",
+      "name": "SeriousGame",
+      "target_path": "04_PROJECTS_AI_AND_DEV/02_Herramientas_y_Software",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B1pEJc4Wvn3ZaGFsSUdPd2tWZlk",
+      "name": "Plan de Negocio",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B3QZXWfI3xZ7ZzNVVXdTb2hOVms",
+      "name": "Elementos",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jalpwaDFOMW5yNEE",
+      "name": "Archivos leg",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B2PLEY5qC5zkZDFDbm93dFQzeWc",
+      "name": "1 Miarmy Software",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/02_Animacion_y_Crowds",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "0B9-woSisj91jSTRiQW5tVDZLXzg",
+      "name": "3d max",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1o84kuHsfocZDLfqguvCON0sWFxS48xsi",
+      "name": "Asado UFC 17 enero 26",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1noztetKxmPkg44dwD08O2SS8jycvBrd2M79H7J3xsbY",
+      "name": "Informe_Ejecutivo_Migracion_Dropbox_a_Workspace",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Xt57LelIDM7Y3ma-1_fW71XMIUd6tsHUtiFAKgsbhmg",
+      "name": "[Antigravity QA] Test Document - NOMACKLEO - 2026-08-27 10:01",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "12QjJVivUF7BPFMsCvs3X5Hc5Ro1ryN_fQYdquIRVnhE",
+      "name": "CULMINACIÓN EXITOSA DE TRANSFORMACIÓN DIGITAL, INFRAESTRUCTURA CLOUD Y APLICACIÓN DE CONTROL DE PROCESOS",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CYakM3DhR_9d3iCpVUz02Dykwkq9ESjOWTRqY9qkv_I",
+      "name": "Video sin título",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Csjfyloz_-_0spgyNk_soUTS29AJeifUcULuw4NvxPc",
+      "name": "Video sin título",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1y7B4IOkb26k0HucztC66IcTPJ9qIln6dXi7QYNghi5s",
+      "name": "LISTADO INTEGRANTES UFC",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DsPsSRNmfB7e3UXULYuW8Kap-AK0cRJbAwsPEe9N5r8",
+      "name": "Petición, Queja y Reclamo (PQR) – Reclamación por Cobro Injustificado",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1iqOg-p1_YL3SlT1U2woeUSvec_G9wdjPBBMuN8G7hzMduv-rBKSjTTW7",
+      "name": "BigQuery",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Id7HsZrRoFPZQnVOlO-8RMg1lrybOh07zOjPX7e5WF8",
+      "name": "Arquitectura de Instrucciones Gemini Pro 11-06-26",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/05_Prompts_y_Arquitectura_Modelos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1O5ts44U0xFk0GlHf0zXujKqlcKOP3A6K",
+      "name": "06_BANCO_PROMPTS_CRISPE_Marketing_Legal.md",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/05_Prompts_y_Arquitectura_Modelos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1qLugjFAZuuqD5jfJl3e63a0_0V85xCdJ",
+      "name": "03_PPTX_Sesion3_Taller_Practico.pptx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/01_Capacitaciones_e_IA_Corporativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13fXPls7Lw9q2nEqrGpX9IHAW3M8Pd9c7l4SEm2RqhMs",
+      "name": "GEN_CAP_Cronograma_Oficial",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Cronogramas_e_Informes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Gy-Z-rpa3qUF116ioagO9Qx_-QoH8RSItCB_1tF625E",
+      "name": "GEN_CAP_Presentacion_Completa_v2.0_Final",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1rBa4gKk0TRIvNSsaOuWgEbSnUWI_np-aeqvc3Uy5x44",
+      "name": "PRAXIA_Habilidades_IA_DDD",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1f9dVDQMwTQpkPr21ZvMongdiJzdK5uWz1enbK-CFTI4",
+      "name": "GEN_CAP_Presentacion_Completa_v2.0_Final",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Vs2oynIvwHNL6Qizavmad2wTNMqOScwg6cOe-lNwopE",
+      "name": "GEN_CAP_Presentacion_Completa_v2.0_Final",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1I2d_-yhNeyQdkBRkeOsCy8ww9IG6K3HFw6xoX5uKMHs",
+      "name": "genesis_AI",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1idg2jfKdroSS6yVPye4WwKj6Zj3h22_ayjKBBrirZZU",
+      "name": "GEN_CAP_Presentacion_Completa_v2.0_Final",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ozFJ8a-NTCxb9UG3DIOFyBy5vtebx48cPC9XFrbSt4E",
+      "name": "GEN_CAP_Presentacion_Completa_v2.0_Rica",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Qz-Wn5mYmivTy2PQi9FkJObCPT1WF9P1vf6MnGpVXW0",
+      "name": "GEN_CAP_Presentacion_Completa_v2.0",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1XUKB23HQiPBBIe7ENkt-mDnoKi-sZArW",
+      "name": "ESP_Presentation M1L1 2021 Web Design Base.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Rne9qclZi6BI-NWp_xAoySab54b0QnmpYsDxiXeRGtM",
+      "name": "Validación de Benchmark de Bootcamps IA",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1SlUJ7C_cnxpurLwgMyfDhQRAMOUtOUET",
+      "name": "Propuesta_Comercial_v2_Certicamara_30_Personas.docx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1_E6vGcEbsX3Vt3eS6GwT1difEoh8e9hxKWVTxPTZnhE",
+      "name": "Academia IA Pharma 30X - Final",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1UeZsi1BtcHrefxnTCeSvWfkty2i1pwhKZCdOfJM3z0I",
+      "name": "Defunsión Teresa Lucila Acosta Calderon",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17GxQBplcnyR0ZyBICmDp6WzDrDGvk4EWWSHbYRF1TIw",
+      "name": "CUENTA DE COBRO-Teatrova",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1q00CqNXxAPn3J0YuZ1rdYAoqxL5EuB1W0Hhj1NZvceI",
+      "name": "PdAS - 1 - Atributos de Calidad",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1sSfW34K8Wn973wgUALvOJFvve7rBJnJ8",
+      "name": "Cronograma_Actividades_GENESIS_IA_v2.xlsx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Cronogramas_e_Informes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jO9vUUxdX2QcLAlGCAu9gAhITmhR29AP",
+      "name": "TEATROVA – Teatrova, obras teatrales colombianas, entretenimiento, circo y comedia. - Brave 2026-02-27 15-48-37.mp4",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1-HZKDcJuRlJoQH-HV2dl434xTA5z601vUG8aBpToBfw",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1KQfYEIW14NWpdTtBa2f3ZU2_z72y8pt0aDpNCR2bTzA",
+      "name": "Derechos de autor, licencias standard y Creative Commons en Youtube",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gnuoo2Q0kuE-_U6LlOU8K7SzWRZKv8Ze",
+      "name": "TERESA ACOSTA-20671696.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1fpEDXj2KiVWdkbknlF-dkjtgEx_bNVQV",
+      "name": "historia_clinica_san_rafael.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B5FAEqWtCWjmbmNCd2FVSHlRZGM",
+      "name": "ControlPersonaje.cs",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Rir8lpiKPY0rtWdtjifvBcaxEKLrhK09fR5_mbr2HCU",
+      "name": "DERECHO D EPETICION INSUMOS",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1nI_cSHhndNtGjhpuL9X0TTkzZ3fct6M0MW-MLIFseLc",
+      "name": "ok, realicé unos cambios importantes, pues la fór...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1cWEwagp4ZKZ4gAwydMx2iLBeNXt1L4-6VgfGhtT54es",
+      "name": "comprobante 1 leonel58",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1UBeiKXFkgWzJoD3Atx9qlCpAW9ndfHG5",
+      "name": "comprobante 1 leonel58.pdf",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1fJO8zQ1IjCcN8zd1jiDzX-LHhh3E5kz-",
+      "name": "ESP_M1L2 Presentation.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ZROgpjjkHctgSry3m3uTrC-K17PKyjRj",
+      "name": "ENG_Presentation | М5L1.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1hi8uwLbgoOJ1SsUwGrmEgLu0czVeDoWV",
+      "name": "MENU SALSA BAR.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1KyxkcHT5YO6AYC2AEjZIa-u6s0_1CYvdLnQKIs8W0zQ",
+      "name": "Jugadores Copa Usme 2025",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1z1ylpGgQ1A2I79NjyR8U-rwwLyJFKkEX9hFH7QkaTag",
+      "name": "Mom",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "11WNAP_CvuxJsWnwX-qMOSUI8Uat4oKzaUzevYjnzOJ0",
+      "name": "Vintage Goes AR, Inc. Documento de diseño del juego Asteroids ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1imnq3NDIxI6j5dn0o40Dej6-NKslxLG8556Un7kGwMg",
+      "name": "Tensiones entre atributos",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1mQrN0pSA4v1RUBUgjpEeTg4-al00JvjaPH7EYvAXaJ8",
+      "name": "Informe Ejecutivo: Análisis del Tráfico Web de \"La Lupa News\" (2 al 8 de marzo)",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1tj-onOSiyfk_oicOW1IQrvOb31IfAwWhuSUhULzsmew",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "105c6N7Fnn-obvcI3AL2Evx_tbJ_6cOSxTXHE8aWoDxk",
+      "name": "Informe Ejecutivo: Análisis del Tráfico Web de \"La Lupa News\"",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1tOMEvZhQ0T2R0JkfwQ-Kv5lEvFsylg1SB1nE43J1As0",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1KE387P35EPGDEjMuDLsnwL6XbSKZ16jpxOg9u-3l3yA",
+      "name": "Informe de estado ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1HUrV76vYIiLyb0d76BUur5HtLOwEJZyFyEF8S0gq8lo",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17K1NDSpoUC_WAKSik-Z615e-uQvIaJvK",
+      "name": "Leonel Declaración Juramentada.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1-gHp9FDkGgo5FSMeyugKHoIMCbZ4i3CzBObK1vqTtLM",
+      "name": "Balance_Presupuestario",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DXYmdeTBFZg7N2_2xDVmtCFeC3CU8etTund6Mut--Wc",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hLOvxkE5bOJexN-BIfTkHU1XcNVX1lrAf_9uRP8hBU4",
+      "name": "DERECHO DE PETICIÓN medicamentos",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1lFlU6S_xcPI21LlsjQhsT7PvgmB9YK1Q",
+      "name": "Cronograma de trabajo.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1qD2l17QEccMs4Q1wSeg3E2sZxuqykNOJ",
+      "name": "Proyecto CAPS.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ar_ZUmCwkzYohSFRV-fP3c0li0tVmmFJ",
+      "name": "CA_resúmen_estratégico.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1u5cXYjjE1vmbenvtb6q1Jjx1Zub7XsEZ",
+      "name": "Proyecto CAPS.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1z0y8GSyZI5T2K_44M0666az-aXM56Me69tw_T1tOTGg",
+      "name": "Indentidad de Marca MVP ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1syBoe47GstAxIpfdfOfRViyZ95RpZngHDiEshj97Qfw",
+      "name": "monster caps",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1HMyGB8SuzyHVRdirui-AgSH-NL506SrP",
+      "name": "Modelo de Noticias.xlsx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1nZw6Et3NIgPRn9Ral2U8jbGvaQ1jdAM5XgkyP9NQsT8",
+      "name": "Propuesta de Agentes Eficaces para La Lupa News",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1UtCBPK8YKjMbtVKVXrH3I86m3PiCdAf7f_SjEOvXor4",
+      "name": "DERECHO DE PETICIÓN",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1-4xFqGTWoL5Jecj8xxKTy_caB2PX88nm",
+      "name": "CA_resúmen_estratégico.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1PDKvcLRGx05tiHTLupFxxmYSIA0Ike2kAUgr4YkNGFY",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OlzXqLiVuD1N0UONrkImMjQwza5vbfqf_3ElvYqiXOE",
+      "name": "Este es el documento: https://docs.google.com/pre...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CsqyVkrVeDF1YS7466CGgKYb_5KaX5eT",
+      "name": "hc_onco_003.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "12p_7rqYVj3ZqMyXsnGtDOn5yBSv6UR6U",
+      "name": "hc_onco_002.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "18YsatIBvszdKuVAtYuTyl_QCSGSYfiP5",
+      "name": "hc_onco_001.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Z4_UmpmGwYvddUimKQShr6qbX0NEHuUI",
+      "name": "XMEC10873.zip",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1pgbS3CRzUDBdLSHVPH-qegI5mZ2Pv5UlJY6vKNZuJr8",
+      "name": "Me encanta, pero a la cotización inicial, súbele...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1macegWz7pL1saA5al40aFb3SSIS3-ncPTe6LRGBqLkg",
+      "name": "Sí, dentro de lo posible, teniendo en cuenta la op...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1KKhl6PAWkbHM7FdlbObQZgVvu1Pg25mFIjxcN4Mwi0s",
+      "name": "Sí, dentro de lo posible, teniendo en cuenta la op...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1K6CWqhsTns557AQu1QrSGbEwiD5NX3K4cQn_Oz0scrM",
+      "name": "Sí, quiero que por favor, me ayudes a profundizar ...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1E5AfGgtqvm9neUcZGPOnymKHG-WTOLHkujMI1UPACP0",
+      "name": "¡Equipo Rocket: Lanza tu videojuego al éxito!",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1eVWVLB3GqUurfzdxXH-wDqRSMNhMrrlV4zUpL0WWpHU",
+      "name": "Presentación sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1sBphmVcooAgf7B2rG8cpQj78_1eSt-GTTWRwC1PVOzw",
+      "name": "propuesta de octubre parrilla de contenido ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Lrh2ykQgraaDfI7c-88hJR-ZjZhpD87X",
+      "name": "Prueba para Candidato Frontend Semisenior (1).docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1HfBo4u2sAP0jyJO30Efw6S52jX1a1bVrAr9NYKJ4u0g",
+      "name": "Gemini, puedes darme una lista detallada de todas...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Y-VAQrHdhoNSkdwjeKtuK8XaaQnDFqJ-xCaApGhZx_g",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1t8uvw7RbF_VEZXM1grsQlihcVq-pXdI_xMcG9Xf7nHs",
+      "name": " carta de consentimiento Colegio San Ignacio de Zapatoca",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1dQ08Vt3a7COkRHtxK90nSdOe9i61t_uR",
+      "name": "Presentation | M2L3.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "144b5u5vrTr_IfuzvByLepMd78pe_tGAJN2bxBDSRykU",
+      "name": "¡Aventúrate en el mundo de la conducción! ¡Da tu opinión para un videojuego increíble!-Questionario para English School",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "12N5nPUpUjkBELIxwhZKMnY1_dJcx2o-Pr5RERT_wf2I",
+      "name": "Acelerar el Éxito con una Alianza Estratégica-Con Playconnect",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OT0S1LGQ-8nuVG9twrJTR1JIK2R5o41g",
+      "name": "2023123120836244266611.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "117PMgsW7ajbm8T5mllpCpRD_i5ne9f5q2VDwOV9oTPM",
+      "name": "Payoneer instruction",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "19phI9fnf5KkZkvxyJa4ROTSpUrwnSfBdUKSvuN4wOnk",
+      "name": "Costos curso Godot ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Hc_GrNtQMGEXBaUFmLS6Lxj9Sfe-KH7-gumMIVAIHfQ",
+      "name": "¡Prepárate para ser un Creador de Videojuegos-pitch",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1h1P4amQTERT-XazY2Thsm1tHzt1Tl45qLaMEaGvs8qQ",
+      "name": "Ludus Lab Academy",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1_04LVbNEXiCWkUlzEgnsxGuLrkN6eDIG1TEVZy3wteQ",
+      "name": "Ludus lab Forge",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1HuV1qEhgaOuuOsLOKZwt-Qzg0kOjwMWR",
+      "name": "Aprende-a-Crear-Videojuegos-con-Godot.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1D87kVhJzqJbcDTMZcuaYimwpfXXozwRK30Ty-iwskxQ",
+      "name": "1. DVA Formalización Médico",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/02_Salud_y_EPS",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1iNm35pzVxCa3qOq-EphrllfFw8sloaSpuxKnUMkHtog",
+      "name": "Onboarding Schedule OLD.Ends12.July2024",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1J2CUMRf4mxyE7hAlCFVkT5CvnRlsg4XcUZa6Q8uRyM8",
+      "name": "2. DVA Formalización Testigos",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "10nNulZaG6Fj5yOHKo3qBfXLd3QvnozEp",
+      "name": "ESP_М1L1 nuevo.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1M9AOQqnavD_T-XJqfV6yGyMW-X_llxi8T4IU5-uKCyQ",
+      "name": "3. DVA Formalización Notario",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1FEGidSJDnLTf-7pTIWaAI6Fvk4J1A9LZjOQVfoHs94o",
+      "name": "50-30-20-Budget",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13DHdEI5n8aCtFzqfYKTZjn7-lHlnX-iJ0JiXd9Z5YG0",
+      "name": "All+Questions",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1g66Pwmy8GcvhaDvydh3f1JNV2xwi5pYd7pgGj-wVjRY",
+      "name": "Síntomas ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1wxHk30Or12jYAzZxRJ-HmVQJHq8vTqXG4IEBkPV13UQ",
+      "name": "Latam Onboarding FAQ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1qbzWXDwRBSat5L6wOHMGaSlW8O3FC4TA",
+      "name": "ESP_Presentation_М3L2.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1vIMcV0HVkna7J2fQkZkvezoo8XPFGCAH",
+      "name": "ESP_Presentation_FWD М4L2.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1M_gyra4va9COJb7pRRBCd5-wz_ErxXtG",
+      "name": "akirpap( akirupaP.mp4",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1pR4t6FRC_tTm6bF09fZ6PfHJJBvQr42h",
+      "name": "Musical studio.blend",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1pFLfJw6iEcexN_ayDr0nXlgI0i9NA9gH",
+      "name": "test location.blend",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1wiSZEwEFJ_-15qPJIB1bzrTfbmlPByL6nyxttGhaJAs",
+      "name": "La tabla está incompleta y no se visualiza bien e...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "14qlsksutrCjkC9dXrK8DAEqflEnvsjkdVN8XFr4lQFg",
+      "name": "Se ve horrible. Dame una tabla que se vea ya con...",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jjBzib9J3OwgEp5BmCHp44Kge0Wr4oD_1-6VH0tQQGE",
+      "name": "Ok, por favor, dame una tabla de valores entre `00` y `FF` con sus valores correspondientes de transparencia.  ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1kRrerH4PE_g0wCed_Qv_rWdu8iBeJp18",
+      "name": "ESP_Presentation_ FWD М4L4.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1z0cCspeeJjL1cIpJ7DCQH3ryIXGicPO6",
+      "name": "ESP_Presentation | M2L1_new.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "16H3_6o9k3QWiFLb_ZP9O560IWMBH5iKpBEntEkvQ4as",
+      "name": "DISEÑO DE MUNDOS FANTASTICOS",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1x6X9KpWWwbeC7OQ7GMOQ9LOHRzq2RDjD",
+      "name": "rex-yatd-qbs - 8 nov 2023",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jEzLZHdG9BTKCabVTgEO6VyJNhs8Otc6B0tdRWFtwMo",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1wY2--LqrC6ZFre3fvYJsyTqJa1peXsfs",
+      "name": "ESP_Presentación | M2L4.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gfkr3SFkCL1gYGJsSChs4ZocRiQi5bcEjBEUADjlnEI",
+      "name": "Por favor, dame una tabla comparativa y muy detallada, de todas las diferencias entre el patrón Tonto inteligente y el patrón contenedor-presentador.",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1RZEnbVyl3iXjcUtA4VVj175RZ65Y5UMQBGGr1Ze3S9I",
+      "name": "workbook-de-ia-en-el-dia-a-dia_829663f5-12f6-4041-906a-27c559174148",
+      "target_path": "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1VWmVWOx7WCEocAE4NQ-7UNeM77-nFGsj",
+      "name": "ESP_Presentation_M3L1.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1rW59VQ20IwbgDVCgn6WOpT85A8ho694I",
+      "name": "ESP_Nuevo M1L2.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1fA-yZkg6cXH1QvAtN43coWXof9gOaRXn",
+      "name": "ESP_Presentation_М3L4.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1eODdwyJ1yYcKpfno1iGozDsownxLL_7X",
+      "name": "ESP_Presentation | M2L3.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1gw31rd_6tf6HunI8SWdUacJosmKVErC8",
+      "name": "ESP_M1L4.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1shHwE2JF3Bg77AgHM2MbsrocfnKfH6zi",
+      "name": "ESP_M1L3.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1MVDZA-v0yuOz95rf_NBp7wXTH-tMZUNCMa2MwGN7QdQ",
+      "name": "Copia de CHAT GPT BEAT SABER COPY PAST",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1edmgtf7tYw1fEUusVKdtCSinh1M3BlMnX9y9Z2gqZiI",
+      "name": "CHAT GPT BEAT SABER COPY PAST",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1GoaUxvEDVtPkCz6rsx0NNzXwKBPOHzLX",
+      "name": "Visual blocks demo",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1upnKAw0iyl6xKBHJVFFU3JfHPkwsLdGD",
+      "name": "ESP_Presentation _ М5L1.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1YsgM8dxRWbrCxaSp0dq59SWtbPZMoViX",
+      "name": "086000733602123S9122198049.zip",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1eR7Br3Tr6F3nkQ2n9vYa1ngj46n0Tfq8",
+      "name": "Anexo_Lineas_de_tiempo.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "18Le3O-s3-GqHoP9NjvgY6obrQCt3ph5J",
+      "name": "ESP_Presentation _ М5L4.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "18Le3O-s3-GqHoP9NjvgY6obrQCt3ph5J",
+      "name": "ESP_Presentation _ М5L4.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1oTA1sZnRkhd1Z9T2a6NY2ODjHYknWUDu4R2FGAjF3SA",
+      "name": "Procesos Ágiles. Scrum ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1aSZHKpzdl6oxJJqC1UJIu0HYPmGPujuxf2wqevn9BrQ",
+      "name": "Quote Nomack3D",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ba6tIq8gQKf_WPI9f43gOOO-a2VZstEV",
+      "name": "ESP_Presentation_М3L3.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1xknzuUgd3are9jV3n1xWpImf7Z-vvWSa",
+      "name": "ESP_Presentation_FWD М4L3.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1dMkYBv_C6EJdU8lI68vRQyXLdwjdAa9z",
+      "name": "ESP_Presentation_FWD М4L1.pptx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1AHZ--sm2WkwXtb1yWCuAecG3UsA_zcDcRgX-gSsDf0k",
+      "name": "Copia de cV demo",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1QCPqwfXT_IDVnce18F3Arv6ccCCa9_Q0",
+      "name": "Gaming and Esports Careers - Hitmarker.jpg",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Bii5OfV4fb_3IuI_R411pY22ltlE9XJK",
+      "name": "ESP_Diseño de mundos fantásticos. Una tarea de prueba para el tutor..docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jDoAYslIghj-zXS_AmshSk4OIfPc2y0M",
+      "name": "Evidence_Getting_to_Bogota.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "11B5PSZPGOHeTqjiLr5SPT-1p5qhLQCDqgylBEvnTgjo",
+      "name": "Which version should you download",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1RVQ0DpKs8ym9S8UkjYWVvVn1AloYThzb",
+      "name": "Aviso.1665805906.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1I35D8MWKJKZijOjfoEXEss3ChNGtZGdrsg-J4hl7PYo",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OZ5mNyC21yPyU3JxJzbeMiXcNf8SR7dmQAYjjbEmZAg",
+      "name": "CV ",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ye0OtdfAaANYcm-NRXmg2SkVbOlAKp8CkT3ffR7wmjE",
+      "name": "5 - Prototipado - Ejemplo de Flujo de Tareas",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DfXvhvJlciLC60saMFbYRSuPpezZzl5nWC3dQoBxPQ4",
+      "name": "DataPM",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "11TsHvYDmB7TOuK0jsxccWrOLBoejKbGZnshgfyBJhVw",
+      "name": "GOOGLE DOCS",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1pyrqrXe1-spTh2HmBon1mdA9qBkRhjHZ",
+      "name": "Batman.zip",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1urIqcehT0iKHDI8OdSd_ZYFQ_G73HtMc569QSYih-9Y",
+      "name": "Evidence_Recognizing_body_parts",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1acmY5RPnb13m8bCqBi-hiX6e8zALAAI2X0Qd7S55TtA",
+      "name": "LA IMPORTANCIA DEL ESTADO EN LA ECONOMÍA",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17kkMgMZfOVEtfood2xTRi5Ja5rs_enf-9BsD_SmYpYY",
+      "name": "salarios-latam_es_ba9a45dd-c2a8-4e57-9e68-27005b33f828",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1aPxx1_sqVqU1jo9DM30c2E-k1FQK8K5ylcw-6_1WvV8",
+      "name": "Presentación sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1d2vqfR_SSIcv0JyPC3ubefj9lms2C3sjzlm5Rbcm04g",
+      "name": "Desarrollo Sostenible",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1B5BoVy4S0xhVCPOSy5514SthpQqi1R8UgJPfxJbG_78",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "18RFjmMONVg7X5bDqjutIcIVmcgD6Hc0",
+      "name": "Thesis Presentation: Workflows for Creating 3D Game Characters",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "15MY6D-_KNDcAxDuI-NPOeZ5LFb9yLZk",
+      "name": "Alain Corbin, Jean-Jacques Courtine, Georges Vigarello - Historia del Cuerpo (Vol. I): Del Renacimiento al siglo de las Luces",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1NjpNqvsVXw2LpxxpgAwIPgWbQuSdblbX",
+      "name": "KodLab.rbxl",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1IodNh5lGptstMJCWU5QTS1vXrUOhAjAb3M46CPbtDxI",
+      "name": "New Bearsoft CV template",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1YuFJ18iLmL1KpkhqLO8Wd2C4ZSgT7His",
+      "name": "New Bearsoft CV template.docx",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1kzIOQN4QYfVsc5lMZgy_A-FWGXBAJBMySGqZqsJytcE",
+      "name": "Theme System Updates  (PUBLICLY SHARED)",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "12Ws6y1k3Pum1_gewmrUn1HWM18NiFSlQtTvHhwjDdak",
+      "name": "4 - Prototipado - Requerimientos Reto OOUX",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1A9U3mcU7WCCKvLU9gSJktQVkx-rMLVYP7H2rqdekv5I",
+      "name": "SIIF_II_Nacion",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1IDthpAr8cGo8fUmvEthuR17vHkAqwLWl",
+      "name": "LeonelCC.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CjzKZNaHJa4aNO-0vaPmtreTQSFUsS9yRlOj1mXCuAE",
+      "name": "Autorizacion_pago_a_terceros",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1N_zdTjDAelErylDDJ_hITmX1-bh1vdzAnNxckA7ARDo",
+      "name": "Autorizacion_pago_a_terceros_ls",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1NceO8LlVZ4_pQ4owc29ayUSKXcB65v6E",
+      "name": "Autorizacion_pago_a_terceros_ls.pdf",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "14ukh608Ion8SvJeWmUkvTLnpLGQ8dNzZ",
+      "name": "Autorizacion_pago_a_terceros.pdf",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1m_jVKfnTjVaZB7yWlKT5WnBV4lHqOsca",
+      "name": "Gaming and Esports Careers - Hitmarker.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CTWpfBJjB0duxR0vkmeNUABUJ3JVBRkH",
+      "name": "ane-utmv-njg - 7 ene 2022",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Bzvm5X5ZxYLVsG2eZqTzs3x7gwj8QVJL",
+      "name": "ane-utmv-njg - 7 ene 2022",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1dE9Ynksg9UviAeP-SEBZs6fERzWQGe_I3vZa9FNVgtw",
+      "name": "6 - Prototipado - Flujos de Tareas por Funcionalidad",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1RLLhODwDIG9ZowgEzyQWgG_jwV9MSU8m",
+      "name": "Pop It.zip",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1h0-DcjBnvGGTHMGR0_RIgBrs7MzfIVgw",
+      "name": "TE.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1AIfJ4NZJfLU0kKt-Kqygyg21Bn1QhrUG",
+      "name": "diccionario-neuropsicologia.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17Omk4KCW5qUe84YNB38XeZxXRXY__q3P",
+      "name": "wmd-ujte-ykn - 13 de jul. de 2021",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1L2jvnHo1ulSmvur384A5uRXibobNAJMh7uFeckJ1Sjk",
+      "name": "Copia de Resumen - Design Sprint Food Market",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1b72y3-4LNQkC9wxV2nef2Ea1QMRiyx4EG4sqRLvb-ak",
+      "name": "Copia de Template para Resumen del Design Sprint",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ONupa-bCKN9FHlbAqffHaHuoPqoyWHOEQv3G_EGhVhA",
+      "name": "Copia de Template para User Testing",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1A6But1myFCcfq3VOcN0q9Cbt129kPumUAzyvEe3XHSY",
+      "name": "fdas-proyecto_-platziservicios_5bd02732-fb5e-49a6-9d39-152dad34632a",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1enX1AJX27OfLk5qMc8IuRlb2ixV7Emnaep-WSEO7jLE",
+      "name": "fdas-4-estilos-de-arquitectura_0a2426dc-ce58-4a99-a55a-972912d64a42",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13mB_jemRMyNKwrt4RQKPGNpqgNc24-OXHAQAyT9Qp3Q",
+      "name": "fdas-1-el-proceso-de-desarrollo-de-software",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Fetx5tbfZf9oBZmz4pEZxENx0WG14MIOOyaWqIftuM4",
+      "name": "excel-finanzas-para-startups",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jwvBl0uCTT_nPtmuAIYDOzkD8gP-8FDgC9tsmgso4dI",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1AXteE9b1tiaHNa47wLwk9kA7p-pySAV2",
+      "name": "excel-finanzas-para-startups.xlsx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hYzQ6iaHoYuFWZERwyXvOYW2FR8V8OCyz8z5HjZgndg",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1r_j7_Z2ibP63s-9V1VOTOZVQfVtRuaMdnoqsjmqeLNs",
+      "name": "calcula-tus-objetivos-de-marketing-digital-de-forma-smart-plantilla-gratuita-social-with-it",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1YJguE9nTwmeDa9wCAYy4xLObulgJHE1N",
+      "name": "Félix Guattari - La revolución molecular.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1VSjRwKm1MmvuMnxjKhOx45AXQnRiIk7v",
+      "name": "Backoffice user's guide.mkv",
+      "target_path": "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1KkWIuHxXdAsIlYk_0kbx5D9IzIIzsrhM7BJtUMUM0_s",
+      "name": "Diagram gantt 2021 ",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1FWK2_c8bItnxdw7whKqqPkLu4UqZ9H0Iylh6fKdfoOg",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Eh_qGC-NrA1gbktB-wni14_nGOPIqsRs",
+      "name": "Cuarentino-READY FOR PRINT.obj",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1gihy0vpCxeCWnmdg0c4H2X3IIEDstLUAT5GOHVrPQsM",
+      "name": "8 - Prototipado - Documento Listado de Componentes",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gJveQma8Fxbm339IwrW7Eav6NiXXvukb",
+      "name": "Proyect Leo-6.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1zA9tUwevZYHyEY5kV4Edpc0DxD4rmTjyfOfFFiZCLYk",
+      "name": "Thesis Presentation: Workflows for Creating 3D Game Characters",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1B8k84f3eMhjM0NUr7rTuDS01Ou2GjJuk",
+      "name": "marc-auge-los-no-lugares.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1q8yXAl5NX43gHlpd5lXw5BOtohhM9MeA",
+      "name": "ANYCUBIC Photon Mono X-English-V0.0.4 20201009.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1dBOGF_RdogT_GgwI7y5GxtqXMB36u1vm",
+      "name": "Ghibli Clouds 2.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1l8TD2FR6CeAnvZKP93YDxEWdBaWj-585",
+      "name": "Ghibli Clouds 1.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "11QrLsugRf2oZAxqGQRndZZxVn0zVtaUb",
+      "name": "angular9.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1aB6tYeLgVBKFzlVgpC1RnWEzxpW0eBi-jdppTtjod-c",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1wa-_1Ml7Y-950p8epy7tirWzz1hBYWMUANPukvkHH1o",
+      "name": "TECHNOLOGY",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1IdhS6PTS_FHnT6-xwIVo0GljJxzlfvDy4uMJxSZIzqg",
+      "name": "Game Design",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Rcf77_7GIOqVlk0etZ41wrAxjTUjieX3",
+      "name": "presentacion-curso-profesional-de-diseno-de-videojuegos_bdb8707b-0d3c-4615-9747-055e0163fa60.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1hNer0nwjGfz-LhOgBZcF3IZ8f44SJ3If",
+      "name": "SUBSPAINT2020.WIN.AP.ZNT.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1w26ai1dTQKlHVw8vhI6zfN74ObQTgHyskb8kAXH-4QQ",
+      "name": "ALTER WORLD",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "14EkMQc412i2Ing502-d6t54i6jGACPlr7IGmNMBAdQQ",
+      "name": "plantilla-buyer-persona-1_add5b604-94a7-4235-86c3-bd558a087236",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1q4oT-LDZLqx_PhReSvyYraFfivWArANP16nZLr4zSb8",
+      "name": "Strategies to Learn Online",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1s4l6sAIooP4A5HKSdY8j0czQFvJ8uzeFdxP8xq4L3PM",
+      "name": "Copia de Planeación y Calendario de Contenido 2017",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1505D3Zpl7Zzc6gF8RKnORRjXADi5vnSBM-oT4A1CcfM",
+      "name": "Copia de Template: Cómo estructurar un contenido que se posiciona bien en Google",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ET0AFjvsBga_NLCqf3RnRq5qV457nZic",
+      "name": "Extracto Vida 3.0.pdf",
+      "target_path": "01_FINANCIAL_OPS/01_Bancos_y_Extractos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OlZftiiTU8bxN2DsI2qfR6FF-e3sjt2Wol9dtMLBmxA",
+      "name": "Contrato Desarrollo Web",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1mmt_DWNFCtxMYQzkBGoK6tdHVMge8CCJ",
+      "name": "portafolio.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1dOLxGHgflJuwqxOjdYaxFAeCoWp-GV-x",
+      "name": "ego_dobleSentido.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1dxbaebYgosctibpK8sIJI8SgPVAfW-0oTHSf8E0BccA",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1RZEnrigyuuJ6NvRqHW3br0AxClGtWXAJ",
+      "name": "Daniel Bel_ZBrush UI_2020.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13dumh8PZpW7po3li6k8gzgG8fbA00U1M3tQy4W9NaCQ",
+      "name": "archivo",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1pXsOVTjMJLjRyTTBuMxYYHb1Bk25_fdMQENa3318ouI",
+      "name": "Cap_1_3",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1qRt7UFGNEEMzjmuRUcHCAsnJ0ig",
+      "name": "Bogotá Ciclovía - not finished yet",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1zgi9ddU1BN6vToZR1pHRE-Ped4sc1tn_",
+      "name": "Python-con-aplicaciones-a-las-matematicas-ingenieria-y-finanzas-pdf.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ntJUmi259cUriMaEkcK5sQHcIZ4NfOe-",
+      "name": "HV_leo.docx",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1O1N47Ski8m6zaY4iTncdkr2K4DjS9i8J",
+      "name": "M4RVDES9ENT.WIN.AP.ZNT.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1jzMhWeaygYZXLxzubon7Nbp7s0rmpPibEBCBeAeCqyA",
+      "name": "Game Design Document Template",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1POHrwxXQvGnzR2YqB9bnVc6hcDEItr2K",
+      "name": "Alain Corbin, Jean-Jacques Courtine, Georges Vigarello - Historia del Cuerpo (Vol. I): Del Renacimiento al siglo de las Luces",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1koauiApDGFOraZs3gBaWLzKHWnvSN3YOB-sUUM_LhxE",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1c1eVL_4hDUWuwWfRTcRS19a1vAEp_-UsoVWVvyUh06o",
+      "name": "Documento sin título",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "13HpUMBy6lKsyGP3g0LDh1ngPd0e-5GMxuRtaiX4ZoVE",
+      "name": "Slides - Curso Diseño de Prototipos",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1VYpXytCs_bRtC5pEmwwj4v6DxDQTAUSL",
+      "name": "ciudad automata. 3.0.psd",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1l5wHKYarKizqyulL1soSPN0uElW8v21Dz0HPkcx8qo8",
+      "name": "Resumen - Design Sprint Food Market",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1KxrFsFCsjU9oAcGXemeMN3Iz-NfazG9719woLBM_aNU",
+      "name": "Template para Resumen del Design Sprint",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "15qV8M7aNlP0fMhzRFTMbTHqyLJXyDM19i6wZ54oS-q8",
+      "name": "Template para User Testing",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1a1BTN9LKJrUOmO6-4E33VZckqUOem0f3",
+      "name": "maya-math-nodes.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "15qV8M7aNlP0fMhzRFTMbTHqyLJXyDM19i6wZ54oS-q8",
+      "name": "Template para User Testing",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1kkkkcxc1YgPHCd_TxUtzWVGBSs8QsnQW",
+      "name": "3. DVA Formalización Notario.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1yftWMe_Z0WN6xlp9LZT1CDIiWih-ILNG",
+      "name": "1. DVA Formalización Médico.pdf",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/02_Salud_y_EPS",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1TScxm8L1IYXk45C-Re5ZhpIm7MSzQfx6",
+      "name": "2. DVA Formalización Testigos.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B57EIzbI7ItBazI5N2FSU2t1R2VDVzRPZVhaTERoT1BGT1RB",
+      "name": "Classical music Aug. 2018.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "12e3pzLKSnnUeFamaNbcKu3ENLrX9oy5v",
+      "name": "Nomack 3D Artist",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Q5uRpD7X_lwE6xxX3gsfxSLK8JXO0dbV",
+      "name": "MiarmyExpress6.5.09Win.exe",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1h8-rq_dPxLNiVyCzkONUPvde34nptGFO",
+      "name": "cédula.jpg",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ejMseYPCXibKcb6E52CrG0Q14vzbt2mr",
+      "name": "Umberto Eco - Historia de la Fealdad.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B57EIzbI7ItBc3hzZlBnUktRMm1BWktEX2szWnVnZXBkQlhB",
+      "name": "Ashland Public Library-Classical music May 2018 4.30.18.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1i1bLg2WuNsQeoShR_iSorDgZAzI2NjdOKddcfEVEcNU",
+      "name": "Glosario y FAQ Módulo 1",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1SrNVT_j8De1TipH8GgGt-aq8vctd55wyinuEEO--UcE",
+      "name": "PdAS - 3 - Diseño de una Arquitectura",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "14_HifWbpVoGcXavIR-2s1zAd1aRH89gUgIaMQ0D5x-Y",
+      "name": "FdAS - 2 - Introducción a la \u000bArquitectura de Software",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1maSgvM4mXn7bldGlYEBHnOC_Lm9PY9B7CnfKXvg_lmg",
+      "name": "PdAS - Proyecto:  La máquina del tiempo",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1fP3vMpxz36MqI7MBGnmB90_FvtOQx6eXda1RzTu7jkU",
+      "name": "PdAS - 2 - Patrones de Arquitectura",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1tJsbh1b4w-JPzvCAJm-FB3ZXUg2DIMHtU2lWgDErCLw",
+      "name": "PdAS - 4 - Modelado y Documentación de Arquitectura",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1KfcaYnzrsOsvTPG90onyaejiwHJ4btxS",
+      "name": "Paul Ekman - Como Detectar Mentiras.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jTldBYjB2b1h0cjA",
+      "name": "angelicaFinal.ma",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jeEc3Vl9BSk5Kejg",
+      "name": "AngelicaFinal.mb",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jdzBabkpiZXhVUDg",
+      "name": "AngélicaFinal.fbx",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jNFQzVUtZdE1JZTg",
+      "name": "StarLowFinal_1001_Roughness.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jQWNZNklaT0dGc1E",
+      "name": "StarLowFinal_1001_Normal.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jY0dPYVZPdWlzSGc",
+      "name": "StarLowFinal_1001_Height.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jM3B1eGVXWEVUWEk",
+      "name": "StarLowFinal_1001_Diffuse.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jdWpScnlRZ2t2S2s",
+      "name": "star.als.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jOVdxeEcxakZ6Vmc",
+      "name": "StarLowFinal_1001_Alpha.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jX0JqMlNlNDl6R0E",
+      "name": "StarLowFinal_1001_f0.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jWkVRNUZBWGt6dEk",
+      "name": "Materials.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jMGl0ZEZBVVM4ZEE",
+      "name": "StarLowFinal_1001_Height.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jVDJJWUdfWXdwWXc",
+      "name": "StarLowFinal_1001_f0.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jNGlNSlltb0NoSFk",
+      "name": "Angélica.rar",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "13Cql4MWCrskr2-ZRaUy-9zqAKcLQhni1GjB8bALdwp4",
+      "name": "Glosario Módulo 6",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1aEkomB_KpqFO4--84h3OB3Gp20_EbItU2CQ1qPRfwfk",
+      "name": "Glosario Módulo 2",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0BwHDWF2FsVAnUDBZck40bXlNazQ",
+      "name": "Regla de cálculo.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jZlpsdHVYSEZQQWhTejg2a3FkTzJObEZRMmQ0",
+      "name": "General - nomackleo@gmail.com.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jNTZaTXhXVXN3cHJ4cjM4VVM2cWlVbTRxQnI0",
+      "name": "General - nomackleo@gmail.com.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0BwHDWF2FsVAnUDBZck40bXlNazQ",
+      "name": "Regla de cálculo.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0BwHDWF2FsVAnUDBZck40bXlNazQ",
+      "name": "Regla de cálculo.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B7IsvosHpjpATE1YZ0R5b0kxUUk",
+      "name": "MC - HZWB.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "0B9-woSisj91jRk1LMlVzWF9NbHc",
+      "name": "Unravel_Resolution_CheatSheet.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1lHRSxL5IS6PmsMIlVZ7cTtNzgW7DBzq_OjbB__mvPbw",
+      "name": "Firebase Auth Tutorial",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "10E0gzi6FGFbeaSkVEqb0QckRjpW9bg9jQk1P9tQL5Io",
+      "name": "Importing an Image Sequence in OpenToonz",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B0xFimayt1Wtam8xVTczZVRDWFE",
+      "name": "Mozart-In-The-Jungle-Sex-Drugs-And-Classical-Music.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B-LA9QVlrIcrcWI2ZVBFbkNzeVk",
+      "name": "castro-edgardo-el-vocabulario-de-michel-foucault.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B1ZASXceS7hURnYwNUt2RGdzZnc",
+      "name": "sesion2_cursoverano.mp4",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B2kCWRka3se4Q0VQVHJQS0xidjg",
+      "name": "La estrategia de la ilusion - Umberto Eco.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B4RM9E8In1vFR2RweUtSU2NMTVU",
+      "name": "Best Motivation Songs (Dance) - Workout Music Mix.mp3",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "12x0XvAqZNKzv4sG-0fztBzJkAVcx-3OdpTA_CmJiys0",
+      "name": "NC Games - Price List",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0Bys9_iWhCgvfNGJ1M3pUOEVja3c",
+      "name": "Colores_ReflectividadBase_Metales_PBR.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1bDHtxWxrclQTna73386PQSW6US0",
+      "name": "TRANSMILENIO: Rutas y Estaciones - Por Colombiamania.com",
+      "target_path": "01_FINANCIAL_OPS/03_Impuestos_y_DIAN",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1e7p206S-bf68YTZKHtXbLDvdmds",
+      "name": "GUATAVITA",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1FeIj16ZSq9DNd2yyGgwsRLY2TbA",
+      "name": "Las ruinas de San Ignacio",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1cMvq01qe5KaRujh66k4wkfl2xkbkhsCJJH3wOhrH9Yk",
+      "name": "Cambios a los scripts para que funcionen en Unity 5",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B5f7290pcpYfQ1VFZzlJeWlaXzA",
+      "name": "top 5 of classic electronic music .mp3",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1q1wb5Dw8CBMwOofgY8TKx2I6mnpO2Adnm-Luqn676UU",
+      "name": "Introduction to BEM methodology",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B07EQXTezfa6WFRlY1RoRF9VV3M",
+      "name": "Principios del Sincronismo Labial.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B07EQXTezfa6R0pySldOLXdYdm8",
+      "name": "Cartoon-animation-by-PrestonBlair.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "178hpuIY4MvbJAoQqUb45he0tY0i0nRqGsKrLck5YB38",
+      "name": "Creacion de Personajes con Flash",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1LdLC57L5XjAJpl_XxarS8ioKIeGe7_Y-jhkCIdTHEYQ",
+      "name": "Animación de personajes con flash",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1p2x_CwLtOlxnvEgGaISjKH_yGhllbjslv0qg9sG1QLE",
+      "name": "EL PUNTO COMO ELEMENTO DE COMPOSICIÓN GRÁFICA.doc",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "0B07EQXTezfa6MUxRa0FjSzczM1k",
+      "name": "Animation The Mechanics of Motion.pdf",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hiYLGqV8APueFwjRdXLFICr4535wBeH3",
+      "name": "IMG_20250326_214044.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders",
+      "status": "success"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "account": "nomackleo",
+  "timestamp": "2026-08-31T20:38:47Z",
+  "total_folders": 46,
+  "folders": {
+    "00_GOVERNANCE_MY_BUSINESS": {
+      "id": "1SSygyAWEobH1m2d9qy0nSj-CrUCF3-3T",
+      "name": "00_GOVERNANCE_MY_BUSINESS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "00_GOVERNANCE_MY_BUSINESS/01_Identidad_y_Bio": {
+      "id": "1VwK_yI8YPemQ9L1NlHgb0Rz-BhPSo8LV",
+      "name": "01_Identidad_y_Bio",
+      "parent_path": "00_GOVERNANCE_MY_BUSINESS",
+      "status": "created"
+    },
+    "00_GOVERNANCE_MY_BUSINESS/02_Contratos_Marco_y_NDAs": {
+      "id": "1eGK_LBqBKklKrJm9G2W5Ug4v_oCm-4LD",
+      "name": "02_Contratos_Marco_y_NDAs",
+      "parent_path": "00_GOVERNANCE_MY_BUSINESS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS": {
+      "id": "1zdTqvreeiHRFY-QAjQJqEx3K6lrqWpQv",
+      "name": "01_FINANCIAL_OPS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/01_Bancos_y_Extractos": {
+      "id": "1NII8swBZhCmKOds7EocEdH364IW6-o5R",
+      "name": "01_Bancos_y_Extractos",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes": {
+      "id": "1q9nRpbSX3PEw2VDpS5sAkfsmh7Up4w2G",
+      "name": "02_Facturas_y_Comprobantes",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/03_Impuestos_y_DIAN": {
+      "id": "1GjPT8eb7lEgm0dC7KBKURbAPk56c6PFz",
+      "name": "03_Impuestos_y_DIAN",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/04_Inversiones_y_Trading": {
+      "id": "1a5Ucut6S_OUXdZbYXcwJqeWso3DkZDu6",
+      "name": "04_Inversiones_y_Trading",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/05_Produccion_y_Finanzas": {
+      "id": "1i1LeyWE9xJC9gslJ4g-ZUVtbE8VN6oPV",
+      "name": "05_Produccion_y_Finanzas",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY": {
+      "id": "1bopTU5AuzAfxbhPrWTM1PCgnBxomg_FC",
+      "name": "02_CLIENT_SERVICE_DELIVERY",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal": {
+      "id": "16ZqVFbDyoeye1QktZIyKUYGQ1SNMAa1U",
+      "name": "01_Genesis_Legal",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/01_Capacitaciones_e_IA_Corporativa": {
+      "id": "1vYvKtjhaZ2OFkAD1sbFrRTXDwfgvo9vS",
+      "name": "01_Capacitaciones_e_IA_Corporativa",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_y_Contratos": {
+      "id": "1cpY1D3MqhJpIPddSKFtDmz9oP972_v2O",
+      "name": "02_Propuestas_y_Contratos",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Cronogramas_e_Informes": {
+      "id": "1wh90guuinmq_aqHOutapLBntUQR8ijvW",
+      "name": "03_Cronogramas_e_Informes",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Ejecutivas": {
+      "id": "1LTzAZNKFVQS60TIJ6Cy98ZZHPUiIZ6Mq",
+      "name": "04_Presentaciones_Ejecutivas",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/05_Prompts_y_Arquitectura_Modelos": {
+      "id": "14XVhC_XcBM1mFFEt_I3Z_I4p55UQuNzP",
+      "name": "05_Prompts_y_Arquitectura_Modelos",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy": {
+      "id": "1LwGdjN3KtQAb81nRwOO7wtGf-04QhBXX",
+      "name": "02_Kodland_Academy",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy/Clases": {
+      "id": "1uNYdEk17yv6uqzxxuS4SHCiX0zkYEfG7",
+      "name": "Clases",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy/Virtual_Backgrounds": {
+      "id": "1bTPdBJWiapkGSkufZFY0FxTk1hoePrKG",
+      "name": "Virtual_Backgrounds",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas": {
+      "id": "1p9eTWrIbrX8KTmL5C3thX36i2qfEEsN_",
+      "name": "03_Otros_Clientes_y_Propuestas",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND": {
+      "id": "18XkiXskNGXYRIvJXcHglH6kflSUqG8Ce",
+      "name": "03_KNOWLEDGE_BASE_RND",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers": {
+      "id": "1XdxNONJvBriBp8WWXlQFaaaLwZsp9-T5",
+      "name": "01_Libros_Comics_y_Papers",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos": {
+      "id": "18BwD6-ikqMIX9a5MyxbG8ZPcM_ZdRk6T",
+      "name": "02_Academias_y_Cursos",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/03_Becas_y_Convocatorias": {
+      "id": "1q843oHtkyb8JqISCyzoOIow2BZTuDewG",
+      "name": "03_Becas_y_Convocatorias",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales": {
+      "id": "1XdkXxq_BPatvl2r91FaWWmR506gE96hh",
+      "name": "04_Notas_y_Manuales",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV": {
+      "id": "1UP6MJhFmwp0LW4txyYtZgcymCdEOObet",
+      "name": "04_PROJECTS_AI_AND_DEV",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa": {
+      "id": "1LiHPsXltXTZTS3FdJSKxgc_AukaE7WJL",
+      "name": "01_Agentes_e_IA_Generativa",
+      "parent_path": "04_PROJECTS_AI_AND_DEV",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV/02_Herramientas_y_Software": {
+      "id": "1njRJFO-36nA95ztsAjgKNzfn4r6AfFLd",
+      "name": "02_Herramientas_y_Software",
+      "parent_path": "04_PROJECTS_AI_AND_DEV",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio": {
+      "id": "1OT0BEX6R-oN-O1EwfwSmCLHT1GReap9I",
+      "name": "03_Estrategia_y_Negocio",
+      "parent_path": "04_PROJECTS_AI_AND_DEV",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX": {
+      "id": "1YsHb8YHK-mj1w8bjg_2oMrct4gyiD65p",
+      "name": "05_PROJECTS_3D_CGI_VFX",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/01_Software_3ds_Max": {
+      "id": "1r0K1IuNQOyDFnl8M2_xH6WPmkq1gVeC8",
+      "name": "01_Software_3ds_Max",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/02_Animacion_y_Crowds": {
+      "id": "1zlcaVKk3cCBx5HgBUHkVI6MOkcGby_CJ",
+      "name": "02_Animacion_y_Crowds",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/03_Impresion_3D_y_Assets": {
+      "id": "1pcjJa1dhetbDThLKU7dkUpbJs0IIh_wD",
+      "name": "03_Impresion_3D_y_Assets",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/04_Escenas_y_Modelos_High": {
+      "id": "1opcQqOW4uDEgbh9RkstIcqKOb_m3NzYe",
+      "name": "04_Escenas_y_Modelos_High",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS": {
+      "id": "1a34iEwKp3Zy7qirDafLZj2V-Kp2NIw3e",
+      "name": "06_PERSONAL_LEGAL_DOCS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles": {
+      "id": "1nYsosegBfTraGhQvCpcsrCeR7sKd9PXs",
+      "name": "01_CV_y_Perfiles",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/02_Salud_y_EPS": {
+      "id": "1f4rLHTASWuulph9fmFvM0KuU9dQlc4lq",
+      "name": "02_Salud_y_EPS",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar": {
+      "id": "17nAmQNUvyL0jlVas-Y3ClweJ6-6fYHU4",
+      "name": "03_Familia_y_Hogar",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos": {
+      "id": "1n0tn-uqEEA5c8Co-ryiWcwsESCM681i0",
+      "name": "04_Comunidad_y_Eventos",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS": {
+      "id": "1KF1VcVMZu8-pY2evoIz3hF1vYlGg9ni0",
+      "name": "07_MEDIA_CREATIVE_ASSETS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/01_Fotografia_y_Renders": {
+      "id": "1fyYfPYWRoa4c8sp4G3FTLHbadteKqB8c",
+      "name": "01_Fotografia_y_Renders",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/02_Audio_y_Musica": {
+      "id": "1H1EM6QO7DkXaaOBx6MA5_-UE77ciy5Yz",
+      "name": "02_Audio_y_Musica",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/03_Video_y_Cine": {
+      "id": "1hPz6a15ziHYtmu_Jswb2KFyuFbEaUnzc",
+      "name": "03_Video_y_Cine",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "08_ARCHIVE_HISTORICAL": {
+      "id": "1bNK3Fb0n6VX70QQP0fy-L-W8-2NvnaSf",
+      "name": "08_ARCHIVE_HISTORICAL",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "08_ARCHIVE_HISTORICAL/01_Backups_Dropbox_y_Sistemas": {
+      "id": "1Ck_ZXlhLOSRzoqSKXhoPEN32VOOdt831",
+      "name": "01_Backups_Dropbox_y_Sistemas",
+      "parent_path": "08_ARCHIVE_HISTORICAL",
+      "status": "created"
+    },
+    "08_ARCHIVE_HISTORICAL/02_Archivos_Historicos_VFXLearning": {
+      "id": "1AwbIsAyP2ziIlxZXhOD_9PFLqKUV3O_O",
+      "name": "02_Archivos_Historicos_VFXLearning",
+      "parent_path": "08_ARCHIVE_HISTORICAL",
+      "status": "created"
+    }
+  }
+}

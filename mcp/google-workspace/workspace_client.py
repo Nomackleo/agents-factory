@@ -289,6 +289,46 @@ class WorkspaceClient:
         url = "https://www.googleapis.com/drive/v3/files"
         return self._make_request(url, method="POST", payload=metadata)
 
+    def create_drive_folder(self, name: str, parent_id: Optional[str] = None) -> Dict[str, Any]:
+        """Crea una carpeta en Google Drive."""
+        metadata: Dict[str, Any] = {
+            "name": name,
+            "mimeType": "application/vnd.google-apps.folder"
+        }
+        if parent_id:
+            metadata["parents"] = [parent_id]
+        url = "https://www.googleapis.com/drive/v3/files?fields=id,name,mimeType,parents,webViewLink"
+        return self._make_request(url, method="POST", payload=metadata)
+
+    def move_drive_file(self, file_id: str, new_parent_id: str, old_parent_id: Optional[str] = None) -> Dict[str, Any]:
+        """Mueve un archivo o carpeta en Google Drive agregando el nuevo padre y removiendo el anterior."""
+        params = {
+            "addParents": new_parent_id,
+            "fields": "id,name,parents"
+        }
+        if old_parent_id:
+            params["removeParents"] = old_parent_id
+        url = f"https://www.googleapis.com/drive/v3/files/{file_id}?{urllib.parse.urlencode(params)}"
+        return self._make_request(url, method="PATCH", payload={})
+
+    def create_drive_shortcut(self, name: str, target_id: str, parent_id: str) -> Dict[str, Any]:
+        """Crea un acceso directo (Shortcut) en Google Drive para archivos o carpetas compartidas."""
+        metadata = {
+            "name": name,
+            "mimeType": "application/vnd.google-apps.shortcut",
+            "shortcutDetails": {
+                "targetId": target_id
+            },
+            "parents": [parent_id]
+        }
+        url = "https://www.googleapis.com/drive/v3/files?fields=id,name,mimeType,shortcutDetails,parents"
+        return self._make_request(url, method="POST", payload=metadata)
+
+    def get_drive_file(self, file_id: str, fields: str = "id,name,mimeType,parents,webViewLink") -> Dict[str, Any]:
+        """Obtiene la metadata de un archivo o carpeta de Drive."""
+        url = f"https://www.googleapis.com/drive/v3/files/{file_id}?fields={urllib.parse.quote(fields)}"
+        return self._make_request(url)
+
     # ==================== GOOGLE SHEETS API (v4) ====================
     def get_spreadsheet(self, spreadsheet_id: str, ranges: Optional[List[str]] = None, include_grid_data: bool = False) -> Dict[str, Any]:
         """Obtiene la metadata y estructura de una hoja de cálculo."""
