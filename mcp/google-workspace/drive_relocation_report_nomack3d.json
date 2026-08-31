@@ -1,0 +1,2445 @@
+{
+  "account": "nomack3d",
+  "timestamp": "2026-08-31T21:35:01Z",
+  "summary": {
+    "total_folders_processed": 19,
+    "folder_errors": 0,
+    "total_files_processed": 285,
+    "file_errors": 0,
+    "total_operations": 304
+  },
+  "moves": [
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1-NQBGgl1RjwHkZTpRhi_3tf7gx2RXrPU",
+      "name": "Meet Recordings",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/04_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1wUJ96-i3NYX5cS_9dD5NjWEwDpzfPR5y",
+      "name": "Exportaciones de Vids",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/04_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1NGCCcymSUZ-cUz8vOdP8wucBz01mlHnR",
+      "name": "rag",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1aEVkeU8TsSV9stqNuxBmN_WbZHwrrjcQ",
+      "name": "Ma",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1xzs-h9eUDtQDTHtn-IvlkItrJX_TGgqN",
+      "name": "Gemini Gems",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1xWJ775lQvbipKJHyA2Al-No7r4TRApNX",
+      "name": "parido",
+      "target_path": "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1Ot0dLGN3phWywWp_RKJv143_0hnYpD5Z",
+      "name": "Movistar ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1ekNaH64oEx1OhW-sh9jdhdrY_PhBD2E6",
+      "name": "Google AI Studio",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1Eoec8Q-laU8C2SvAnCz4jKgKrkhgWB5S",
+      "name": "Company_Root",
+      "target_path": "00_GOVERNANCE_MY_BUSINESS/03_Company_Root_y_Estatutos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1GkGe5PyR6nN9Oj4pbA9ycJDR426_KDdx",
+      "name": "Zona MVP",
+      "target_path": "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1-0FM0Pv83qtQRCBl_kDfpa2wC1Vdbmcs",
+      "name": "Admin",
+      "target_path": "01_FINANCIAL_OPS/04_Inversiones_y_Trading",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1l9aFxqMyZpMiqVrDDt51ZjZrlyu280vM",
+      "name": "Ciudad Automata",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1XT6CwAFcKR8VWhY--sZN_VXKj6j4zMmg",
+      "name": "Trader Science",
+      "target_path": "01_FINANCIAL_OPS/04_Inversiones_y_Trading",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1NCxV-mXWhx7m4x2iBPRnpfnvIgLT0FVH",
+      "name": "KIT DE PRENSA -  BOGOTÁ",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "18Mpv_UKDUdgNo5CMqJMXviWTjXQM7Kpp",
+      "name": "Curso de Wordpress",
+      "target_path": "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "1f7Tk6NVX0XoxPyhCyXC4fMa2PiqfHl1D",
+      "name": "identidad grafica",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/01_Branding_e_Identidad",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1RN8SIWsbuw9Bqr7xQqSuxoTXzWx6Kjoo",
+      "name": "CV",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "move",
+      "id": "1K3LxZ5-3RWYbndqFHsRBj23NpU22m5qs",
+      "name": "Mom",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "folder",
+      "action": "shortcut",
+      "id": "0B0588Wzl5RstWFMwdzRkSlJWZ1U",
+      "name": "football books",
+      "target_path": "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "17qtlnflAnOjKLsfACIQR_okiPlIdfKSNo2-tJC9NDfs",
+      "name": "DPTO DE CONFIABILIDAD - IA.: 2026/08/27 16:29 GMT-05:00 - Notas de Gemini",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/01_Capacitaciones_y_Programas_IA",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hGgvxhOcpLLoaQg3d6TstCLr4XKjik7Y",
+      "name": "Proyecto sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ml5yvGP3XW5l1_cTmb6xhCB3qSwLjVW6",
+      "name": "DPTO DE CONFIABILIDAD - IA. - 2026/08/27 16:29 GMT-05:00 - Recording",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Decks_y_Multimedia",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1UP5gaWyMHHZOZKAPLixetctnZuGBo6U9wAQqb42Zcfs",
+      "name": "Levantamiento de Requerimientos - Psicología Forense",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/01_Capacitaciones_y_Programas_IA",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1noztetKxmPkg44dwD08O2SS8jycvBrd2M79H7J3xsbY",
+      "name": "Informe_Ejecutivo_Migracion_Dropbox_a_Workspace",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Actas_Informes_y_Gobernanza",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hPezwRscNyQ-30vzl1m-dawkHL511_eo3-TPg_YQhxo",
+      "name": "[Antigravity QA] Test Document - NOMACK3D - 2026-08-27 10:01",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "12QjJVivUF7BPFMsCvs3X5Hc5Ro1ryN_fQYdquIRVnhE",
+      "name": "CULMINACIÓN EXITOSA DE TRANSFORMACIÓN DIGITAL, INFRAESTRUCTURA CLOUD Y APLICACIÓN DE CONTROL DE PROCESOS",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Actas_Informes_y_Gobernanza",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hlDx95t9lT-wBHrflh7HqBhDcxmaBzLvwRs9j9e3dZY",
+      "name": "ACTA DE CONFORMIDAD: INTEGRACIÓN DE DOMINIOS, OPERATIVIDAD DE CORREO Y APLICACIÓN DE CONTROL DE PROCESOS",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Actas_Informes_y_Gobernanza",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1F9O8fPzbuQG9xgppcuj_wW9nDnBldz5Ewb4jtEML3gk",
+      "name": "Acta_ISO_03_Aprovisionamiento_Usuarios_y_Alias",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Actas_Informes_y_Gobernanza",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "16cj3xwUFxLvfN4y3DTtpCxXCtYNuGg1Ko2pGgyFhhOc",
+      "name": "LATAM - Agenda de ONB",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1fmuVYl2Ow7wLJVlC5_U-39ObesgmG2QxFV7EUkM_x2s",
+      "name": "leo_demo",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/04_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1HDwaIrmjln3E2ju6dedASzltSSgbCaEVasab5Z5upWU",
+      "name": "Vídeo sin título",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1GDCcZwubt1HSFR6Goj1YYEMy1b4XVPYuLxkY5A8krTs",
+      "name": "Informe de clase",
+      "target_path": "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1y7B4IOkb26k0HucztC66IcTPJ9qIln6dXi7QYNghi5s",
+      "name": "LISTADO INTEGRANTES UFC",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CTQN6KLxWsp9jGMcEmMwYAQeLc-zxBAPsUqpwO6oSwA",
+      "name": "Arquitectura de Aprovisionamiento y Gobernanza_GENESIS",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Actas_Informes_y_Gobernanza",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1_33ROMHD0nkhG2m4_2TUe9RjUypQz8gZXvcLv3jamRc",
+      "name": "Bien, voy a aprovisionar ya la configuración TXT...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1P_pmQkN_uyXR4CeLJkfEmza7VQ4qAjWGz4breA6qH2s",
+      "name": "Vamos a trabajar en la migración de una gran canti...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1grBaCHC10toYDKPZh20dOmvHU3ZmxRQVX9AZw_E_krE",
+      "name": "Con base en lo anterior y los servicios que ofrec...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Z7RL9WixnOfc5mWWL4jiEaiysD9cH6C0PZXsb5s8vUs",
+      "name": "Como experta en Google Workspace y Gemini.\nDame c...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17E-BLlw1pODKv1GqqlKqQxIq88IsTjdrsyyGjmyad2U",
+      "name": "Todas las respuestas con las opciones recomendada...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ZQk6ADoYMKqvDFfGCTTlTBhgkWSb8x5A4zPaWOpFdV0",
+      "name": "Vamos a hacer correcciones. \n*** Cantidad de Slid...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1INJdwuzX17OtAppuFfPi5pTmP8jRy8ZNlGWhJx3utBM",
+      "name": "Genesis Legal - Propuesta Ejecutiva",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_Comerciales_y_Contratos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Uyrs4DLyat1tH8Vh6E3mSBUd4_uh8HT4",
+      "name": "PowerPoint Generator",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1bXiW0FjCYdQTsvEUGa6gjMcK5pTWVpipmuS-6rmNi7U",
+      "name": "Bien, nos acercamos a tener la data para la propu...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1MI-EnPQvkRsqyjR4Vs5PpsixhCjTFldHS5VLgCQB9Hk",
+      "name": "Plan Legal Laboral Colombia",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_Comerciales_y_Contratos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1XmY5ZkGQmyKL3ygv523XCwNHOOpwSG3y",
+      "name": "Invitacion_a_cotizar_proyecto_inmobiliarias.pdf",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_Comerciales_y_Contratos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1TinVU0YibPeyD0PCH7hFB9xatMrQYYqxwj9x6V_N8CI",
+      "name": "Como experta en ciencia de datos.\nTE PASE UNA TAB...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "13hYLCBFDhm2rLHUO3OsGZFpNRxVAK0OFlsDJwt-SaHY",
+      "name": "Propuesta_Comercial_Avanzada_Genesis_Legal_V5",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_Comerciales_y_Contratos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Id7HsZrRoFPZQnVOlO-8RMg1lrybOh07zOjPX7e5WF8",
+      "name": "Arquitectura de Instrucciones Gemini Pro 11-06-26",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Id7HsZrRoFPZQnVOlO-8RMg1lrybOh07zOjPX7e5WF8",
+      "name": "Arquitectura de Instrucciones Gemini Pro 11-06-26",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1FsGEawplNiMxzQxxyA-m74h8QbY5g-7v",
+      "name": "Persephone_Analysis_Report.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1MzniUb1VSW46rqj2ngR3LehyPNJhYMjV",
+      "name": "PlanetCon_Persephone.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1dU8AV070lNBCTpd4WnYWmPpkej1rYBfpFLbkI_YVDk4",
+      "name": "Optimización CRISPE para Marketing Legal",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1lZJ40cORjN2XTJ7yr2IkfB4gyLDEhP4tDuLS5JjaE7U",
+      "name": "Cómo mantener a las personas al frente de la implementación de la IA generativa",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1D4mwoLXgNTfJKLAFJGNjlhnuK1baj9nkOaZELSRPxB4",
+      "name": "Propuesta Comercial y Estratégica DASPORTS",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Cxz991j_Bjt11OgF6U3ORbcxyzMIF2PiGjaaAGhNzTg",
+      "name": "Propuesta Comercial DASPORTS",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1aBwpXtwurhsZHOrC9vB_HwqMTkU5FyvQ",
+      "name": "Propuesta_Comercial_v3_Certicamara_30_Personas.docx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DwkivKR9GNOZ3am_o2JfmMwSq1uKiEXUMNlJbcJ8Kco",
+      "name": "Untitled",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1JHAHuzETCNNptHuO3fM9QXO1Dp2_krW0UrmD6w0ECSg",
+      "name": "Untitled",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Cob1A04CVuL26_Xs2bfDnCnGL6cQAKATGwIazC_6BHI",
+      "name": "Cotización Modelos IA: Claude vs Gemini",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1pm-wGRprLK1T7TczuSgZcAEeNXrn2tJ5",
+      "name": "Presentacion_Ejecutiva_v2_Certicamara_30_Personas  -  Reparado.pptx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1_E6vGcEbsX3Vt3eS6GwT1difEoh8e9hxKWVTxPTZnhE",
+      "name": "Academia IA Pharma 30X - Final",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ToMR3mitPMreSHMfUB1QhWqYhsSUqrReHX25SAV85S8",
+      "name": "Presentación Impactante Sobre Despidos IA",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "12ZyrG3wEOPvBINwSfMXmV9JLsrETbkP2jUjHLw3Zeow",
+      "name": "Propuesta_Tecnica_Certicamara_IA",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ewnIfYWtLlSHVNIaMZJTc7DUgbDtnshK",
+      "name": "Presentacion_Ejecutiva_Certicamara_IA.pptx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13OW-XFoY5FoTXqGWuMmroc7sNnGmQwTzgBONW8dEGV8",
+      "name": "Plan Técnico ComfyUI Híbrido Local",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "17GxQBplcnyR0ZyBICmDp6WzDrDGvk4EWWSHbYRF1TIw",
+      "name": "CUENTA DE COBRO-Teatrova",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ez0rad6xW5d9p4Rn3a20NU4VCM5hRcmb",
+      "name": "CUENTA DE COBRO  persona natural.docx",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CUtckLusbcGwi2kPcIoe-SZRrB1k3J17",
+      "name": "Modelo-cuenta-de-cobro.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1RjQjkHHzypuhC15Mb4OXnaUuHGPvczdzPYZsx4E2Qh0",
+      "name": "Programa_Curricular",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1voTwG0biJ0keA9MCy2FozFNdg9FYHwPK-eq2GPrf2hg",
+      "name": "propuesta-economica",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1r2uAMr0JkgUiwkzgNZfaKQ5Is1VeTYA67wFAbXrW4Rc",
+      "name": "Levantamiento de Requisitos Arquitectura de Información",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1oM23rMvRb-S1bh5RVKHU3EUCFhtymXQwMMQkZNmILMM",
+      "name": "Plan Maestro de Orquestación Digital",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1YBClrSXzxUUma57KdNMeRYUDj_uCJJ-l",
+      "name": "DOC-20260401-WA0027.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1NYW9IkhuOuuM-A65h372jt-ofV7EqLVU",
+      "name": "DOC-20260401-WA0034.docx.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1RgpEU5LbJi4_AejsNw2DZXV-41asiTDG",
+      "name": "DOC-20260401-WA0034.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1R1JzmDvuImSuPvTfzw9UtSBzLObyPoktKwc8L-gzlMA",
+      "name": "Necesito crear una propuesta estratégica para añad...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1QBXgxdFwHg1REbqK6QdXtX1IhFHvhmI2",
+      "name": "DOC-20260401-WA0034.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1bt_YOiAK0jKRK74eh3oy7A9ojsHe2e2X",
+      "name": "propuesta_economica.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1iVfGFxAzu-3lGRRQDuTOUrdEXZFdwOa2",
+      "name": "Programa_Curricular_GENESIS_IA_v2.docx",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/01_Capacitaciones_y_Programas_IA",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1BEJeaDMVhy43UbyR-DWJ3KZZaT_j8R1iOouIERO0GYQ",
+      "name": "Acuerdo Bilateral de Confidencialidad",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16yW_qgeGi63kXjQmfD2JPOhAtkGzvI7E39uhdfghvIQ",
+      "name": "Acuerdo Bilateral de Confidencialidad",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Z_Ka48N9IYHGGiebOzlAno_XctKmzIUY",
+      "name": "PSchool Foundation - Master Startup Schedule.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jaB2cxVy29pbKh2e12aw7BKHYmVJrPk7POCMUEgSRYs",
+      "name": "Asunto: Error crítico en widget de pago WOMPI ",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1EW2DPNPAzzxTjYh6i0Llg5n5nuNGucz33NweU8UieKI",
+      "name": "IA para Transformación Legal y Forense",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1fIeP0GtF3a9PwNraUFKUR6I-6GIFMxp0-hJTD3CxzSQ",
+      "name": "Análisis de Tráfico Web Febrero 2026",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1343aQ_ZXjE0_aeZ8Zwt_9xjdd9PHVKhd2STEpxV5mkM",
+      "name": "2026-02-28_CONFIDENTIAL_Trafico_Web_Febrero_v1",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OdN9jXUKVkZZ1GYqZ5pWUBFEsKNBeyue",
+      "name": "2026-02-28_CONFIDENTIAL_Trafico_Web_Febrero_v1.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13C8sz3zosynh1ncAelz-3f-j-OQ1WBmIdXwQmdPTM3s",
+      "name": "Programa de Formación IA para Market Access",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1FynghnmyuJf7QSW7YD84AoFTNaqc4cKi",
+      "name": "Salvar_el_mundo.rbxl",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1gvnMB19_U5GVkGMNHKS_a5tSVTVEiz9325F_KYkUUFY",
+      "name": "Entrega Tarea 4 - ONBOARDING ",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1RDlrQL5pvwDgeqm1CKQhKonSqW0bb6bhl0DF0onO6Z0",
+      "name": "Reporte de Análisis de Tráfico Web Enero 2026",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1x7tPqiTeAwGTZgSEWUF5GW9ZIOhSTMpHgJqc7ktV43E",
+      "name": "Saneamiento_Lalupanews_enero2026",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1bYE2m1LNvfPEvqP_LwRm6WVba6NWbNkW",
+      "name": "Documento_Maestro_lalupanews_(v1.0).md",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1NS6c22ZY-qUrqYoUBPylwbgjXToboUt_",
+      "name": "MiniOS10 Pro v26.0 x64 - dprojects.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1l0f4q6-X-ZasLi2GgvgZFPHzQjlnFF24jM5SlyNd41g",
+      "name": "Autorización Historia Clínica ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DclmRMLu5xFcz2DFhyuCGvilUYYEDSkt_j7r00w6L_Y",
+      "name": "Plan Técnico WordPress Spec-Driven",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1j0vGSxepo8TwKEnxVhaQk_QxT0dU75kwmiATiSEsMjw",
+      "name": "Informe Ejecutivo: Optimización de Datos",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DSEJ3-_yyGgXVFOkcoJGv5OzOoXp555Ghi20Ro77zfQ",
+      "name": "download",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16jg2MTwpcK2-_KlbtR0WXxy8X8pwPKbceKtczGO5Y6g",
+      "name": "Pipeline de Datos GA4 y GTM",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ttgY3fbEGs4g1bZZDkoavGuaxwrTbRCIb5TfGjWnb1M",
+      "name": "Derecho de Petición Insumos Ileostomía",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Yx3sTY5fTwcEAmRjp7OV_6K2lEItirIH1slVr-Y2zJU",
+      "name": "Reporte de Análisis de Tráfico Web Diciembre 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1xym1xwmmw1HqxX9mRaZYFT2wvkAqe-Le5Ee2LniKFE0",
+      "name": "Audiences: Audience name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1cEaWWP7pbqoBMLBxEbv-OZGRXfM0ofDU95-HRBvNJeY",
+      "name": "Aunque tenemos una fuga para saber exactamente qu...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1jZoJqaj0Frh2OgSfnrVHSBfluR9OlEZR58FviTokXCQ",
+      "name": "Sponsor",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1xt1nmzm3AEJFeemD6wM15QBs_8mRksVNHrJQSojmvFg",
+      "name": "Events: Event name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "191axdJbXg4w-rBHEAxC8dKdHbyUmOgrqbyeJidJQ-d0",
+      "name": "Landing page: Landing page",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16QI3h-jDziufgzuq260fLQvbI0cxA7scdHDZo0OeBk4",
+      "name": "User acquisition: First user primary channel group (Default Channel Group)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1-5gAIIIVr5UerHfkQKSZ2C0rKvZzmEBDodHYO4fOTnc",
+      "name": "Audiences: Audience name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1yMhTAf8qiL7lWnZiQFzFkFccBtW7APJFLViJUlhCWW4",
+      "name": "Reports snapshot",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1T-AjzOAxyOEmsv2ncycID0ogXqA57bvAzYRwCUJYr2k",
+      "name": "Generate leads overview",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16Yov6zo_ZOkDj6Vnhkh-9zmTu3oLI13cuwRztt_SHeo",
+      "name": "Denuncia por Incumplimiento con Solicitud de Intervención Inmediata.",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1NVGusg-WFzI_NFdLxDrF948le_zL1jul8pO1GIBGpEY",
+      "name": "Derecho de Petición Hidromorfona Clorhidrato ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1WI3X0v3uXATJIXhGFpV2CmRgts6uxcK-",
+      "name": "Derecho de Petición Hidromorfona Clorhidrato .pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1AchUZWgeeXD1ovmKpOCiE4JarQtWcQD1m4bs-ogg7KI",
+      "name": "tutela",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1poqdiZ5FWFc9DDkg77yCAXsYu-FZWRA0Dujye0mL-Io",
+      "name": "Derecho de Petición",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OX028F7vyBLhMvl9zPQWyendXQJ81KgECkmO3nkWpDw",
+      "name": "Una doctora decidió cancelar la remisión que ya s...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ElSwS5aYCrsBssPVIDC7jBDr0K9hJtsRYLDsQWrvW6s",
+      "name": "Tutela: Análisis Historia Clínica Tunal",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1rOgOQdCfGbiosdYVUC-bov7jkEk6FQYzlG6XsM-c0KA",
+      "name": "Traslado Urgente Paciente Oncológica Colombia",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "11At9LC7EiL65v4LaVC11wVb7F0YfOM9BtTVa8JkLH-E",
+      "name": "Copia de 25-10-31 - doc. autoeval. (final - 5) - mcar",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Q5UUSmZQ-Axy-4yWLkCedV9UCn-cK7w7KAOKgKgPR38",
+      "name": "Vale, hay algo acá que no es correcto, el evento...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1zvLvae474OqTsDCOcKYXqvpITIYAggb0f6rUPvSbh94",
+      "name": "DOCUMENTO: PLAN TÉCNICO MAESTRO",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17QG6HD5Kgz9kXSe9uQjDRgeqFE5ze3POJyYPynvrHaQ",
+      "name": "Imágenes del panel de exploración.\nEn cuánto a tu...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "12TYLBFeo9FvShdr2Azs5cxq_EIUCiunQjWhj4NR8ups",
+      "name": "correcciones",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1A7hMNMQuIpd8OuQHKklwKvTSCvfArpZ8XcvS_udvFzE",
+      "name": "Plan de Corrección y Optimización de Tracking para Contenido SuperAstro",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1XSCl1BcHCVMjGypJw9fIp5RhkZb-XI9wGV7dpMljmx8",
+      "name": "Este es el evento que está presentando problemas",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ewm5mqj-ny291_YAzrLvrA9Ndurj1UuhyxeMIotjy9Y",
+      "name": "Tenemos que hacer una corrección a un parámetro d...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gI__XxdSKNDx6VcqHfLIzxffdXDQX-Y2",
+      "name": "19.png",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1_7goeOJXfXK82bvgAlwoQGwAGXODYfL8aUi1HcjFKMA",
+      "name": "1. Web Master & Content Management Operations\n2....",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1UhdQXAoeWriRXj6VSQgmOde0ZD4JJI1oJnbCi1Do55M",
+      "name": "autorizacion_medicamentos",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jw2PWuJoVTFs6p7m0btYd2yvGHaA44eST_gvVmOfy18",
+      "name": "Leonel Salcedo cV_DC",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1CEwqqbKCMl7MgtDM9SaQLbkoYnBbgGfBwVVS7cpUnR8",
+      "name": "cV ",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1PZjiyHr1BI_SuslRK0HARD25jDz-A11e7hfBVnmBml8",
+      "name": "25-10-31 - doc. autoeval. (final - 5) - mcar (2)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1bHsvPh-UjPZDDNfEs7dyVq8eJYetjRvwBJM_EJFJ9a0",
+      "name": "25-10-31 - doc. autoeval. (final - 5) - mcar",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "174uE7sMvETkMMDz_ugwo0c6VZyOfhghrMqVXf6P13Ao",
+      "name": "Reporte de Análisis de Tráfico Web Noviembre 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CGevmNX0V_qFqf9YBOSLKucP_E68Y1uIydnYtSvCISs",
+      "name": "Events",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1xrAiwgnKpj3S2LIG63nstKVmJt7l_3QrE-VuiCZ-_cs",
+      "name": "page_view 1 nov 30 nov",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gCqUWJru9SJVc7MpgXQ5Qp-224FD5wv2UoRA06u2ejU",
+      "name": "Por favor, extiéndete un poco más en los motores...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1jzA9zXdEDr1lOyil1gMxgY_9Yy0lkS237NEy9F5I-hg",
+      "name": "Sí, quiero que reevalúes toda la información y te...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1-ZRmu8qx-zV0gT7NgOWgdMRHOweLLknxSbUQbGIvnts",
+      "name": "Events1 nov 30 nov",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ErqV5WOG7O5ZJgjmFaHaPGx_jhnHoPtS_R_6Y6ksVDQ",
+      "name": "Audiences 1 nov al 30 nov",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "12UKut6woxXCba5ZLW4VSZSGFcVzvOOhl5BSwrVLOdfg",
+      "name": "Events: 1 nov 30 nov",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "15Y6wcwW5n6PCFFxTgaWeb8AS6DXTrmOEMfIl3KjIbS0",
+      "name": "He cometido un error grave, pero lo vamos a conve...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "18aWRcMONqeuKjGQghJd4CEJDP4ja0AQ_2eQWi_FtRMQ",
+      "name": "Landing page: noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CHFdi30AyISscXeSclgDqFCocTzEiE4EC69L1WTk3zo",
+      "name": "Traffic acquisition: Noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1u5xCvamVv5UafUnXl8RE-GkKXfy_9L2sMgII-FhwiDM",
+      "name": "Audiences: Audience name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "18yRiYwfKgo2hHDqb2Q6ieam1M4pYmXmmwVVQOCBrvXg",
+      "name": "Generate leads overview noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "166QM6cyqXD3oOtMGHgIKsZlNDWeWBy6Mi1I8r_XQmtY",
+      "name": "User acquisition: First user primary channel group (Default Channel Group)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gBmwANA2psBjbTbDiQK4X6iX1LlVqztJ9dwAdiNwbgQ",
+      "name": "Exportación de Gemini (1 de diciembre de 2025, 16:35:51 UTC-5)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1CyqFMaRN8ZJ79aiELm1vrc6lgxjonPLEjnAsBgKz9Qo",
+      "name": "Landing page: Landing page",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "145R4A2MdcIzCfiNX30LT-hsj8uhMNyH103ywz-UWJVQ",
+      "name": "Generate leads overview noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1sXiSYcnCBhZkipqP7yL8xzLTCLbCFDIvDOGpUZuAL_k",
+      "name": "Reports snapshot noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16WgmqAdROURSCAUpCcCU2jPDHj0XwRc5I9rODzjc1mE",
+      "name": "Events",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "108t9H6m8EKVNc416o69Or7sONGW7ULsx_LCpoGmLCe4",
+      "name": "Sí hay un problema técnico, debemos presentar exc...",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1KR0n_fOyyXS-BRWCThhWnsOVvAMcBZt8IYbov9QiBwQ",
+      "name": "Impresiones superastro noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ZV2pIGLejSTAN2ZQ57wdIh3QH-n8Pu6ScxZcuxu_3nk",
+      "name": "page_view superastro noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "11iJ-3cwUULiFBMRsyGS8ESqU0FANgAEgtZhAMoqF1Eo",
+      "name": "Audiences: SuperAstro Audience Noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1mf2dw9YX9K2NourNuO25TfColMoGQCMciAlocET1tiU",
+      "name": "Events: SuperAstro Noviembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1GVgzBDBfUUdev8yHYaJ7zloFckefPHMd0zZr1tL8anA",
+      "name": "Necesito que me ayudes a crear un documento técni...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ERJk0Bk4JR9Vb_fhUWxbmNklrtj66asvJRui917KYOI",
+      "name": "Spec-Driven-Workflow - borrador",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1S12cY2zGfJdiANNg_dpv5pjslrFAlaDN2lfx5GK6kGE",
+      "name": "Antes de continuar, debemos refinar algo respecto...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ll1QC9y672_9Qa3EPR58bS0kFdQ1nEgMp4U308AJhHQ",
+      "name": "1. Estudiemos la posibilidad de usar la licencia...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1JA7pfdBF_OxKfMtT3mTjFOHBTJvJznxHvYYiUx-LjYw",
+      "name": "Empecemos por desglosar las User Stories y las ta...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Vac9tYTIBo4VrEmYl7M3nk2cNhQO-6N77wldzI45IIY",
+      "name": "Como experta en CGI y Análisis Financiero de un e...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1GswOpOXsWQeneNPHdkee-5TvrMlSBsgx9ThSO3Mlfjo",
+      "name": "Untitled",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OhkDZ6kzNZizT-J1I9L2XflBqVXxmCHVnh11jfyL3H0",
+      "name": "EL HOMBRE DE LA CORBATA BLANCA completo",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1qduNbnVDF6XOooaR02IMHAiaGm6kBWGc_Gerb1lJf88",
+      "name": "Reporte de Análisis de Tráfico Web Octubre 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1yaLi3HzcTtGcO4fHX9Kgx1NvDrdLIoYP3KA8PjnERbM",
+      "name": "Events",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16iwAKhKuYXrDOoT-fdSIJvUe-XLwr6L59c69xZ--t_4",
+      "name": "Events",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1HLScve7EYMyM8rNxDrFBNHnd4vpJQtOEjEJrKbMr0-o",
+      "name": "Te voy a pasar los datos del Sponsor para que rev...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1xfsavBcpQaFwvScGbQod_QRfRxnxbZe-GemtK267KfY",
+      "name": "Audiences: Audience name-3-meses",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1GOUlv4aSRvJz2ZZJjoy1T11alQhinilT5pyWvibI06M",
+      "name": "Reports snapshot 3-meses",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DGjUcYKCKGv2ao7xXXC6FNWpsSlqdofRE8JU2tJWDLs",
+      "name": "Audiences: Audience name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1VPdcv9kTfiz8TnwJYJxlweZtsZHBBu2WO773J9tyKP4",
+      "name": "Reports snapshot",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1eAuYEAHYYSeM7rpO-g9Eqt2ezhprfKXliFiMwKh3SZo",
+      "name": "Reports snapshot",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "14EME42bDtOdfz0m4jEm69rnV1YomKM5pJg-kyfi7OgA",
+      "name": "lalupanews.com-Performance-on-Search-2025-11-04",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1bHsvPh-UjPZDDNfEs7dyVq8eJYetjRvwBJM_EJFJ9a0",
+      "name": "25-10-31 - doc. autoeval. (final - 5) - mcar",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1bZr4xmUJgL80MhC8DExLiM6ZHJui2m2ohW5vKf79mi4",
+      "name": "GDD SuperAstro",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1A41eVHlg5W5I3KFshagiw8i5phjXKx8C",
+      "name": "ecografía_",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Gd8LRk-oidwIl5RVNzXJDoR43JbXVCHP",
+      "name": "autorizacion_medicamentos.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1HgmA_ko1cR342oZPqlzhOHXWTeQCw2Tja1jgOsP9jTM",
+      "name": "El paciente no tiene un diagnóstico de cáncer ni...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1xPD8B-b6JKTzxj78fik5Qn9WpSXTk96pVh5Zo-unokg",
+      "name": "Reporte de Análisis de Tráfico Web Septiembre 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1O_T5uiAVaTD20KzoedGxs9cbzikm55Kog54PSy0kTP4",
+      "name": "Events Super Astro Septiembre",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1iAACXwbLfkHwxsPHwjnJA1lkX-lWuZ1qO4LT8_zSdpk",
+      "name": "Untitled",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1WE2YWmKq-FAxm0nLtbquoMgpAw2pjVP4M_PhUiSdmbI",
+      "name": "Events: Event name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1665GdXPqWh4xC0YDqhKQMMvAKAv81d5qy4UDpHEjXSc",
+      "name": "Audiences: Audience name",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1nHKlRjRfwMpfI3gy7Z1uefXczf1F6dmaBpamWBTilco",
+      "name": "Traffic acquisition: Session primary channel group (Default Channel Group)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Vz6GLVy2Q7d_pangskSBCAIayuAAiNphg2jnHHa1nzQ",
+      "name": "User acquisition: First user primary channel group (Default Channel Group)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "10Yz8zmctsLLqLR8pgSwlu1jOXRW7IBts7hKfeN63KcM",
+      "name": "Reports snapshot",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1AE7ISTfBxJvq3zcwjMxm1tKicjMWb0WW2fnbhRhotvE",
+      "name": "Graduades Feedback",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1i0WbKj40TfYYil2-LjmC3Tyx-P-AHjyjsGFy1-HyKnI",
+      "name": "OK, necesito agregar al informe, el análisis de l...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1cLiPLKmtjPzQ6YCormJiwmNIVCUOKFTV",
+      "name": "Reporte de Análisis de Tráfico Web Agosto 2025.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ZvgiUlBjpTjIorG5spHfU64uooMXT6iJtKI11RC98uQ",
+      "name": "Ok, te pasaré por medio de pantallazos la data qu...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1qOWx15Wj-pO_Kpw7rfmkOOg11d4rxaTlkkqGtoS4oUs",
+      "name": "Necesito que hagamos el benchmarking, para una pl...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1GUg1332frbTbsG7jmyzL7y4aBZg-bcfIdSS1LYZIPR0",
+      "name": "Flujo de Trabajo Landing Page",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1DLA3wj5DdZV2JoEbzwj1MEHtRae5UXq7k83zeCJ88VY",
+      "name": "Trazabilidad Landing Page Claridad y Profundidad ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1fnk79qkeTyca6pZnEJAq9tSQZlRW5J1GY4COdUrULJk",
+      "name": "flujo de trabajo landingpage.",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1g8-V6mILP_xRIVovS02adqNhiZb2ARvOAVvcdOtO22o",
+      "name": "cuentaCobro_Leo",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "14NLsYIjOOUidRrUCs3lZ8N31P9Dsb__cGFuw7UiD2rU",
+      "name": "Untitled",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13iVlhLTqnlNjjyc1jVmF8Ku_achZTVHORipM0fjymgQ",
+      "name": "Hoja de cálculo sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1NRQ4usGntnPsRQbfnvM6JeNhih62TA1yGAvzjz2c4KY",
+      "name": "Formato sponsor",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1BXbJ0TmB7KCIrofHjIEsNVjUmXLGc9CIPVBfUYcwbW4",
+      "name": "Reporte de Análisis de Tráfico Web 12 de Agosto 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hKBgkLt-K0lBKi2Ol-4ivBmnbXGXP5PX6QuS5pmYK_A",
+      "name": "Vamos a crear un documento que va dirigido al equ...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ex92-fjPdGsgbuSkXNs3HVMyjyeyVQ8wFdysP4EYecU",
+      "name": "Pasemos al punto número 3, aunque el documento de...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "155Wv2SotbJBVdDclsOpZF3wkz-0qNIccH1_k0-cETww",
+      "name": "Vamos a continuar con el plan y flujo de trabajo.",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1OHCgXRRnfNbNpHGph322tU029FoRQahQJ16v-zydAIM",
+      "name": "Ok, recuerda que este proyecto lo llevaremos a la ...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1UeGJmQt6ppNJCy7SBV47ChN204dEbpQNtucHwunXWxQ",
+      "name": "Propuesta de PautaDigital",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hmvA4iYLnGfmaA8nDBp0gv4eVgHDi-4jA-GmrySYSsk",
+      "name": "Me encanta, creo que se acerca demasiado a lo que...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1KyxkcHT5YO6AYC2AEjZIa-u6s0_1CYvdLnQKIs8W0zQ",
+      "name": "Jugadores Copa Usme 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1vCVJntDNhKVCnD9UPQsxmNNJomhiYBL0jM3-aojAh2I",
+      "name": "Reporte de Análisis de Tráfico Web 4 de Agosto 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1L5B029Ea3ijWAIbo1PPkZz0BYsEQVwv4Lq2s-Iab8no",
+      "name": "Modelo de Negocio y Patrocinadores (Sponsors):\nLo...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1PU0k-V7MqppAhm3g0zi0-2nZqLfUQGDq4bBNpQarWmM",
+      "name": "precision values slicer for cap",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1R3KEqhD0MnwEjxW98XsRPeLh5zz1xINOe_5mtVaPtcg",
+      "name": "RESPUESTA CONJUNTA A COMUNICACIÓN DEL 9 DE JULIO DE 2025",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1yjx0xu1VE6ENCRFQSObzZjc16pcqnPx2",
+      "name": "RESPUESTA CONJUNTA A COMUNICACIÓN DEL 9 DE JULIO DE 2025.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1p30WK52eoug9au9FnziWibb00Y38ynmh_4Fb5R7uV0Y",
+      "name": "OK, te voy a pasar las correcciones finales que s...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1biHffUj__lWD0WV9w7XM1VJGL9OD1jgaNtHN9BYhnt8",
+      "name": "Paola, vamos a crear una propuesta, para una camp...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1B5ZM6145q7VahFBeO2H6-snemZPYaY9Kb6VxYilrfvQ",
+      "name": "Crea un  documento para que muestre una tabla que...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Ly7qGTwq9LyF-Qasaoo9NHczKnYD6JGPwk56w6OLZo0",
+      "name": "Crea un  documento para que muestre una tabla que...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1_-j-ihdyWkE-3uYMelwlCv5kRSja-A-xM9lBYxiWMQo",
+      "name": "OK, estamos mucho más cerca. Es importante tener...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ViY1bQEErM403qPkwYF_CKfKp6jfaNLfrnSBe-CmjUw",
+      "name": "Borrador MES TIPO",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Yx3gD_qZalnF1OTJ0Gxw_WQxBAyiXLcZ2DQtRFLb7TQ",
+      "name": "Por favor, recuerda el contexto de nuestra conver...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ayhbF4yszqjdltaOHGyXl5wsW6m2y1RnNbuhcTigJfs",
+      "name": "mes_tipo_campana_patrocinio",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1cVqVg6qrINgW2bOS-sTOlrY5paYvcH-ng_Sp59ngnvg",
+      "name": "Bien, debemos hacer algunos ajustes, basados en l...",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1fweYa5diQhluIUklOgjmfR85BevBAAXwRJpBoc6HIgg",
+      "name": "Perfecto, nos acercamos a un valor realista. Teng...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Lp9qVRk0vluBLnmgIZIvESR9vrqnG7YQeUoBAlrRK8U",
+      "name": "Perfecto, vamos a agregar al informe la data del...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1oVV7UMsPsKFOWH60Xx4PgpatHHiqTSSWACFEv4yChBY",
+      "name": "Perfecto, vamos a agregar al informe la data del...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1s34NseDin2oYpWOu_Q-viZdBVjzwLTuxGDo-aUSwlUs",
+      "name": "Te pasaré la información del tráfico que aparece...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1iUAia1YWvvlTOEohusokfjJdTZDgOhBLFdZ2C0EybpU",
+      "name": "Acá toda la información a la que tenemos acceso a...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17AxXbzKhKATfa9mcLRAT3D5eFLBITvGZCnVAbQz6juU",
+      "name": "Levantamiento y Análisis de Requerimientos - Flujo de Publicación de Contenido (Equipo)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1mt_u8LEFRS9frGxRx8hqbEegLPb4Jl-ARPssepMwbG0",
+      "name": "Vamos a trabajar, de ahora en adelante, en cada u...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Eapo4BeM3GuhE5itHW3SJMOXX1x89kRRM_jKyi65sfU",
+      "name": "Vamos a trabajar, de ahora en adelante, en cada u...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1BeBOvsKSaJ1tBh0M1ROWj-xsc6p5xiw9X_7utJwyEh0",
+      "name": "Vamos a crear una arquitectura de directorios, pa...",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "11WNAP_CvuxJsWnwX-qMOSUI8Uat4oKzaUzevYjnzOJ0",
+      "name": "Vintage Goes AR, Inc. Documento de diseño del juego Asteroids ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1IpufHhuxnx-ik_4fehHVucA-8kdFTyP3",
+      "name": "BEC454662612_copia.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "10dvIvd-9RhcEEWoFkNLocQJs8z7YJ5p0UpUc0lFh1b8",
+      "name": "consentimiento_informado_mayor_de_edad",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17RqiMlGV55wxKm8ioDxmN7BDCcSpl61P",
+      "name": "consentimiento_informado_mayor_de_edad.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1oNHUssf8H7VAlW8a9Hpvzbdg45wbYM6A",
+      "name": "Economía - La Lupa News - Google Chrome 2025-06-05 15-08-57.mp4",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/04_Video_y_Cine",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1OkrCvFCwI5jcnmWNVfCz2a4_7sfH1Fie",
+      "name": "MicroFutureStrategies_TraderScience.zip",
+      "target_path": "01_FINANCIAL_OPS/04_Inversiones_y_Trading",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1cg43epWYUiD1NMDwrsgRk810cfh_Tlcsf5RtLHZNlkc",
+      "name": "GuiaMetodolgicaTCCMR_",
+      "target_path": "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1gWL52oJFGEt28kqHR7MHimGbTN55escL",
+      "name": "Informe redes sociales lalupanewsco 1.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "12Y-TPVtit5CchRruszCRQNHJNcIvqSetR0le85bLgcw",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "16Y1MZYc69ynlY63WD3CiIDnstzMbaqkAOOWZboi_HcI",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1kcJanEYnUv4kK-XRdmC5oAu8BUG-uGDa",
+      "name": "Propuesta_historiafc.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1JM_XNYmiGSieLCafDfGVVUWeDmUPAZOm3XOITBorSJs",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1K_cTU1K8fYvkOJLrmvd8ga7yNsTyO77z",
+      "name": "PythonAI-LLMs-ESP.pptx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1mQrN0pSA4v1RUBUgjpEeTg4-al00JvjaPH7EYvAXaJ8",
+      "name": "Informe Ejecutivo: Análisis del Tráfico Web de \"La Lupa News\" (2 al 8 de marzo)",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1Ow4q7BHEizNmC0BKUPGe2iMB5Tmr_BVMUlotiiky394",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1uQOtXqOAx7raF63VK-YRhwq-VPO73W1i_6cFMfPESi0",
+      "name": "CA_resúmen_estratégico",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1FFfCKOgP-QPEr3VPJXtAVEfA5oVZ_M-L_DTlR-ILK9Q",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1ch0W0WqP26IqRKHjjka9XPnENLqrKwrUVLRDzHShEqw",
+      "name": "Roadmap de Optimización, Escalabilidad y Monetización",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1p9G-35ZIsO4FPGfsU1hlbdInO8-3RJC33ShQLmctfSM",
+      "name": "Propuesta_tech_ZonaMvp",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1qAYqGSFedFNhLD8K7wXGLQO4GhKPu08853Thrpv3Efw",
+      "name": "lalupanews.com-Performance-on-Search-2025-02-24",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1R4W2UtGxwxFYXetxU_M88qicQ2gLZ74N",
+      "name": "FORMATO DE PRESENTACION DE LA PROPUESTA.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "17Jxk5f7wLfPyrWfRiTPmM1ZkktwB25YYRaQkH6s8CzA",
+      "name": "Presentación de prototipos",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1KkNVkmxjraYWODJ8EKPqJJVpBuFThc-9CgdJSj4mTKo",
+      "name": "Muestras de proyectos",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1OE0Tzrm5fVoGmruyYjUQO01GVEOurau4KWKtMo0EEzE",
+      "name": "Requerimientos portal Zona MVP",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1lFlU6S_xcPI21LlsjQhsT7PvgmB9YK1Q",
+      "name": "Cronograma de trabajo.docx",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1u5cXYjjE1vmbenvtb6q1Jjx1Zub7XsEZ",
+      "name": "Proyecto CAPS.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "14XA4MRksG3yRfYUw_AYCYOu0DFE0t_52rkenJUd3rq8",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1VGPGKIapWELheEVe94yrzEuvcCFmVbzrNNemQ38jUbU",
+      "name": "ID Notas La Lupa News",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1-aGCHuSONeioeX58D9G0pe4kbKmTdNuCmwWfK-QbiSw",
+      "name": "Capturado un canadiense en Medellín por secuestro y tortura de una mujer",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1MAonQN1sET3zG1aT92wZBET7QhF7HN_L",
+      "name": "Capitanes PLANTEAR ESTRATEGIAS EN NINJA DE CAMBIO POC.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13g-WRREJ19apxOAlCM3UAgoiMh1YpCLZiRAn-zCVsss",
+      "name": "nivel 1",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1h79gap2YS-X_Owro5MVnWIBudkSDnDOFeSII9JKq7jI",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "18CQdt1s3hV4mttIepbHUurLPp9GpXAqVBSizWU0yTzs",
+      "name": "estudio de mercado y financiero ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1-4xFqGTWoL5Jecj8xxKTy_caB2PX88nm",
+      "name": "CA_resúmen_estratégico.pptx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1CsqyVkrVeDF1YS7466CGgKYb_5KaX5eT",
+      "name": "hc_onco_003.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "18YsatIBvszdKuVAtYuTyl_QCSGSYfiP5",
+      "name": "hc_onco_001.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1MZU6vU-WQ15d0MyHqi0T_Wk0vABdEEvj0znzGmrfzYA",
+      "name": "Documento sin título",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1PuDhlmlKBKupGrmCgCr4jt4ZlJ1Qsw-tupljqW6ogZs",
+      "name": "FORMATO Cuenta de Cobro x LAVALENTINA (Pagados) (2)",
+      "target_path": "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "16LDcoB3-jYlHijTrncvyCBi1fADy0K_fXIXz2S8vsgA",
+      "name": "Ana Mercedes Hoyos y Jorge Riveros",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1s80iJK45ZSzFlKcC_EEKM72HrwX7FwYazV_-BvYH3eA",
+      "name": "Estructura del portal La Lupa NSaludews",
+      "target_path": "06_PERSONAL_LEGAL_DOCS/02_Salud_y_EPS",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1xv46eY8kAG99G8jX8t8W_5hPkqHJgm40",
+      "name": "Copia de IMG_6662.HEIC",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1X-_McHIIWiPVoiraDEyEEwE0Ry3YUEtN",
+      "name": "GN_2024_atajos_y_otros.jpg",
+      "target_path": "07_MEDIA_CREATIVE_ASSETS/02_Fotografia_y_Renders",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1PTRY4lE8LZhj2VDeXb6t6vjYkNrpVlgZ0R7wyas-sYk",
+      "name": "18 de septiembre 2024",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1zblulI796j_RGnBOEfGuIUi3chv2wn_c",
+      "name": "Santo Tomáz Zapatoca. Curso Godot-Blender 3D.xlsx",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1IMVibw3kP7HXEzH5Kf1C_UFhP5pqAmId",
+      "name": "Do_It_With_Me_Rock_Anime.blend",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1RqBsVl7qX2WHSxAGE3P4-bLXSo1MPjmj",
+      "name": "Datos planilla.xlsx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1JJ4hVtL8_blw2-ebnLTdv4LSESEBKMEwHfWWF_AUQbw",
+      "name": "  Costos curso 3d ",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1hhZWHPcO6Cl_cY0_ZRtXv6_LQaxY35SBpJinKbiU96w",
+      "name": "Flowmap Ludus Lab Academy",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "12N5nPUpUjkBELIxwhZKMnY1_dJcx2o-Pr5RERT_wf2I",
+      "name": "Acelerar el Éxito con una Alianza Estratégica-Con Playconnect",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1MyhCTmZU6U-Uop9-0gfVAFbXbvYczXS0DELTkVZXWdE",
+      "name": "Analisis de juegos de conducción",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "117PMgsW7ajbm8T5mllpCpRD_i5ne9f5q2VDwOV9oTPM",
+      "name": "Payoneer instruction",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "19phI9fnf5KkZkvxyJa4ROTSpUrwnSfBdUKSvuN4wOnk",
+      "name": "Costos curso Godot ",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1wsJ6LzcU0n7qEE-di10_U6T9uPpCBp110_ZdgQouRt0",
+      "name": "GDD (Game Design Document) - Pacto Verde RPG",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Hc_GrNtQMGEXBaUFmLS6Lxj9Sfe-KH7-gumMIVAIHfQ",
+      "name": "¡Prepárate para ser un Creador de Videojuegos-pitch",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1_04LVbNEXiCWkUlzEgnsxGuLrkN6eDIG1TEVZy3wteQ",
+      "name": "Ludus lab Forge",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "10nNulZaG6Fj5yOHKo3qBfXLd3QvnozEp",
+      "name": "ESP_М1L1 nuevo.pptx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1El406ViEdhthjwGLD0-dms8zG2bV3-Ps",
+      "name": "triceratopo_03.stl",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1wxHk30Or12jYAzZxRJ-HmVQJHq8vTqXG4IEBkPV13UQ",
+      "name": "Latam Onboarding FAQ",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1sXWHYgQJZmZBTfqMmgZYpzo7B29YEh1M",
+      "name": "nomack3d_logo.png",
+      "target_path": "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1J6R9pm4HvZDIWetGAa0gRekJANyO-2YC",
+      "name": "A2.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "13at9lnqOf8FYL7zFiw2HeRjFzdtO8_gB",
+      "name": "A3.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1fnSCqNiMPr_qlw3R_OfTmedqRsS_lI-V",
+      "name": "PLANILLA DE INSCRIPCIÓN DPV.docx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "1hjRd5HyVsolks9wlNUsiEB16V7o8uVUb",
+      "name": "Gustavo_triceratopo.rar",
+      "target_path": "08_ARCHIVE_HISTORICAL/01_Backups_y_Sistemas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "move",
+      "id": "100hnmCPyblXoFrcownBvFnqi_dVpwa203eb6_EfIWvk",
+      "name": "consentimiento_informado_mayor_de_edad_idrd",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1eWvUIdpx4F1n4pbeJnOWPf557bJ3J2jd",
+      "name": "AnycubicSlicer_Usage Instructions_V1.0_EN",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Ac3UcWjxvfaWqBbuoOBXiYQcb8kft90",
+      "name": "Usaquén",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1shHwE2JF3Bg77AgHM2MbsrocfnKfH6zi",
+      "name": "ESP_M1L3.pptx",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1GBrZRlSls-ODGxmQBLkFlokI97O2Ig5D",
+      "name": "Kodland Practice.zip",
+      "target_path": "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Hkgqk-yYkntn-OZ6xG3BXFhuLmveUfeo",
+      "name": "Rigacar ducument.txt",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1cYCiFo0HSz0p1Ku4-Y5p-zv41bHdIsod12nb0Jh8c4I",
+      "name": " Bitwarden user guide (New password manager)",
+      "target_path": "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1Uv1YJfP82v2aSjzhg_BhAhmIu25B6p_H",
+      "name": "Whisper- Youtube",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "161tWoV4I9x5OzHfwso1AFm5XxFzwENvl",
+      "name": "IncubApp Master Startup Schedule - Rev 6.pdf",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    },
+    {
+      "type": "file",
+      "action": "shortcut",
+      "id": "1ES9NeVTqipqbg2xL4k1JT_ADsJ7PzWTOkwAeKj23G6M",
+      "name": "Plantilla discos cifrado cesar EduEscapeRoom",
+      "target_path": "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa",
+      "status": "success"
+    }
+  ]
+}

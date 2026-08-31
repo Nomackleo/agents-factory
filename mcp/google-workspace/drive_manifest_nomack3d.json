@@ -1,0 +1,301 @@
+{
+  "account": "nomack3d",
+  "timestamp": "2026-08-31T21:29:26Z",
+  "total_folders": 49,
+  "folders": {
+    "00_GOVERNANCE_MY_BUSINESS": {
+      "id": "1wD0HQd-kpz-2bzZyHj1U_nKeh_NWq2Vd",
+      "name": "00_GOVERNANCE_MY_BUSINESS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "00_GOVERNANCE_MY_BUSINESS/01_Identidad_y_Bio": {
+      "id": "14DbIXlD81FiuYpFtNj2IEHpiG8HWJIiT",
+      "name": "01_Identidad_y_Bio",
+      "parent_path": "00_GOVERNANCE_MY_BUSINESS",
+      "status": "created"
+    },
+    "00_GOVERNANCE_MY_BUSINESS/02_Contratos_Marco_y_NDAs": {
+      "id": "1v79p6G1hA6ys2FiM-fxKBVar2NBav_bJ",
+      "name": "02_Contratos_Marco_y_NDAs",
+      "parent_path": "00_GOVERNANCE_MY_BUSINESS",
+      "status": "created"
+    },
+    "00_GOVERNANCE_MY_BUSINESS/03_Company_Root_y_Estatutos": {
+      "id": "16A4F1f9-gd29Y8PQpBu-DP8BksnqutQk",
+      "name": "03_Company_Root_y_Estatutos",
+      "parent_path": "00_GOVERNANCE_MY_BUSINESS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS": {
+      "id": "1Wtx1VsnjGfp6HM3AL7U-HstdgAoaa1u-",
+      "name": "01_FINANCIAL_OPS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/01_Bancos_y_Extractos": {
+      "id": "1AJDgoHJTomSxa67qy4I48R-soRIkzHfo",
+      "name": "01_Bancos_y_Extractos",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/02_Facturas_y_Comprobantes": {
+      "id": "1lc6Cvp2_I3PDtP3mZ_j80kd-FJKZMFgf",
+      "name": "02_Facturas_y_Comprobantes",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/03_Impuestos_y_DIAN": {
+      "id": "1YEkJ_PFY6j6cJ0E8IGP1zJ83IHgqgmzJ",
+      "name": "03_Impuestos_y_DIAN",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/04_Inversiones_y_Trading": {
+      "id": "1XK9HZJvtWib1dZQZnRTby3oIK29nF0bI",
+      "name": "04_Inversiones_y_Trading",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "01_FINANCIAL_OPS/05_Produccion_y_Finanzas": {
+      "id": "1325AD_4b3AVZV1bcqHQxigSk1yfdp_lq",
+      "name": "05_Produccion_y_Finanzas",
+      "parent_path": "01_FINANCIAL_OPS",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY": {
+      "id": "1eD5iw52ff_bdKyt6UVbIbFSSfV1kzHax",
+      "name": "02_CLIENT_SERVICE_DELIVERY",
+      "parent_path": "root",
+      "status": "existing"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal": {
+      "id": "1pVzeSkDaZxBpVZNPjtJYlYpgEC5pw6Th",
+      "name": "01_Genesis_Legal",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/01_Capacitaciones_y_Programas_IA": {
+      "id": "1zTIxKAuEX5qRM4SwiZRXbLBpPCVHSCpJ",
+      "name": "01_Capacitaciones_y_Programas_IA",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/02_Propuestas_Comerciales_y_Contratos": {
+      "id": "1SCgekjfSJwR142rqtnkA2U5Z6cwf--nZ",
+      "name": "02_Propuestas_Comerciales_y_Contratos",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/03_Actas_Informes_y_Gobernanza": {
+      "id": "1VJrAr1pjs2OtFWnTsFb8jiPwtQ96469e",
+      "name": "03_Actas_Informes_y_Gobernanza",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/04_Presentaciones_Decks_y_Multimedia": {
+      "id": "1HwBwtNK4GcIFIb1yGClOoQ6r_vmY7sGs",
+      "name": "04_Presentaciones_Decks_y_Multimedia",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal/05_Marketing_SEO_y_Estrategia_IA": {
+      "id": "1q34VWv1LqRhQwjMnVngjMsu0e_bpXQ6a",
+      "name": "05_Marketing_SEO_y_Estrategia_IA",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/01_Genesis_Legal",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy": {
+      "id": "1H9N-mRlVNZaOCz470XCZqo-uIEO9pSQd",
+      "name": "02_Kodland_Academy",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy/Clases": {
+      "id": "1aZfHBgkizWhOC-LRMF4ICuFtPvWTUfxE",
+      "name": "Clases",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy/Virtual_Backgrounds": {
+      "id": "1yrWlYF9IktaX_O8FL4lOEJtc52qDszdY",
+      "name": "Virtual_Backgrounds",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY/02_Kodland_Academy",
+      "status": "created"
+    },
+    "02_CLIENT_SERVICE_DELIVERY/03_Otros_Clientes_y_Propuestas": {
+      "id": "1eVZ0zfOQOyxdgfAb3gQcAz2CxNx3E_hG",
+      "name": "03_Otros_Clientes_y_Propuestas",
+      "parent_path": "02_CLIENT_SERVICE_DELIVERY",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND": {
+      "id": "1kjDT3vpLBCydEv2gTdF-D5gztMb6cLD3",
+      "name": "03_KNOWLEDGE_BASE_RND",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/01_Libros_Comics_y_Papers": {
+      "id": "155IGpCO9LJV0WUlJt2ZLgRTLjgFKYnb5",
+      "name": "01_Libros_Comics_y_Papers",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/02_Academias_y_Cursos": {
+      "id": "1XSAeedVCqkgMwgTqIXQTign5l4WHUJZU",
+      "name": "02_Academias_y_Cursos",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/03_Becas_y_Convocatorias": {
+      "id": "1GuZFEr5AYgU5RljdZOyHuTTEfK4oabjd",
+      "name": "03_Becas_y_Convocatorias",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "03_KNOWLEDGE_BASE_RND/04_Notas_y_Manuales": {
+      "id": "1YJ7-WhpV8dztz1b1_gEAOvBTf2BqZD9X",
+      "name": "04_Notas_y_Manuales",
+      "parent_path": "03_KNOWLEDGE_BASE_RND",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV": {
+      "id": "1iCpDKEakiDbmhFz5R3uWupoCJ3K9uTwO",
+      "name": "04_PROJECTS_AI_AND_DEV",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV/01_Agentes_e_IA_Generativa": {
+      "id": "1X15oNwgroAlmIZDQmNawynHPo2XfuscO",
+      "name": "01_Agentes_e_IA_Generativa",
+      "parent_path": "04_PROJECTS_AI_AND_DEV",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV/02_Herramientas_y_Software": {
+      "id": "1WohdYOcfxLKmsRma1DNAzUxAe8nK7F3j",
+      "name": "02_Herramientas_y_Software",
+      "parent_path": "04_PROJECTS_AI_AND_DEV",
+      "status": "created"
+    },
+    "04_PROJECTS_AI_AND_DEV/03_Estrategia_y_Negocio": {
+      "id": "1P8zDK8XmnFS6fxJh1vo6ofRC_fyfJDpl",
+      "name": "03_Estrategia_y_Negocio",
+      "parent_path": "04_PROJECTS_AI_AND_DEV",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX": {
+      "id": "1cmB7_xQM2Q8ahI6irSAqpDNwJh5aYHL6",
+      "name": "05_PROJECTS_3D_CGI_VFX",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/01_Proyectos_Escenas_3D": {
+      "id": "1OPRoK0ns5dwY5ddbVSqfqOCrTpL34Gp9",
+      "name": "01_Proyectos_Escenas_3D",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/02_Software_3ds_Max": {
+      "id": "1j6Sc88pAF2XMb5irYe1l3HttNlmv7lEB",
+      "name": "02_Software_3ds_Max",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/03_Animacion_y_Crowds": {
+      "id": "1QPuSMgBpexJNFQ567ob7uJe0Pez6TPF_",
+      "name": "03_Animacion_y_Crowds",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/04_Impresion_3D_y_Assets": {
+      "id": "1zvODNbFYm9m73HQhA7AWSeGtuEKW1GR7",
+      "name": "04_Impresion_3D_y_Assets",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "05_PROJECTS_3D_CGI_VFX/05_Escenas_y_Modelos_High": {
+      "id": "1MAHkLaDHO4LJ0AcCORZtigoy-dQxLEbX",
+      "name": "05_Escenas_y_Modelos_High",
+      "parent_path": "05_PROJECTS_3D_CGI_VFX",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS": {
+      "id": "1Zr1dPdV4gjkGY0fh67w2vnYsPOafqd7s",
+      "name": "06_PERSONAL_LEGAL_DOCS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/01_CV_y_Perfiles": {
+      "id": "1g1BlcxtFAL4TQDRy1RXDJ217QQ2RBcKi",
+      "name": "01_CV_y_Perfiles",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/02_Salud_y_EPS": {
+      "id": "1Fap_NjZZJ5Lu_G65TCAe1mh1ORHslC0Z",
+      "name": "02_Salud_y_EPS",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/03_Familia_y_Hogar": {
+      "id": "1FE6zbPBQO76xPTuuHMUByiy--FtVwOBC",
+      "name": "03_Familia_y_Hogar",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "06_PERSONAL_LEGAL_DOCS/04_Comunidad_y_Eventos": {
+      "id": "1Kz4k-JiZIqt57H3KtFqR1RoU3uPodDFW",
+      "name": "04_Comunidad_y_Eventos",
+      "parent_path": "06_PERSONAL_LEGAL_DOCS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS": {
+      "id": "1vCGDPxUBu-81Aspjtgby1HXoCkGOxJ1p",
+      "name": "07_MEDIA_CREATIVE_ASSETS",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/01_Branding_e_Identidad": {
+      "id": "1jNAO8X-yKWO9fAyoR_05vI-S02GD2pld",
+      "name": "01_Branding_e_Identidad",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/02_Fotografia_y_Renders": {
+      "id": "1W9fZHjf9ztEewq2MTWGLuFiN2RwQpzc1",
+      "name": "02_Fotografia_y_Renders",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/03_Audio_y_Musica": {
+      "id": "1Evg0iXe3z_euaCVhv0UOxgebNTx1aNQJ",
+      "name": "03_Audio_y_Musica",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "07_MEDIA_CREATIVE_ASSETS/04_Video_y_Cine": {
+      "id": "1PvI4pgcWoYteaM6Kc7NlN03ZA__csdpn",
+      "name": "04_Video_y_Cine",
+      "parent_path": "07_MEDIA_CREATIVE_ASSETS",
+      "status": "created"
+    },
+    "08_ARCHIVE_HISTORICAL": {
+      "id": "14TeOeIb2nwu8eV7-LJ62RDtz6zy36ITX",
+      "name": "08_ARCHIVE_HISTORICAL",
+      "parent_path": "root",
+      "status": "created"
+    },
+    "08_ARCHIVE_HISTORICAL/01_Backups_y_Sistemas": {
+      "id": "1_rTlSWJm8vqiatiPz1YGCG6AuXcZAmW-",
+      "name": "01_Backups_y_Sistemas",
+      "parent_path": "08_ARCHIVE_HISTORICAL",
+      "status": "created"
+    },
+    "08_ARCHIVE_HISTORICAL/02_Archivos_Historicos_VFXLearning": {
+      "id": "1JD2Vyvhrwf4mCLwROPBGt7yJjVumbey-",
+      "name": "02_Archivos_Historicos_VFXLearning",
+      "parent_path": "08_ARCHIVE_HISTORICAL",
+      "status": "created"
+    }
+  }
+}

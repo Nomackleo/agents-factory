@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Antigravity 2.0 - Google Drive Canonical Hierarchy Provisioner
-Provisions the 9 Canonical Root Folders and their subdirectories in Google Drive for nomackleo@gmail.com.
+Antigravity 2.0 - Google Drive Canonical Hierarchy Provisioner (Multi-Tenant)
+Provisions the 9 Canonical Root Folders and their subdirectories in Google Drive for nomackleo and nomack3d.
 Idempotent execution with manifest export.
 """
 
@@ -17,7 +17,8 @@ from workspace_client import WorkspaceClient
 CANONICAL_HIERARCHY = {
     "00_GOVERNANCE_MY_BUSINESS": [
         "01_Identidad_y_Bio",
-        "02_Contratos_Marco_y_NDAs"
+        "02_Contratos_Marco_y_NDAs",
+        "03_Company_Root_y_Estatutos"
     ],
     "01_FINANCIAL_OPS": [
         "01_Bancos_y_Extractos",
@@ -28,11 +29,11 @@ CANONICAL_HIERARCHY = {
     ],
     "02_CLIENT_SERVICE_DELIVERY": [
         "01_Genesis_Legal",
-        "01_Genesis_Legal/01_Capacitaciones_e_IA_Corporativa",
-        "01_Genesis_Legal/02_Propuestas_y_Contratos",
-        "01_Genesis_Legal/03_Cronogramas_e_Informes",
-        "01_Genesis_Legal/04_Presentaciones_Ejecutivas",
-        "01_Genesis_Legal/05_Prompts_y_Arquitectura_Modelos",
+        "01_Genesis_Legal/01_Capacitaciones_y_Programas_IA",
+        "01_Genesis_Legal/02_Propuestas_Comerciales_y_Contratos",
+        "01_Genesis_Legal/03_Actas_Informes_y_Gobernanza",
+        "01_Genesis_Legal/04_Presentaciones_Decks_y_Multimedia",
+        "01_Genesis_Legal/05_Marketing_SEO_y_Estrategia_IA",
         "02_Kodland_Academy",
         "02_Kodland_Academy/Clases",
         "02_Kodland_Academy/Virtual_Backgrounds",
@@ -50,10 +51,11 @@ CANONICAL_HIERARCHY = {
         "03_Estrategia_y_Negocio"
     ],
     "05_PROJECTS_3D_CGI_VFX": [
-        "01_Software_3ds_Max",
-        "02_Animacion_y_Crowds",
-        "03_Impresion_3D_y_Assets",
-        "04_Escenas_y_Modelos_High"
+        "01_Proyectos_Escenas_3D",
+        "02_Software_3ds_Max",
+        "03_Animacion_y_Crowds",
+        "04_Impresion_3D_y_Assets",
+        "05_Escenas_y_Modelos_High"
     ],
     "06_PERSONAL_LEGAL_DOCS": [
         "01_CV_y_Perfiles",
@@ -62,24 +64,25 @@ CANONICAL_HIERARCHY = {
         "04_Comunidad_y_Eventos"
     ],
     "07_MEDIA_CREATIVE_ASSETS": [
-        "01_Fotografia_y_Renders",
-        "02_Audio_y_Musica",
-        "03_Video_y_Cine"
+        "01_Branding_e_Identidad",
+        "02_Fotografia_y_Renders",
+        "03_Audio_y_Musica",
+        "04_Video_y_Cine"
     ],
     "08_ARCHIVE_HISTORICAL": [
-        "01_Backups_Dropbox_y_Sistemas",
+        "01_Backups_y_Sistemas",
         "02_Archivos_Historicos_VFXLearning"
     ]
 }
 
-def provision_drive_structure(account_alias: str = "nomackleo") -> Dict[str, Any]:
+def provision_drive_structure(account_alias: str = "nomack3d") -> Dict[str, Any]:
     client = WorkspaceClient(account_alias)
     print(f"\n==================================================================")
     print(f" PROVISIÓN DE ESTRUCTURA CANÓNICA DE DRIVE: [{account_alias}]")
     print(f"==================================================================")
 
     # 1. Fetch existing folders in Drive to be strictly idempotent
-    print(f"==> Verificando carpetas existentes en Drive...")
+    print(f"==> Verificando carpetas existentes en Drive para {account_alias}...")
     query = "mimeType = 'application/vnd.google-apps.folder' and trashed = false"
     existing_folders_res = client.list_drive_files(page_size=500, query=query)
     existing_folders = {f["name"]: f for f in existing_folders_res.get("files", [])}
@@ -115,7 +118,7 @@ def provision_drive_structure(account_alias: str = "nomackleo") -> Dict[str, Any
                 print(f"    [ERROR] Falló creación de raíz {root_name}: {e}")
                 continue
 
-        time.sleep(0.2)
+        time.sleep(0.15)
 
         # 3. Create Subfolders (handling nesting like A/B)
         for sub in subfolders:
@@ -126,13 +129,11 @@ def provision_drive_structure(account_alias: str = "nomackleo") -> Dict[str, Any
             for i, part in enumerate(parts):
                 current_full_path = f"{root_name}/" + "/".join(parts[:i+1])
                 
-                # Check if this exact path is already known
                 if current_full_path in folder_manifest:
                     current_parent_id = folder_manifest[current_full_path]["id"]
                     current_parent_path = current_full_path
                     continue
 
-                # Query if part exists under current_parent_id
                 sub_q = f"mimeType = 'application/vnd.google-apps.folder' and name = '{part}' and '{current_parent_id}' in parents and trashed = false"
                 sub_check = client.list_drive_files(page_size=5, query=sub_q).get("files", [])
                 
@@ -164,7 +165,7 @@ def provision_drive_structure(account_alias: str = "nomackleo") -> Dict[str, Any
                     except Exception as e:
                         print(f"      [ERROR] Falló creación de {current_full_path}: {e}")
                         break
-                time.sleep(0.2)
+                time.sleep(0.15)
 
     manifest_path = os.path.join(os.path.dirname(__file__), f"drive_manifest_{account_alias}.json")
     with open(manifest_path, "w", encoding="utf-8") as f:
@@ -176,12 +177,12 @@ def provision_drive_structure(account_alias: str = "nomackleo") -> Dict[str, Any
         }, f, indent=2, ensure_ascii=False)
 
     print(f"\n==================================================================")
-    print(f" [ÉXITO] PROVISIÓN DE ESTRUCTURA CANÓNICA COMPLETADA")
+    print(f" [ÉXITO] PROVISIÓN DE ESTRUCTURA CANÓNICA COMPLETADA [{account_alias}]")
     print(f" Total de Carpetas Canónicas Creadas/Registradas: {len(folder_manifest)}")
     print(f" Manifiesto Guardado en: {manifest_path}")
     print("==================================================================\n")
     return folder_manifest
 
 if __name__ == "__main__":
-    alias = sys.argv[1] if len(sys.argv) > 1 else "nomackleo"
+    alias = sys.argv[1] if len(sys.argv) > 1 else "nomack3d"
     provision_drive_structure(alias)
