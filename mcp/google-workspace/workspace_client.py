@@ -11,6 +11,7 @@ import json
 import urllib.request
 import urllib.parse
 import re
+import time
 from datetime import datetime, timezone, timedelta
 from typing import Dict, Any, Optional, List, Tuple
 
@@ -323,6 +324,44 @@ class WorkspaceClient:
         }
         url = "https://www.googleapis.com/drive/v3/files?fields=id,name,mimeType,shortcutDetails,parents"
         return self._make_request(url, method="POST", payload=metadata)
+
+    def set_drive_folder_color(self, folder_id: str, color_rgb: str) -> Dict[str, Any]:
+        """Establece el color visual de una carpeta en Google Drive."""
+        url = f"https://www.googleapis.com/drive/v3/files/{folder_id}?fields=id,name,folderColorRgb"
+        return self._make_request(url, method="PATCH", payload={"folderColorRgb": color_rgb})
+
+    def upload_drive_file_content(self, name: str, content: str, mime_type: str = "text/markdown",
+                                  parent_id: Optional[str] = None, description: str = "") -> Dict[str, Any]:
+        """Sube un archivo con contenido textual/markdown a Google Drive usando multipart/related."""
+        boundary = f"----AntigravityBoundary{int(time.time() * 1000)}"
+        metadata: Dict[str, Any] = {
+            "name": name,
+            "mimeType": mime_type,
+            "description": description
+        }
+        if parent_id:
+            metadata["parents"] = [parent_id]
+
+        body_bytes = (
+            f"--{boundary}\r\n"
+            f"Content-Type: application/json; charset=UTF-8\r\n\r\n"
+            f"{json.dumps(metadata)}\r\n"
+            f"--{boundary}\r\n"
+            f"Content-Type: {mime_type}; charset=UTF-8\r\n\r\n"
+            f"{content}\r\n"
+            f"--{boundary}--\r\n"
+        ).encode("utf-8")
+
+        url = "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,mimeType,parents,webViewLink"
+        return self._make_request(
+            url,
+            method="POST",
+            raw_body=body_bytes,
+            headers={
+                "Content-Type": f"multipart/related; boundary={boundary}",
+                "Content-Length": str(len(body_bytes))
+            }
+        )
 
     def get_drive_file(self, file_id: str, fields: str = "id,name,mimeType,parents,webViewLink") -> Dict[str, Any]:
         """Obtiene la metadata de un archivo o carpeta de Drive."""
