@@ -18,7 +18,7 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "01_CLIENTES_Y_ENTIDADES/Camara_Comercio_Bogota", "from": "ccb.org.co OR notificaciones@ccb.org.co OR camara de comercio", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/SCRD_Cultura_Bogota", "from": "scrd.gov.co OR cultura bogota OR convocatorias scrd", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Famisanar_EPS", "from": "famisanar.com.co OR eps famisanar", "shouldNeverSpam": "true"},
-        {"label": "01_CLIENTES_Y_ENTIDADES/Niilo_Consulting", "from": "niilo.co OR gofest@niilo.co", "shouldNeverSpam": "true"},
+        {"label": "01_CLIENTES_Y_ENTIDADES/Niilo_Consulting", "from": "niilo.co OR gofest@niilo.co OR brevosen", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/BBI_Corporativo", "from": "bbi.com.co OR bbi corporativo OR clubtostao@bbi.com.co", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Colombia_Tech_Week", "from": "colombiatech OR colombia tech", "shouldNeverSpam": "true"},
         {"label": "01_CLIENTES_Y_ENTIDADES/Proimagenes_Colombia", "from": "proimagenescolombia.com OR pc@proimagenescolombia.com", "shouldNeverSpam": "true"},
@@ -41,6 +41,8 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Duolingo", "from": "duolingo.com OR hello@duolingo.com", "shouldNeverSpam": "true"},
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/Coursera", "from": "coursera.org OR m.learn.coursera.org", "shouldNeverSpam": "true"},
         {"label": "03_EDUCACION_Y_CERTIFICACIONES/QuantInsti_Trading", "from": "quantinsti.com", "shouldNeverSpam": "true"},
+        {"label": "03_EDUCACION_Y_CERTIFICACIONES/SENA_SofiaPlus", "from": "senavirtual.edu.co OR sena.edu.co", "shouldNeverSpam": "true"},
+        {"label": "03_EDUCACION_Y_CERTIFICACIONES/DevTalles", "from": "devtalles.com", "shouldNeverSpam": "true"},
         
         {"label": "04_TECNOLOGIA_IA_Y_DEV/Google_Cloud_Ecosystem", "from": "google.com OR googleaistudio OR google developer program OR noreply-accounts@google.com", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/OpenAI", "from": "openai.com OR email.openai.com", "shouldNeverSpam": "true"},
@@ -60,6 +62,8 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "04_TECNOLOGIA_IA_Y_DEV/Voidzero_ViteConf", "from": "voidzero.dev OR no-reply@voidzero.dev", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/AnyDesk_Software", "from": "anydesk.com OR noreply@anydesk.com", "shouldNeverSpam": "true"},
         {"label": "04_TECNOLOGIA_IA_Y_DEV/Raiola_Networks", "from": "raiolanetworks.es OR marketing@raiolanetworks.es", "shouldNeverSpam": "true"},
+        {"label": "04_TECNOLOGIA_IA_Y_DEV/Steam_Gaming", "from": "steampowered.com", "shouldNeverSpam": "true"},
+        {"label": "04_TECNOLOGIA_IA_Y_DEV/Audiovisual_AVI", "from": "avilatinoamerica.com", "shouldNeverSpam": "true"},
         
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Davivienda", "from": "davivienda.com OR BANCO_DAVIVIENDA@davivienda.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Banco_Falabella", "from": "bancofalabella.com OR co.bancofalabella.com", "shouldNeverSpam": "true"},
@@ -67,16 +71,21 @@ FILTER_RULES_BY_ACCOUNT = {
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Addi_Fintech", "from": "addi.com OR ofertas.addi.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/PSE_Pasarelas", "from": "achcolombia.com.co OR serviciopse@achcolombia.com.co OR epayco.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Facturacion_Electronica", "from": "dataico.com OR noreply@dataico.com", "shouldNeverSpam": "true"},
+        {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Google_Play_Facturas", "from": "googleplay-noreply@google.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Baloto_Loterias", "from": "baloto.com OR servicioalcliente@baloto.com", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Movistar_Servicios", "from": "movistar.co OR mailc.movistar.co", "shouldNeverSpam": "true"},
         {"label": "05_FINANZAS_BANCA_Y_FACTURAS/Educacion_Financiera", "from": "mispropiasfinanzas.com OR info@mispropiasfinanzas.com", "shouldNeverSpam": "true"},
         
         {"label": "06_ECOMMERCE_Y_RETAIL/Dafiti", "from": "dafiti.com.co OR news.email.dafiti.com.co", "shouldNeverSpam": "true"},
         {"label": "06_ECOMMERCE_Y_RETAIL/Adidas", "from": "adidas.com OR co-news.adidas.com", "shouldNeverSpam": "true"},
-        {"label": "06_ECOMMERCE_Y_RETAIL/Samsung", "from": "samsung.com OR co.email.samsung.com", "shouldNeverSpam": "true"},
+        {"label": "06_ECOMMERCE_Y_RETAIL/Samsung", "from": "samsung.com OR co.email.samsung.com OR admin@samsungdevspain.com", "shouldNeverSpam": "true"},
         {"label": "06_ECOMMERCE_Y_RETAIL/Sony", "from": "sony-latin.com OR co.emailmkt.sony-latin.com", "shouldNeverSpam": "true"},
         {"label": "06_ECOMMERCE_Y_RETAIL/Shein", "from": "shein.com OR news.shein.com", "shouldNeverSpam": "true"},
-        {"label": "06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software", "from": "malwarebytes.com OR e.malwarebytes.com", "shouldNeverSpam": "true"}
+        {"label": "06_ECOMMERCE_Y_RETAIL/Malwarebytes_Software", "from": "malwarebytes.com OR e.malwarebytes.com", "shouldNeverSpam": "true"},
+        
+        {"label": "07_REDES_Y_COMUNIDAD/Facebook", "from": "facebookmail.com OR reminders@facebookmail.com OR friendsuggestions@facebookmail.com", "shouldNeverSpam": "true"},
+        {"label": "07_REDES_Y_COMUNIDAD/Quora", "from": "quora.com", "shouldNeverSpam": "true"},
+        {"label": "07_REDES_Y_COMUNIDAD/Comunidad_Eventos", "from": "fuckupnights.com", "shouldNeverSpam": "true"}
     ],
     "nomack3d@gmail.com": [
         {"label": "01_CLIENTES_Y_ENTIDADES/Genesis_Legal", "from": "genesislegal.co OR comercial@genesislegal.co OR riesgos@genesislegal.co OR coordinacion@genesislegal.co OR admin@genesislegal.co", "shouldNeverSpam": "true"},
