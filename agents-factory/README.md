@@ -43,6 +43,7 @@ graph TD
     D3 --> C8["cinema-ad-design-ecosystem"]
     D3 --> C9["multimedia-data-ecosystem"]
     D3 --> C10["neural-motion-webgpu-ecosystem"]
+    D3 --> C11["archify-diagrams-ecosystem"]
 
     %% 4. Operations
     D4 --> O1["google-workspace-ecosystem"]
@@ -81,6 +82,7 @@ graph TD
 - **[`cinema-ad-design-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/cinema-ad-design-ecosystem):** Dirección de arte cinematográfica, spots comerciales y narrativa visual de alto impacto.
 - **[`multimedia-data-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/multimedia-data-ecosystem):** Ingesta, procesamiento y catalogación de activos audiovisuales de alta fidelidad.
 - **[`neural-motion-webgpu-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/neural-motion-webgpu-ecosystem):** Síntesis de animación y locomoción neuronal en tiempo real con WebGPU (AI4Animation / PFNN / MANN / Two-Bone IK).
+- **[`archify-diagrams-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/archify-diagrams-ecosystem):** Compilación y renderizado determinista de diagramas de arquitectura, secuencias, ciclos de vida y topologías de sistemas en HTML/SVG interactivo con Taste Skill.
 
 ### 📋 División 4: Operations, Workspace & Quality Management (COO / Operaciones)
 - **[`google-workspace-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/google-workspace-ecosystem):** Automatización integral de Gmail, Calendar, Drive, Sheets, Slides, Vids y Google Analytics 4 (GA4).
