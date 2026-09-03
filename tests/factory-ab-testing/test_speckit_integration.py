@@ -34,7 +34,7 @@ class TestSpecKitIntegration(unittest.TestCase):
         with open(models_path, "r", encoding="utf-8") as f:
             content = f.read()
             self.assertIn("spec-driven-developer:", content)
-            self.assertIn("gemini-3.6-flash", content)
+            self.assertIn("gemini-3.8-flash", content)
 
 if __name__ == "__main__":
     unittest.main()

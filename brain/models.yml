@@ -1,30 +1,35 @@
-# Definición de LLMs y pesos operativos - Antigravity Core (Actualización Julio 2026)
+# Definición de LLMs y pesos operativos - Antigravity Core (Actualización Suite Gemini 3.8)
 
 routing:
-  model: "gemini-3.6-flash"
+  model: "gemini-3.8-flash"
   thinking_level: "low"
   temperature: 0.1
-  description: "Baja latencia y bajo consumo de tokens para enrutamiento, clasificación de intenciones y triaje en el Supervisor."
+  description: "Baja latencia ultra-rápida y consumo eficiente de tokens para enrutamiento, clasificación de intenciones y triaje en el Supervisor."
 
 execution:
-  model: "gemini-3.6-flash"
+  model: "gemini-3.8-flash"
   thinking_level: "medium"
   temperature: 0.2
-  description: "Modo estándar de razonamiento balanceado para compilación de skills Neo-CRISPE y ejecución de tareas de ingeniería."
+  description: "Modo estándar de razonamiento balanceado para compilación de skills Neo-CRISPE y ejecución de tareas de ingeniería fullstack."
 
 architect:
-  model: "gemini-3.6-flash"
+  model: "gemini-3.8-flash"
   thinking_level: "high"
-  temperature: 0.3
+  temperature: 0.2
   description: "Máxima profundidad deliberativa para diseño de grafos C4/Mermaid, análisis de dependencias complejas y síntesis multi-agente."
+
+vision:
+  model: "gemini-3.8-flash"
+  thinking_level: "high"
+  temperature: 0.1
+  description: "Descomposición multimodal de imágenes a código 3D procedural (img2threejs), análisis volumétrico y estimación PBR."
 
 deep_reasoning:
   model: "gemini-3.1-pro"
   temperature: 0.2
-  description: "Modelo Pro de ultra-alto razonamiento para auditorías avanzadas de ciberseguridad y análisis matemático formal."
+  description: "Modelo Pro de ultra-alto razonamiento para auditorías avanzadas de ciberseguridad, ISO 27001 y análisis matemático formal."
 
 fallback:
-  model: "gemini-3.5-flash"
+  model: "gemini-3.7-flash"
   temperature: 0.1
   description: "Modelo de contingencia de alta velocidad para continuidad de servicio bajo rate limits."
-

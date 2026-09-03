@@ -50,7 +50,7 @@
 ### 2.1 AI Risk Assessment & System Impact (Clause 6.1)
 
 - [ ] **AIMS-RA-01**: Evaluate safety, privacy, bias, and operational risks across the full agent lifecycle.
-- [ ] **AIMS-RA-02**: Enforce model routing rules based on task complexity (e.g., `gemini-3.6-flash` with appropriate `thinking_level`).
+- [ ] **AIMS-RA-02**: Enforce model routing rules based on task complexity (e.g., `gemini-3.8-flash` with appropriate `thinking_level`).
 
 ### 2.2 Data Governance for AI Systems (Clause 7.5)
 
@@ -97,7 +97,7 @@
 
 ### 4.2 Incident Classification & Service Restoration
 
-- [ ] **DORA-MTTR-01**: Target Time to Restore Service (MTTR) < 60 seconds using deterministic fallback to low-latency models (`gemini-3.6-flash`).
+- [ ] **DORA-MTTR-01**: Target Time to Restore Service (MTTR) < 60 seconds using deterministic fallback to low-latency models (`gemini-3.8-flash` / `gemini-3.7-flash`).
 - [ ] **DORA-RPO-01**: Zero context loss: persist session checkpoints into `brain/sessions/` on every `Stop` event.
 
 ---

@@ -11,7 +11,7 @@ El pipeline de generación y los ecosistemas resultantes serán evaluados bajo:
 - **Deployment Frequency (Frecuencia de Despliegue):** La arquitectura de subagentes y la paralelización de tareas (Gatherer -> Architect -> Builder) debe entregar stacks completos en tiempo mínimo sin intervención manual.
 - **Lead Time for Changes:** Re-generación ágil de flujos y skills Neo-CRISPE sin pérdida de contexto.
 - **Change Failure Rate (Tasa de Fallos):** Reducción de fallos mediante TDD (Test-Driven Development) y el validador estricto `bin/handoff-validator.py` antes de escribir en disco.
-- **Time to Restore Service (MTTR < 60s):** En caso de errores de formato JSON/XML o fallos de API, el agente Supervisor debe aplicar *fallback* automático a `gemini-3.6-flash` o `gemini-3.5-flash` para autorreparar la ejecución.
+- **Time to Restore Service (MTTR < 60s):** En caso de errores de formato JSON/XML o fallos de API, el agente Supervisor debe aplicar *fallback* automático a `gemini-3.8-flash` o `gemini-3.7-flash` para autorreparar la ejecución.
 
 ---
 

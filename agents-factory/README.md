@@ -44,6 +44,7 @@ graph TD
     D3 --> C9["multimedia-data-ecosystem"]
     D3 --> C10["neural-motion-webgpu-ecosystem"]
     D3 --> C11["archify-diagrams-ecosystem"]
+    D3 --> C12["img2threejs-ecosystem"]
 
     %% 4. Operations
     D4 --> O1["google-workspace-ecosystem"]
@@ -83,6 +84,7 @@ graph TD
 - **[`multimedia-data-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/multimedia-data-ecosystem):** Ingesta, procesamiento y catalogación de activos audiovisuales de alta fidelidad.
 - **[`neural-motion-webgpu-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/neural-motion-webgpu-ecosystem):** Síntesis de animación y locomoción neuronal en tiempo real con WebGPU (AI4Animation / PFNN / MANN / Two-Bone IK).
 - **[`archify-diagrams-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/archify-diagrams-ecosystem):** Compilación y renderizado determinista de diagramas de arquitectura, secuencias, ciclos de vida y topologías de sistemas en HTML/SVG interactivo con Taste Skill.
+- **[`img2threejs-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/img2threejs-ecosystem):** Conversión procedural de imágenes 2D a modelos 3D Three.js en código puro (TypeScript/WebGL) mediante visión multimodal con Gemini 3.8 Flash.
 
 ### 📋 División 4: Operations, Workspace & Quality Management (COO / Operaciones)
 - **[`google-workspace-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/google-workspace-ecosystem):** Automatización integral de Gmail, Calendar, Drive, Sheets, Slides, Vids y Google Analytics 4 (GA4).

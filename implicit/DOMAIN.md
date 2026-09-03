@@ -19,7 +19,7 @@ Todos los sistemas deben adherirse rigurosamente a:
 
 - **NIST CSF 2.0 & ISO 27001 (Seguridad y Privacidad):** Manejo estricto de secretos en `PreToolUse`, cero hardcoding de credenciales, y aislamiento en entornos de ejecución (Sandboxing). Las salidas externas no son confiables por defecto (Sanitización contra Prompt Injection Indirecto).
 - **ISO 42001 (Gobernanza y Confianza en IA):** El comportamiento de los agentes debe ser auditable y transparente. Cada handoff entre agentes exige un contrato de datos XML (`<corporate_context>`, `<reasoning_trace>`) y registro de decisiones.
-- **DORA (Resiliencia Digital):** Optimización de latencia, reducción drástica del consumo de tokens (Token Economy vía `Codebase-Memory-MCP` SQLite), y tolerancia a fallos mediante conmutación automática de modelos (`gemini-3.6-flash`).
+- **DORA (Resiliencia Digital):** Optimización de latencia, reducción drástica del consumo de tokens (Token Economy vía `Codebase-Memory-MCP` SQLite), y tolerancia a fallos mediante conmutación automática de modelos (`gemini-3.8-flash`).
 
 ---
 

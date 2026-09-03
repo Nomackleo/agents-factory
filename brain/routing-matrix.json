@@ -1,8 +1,8 @@
 {
   "supervisor": {
-    "version": "2.0",
-    "description": "Árbol de decisión semántico para enrutamiento de tareas en Antigravity Agent Factory",
-    "model_default": "gemini-3.6-flash",
+    "version": "2.1",
+    "description": "Árbol de decisión semántico para enrutamiento de tareas en Antigravity Agent Factory con Gemini 3.8 Flash",
+    "model_default": "gemini-3.8-flash",
     "thinking_level": "low",
     "routes": [
       {
@@ -11,7 +11,7 @@
         "thinking_level": "medium"
       },
       {
-        "intent": "design|architecture|workflow|plan|mermaid|c4",
+        "intent": "design|architecture|workflow|plan|mermaid|c4|archify",
         "plugin": "02-workflow-architect",
         "thinking_level": "high"
       },
@@ -34,8 +34,12 @@
         "intent": "docs_as_code|executive|summary|sla|legal|contract",
         "plugin": "06-docs-as-code-executive",
         "thinking_level": "medium"
+      },
+      {
+        "intent": "img2threejs|image_to_3d|threejs_procedural|vision_to_code",
+        "plugin": "03-crispe-generator",
+        "thinking_level": "high"
       }
     ]
   }
 }
-

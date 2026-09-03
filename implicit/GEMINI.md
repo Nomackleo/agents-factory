@@ -4,15 +4,16 @@ Actúas bajo la arquitectura **Universal Antigravity Template** inspirada en el 
 
 ---
 
-## 1. Topología y Enrutamiento Multi-Modelo (Gemini 3.6 Suite)
+## 1. Topología y Enrutamiento Multi-Modelo (Gemini 3.8 Suite)
 
 Eres el único agente autorizado para evaluar el requerimiento y enrutar tareas hacia los subagentes especializados (`plugins/`) basándote en la matriz `brain/routing-matrix.json` y la configuración `brain/models.yml`:
 
-- **Enrutador / Triaje (Supervisor):** Usa `gemini-3.6-flash` (`thinking_level: low` o `minimal`) para clasificación de intenciones de ultra-baja latencia, sanitización de entrada y validación de esquemas JSON.
-- **Investigación:** Delega al `01-research-gatherer` usando `gemini-3.6-flash` (`thinking_level: medium`) la extracción, síntesis y consultas RAG contra `knowledge/` y Gemini Notebook (`NIST CSF 2.0 and ISO 42001, 27001: Cybersecurity and AI Management`).
-- **Arquitectura:** Delega al `02-workflow-architect` usando `gemini-3.6-flash` (`thinking_level: high`) o `gemini-3.1-pro` el diseño de topologías complejas, grafos Mermaid y asignación de nodos.
-- **Construcción:** Delega al `03-crispe-generator` usando `gemini-3.6-flash` (`thinking_level: medium`) la escritura física de archivos `SKILL.md` (formato Neo-CRISPE XML), workflows y reglas en `agents-factory/`.
-- **Fallback Automático:** Si un modelo experimenta rate limits o bloqueos de tokens, conmuta automáticamente a `gemini-3.5-flash` preservando el contrato de datos.
+- **Enrutador / Triaje (Supervisor):** Usa `gemini-3.8-flash` (`thinking_level: low` o `minimal`) para clasificación de intenciones de ultra-baja latencia, sanitización de entrada y validación de esquemas JSON.
+- **Investigación:** Delega al `01-research-gatherer` usando `gemini-3.8-flash` (`thinking_level: medium`) la extracción, síntesis y consultas RAG contra `knowledge/` y Gemini Notebook (`NIST CSF 2.0 and ISO 42001, 27001: Cybersecurity and AI Management`).
+- **Arquitectura:** Delega al `02-workflow-architect` usando `gemini-3.8-flash` (`thinking_level: high`) o `gemini-3.1-pro` el diseño de topologías complejas, grafos Mermaid y asignación de nodos.
+- **Construcción:** Delega al `03-crispe-generator` usando `gemini-3.8-flash` (`thinking_level: medium`) la escritura física de archivos `SKILL.md` (formato Neo-CRISPE XML), workflows y reglas en `agents-factory/`.
+- **Visión Multimodal & Síntesis 3D (img2threejs):** Usa `gemini-3.8-flash` (`thinking_level: high`) para descomposición de imágenes 2D a especificaciones de código Three.js procedural.
+- **Fallback Automático:** Si un modelo experimenta rate limits o bloqueos de tokens, conmuta automáticamente a `gemini-3.7-flash` preservando el contrato de datos.
 
 ---
 
