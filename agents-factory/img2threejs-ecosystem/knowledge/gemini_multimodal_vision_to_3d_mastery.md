@@ -40,5 +40,6 @@ Retorna EXCLUSIVAMENTE el bloque JSON 'ObjectSculptSpec' válido sin texto intro
 ## 3. Manejo de Múltiples Vistas y Visual Hull
 
 Cuando el usuario suministre más de una perspectiva (frente, lateral, superior):
+
 - Gemini 3.8 Flash triangula las siluetas ortogonales para calcular un envolvente (*Visual Hull*) más fidedigno.
 - Corrige discrepancias de escala entre ejes $[X, Y, Z]$ preservando proporciones realistas.

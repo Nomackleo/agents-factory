@@ -13,6 +13,7 @@
    - Definición de una spline 2D en el plano XY revolucionada en 360° para crear botellas, copas, turbinas, conos de propulsión y columnas torneadas con costo computacional mínimo.
 3. **Fusión de Geometrías para Reducción de Draw Calls:**
    - En objetos complejos con más de 20 partes estáticas que comparten el mismo material, agruparlas mediante `BufferGeometryUtils.mergeGeometries`:
+
      ```typescript
      import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils.js';
      const mergedGeo = BufferGeometryUtils.mergeGeometries([geo1, geo2, geo3]);

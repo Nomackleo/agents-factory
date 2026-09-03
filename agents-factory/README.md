@@ -60,11 +60,13 @@ graph TD
 ## 2. Directorio Maestro de Ecosistemas por División
 
 ### 🏢 División 1: Strategy & Executive Governance (CEO / Dirección)
+
 - **[`agent-factory-core-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/agent-factory-core-ecosystem):** Meta-orquestación, arquitectura agéntica, gestión de workflows (Google ADK) y evaluación de calidad.
 - **[`business-diagnostic-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/business-diagnostic-ecosystem):** Inteligencia de negocios, análisis DAFO/PESTEL, KPIs y diagnóstico corporativo.
 - **[`docs-as-code-executive-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/docs-as-code-executive-ecosystem):** Memorandos ejecutivos de alta dirección y actas de directorio.
 
 ### ⚙️ División 2: Engineering, AI Research & Cybersecurity (CTO / I+D)
+
 - **[`software-engineering-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/software-engineering-ecosystem):** Arquitectura backend, microservicios, APIs REST/gRPC y pipelines CI/CD.
 - **[`frontend-angular-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/frontend-angular-ecosystem):** Aplicaciones web empresariales con Angular 19/20 Standalone, Signals, Zoneless y SSR.
 - **[`cybersecurity-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/cybersecurity-ecosystem):** Sanitización Model Armor, escaneo de inyecciones de prompt, pentesting y cumplimiento ISO 27001 / DORA.
@@ -73,6 +75,7 @@ graph TD
 - **[`minimal-coding-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/minimal-coding-ecosystem):** Automatizaciones de scripts ligeros y prototipado ágil sin sobrecarga.
 
 ### 🎨 División 3: Creative Suite, 3D Engineering & Digital Media (CCO / Producción)
+
 - **[`ui-ux-design-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/ui-ux-design-ecosystem):** Sistemas de diseño, tokens corporativos, jerarquía tipográfica suiza y Taste Skill v2.
 - **[`cgi-web-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/cgi-web-ecosystem):** Gráficos 3D en tiempo real WebGL/WebGPU, sombreadores PBR y tipografía sin reflow (Pretext).
 - **[`webgl-sculpt-geometry-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/webgl-sculpt-geometry-ecosystem):** Escultura digital 3D, topología dinámica (Dyntopo), remallado Dual Contouring y compute shaders.
@@ -87,15 +90,19 @@ graph TD
 - **[`img2threejs-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/img2threejs-ecosystem):** Conversión procedural de imágenes 2D a modelos 3D Three.js en código puro (TypeScript/WebGL) mediante visión multimodal con Gemini 3.8 Flash.
 
 ### 📋 División 4: Operations, Workspace & Quality Management (COO / Operaciones)
+
 - **[`google-workspace-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/google-workspace-ecosystem):** Automatización integral de Gmail, Calendar, Drive, Sheets, Slides, Vids y Google Analytics 4 (GA4).
 - **[`docs-as-code-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/docs-as-code-ecosystem):** Sistema de Gestión de Calidad (ISO 9001 SGC), documentación técnica estructurada y procedimientos operativos estándar (SOPs).
 
 ### 📈 División 5: Commercial, Growth & Executive Brand (CMO/CRO / Crecimiento)
+
 - **[`personal-brand-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/personal-brand-ecosystem):** Posicionamiento de marca ejecutiva, liderazgo de opinión y estrategias de crecimiento orgánico.
 - **[`remote-jobs-career-ecosystem`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/remote-jobs-career-ecosystem):** Inteligencia de vacantes remotas, generación reactiva de currículums ATS a medida, cartas de presentación y gestión de candidaturas con HITL obligatorio.
 
 ---
 
 ## 3. Manifiesto y Gobernanza
-* **Manifiesto Declarativo:** [`domain_manifest.json`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/domain_manifest.json)
-* **Guía Arquitectónica:** [`DOMAINS_ARCHITECTURE.md`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/DOMAINS_ARCHITECTURE.md)
+
+- **Manifiesto Declarativo:** [`domain_manifest.json`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/domain_manifest.json)
+
+- **Guía Arquitectónica:** [`DOMAINS_ARCHITECTURE.md`](file:///c:/Users/Nomack/Documents/workspace/agents/antigravity/dev/prompt-generator/agents-factory/DOMAINS_ARCHITECTURE.md)
